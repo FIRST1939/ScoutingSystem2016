@@ -1,7 +1,7 @@
 Teleop,9
 Autonomous,8
-DefensiveRatingPlus,10
-DefensiveRatingMinus,11
+scoreHigh,10
+scoreLow,11
 PyramidFrisbeesMadeMinus,2,7
 PyramidFrisbeesMadePlus,0,7
 PyramidFrisbeesAttMinus,3,7

@@ -156,3 +156,5 @@ C:\Users\George\Desktop\ScoutingSystem-master\MultipleJoysticks\bin\Debug\Multip
 C:\Users\George\Desktop\ScoutingSystem-master\MultipleJoysticks\bin\Debug\MultipleJoysticks.pdb
 C:\Users\George\Desktop\ScoutingSystem-master\MultipleJoysticks\obj\x86\Debug\MultipleJoysticks.exe.manifest
 C:\Users\George\Desktop\ScoutingSystem-master\MultipleJoysticks\obj\x86\Debug\MultipleJoysticks.application
+C:\Users\George\Documents\GitHub\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.exe
+C:\Users\George\Documents\GitHub\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.pdb

@@ -98,8 +98,8 @@ namespace FalconScoutingSoftware
         {
             public const int TeleOp = 0;
             public const int Autonomous = 1;
-            public const int DefensiveRatingPlus    = 2;
-            public const int DefensiveRatingMinus = 3;
+            public const int scoreHigh = 2;
+            public const int scoreLow = 3;
             public const int PyramidFrisbeesMadeMinus = 4;
             public const int PyramidFrisbeesMadePlus = 5;
             public const int PyramidFrisbeesAttMinus = 6;
@@ -231,10 +231,10 @@ namespace FalconScoutingSoftware
                         ControllerCommands[controllernumber, GameCommands.Autonomous] = buttons;
                         break;
                     case "DEFENSIVERATINGPLUS":
-                        ControllerCommands[controllernumber, GameCommands.DefensiveRatingPlus] = buttons;
+                        ControllerCommands[controllernumber, GameCommands.scoreHigh] = buttons;
                         break;
                     case "DEFENSIVERATINGMINUS":
-                        ControllerCommands[controllernumber, GameCommands.DefensiveRatingMinus] = buttons;
+                        ControllerCommands[controllernumber, GameCommands.scoreLow] = buttons;
                         break;
                     case "PYRAMIDFRISBEESMADEMINUS":
                         ControllerCommands[controllernumber, GameCommands.PyramidFrisbeesMadeMinus] = buttons;
@@ -914,7 +914,7 @@ namespace FalconScoutingSoftware
                     FinshedScoring[id] = false;
                     break;
 
-                case (GameCommands.DefensiveRatingMinus):
+                case (GameCommands.scoreHigh):
                    if (TeleOp[id] && defenseRating[id] > 0)
                    {
                        defenseRating[id]--;
@@ -922,7 +922,7 @@ namespace FalconScoutingSoftware
                    }
                    break;
 
-                case (GameCommands.DefensiveRatingPlus):
+                case (GameCommands.scoreLow):
                    if (TeleOp[id])
                    {
                        defenseRating[id]++;
