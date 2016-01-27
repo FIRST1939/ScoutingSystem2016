@@ -158,3 +158,11 @@ C:\Users\George\Desktop\ScoutingSystem-master\MultipleJoysticks\obj\x86\Debug\Mu
 C:\Users\George\Desktop\ScoutingSystem-master\MultipleJoysticks\obj\x86\Debug\MultipleJoysticks.application
 C:\Users\George\Documents\GitHub\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.exe
 C:\Users\George\Documents\GitHub\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.pdb
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.exe
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.pdb
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.csprojResolveAssemblyReference.cache
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.Autonomous.resources
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\FalconScoutingSoftware.Form1.resources
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.Properties.Resources.resources
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.SortDataDisplay.resources
+C:\Users\jholliday\Source\Repos\2016ScoutingSystem\obj\x86\Debug\MultipleJoysticks.csproj.GenerateResource.Cache
