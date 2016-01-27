@@ -1,0 +1,64 @@
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\bin\Release\MultipleJoysticks.exe
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\bin\Release\MultipleJoysticks.pdb
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Form1.resources
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Properties.Resources.resources
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe
+C:\Users\Programming\documents\visual studio 2010\Projects\MultipleJoysticks\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.pdb
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\bin\Release\MultipleJoysticks.exe
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\bin\Release\MultipleJoysticks.pdb
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Form1.resources
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Properties.Resources.resources
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.pdb
+C:\Users\Programming\Desktop\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Autonomous.resources
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\bin\Release\MultipleJoysticks.exe.manifest
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\bin\Release\MultipleJoysticks.application
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\bin\Release\MultipleJoysticks.exe
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\bin\Release\MultipleJoysticks.pdb
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Autonomous.resources
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\FalconScoutingSoftware.Form1.resources
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Properties.Resources.resources
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.SortDataDisplay.resources
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.csproj.GenerateResource.Cache
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe.manifest
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.application
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe
+C:\Users\Sergio\Desktop\My Folder\Here\OriginalScout\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.pdb
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\bin\Release\MultipleJoysticks.exe.manifest
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\bin\Release\MultipleJoysticks.application
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\bin\Release\MultipleJoysticks.exe
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\bin\Release\MultipleJoysticks.pdb
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.csprojResolveAssemblyReference.cache
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Autonomous.resources
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\FalconScoutingSoftware.Form1.resources
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Properties.Resources.resources
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.SortDataDisplay.resources
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.csproj.GenerateResource.Cache
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe.manifest
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.application
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe
+C:\Users\Sergio\Desktop\Falcon Scouting Software Code\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.pdb
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.pdb
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\MultipleJoysticks.exe.manifest
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\MultipleJoysticks.application
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\MultipleJoysticks.exe
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\MultipleJoysticks.pdb
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Autonomous.resources
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\FalconScoutingSoftware.Form1.resources
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.Properties.Resources.resources
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.SortDataDisplay.resources
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.csproj.GenerateResource.Cache
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.exe.manifest
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\obj\x86\Release\MultipleJoysticks.application
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\Controllers\Controllers.cfg
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\Controllers\Playstation3.ctrl
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\Controllers\TomeePS3.ctrl
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\Controllers\Gamepad3Turbo.ctrl
+C:\Users\Jim\Documents\GitHub\ScoutingSystem\MultipleJoysticks\bin\Release\Controllers\GenericUSBJoystick.ctrl
