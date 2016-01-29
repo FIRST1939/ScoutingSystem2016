@@ -84,7 +84,7 @@ namespace FalconScoutingSoftware
         int[] AutoTeamNo5;
         int[] AutoTeamNo6;
 
-         //Keeps track of the match.
+        //Keeps track of the match.
         static int match = 1;
 
 
@@ -122,14 +122,13 @@ namespace FalconScoutingSoftware
 
         String[] tm1939strText = new String[6];
 
-        String[,] ControllerCommands = new String[6,22];
+        String[,] ControllerCommands = new String[6, 22];
 
         String[] LastButtonPattern = new String[6];
-     
+
         public Form1()
         {
             InitializeComponent();
-            GetSticks();
             Sticks = GetSticks();
             if (Sticks.Length > 0)
             {
@@ -144,7 +143,7 @@ namespace FalconScoutingSoftware
 
 
 
-  
+
         private void Form1_Load(object sender, EventArgs e)
         {
             Joystick[] joystick = GetSticks();
@@ -189,11 +188,11 @@ namespace FalconScoutingSoftware
 
             while (Controllers.Peek() > 0 && Sticks.Length > ControllerCounter)
             {
-                tm1939LoadController(Controllers.ReadLine(),ControllerCounter);
+                tm1939LoadController(Controllers.ReadLine(), ControllerCounter);
                 tm1939strText[ControllerCounter++] = "";
             }
 
-            
+
         }
 
         void tm1939LoadController(string controllername, int controllernumber)
@@ -204,8 +203,8 @@ namespace FalconScoutingSoftware
                 controllername = Sticks[controllernumber].Properties.ProductName;
                 controllername = Regex.Replace(controllername, @"\s+", "") + ".ctrl";
             }
-            StreamReader ControllerCmds = new StreamReader(".\\Controllers\\"+controllername);
-           
+            StreamReader ControllerCmds = new StreamReader(".\\Controllers\\" + controllername);
+
 
             while (ControllerCmds.Peek() > 0)
             {
@@ -306,7 +305,7 @@ namespace FalconScoutingSoftware
 
         public void AutoTeamNumbers()
         {
-           
+
         }
 
         private string tm1939GetButtonMap(bool[] inButtons, int iController)
@@ -316,7 +315,7 @@ namespace FalconScoutingSoftware
             tm1939strText[iController] = "";
 
 
-            for(int i = 0;i < maxbuttons; i++)
+            for (int i = 0; i < maxbuttons; i++)
             {
                 strState = "F";
                 if (inButtons[i] == true)
@@ -347,7 +346,7 @@ namespace FalconScoutingSoftware
 
             if (!strButtonMap.Equals(LastButtonPattern[id]))
             {
-                tm1939ProcessButton(strButtonMap,id);
+                tm1939ProcessButton(strButtonMap, id);
                 LastButtonPattern[id] = strButtonMap;
                 for (int i = 0; i < 6; i++)
                     if (FinshedScoring[i] == false)
@@ -369,11 +368,11 @@ namespace FalconScoutingSoftware
             autoTotalPoints[id] = (autoHighFrisbeesMade[id] * 6) +
                     (autoMidFrisbeesMade[id] * 4) +
                     (autoLowFrisbeesMade[id] * 2);
-            teleOpTotalPoints[id] = (pyramidFrisbeesMade[id] * 5) + 
+            teleOpTotalPoints[id] = (pyramidFrisbeesMade[id] * 5) +
                     (highFrisbeesMade[id] * 3) +
                     (midFrisbeesMade[id] * 2) +
                     lowFrisbeesMade[id];
-            
+
         }
 
         void tm1939RefreshScreen(int id)
@@ -896,7 +895,7 @@ namespace FalconScoutingSoftware
             int FoundAt;
 
             // Find where the button maps are equal to get the command
-            for (FoundAt = 0; FoundAt < 22 && !strButtonMap.Equals(ControllerCommands[id,FoundAt]); FoundAt++) ;
+            for (FoundAt = 0; FoundAt < 22 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++) ;
 
             // Perform the appropriate function
 
@@ -907,7 +906,7 @@ namespace FalconScoutingSoftware
                     TeleOp[id] = true;
 
                     break;
-                
+
                 case (GameCommands.Autonomous):
                     AutonomousMode[id] = true;
                     TeleOp[id] = false;
@@ -915,25 +914,25 @@ namespace FalconScoutingSoftware
                     break;
 
                 case (GameCommands.scoreHigh):
-                   if (TeleOp[id] && defenseRating[id] > 0)
-                   {
-                       defenseRating[id]--;
-                       displayDefenseRating[id] = defenseRating[id];
-                   }
-                   break;
+                    if (TeleOp[id] && defenseRating[id] > 0)
+                    {
+                        defenseRating[id]--;
+                        displayDefenseRating[id] = defenseRating[id];
+                    }
+                    break;
 
                 case (GameCommands.scoreLow):
-                   if (TeleOp[id])
-                   {
-                       defenseRating[id]++;
-                       displayDefenseRating[id] = defenseRating[id];
-                       if (displayDefenseRating[id] > 10)
-                       {
-                           defenseRating[id] = 0;
-                           displayDefenseRating[id] = 0;
-                       }
-                   }
- 
+                    if (TeleOp[id])
+                    {
+                        defenseRating[id]++;
+                        displayDefenseRating[id] = defenseRating[id];
+                        if (displayDefenseRating[id] > 10)
+                        {
+                            defenseRating[id] = 0;
+                            displayDefenseRating[id] = 0;
+                        }
+                    }
+
                     break;
 
                 case (GameCommands.HighFrisbeesAttMinus):
@@ -944,15 +943,15 @@ namespace FalconScoutingSoftware
                             highFrisbeesAtt[id]--;
                             displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
                         }
-                     }
-                     if (AutonomousMode[id])
-                     {
-                         if(autoHighFrisbeesAtt[id] > 0 && autoHighFrisbeesMade[id] < autoHighFrisbeesAtt[id])
-                         {
-                             autoHighFrisbeesAtt[id]--;
-                             autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                         }
-                     }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoHighFrisbeesAtt[id] > 0 && autoHighFrisbeesMade[id] < autoHighFrisbeesAtt[id])
+                        {
+                            autoHighFrisbeesAtt[id]--;
+                            autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
+                        }
+                    }
 
                     break;
 
@@ -961,12 +960,12 @@ namespace FalconScoutingSoftware
                     {
                         highFrisbeesAtt[id]++;
                         displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
-                     }
-                     if (AutonomousMode[id])
-                     {
+                    }
+                    if (AutonomousMode[id])
+                    {
                         autoHighFrisbeesAtt[id]++;
                         autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                     }
+                    }
 
                     break;
 
@@ -978,33 +977,33 @@ namespace FalconScoutingSoftware
                             highFrisbeesMade[id]--;
                             displayHighFrisbeesMade[id] = highFrisbeesMade[id];
                         }
-                     }
-                     if (AutonomousMode[id])
-                     {
-                         if(autoHighFrisbeesMade[id] > 0 )
-                         {
-                             autoHighFrisbeesMade[id]--;
-                             autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                         }
-                     }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoHighFrisbeesMade[id] > 0)
+                        {
+                            autoHighFrisbeesMade[id]--;
+                            autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
+                        }
+                    }
                     break;
 
                 case (GameCommands.HighFrisbeesMadePlus):
-                   if (TeleOp[id])
-                   {
-                       highFrisbeesMade[id]++;
-                       displayHighFrisbeesMade[id] = highFrisbeesMade[id];
-                       highFrisbeesAtt[id]++;
-                       displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
-                   }
-                   if (AutonomousMode[id])
-                   {
-                       autoHighFrisbeesMade[id]++;
-                       autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                       autoHighFrisbeesAtt[id]++;
-                       autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                   }
-                   break;
+                    if (TeleOp[id])
+                    {
+                        highFrisbeesMade[id]++;
+                        displayHighFrisbeesMade[id] = highFrisbeesMade[id];
+                        highFrisbeesAtt[id]++;
+                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoHighFrisbeesMade[id]++;
+                        autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
+                        autoHighFrisbeesAtt[id]++;
+                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
+                    }
+                    break;
 
                 case (GameCommands.LowFrisbeesAttMinus):
                     if (TeleOp[id])
@@ -1014,29 +1013,29 @@ namespace FalconScoutingSoftware
                             lowFrisbeesAtt[id]--;
                             displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
                         }
-                     }
-                     if (AutonomousMode[id])
-                     {
-                         if(autoLowFrisbeesAtt[id] > 0 && autoLowFrisbeesMade[id] < autoLowFrisbeesAtt[id])
-                         {
-                             autoLowFrisbeesAtt[id]--;
-                             autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                         }
-                     }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoLowFrisbeesAtt[id] > 0 && autoLowFrisbeesMade[id] < autoLowFrisbeesAtt[id])
+                        {
+                            autoLowFrisbeesAtt[id]--;
+                            autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
+                        }
+                    }
 
                     break;
 
                 case (GameCommands.LowFrisbeesAttPlus):
-                   if (TeleOp[id])
+                    if (TeleOp[id])
                     {
                         lowFrisbeesAtt[id]++;
                         displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                     }
-                     if (AutonomousMode[id])
-                     {
+                    }
+                    if (AutonomousMode[id])
+                    {
                         autoLowFrisbeesAtt[id]++;
                         autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                     }
+                    }
 
 
                     break;
@@ -1049,33 +1048,33 @@ namespace FalconScoutingSoftware
                             lowFrisbeesMade[id]--;
                             displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
                         }
-                     }
-                     if (AutonomousMode[id])
-                     {
-                         if(autoLowFrisbeesMade[id] > 0 )
-                         {
-                             autoLowFrisbeesMade[id]--;
-                             autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                         }
-                     }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoLowFrisbeesMade[id] > 0)
+                        {
+                            autoLowFrisbeesMade[id]--;
+                            autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
+                        }
+                    }
 
                     break;
 
                 case (GameCommands.LowFrisbeesMadePlus):
-                   if (TeleOp[id])
-                   {
-                       lowFrisbeesMade[id]++;
-                       displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                       lowFrisbeesAtt[id]++;
-                       displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                   }
-                   if (AutonomousMode[id])
-                   {
-                       autoLowFrisbeesMade[id]++;
-                       autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                       autoLowFrisbeesAtt[id]++;
-                       autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                   }
+                    if (TeleOp[id])
+                    {
+                        lowFrisbeesMade[id]++;
+                        displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
+                        lowFrisbeesAtt[id]++;
+                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoLowFrisbeesMade[id]++;
+                        autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
+                        autoLowFrisbeesAtt[id]++;
+                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
+                    }
 
                     break;
 
@@ -1087,28 +1086,28 @@ namespace FalconScoutingSoftware
                             midFrisbeesAtt[id]--;
                             displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
                         }
-                     }
-                     if (AutonomousMode[id])
-                     {
-                         if(autoMidFrisbeesAtt[id] > 0 && autoMidFrisbeesMade[id] < autoMidFrisbeesAtt[id])
-                         {
-                             autoMidFrisbeesAtt[id]--;
-                             autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
-                         }
-                     }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoMidFrisbeesAtt[id] > 0 && autoMidFrisbeesMade[id] < autoMidFrisbeesAtt[id])
+                        {
+                            autoMidFrisbeesAtt[id]--;
+                            autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                        }
+                    }
                     break;
 
                 case (GameCommands.MidFrisbeesAttPlus):
-                   if (TeleOp[id])
+                    if (TeleOp[id])
                     {
                         midFrisbeesAtt[id]++;
                         displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
-                     }
-                     if (AutonomousMode[id])
-                     {
+                    }
+                    if (AutonomousMode[id])
+                    {
                         autoMidFrisbeesAtt[id]++;
                         autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
-                     }
+                    }
 
 
                     break;
@@ -1116,38 +1115,38 @@ namespace FalconScoutingSoftware
                 case (GameCommands.MidFrisbeesMadeMinus):
                     if (TeleOp[id])
                     {
-                        if (midFrisbeesMade[id] > 0  )
+                        if (midFrisbeesMade[id] > 0)
                         {
                             midFrisbeesMade[id]--;
                             displayMidFrisbeesMade[id] = midFrisbeesMade[id];
                         }
-                     }
-                     if (AutonomousMode[id])
-                     {
-                         if(autoMidFrisbeesMade[id] > 0 )
-                         {
-                             autoMidFrisbeesMade[id]--;
-                             autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
-                         }
-                     }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoMidFrisbeesMade[id] > 0)
+                        {
+                            autoMidFrisbeesMade[id]--;
+                            autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
+                        }
+                    }
 
                     break;
 
                 case (GameCommands.MidFrisbeesMadePlus):
-                   if (TeleOp[id])
-                   {
-                       midFrisbeesMade[id]++;
-                       displayMidFrisbeesMade[id] = midFrisbeesMade[id];
-                       midFrisbeesAtt[id]++;
-                       displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
-                   }
-                   if (AutonomousMode[id])
-                   {
-                       autoMidFrisbeesMade[id]++;
-                       autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
-                       autoMidFrisbeesAtt[id]++;
-                       autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
-                   }
+                    if (TeleOp[id])
+                    {
+                        midFrisbeesMade[id]++;
+                        displayMidFrisbeesMade[id] = midFrisbeesMade[id];
+                        midFrisbeesAtt[id]++;
+                        displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoMidFrisbeesMade[id]++;
+                        autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
+                        autoMidFrisbeesAtt[id]++;
+                        autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                    }
 
                     break;
 
@@ -1164,7 +1163,7 @@ namespace FalconScoutingSoftware
                     break;
 
                 case (GameCommands.PyramidFrisbeesMadeMinus):
-                    if (pyramidFrisbeesMade[id] > 0  )
+                    if (pyramidFrisbeesMade[id] > 0)
                         pyramidFrisbeesMade[id]--;
                     displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
                     break;
@@ -1194,9 +1193,9 @@ namespace FalconScoutingSoftware
                     }
                     break;
                 case (GameCommands.FinishedScoring):
-                   FinshedScoring[id] = !FinshedScoring[id];
+                    FinshedScoring[id] = !FinshedScoring[id];
 
-                    break;  
+                    break;
 
                 default:
 
@@ -1210,7 +1209,7 @@ namespace FalconScoutingSoftware
             lbldisplayButtons5.Text = tm1939strText[4].ToString();
             lbldisplayButtons6.Text = tm1939strText[5].ToString();
 
- 
+
         }
 
 
@@ -1227,9 +1226,9 @@ namespace FalconScoutingSoftware
                 using (Stream s = File.Open(saveFileDialog1.FileName, FileMode.CreateNew))
                 using (StreamWriter sw = new StreamWriter(s))
                 {
-                   MessageBox.Show(saveFileDialog1.FileName);
-                   fileName = saveFileDialog1.FileName;
-                   tm1939SaveFile(sw);
+                    MessageBox.Show(saveFileDialog1.FileName);
+                    fileName = saveFileDialog1.FileName;
+                    tm1939SaveFile(sw);
                     sw.Close();
                 }
                 //Increases match Number
@@ -1303,9 +1302,9 @@ namespace FalconScoutingSoftware
                 }
 
             }
-            
+
         }
-            
+
         //The following code updates the time and the date.
         private void tmrtime_Tick(object sender, EventArgs e)
         {
@@ -1317,7 +1316,7 @@ namespace FalconScoutingSoftware
             String myFileName = fileName;
             StreamWriter sww = File.AppendText(myFileName);
             tm1939SaveFile(sww);
-            
+
             sww.Close();
             //Increases match Number
             match++;
@@ -1402,12 +1401,12 @@ namespace FalconScoutingSoftware
             outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoHighMade6.Text + x + lblAutoHighAtt6.Text + x + lblAutoMidMade6.Text + x + lblAutoMidAtt6.Text + x + lblAutoLowMade6.Text + x + lblAutoLowAtt6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpPyramidMade6.Text + x + lblTeleOpPyramidAtt6.Text + x + lblTeleOpHighMade6.Text + x + lblTeleOpHighAtt6.Text + x + lblTeleOpMidMade6.Text + x + lblTeleOpMidAtt6.Text + x + lblTeleOpLowMade6.Text + x + lblTeleOpLowAtt6.Text + x + lblRobotClimb6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
 
 
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
 
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
@@ -1422,7 +1421,7 @@ namespace FalconScoutingSoftware
                 autoTeams = teamsNotePad.Length;
                 int teamsDivide = teamsNotePad.Length / 6;
 
-                DialogResult dialogResult = MessageBox.Show(teamsDivide.ToString() + "\n Is this the correct number of matches?" ,"Adding Teams", MessageBoxButtons.YesNo);
+                DialogResult dialogResult = MessageBox.Show(teamsDivide.ToString() + "\n Is this the correct number of matches?", "Adding Teams", MessageBoxButtons.YesNo);
                 if (dialogResult == DialogResult.Yes)
                 {
                     sr.Close();
@@ -1545,6 +1544,6 @@ namespace FalconScoutingSoftware
 
         }
 
-   
+
     }
 }
