@@ -3305,7 +3305,6 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "FalconScoutingProgram3.0";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             this.panel3.ResumeLayout(false);
