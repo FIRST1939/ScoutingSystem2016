@@ -17,10 +17,7 @@ namespace FalconScoutingSoftware
 {
     public partial class Form1 : Form
     {
-        DirectInput Input = new DirectInput();
-        SlimDX.DirectInput.Joystick stick;
         Joystick[] Sticks;
-
 
         bool[] AutonomousMode = { true, true, true, true, true, true };
         bool[] TeleOp = { false, false, false, false, false, false };
@@ -151,6 +148,7 @@ namespace FalconScoutingSoftware
 
         public Joystick[] GetSticks()
         {
+            DirectInput Input = new DirectInput();
 
             List<SlimDX.DirectInput.Joystick> sticks = new List<SlimDX.DirectInput.Joystick>(); // Creates the list of joysticks connected to the computer via USB.
             foreach (DeviceInstance device in Input.GetDevices(DeviceClass.GameController, DeviceEnumerationFlags.AttachedOnly))
@@ -158,7 +156,7 @@ namespace FalconScoutingSoftware
                 // Creates a joystick for each game device in USB Ports
                 try
                 {
-                    stick = new SlimDX.DirectInput.Joystick(Input, device.InstanceGuid);
+                    var stick = new SlimDX.DirectInput.Joystick(Input, device.InstanceGuid);
                     stick.Acquire();
 
                     // Gets the joysticks properties and sets the range for them.
