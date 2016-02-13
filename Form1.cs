@@ -1,18 +1,9 @@
-﻿
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using SlimDX.DirectInput;
-using System.Globalization;
 using System.IO;
-using System.Text.RegularExpressions;
-using MultipleJoysticks;
+using System.Windows.Forms;
 
-namespace FalconScoutingSoftware
+namespace MultipleJoysticks
 {
     public partial class Form1 : Form
     {

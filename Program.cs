@@ -15,7 +15,7 @@ namespace MultipleJoysticks
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FalconScoutingSoftware.Form1());
+            Application.Run(new Form1());
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace FalconScoutingSoftware
+﻿namespace MultipleJoysticks
 {
     partial class Form1
     {
