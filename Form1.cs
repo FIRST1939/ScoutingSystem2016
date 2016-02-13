@@ -16,8 +16,6 @@ namespace FalconScoutingSoftware
 {
     public partial class Form1 : Form
     {
-        Joystick[] Sticks;
-
         bool[] AutonomousMode = { true, true, true, true, true, true };
         bool[] TeleOp = { false, false, false, false, false, false };
         bool[] FinshedScoring = { false, false, false, false, false, false };
@@ -86,7 +84,6 @@ namespace FalconScoutingSoftware
         String fileName = "";
         String[] teamsNotePad;
         String x = ",";
-        const int maxbuttons = 15;
         bool SavePromptActive = false;
 
         struct GameCommands
@@ -115,22 +112,20 @@ namespace FalconScoutingSoftware
             public const int FinishedScoring = 21;
         }
 
-        String[] tm1939strText = new String[6];
-
         String[,] ControllerCommands = new String[6, 22];
-
         String[] LastButtonPattern = new String[6];
+        GameInput gameInput;
 
         public Form1()
         {
             InitializeComponent();
-            var gameInput = new GameInput();
-            Sticks = gameInput.GetSticks();
 
-            if (Sticks.Length > 0)
+            gameInput = new GameInput();
+            var sticks = gameInput.GetSticks(this);
+            if (sticks > 0)
             {
-                tm1939LoadSticks();
                 timer1.Enabled = true;
+                timer1.Tick += gameInput.timer1_Tick;
             }
             else
             {
@@ -138,171 +133,82 @@ namespace FalconScoutingSoftware
             }
         }
 
-        void tm1939LoadSticks()
+        public void SetControllerCommands(int controllernumber, string[] Command, string buttons)
         {
-            StreamReader Controllers = new StreamReader(".\\Controllers\\Controllers.cfg");
-            int ControllerCounter = 0;
-
-            for (int i = 0; i < 6; i++)
-                tm1939strText[i] = "";
-
-            while (Controllers.Peek() > 0 && Sticks.Length > ControllerCounter)
+            switch (Command[0].ToUpper())
             {
-                tm1939LoadController(Controllers.ReadLine(), ControllerCounter);
-                tm1939strText[ControllerCounter++] = "";
-            }
-
-
-        }
-
-        void tm1939LoadController(string controllername, int controllernumber)
-        {
-
-            if (controllername.ToUpper().Equals("AUTO"))
-            {
-                controllername = Sticks[controllernumber].Properties.ProductName;
-                controllername = Regex.Replace(controllername, @"\s+", "") + ".ctrl";
-            }
-            StreamReader ControllerCmds = new StreamReader(".\\Controllers\\" + controllername);
-
-
-            while (ControllerCmds.Peek() > 0)
-            {
-                String[] Command = ControllerCmds.ReadLine().Split(',');
-                String buttons = new String('F', maxbuttons);
-
-                // Parse the second to nth items to set the T item in buttons
-                for (int i = 1; i < Command.Length; i++)
-                {
-                    StringBuilder map = new StringBuilder(buttons);
-                    map[int.Parse(Command[i])] = 'T';
-                    buttons = map.ToString();
-                }
-
-                // Store it in the right position in the array
-
-                switch (Command[0].ToUpper())
-                {
-                    case "TELEOP":
-                        ControllerCommands[controllernumber, GameCommands.TeleOp] = buttons;
-                        break;
-                    case "AUTONOMOUS":
-                        ControllerCommands[controllernumber, GameCommands.Autonomous] = buttons;
-                        break;
-                    case "DEFENSIVERATINGPLUS":
-                        ControllerCommands[controllernumber, GameCommands.scoreHigh] = buttons;
-                        break;
-                    case "DEFENSIVERATINGMINUS":
-                        ControllerCommands[controllernumber, GameCommands.scoreLow] = buttons;
-                        break;
-                    case "PYRAMIDFRISBEESMADEMINUS":
-                        ControllerCommands[controllernumber, GameCommands.PyramidFrisbeesMadeMinus] = buttons;
-                        break;
-                    case "PYRAMIDFRISBEESMADEPLUS":
-                        ControllerCommands[controllernumber, GameCommands.PyramidFrisbeesMadePlus] = buttons;
-                        break;
-                    case "PYRAMIDFRISBEESATTMINUS":
-                        ControllerCommands[controllernumber, GameCommands.PyramidFrisbeesAttMinus] = buttons;
-                        break;
-                    case "PYRAMIDFRISBEESATTPLUS":
-                        ControllerCommands[controllernumber, GameCommands.PyramidFrisbeesAttPlus] = buttons;
-                        break;
-                    case "HIGHFRISBEESMADEMINUS":
-                        ControllerCommands[controllernumber, GameCommands.HighFrisbeesMadeMinus] = buttons;
-                        break;
-                    case "HIGHFRISBEESMADEPLUS":
-                        ControllerCommands[controllernumber, GameCommands.HighFrisbeesMadePlus] = buttons;
-                        break;
-                    case "HIGHFRISBEESATTMINUS":
-                        ControllerCommands[controllernumber, GameCommands.HighFrisbeesAttMinus] = buttons;
-                        break;
-                    case "HIGHFRISBEESATTPLUS":
-                        ControllerCommands[controllernumber, GameCommands.HighFrisbeesAttPlus] = buttons;
-                        break;
-                    case "MIDFRISBEESMADEMINUS":
-                        ControllerCommands[controllernumber, GameCommands.MidFrisbeesMadeMinus] = buttons;
-                        break;
-                    case "MIDFRISBEESMADEPLUS":
-                        ControllerCommands[controllernumber, GameCommands.MidFrisbeesMadePlus] = buttons;
-                        break;
-                    case "MIDFRISBEESATTMINUS":
-                        ControllerCommands[controllernumber, GameCommands.MidFrisbeesAttMinus] = buttons;
-                        break;
-                    case "MIDFRISBEESATTPLUS":
-                        ControllerCommands[controllernumber, GameCommands.MidFrisbeesAttPlus] = buttons;
-                        break;
-                    case "LOWFRISBEESMADEMINUS":
-                        ControllerCommands[controllernumber, GameCommands.LowFrisbeesMadeMinus] = buttons;
-                        break;
-                    case "LOWFRISBEESMADEPLUS":
-                        ControllerCommands[controllernumber, GameCommands.LowFrisbeesMadePlus] = buttons;
-                        break;
-                    case "LOWFRISBEESATTMINUS":
-                        ControllerCommands[controllernumber, GameCommands.LowFrisbeesAttMinus] = buttons;
-                        break;
-                    case "LOWFRISBEESATTPLUS":
-                        ControllerCommands[controllernumber, GameCommands.LowFrisbeesAttPlus] = buttons;
-                        break;
-                    case "ROBOTCLIMBPLUS":
-                        ControllerCommands[controllernumber, GameCommands.RobotClimbPlus] = buttons;
-                        break;
-                    case "FINISHEDSCORING":
-                        ControllerCommands[controllernumber, GameCommands.FinishedScoring] = buttons;
-                        break;
-                }
-            }
-
-        }
-
-        //Creates the StickHandlingLogic Method which takes all the joysticks in the sticks List and puts them into a timer.
-        public void timer1_Tick(object sender, EventArgs e)
-        {
-            for (int i = 0; i < Sticks.Length; i++)
-            {
-                tm1939StickHandlingLogic(Sticks[i], i);
+                case "TELEOP":
+                    ControllerCommands[controllernumber, Form1.GameCommands.TeleOp] = buttons;
+                    break;
+                case "AUTONOMOUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Autonomous] = buttons;
+                    break;
+                case "DEFENSIVERATINGPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.scoreHigh] = buttons;
+                    break;
+                case "DEFENSIVERATINGMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.scoreLow] = buttons;
+                    break;
+                case "PYRAMIDFRISBEESMADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesMadeMinus] = buttons;
+                    break;
+                case "PYRAMIDFRISBEESMADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesMadePlus] = buttons;
+                    break;
+                case "PYRAMIDFRISBEESATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttMinus] = buttons;
+                    break;
+                case "PYRAMIDFRISBEESATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttPlus] = buttons;
+                    break;
+                case "HIGHFRISBEESMADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadeMinus] = buttons;
+                    break;
+                case "HIGHFRISBEESMADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadePlus] = buttons;
+                    break;
+                case "HIGHFRISBEESATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttMinus] = buttons;
+                    break;
+                case "HIGHFRISBEESATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttPlus] = buttons;
+                    break;
+                case "MIDFRISBEESMADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadeMinus] = buttons;
+                    break;
+                case "MIDFRISBEESMADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadePlus] = buttons;
+                    break;
+                case "MIDFRISBEESATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesAttMinus] = buttons;
+                    break;
+                case "MIDFRISBEESATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesAttPlus] = buttons;
+                    break;
+                case "LOWFRISBEESMADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadeMinus] = buttons;
+                    break;
+                case "LOWFRISBEESMADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadePlus] = buttons;
+                    break;
+                case "LOWFRISBEESATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttMinus] = buttons;
+                    break;
+                case "LOWFRISBEESATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttPlus] = buttons;
+                    break;
+                case "ROBOTCLIMBPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.RobotClimbPlus] = buttons;
+                    break;
+                case "FINISHEDSCORING":
+                    ControllerCommands[controllernumber, Form1.GameCommands.FinishedScoring] = buttons;
+                    break;
             }
         }
 
-        public void AutoTeamNumbers()
+        public void UseButtonMap(int id, string strButtonMap)
         {
-
-        }
-
-        private string tm1939GetButtonMap(bool[] inButtons, int iController)
-        {
-            string strReturn = "";
-            string strState = "";
-            tm1939strText[iController] = "";
-
-
-            for (int i = 0; i < maxbuttons; i++)
-            {
-                strState = "F";
-                if (inButtons[i] == true)
-                {
-                    strState = "T";
-                    tm1939strText[iController] += i.ToString("00 ", CultureInfo.CurrentCulture);
-                }
-                strReturn += strState;
-            }
-            return strReturn;
-        }
-
-        void tm1939StickHandlingLogic(Joystick stick, int id)
-        {
-            // Creates an object from the class JoystickState.
-            JoystickState state = new JoystickState();
-
-            state = stick.GetCurrentState(); //Gets the state of the joystick
-
-            bool[] buttons = state.GetButtons(); // Stores the number of each button on the gamepad into the bool[] butons.
-
             bool FinshedScoringNeedtoSave = true;
-
-            String strButtonMap = "";
-
-
-            strButtonMap = tm1939GetButtonMap(buttons, id);
 
             if (!strButtonMap.Equals(LastButtonPattern[id]))
             {
@@ -1162,14 +1068,12 @@ namespace FalconScoutingSoftware
                     break;
             }
 
-            lbldisplayButtons1.Text = tm1939strText[0].ToString();
-            lbldisplayButtons2.Text = tm1939strText[1].ToString();
-            lbldisplayButtons3.Text = tm1939strText[2].ToString();
-            lbldisplayButtons4.Text = tm1939strText[3].ToString();
-            lbldisplayButtons5.Text = tm1939strText[4].ToString();
-            lbldisplayButtons6.Text = tm1939strText[5].ToString();
-
-
+            lbldisplayButtons1.Text = gameInput.GetText(0); // tm1939strText[0].ToString();
+            lbldisplayButtons2.Text = gameInput.GetText(1); 
+            lbldisplayButtons3.Text = gameInput.GetText(2);
+            lbldisplayButtons4.Text = gameInput.GetText(3);
+            lbldisplayButtons5.Text = gameInput.GetText(4);
+            lbldisplayButtons6.Text = gameInput.GetText(5);
         }
 
 
