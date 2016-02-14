@@ -11,7 +11,6 @@ namespace MultipleJoysticks
 {
     class GameInput
     {
-        String[] tm1939strText = new String[6];
         Joystick[] Sticks;
         private const int maxbuttons = 15;
         private Form1 form;
@@ -60,13 +59,9 @@ namespace MultipleJoysticks
             StreamReader Controllers = new StreamReader(".\\Controllers\\Controllers.cfg");
             int ControllerCounter = 0;
 
-            for (int i = 0; i < 6; i++)
-                tm1939strText[i] = "";
-
             while (Controllers.Peek() > 0 && Sticks.Length > ControllerCounter)
             {
                 tm1939LoadController(Controllers.ReadLine(), ControllerCounter);
-                tm1939strText[ControllerCounter++] = "";
             }
         }
 
@@ -113,10 +108,7 @@ namespace MultipleJoysticks
 
         void tm1939StickHandlingLogic(Joystick stick, int id)
         {
-            // Creates an object from the class JoystickState.
-            JoystickState state = new JoystickState();
-
-            state = stick.GetCurrentState(); //Gets the state of the joystick
+            var state = stick.GetCurrentState(); 
 
             bool[] buttons = state.GetButtons(); // Stores the number of each button on the gamepad into the bool[] butons.
 
@@ -129,8 +121,6 @@ namespace MultipleJoysticks
         {
             string strReturn = "";
             string strState = "";
-            tm1939strText[iController] = "";
-
 
             for (int i = 0; i < maxbuttons; i++)
             {
@@ -138,16 +128,10 @@ namespace MultipleJoysticks
                 if (inButtons[i] == true)
                 {
                     strState = "T";
-                    tm1939strText[iController] += i.ToString("00 ", CultureInfo.CurrentCulture);
                 }
                 strReturn += strState;
             }
             return strReturn;
-        }
-
-        public string GetText(int i)
-        {
-            return tm1939strText[0];
         }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Windows.Forms;
 
@@ -105,13 +106,15 @@ namespace MultipleJoysticks
 
         String[,] ControllerCommands = new String[6, 22];
         String[] LastButtonPattern = new String[6];
-        GameInput gameInput;
+        Label[] displayButtons;
 
+        // --- INITIALIZATION
         public Form1()
         {
             InitializeComponent();
+            displayButtons = new[] { lbldisplayButtons1, lbldisplayButtons2, lbldisplayButtons3, lbldisplayButtons4, lbldisplayButtons5, lbldisplayButtons6 };
 
-            gameInput = new GameInput();
+            var gameInput = new GameInput();
             var sticks = gameInput.GetSticks(this);
             if (sticks > 0)
             {
@@ -196,6 +199,8 @@ namespace MultipleJoysticks
                     break;
             }
         }
+
+        // --- OPPERATION
 
         public void UseButtonMap(int id, string strButtonMap)
         {
@@ -752,7 +757,9 @@ namespace MultipleJoysticks
             int FoundAt;
 
             // Find where the button maps are equal to get the command
-            for (FoundAt = 0; FoundAt < 22 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++) ;
+            for (FoundAt = 0; FoundAt < 22 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++)
+            {
+            }
 
             // Perform the appropriate function
 
@@ -1059,14 +1066,22 @@ namespace MultipleJoysticks
                     break;
             }
 
-            lbldisplayButtons1.Text = gameInput.GetText(0); // tm1939strText[0].ToString();
-            lbldisplayButtons2.Text = gameInput.GetText(1); 
-            lbldisplayButtons3.Text = gameInput.GetText(2);
-            lbldisplayButtons4.Text = gameInput.GetText(3);
-            lbldisplayButtons5.Text = gameInput.GetText(4);
-            lbldisplayButtons6.Text = gameInput.GetText(5);
+            displayButtons[id].Text = GetButtonDisplay(strButtonMap);
         }
 
+        // List buttons down for display
+        private string GetButtonDisplay(string strButtonMap)
+        {
+            var result = "";
+            for (int i = 0; i < strButtonMap.Length; i++)
+            {
+                if (strButtonMap[i] == 'T')
+                {
+                    result += i.ToString("00 ", CultureInfo.CurrentCulture);
+                }
+            }
+            return result;
+        }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
