@@ -84,8 +84,8 @@ namespace MultipleJoysticks
             public const int Autonomous = 1;
             public const int scoreHigh = 2;
             public const int scoreLow = 3;
-            public const int PyramidFrisbeesMadeMinus = 4;
-            public const int PyramidFrisbeesMadePlus = 5;
+            public const int ShotsMissedPlus = 4;
+            public const int ShotsMissedMinus = 5;
             public const int PyramidFrisbeesAttMinus = 6;
             public const int PyramidFrisbeesAttPlus = 7;
             public const int HighFrisbeesMadeMinus = 8;
@@ -100,7 +100,7 @@ namespace MultipleJoysticks
             public const int LowFrisbeesMadePlus = 17;
             public const int LowFrisbeesAttMinus = 18;
             public const int LowFrisbeesAttPlus = 19;
-            public const int RobotClimbPlus = 20;
+            public const int RobotScalePlus = 20;
             public const int FinishedScoring = 21;
         }
 
@@ -143,11 +143,11 @@ namespace MultipleJoysticks
                 case "DEFENSIVERATINGMINUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.scoreLow] = buttons;
                     break;
-                case "PYRAMIDFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesMadeMinus] = buttons;
+                case "ShotsMissedPlus":
+                    ControllerCommands[controllernumber, Form1.GameCommands.ShotsMissedPlus] = buttons;
                     break;
-                case "PYRAMIDFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesMadePlus] = buttons;
+                case "ShotsMissedMinus":
+                    ControllerCommands[controllernumber, Form1.GameCommands.ShotsMissedMinus] = buttons;
                     break;
                 case "PYRAMIDFRISBEESATTMINUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttMinus] = buttons;
@@ -191,8 +191,8 @@ namespace MultipleJoysticks
                 case "LOWFRISBEESATTPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttPlus] = buttons;
                     break;
-                case "ROBOTCLIMBPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.RobotClimbPlus] = buttons;
+                case "RobotScalePlus":
+                    ControllerCommands[controllernumber, Form1.GameCommands.RobotScalePlus] = buttons;
                     break;
                 case "FINISHEDSCORING":
                     ControllerCommands[controllernumber, Form1.GameCommands.FinishedScoring] = buttons;
@@ -1026,13 +1026,13 @@ namespace MultipleJoysticks
                     displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
                     break;
 
-                case (GameCommands.PyramidFrisbeesMadeMinus):
+                case (GameCommands.ShotsMissedPlus):
                     if (pyramidFrisbeesMade[id] > 0)
                         pyramidFrisbeesMade[id]--;
                     displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
                     break;
 
-                case (GameCommands.PyramidFrisbeesMadePlus):
+                case (GameCommands.ShotsMissedMinus):
                     pyramidFrisbeesMade[id]++;
                     displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
                     // If they made it increase the attempts
@@ -1041,7 +1041,7 @@ namespace MultipleJoysticks
 
                     break;
 
-                case (GameCommands.RobotClimbPlus):
+                case (GameCommands.RobotScalePlus):
                     if (TeleOp[id])
                     {
                         climb[id]++;

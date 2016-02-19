@@ -2,8 +2,8 @@ Teleop,9
 Autonomous,8
 scoreHigh,10
 scoreLow,11
-PyramidFrisbeesMadeMinus,2,7
-PyramidFrisbeesMadePlus,0,7
+ShotsMissedPlus,2,7
+ShotsMissedMinus,0,7
 PyramidFrisbeesAttMinus,3,7
 PyramidFrisbeesAttPlus,1,7
 HighFrisbeesMadeMinus,2,6
@@ -18,7 +18,7 @@ LowFrisbeesMadeMinus,2,4
 LowFrisbeesMadePlus,0,4
 LowFrisbeesAttMinus,3,4
 LowFrisbeesAttPlus,1,4
-RobotClimbPlus,4,5
+RobotScalePlus,4,5
 
 
 
