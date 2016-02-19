@@ -286,7 +286,6 @@
             // 
             // timer1
             // 
-            this.timer1.Enabled = false;
             this.timer1.Interval = 180;
             // 
             // panel6
@@ -619,9 +618,9 @@
             this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.Location = new System.Drawing.Point(10, 107);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(168, 25);
+            this.label57.Size = new System.Drawing.Size(130, 25);
             this.label57.TabIndex = 220;
-            this.label57.Text = "Pyramid Frisbee";
+            this.label57.Text = "Scored High";
             // 
             // label58
             // 
@@ -629,9 +628,9 @@
             this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.Location = new System.Drawing.Point(10, 165);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(134, 25);
+            this.label58.Size = new System.Drawing.Size(125, 25);
             this.label58.TabIndex = 221;
-            this.label58.Text = "High Frisbee";
+            this.label58.Text = "Scored Low";
             // 
             // label59
             // 
@@ -1106,9 +1105,9 @@
             this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(10, 165);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(134, 25);
+            this.label41.Size = new System.Drawing.Size(125, 25);
             this.label41.TabIndex = 210;
-            this.label41.Text = "High Frisbee";
+            this.label41.Text = "Scored Low";
             // 
             // label42
             // 
@@ -1126,9 +1125,9 @@
             this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(8, 107);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(168, 25);
+            this.label40.Size = new System.Drawing.Size(130, 25);
             this.label40.TabIndex = 210;
-            this.label40.Text = "Pyramid Frisbee";
+            this.label40.Text = "Scored High";
             // 
             // lblTeleOpPyramidMade5
             // 
@@ -1607,9 +1606,9 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(1, 168);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(134, 25);
+            this.label20.Size = new System.Drawing.Size(125, 25);
             this.label20.TabIndex = 195;
-            this.label20.Text = "High Frisbee";
+            this.label20.Text = "Scored Low";
             // 
             // label7
             // 
@@ -1617,9 +1616,10 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(0, 113);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(168, 25);
+            this.label7.Size = new System.Drawing.Size(130, 25);
             this.label7.TabIndex = 195;
-            this.label7.Text = "Pyramid Frisbee";
+            this.label7.Text = "Scored High";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // lblTeleOp2
             // 
@@ -2229,9 +2229,9 @@
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(3, 168);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(134, 25);
+            this.label31.Size = new System.Drawing.Size(125, 25);
             this.label31.TabIndex = 203;
-            this.label31.Text = "High Frisbee";
+            this.label31.Text = "Scored Low";
             // 
             // label24
             // 
@@ -2239,9 +2239,9 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 113);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(168, 25);
+            this.label24.Size = new System.Drawing.Size(130, 25);
             this.label24.TabIndex = 203;
-            this.label24.Text = "Pyramid Frisbee";
+            this.label24.Text = "Scored High";
             // 
             // lblTeleOp3
             // 
@@ -2425,9 +2425,9 @@
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(2, 114);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(168, 25);
+            this.label8.Size = new System.Drawing.Size(130, 25);
             this.label8.TabIndex = 173;
-            this.label8.Text = "Pyramid Frisbee";
+            this.label8.Text = "Scored High";
             // 
             // label10
             // 
@@ -2435,9 +2435,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(3, 168);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(134, 25);
+            this.label10.Size = new System.Drawing.Size(125, 25);
             this.label10.TabIndex = 174;
-            this.label10.Text = "High Frisbee";
+            this.label10.Text = "Scored Low";
             // 
             // label16
             // 
@@ -2455,9 +2455,8 @@
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(0, 216);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(125, 25);
+            this.label17.Size = new System.Drawing.Size(0, 25);
             this.label17.TabIndex = 178;
-            this.label17.Text = "Mid Frisbee";
             // 
             // panel1
             // 
@@ -3149,9 +3148,9 @@
             this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(3, 107);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(168, 25);
+            this.label38.Size = new System.Drawing.Size(130, 25);
             this.label38.TabIndex = 201;
-            this.label38.Text = "Pyramid Frisbee";
+            this.label38.Text = "Scored High";
             // 
             // label37
             // 
@@ -3159,9 +3158,10 @@
             this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(3, 165);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(134, 25);
+            this.label37.Size = new System.Drawing.Size(125, 25);
             this.label37.TabIndex = 200;
-            this.label37.Text = "High Frisbee";
+            this.label37.Text = "Scored Low";
+            this.label37.Click += new System.EventHandler(this.label37_Click);
             // 
             // label36
             // 
