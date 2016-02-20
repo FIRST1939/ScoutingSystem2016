@@ -73,7 +73,7 @@ namespace MultipleJoysticks
         //Keeps track of the match.
         static int match = 1;
 
-        String fileName = "";
+        String fileName = "test1";
         String[] teamsNotePad;
         String x = ",";
         bool SavePromptActive = false;
@@ -1278,8 +1278,8 @@ namespace MultipleJoysticks
         {
 
             OpenFileDialog openFileDialog1 = new OpenFileDialog();
-
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
+
             {
                 System.IO.StreamReader sr = new
                    System.IO.StreamReader(openFileDialog1.FileName);
