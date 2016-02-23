@@ -328,7 +328,7 @@
             this.panel6.Controls.Add(this.label123);
             this.panel6.Controls.Add(this.label124);
             this.panel6.Controls.Add(this.lbldisplayButtons6);
-            this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel6.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel6.Location = new System.Drawing.Point(901, 392);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(443, 343);
@@ -337,8 +337,8 @@
             // btnScouter6
             // 
             this.btnScouter6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnScouter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScouter6.ForeColor = System.Drawing.Color.Black;
+            this.btnScouter6.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScouter6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.btnScouter6.Location = new System.Drawing.Point(108, 9);
             this.btnScouter6.Name = "btnScouter6";
             this.btnScouter6.Size = new System.Drawing.Size(62, 44);
@@ -349,11 +349,11 @@
             // 
             // textBoxScout6
             // 
-            this.textBoxScout6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxScout6.ForeColor = System.Drawing.Color.Black;
+            this.textBoxScout6.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxScout6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.textBoxScout6.Location = new System.Drawing.Point(15, 15);
             this.textBoxScout6.Name = "textBoxScout6";
-            this.textBoxScout6.Size = new System.Drawing.Size(92, 31);
+            this.textBoxScout6.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout6.TabIndex = 233;
             // 
             // label73
@@ -370,70 +370,70 @@
             // 
             this.lblDefense6.AutoSize = true;
             this.lblDefense6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblDefense6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefense6.Location = new System.Drawing.Point(252, 304);
+            this.lblDefense6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefense6.Location = new System.Drawing.Point(274, 304);
             this.lblDefense6.Name = "lblDefense6";
-            this.lblDefense6.Size = new System.Drawing.Size(31, 33);
+            this.lblDefense6.Size = new System.Drawing.Size(31, 36);
             this.lblDefense6.TabIndex = 242;
             this.lblDefense6.Text = "0";
             // 
             // lblAutoTotalPoints6
             // 
             this.lblAutoTotalPoints6.AutoSize = true;
-            this.lblAutoTotalPoints6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTotalPoints6.Location = new System.Drawing.Point(383, 107);
             this.lblAutoTotalPoints6.Name = "lblAutoTotalPoints6";
-            this.lblAutoTotalPoints6.Size = new System.Drawing.Size(31, 33);
+            this.lblAutoTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints6.TabIndex = 241;
             this.lblAutoTotalPoints6.Text = "0";
             // 
             // lblTotalPoints6
             // 
             this.lblTotalPoints6.AutoSize = true;
-            this.lblTotalPoints6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPoints6.Location = new System.Drawing.Point(382, 272);
             this.lblTotalPoints6.Name = "lblTotalPoints6";
-            this.lblTotalPoints6.Size = new System.Drawing.Size(31, 33);
+            this.lblTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints6.TabIndex = 240;
             this.lblTotalPoints6.Text = "0";
             // 
             // lblTeleOpTotalPoints6
             // 
             this.lblTeleOpTotalPoints6.AutoSize = true;
-            this.lblTeleOpTotalPoints6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpTotalPoints6.Location = new System.Drawing.Point(382, 191);
             this.lblTeleOpTotalPoints6.Name = "lblTeleOpTotalPoints6";
-            this.lblTeleOpTotalPoints6.Size = new System.Drawing.Size(31, 33);
+            this.lblTeleOpTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints6.TabIndex = 230;
             this.lblTeleOpTotalPoints6.Text = "0";
             // 
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label62.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label62.Location = new System.Drawing.Point(321, 279);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(60, 25);
+            this.label62.Size = new System.Drawing.Size(55, 26);
             this.label62.TabIndex = 230;
             this.label62.Text = "Total";
             // 
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(312, 191);
+            this.label53.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(318, 197);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(74, 24);
+            this.label53.Size = new System.Drawing.Size(63, 23);
             this.label53.TabIndex = 230;
             this.label53.Text = "TeleOp";
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label39.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(321, 113);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(56, 25);
+            this.label39.Size = new System.Drawing.Size(50, 26);
             this.label39.TabIndex = 195;
             this.label39.Text = "Auto";
             // 
@@ -441,11 +441,11 @@
             // 
             this.lblAutoLowMade6.AutoSize = true;
             this.lblAutoLowMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade6.Location = new System.Drawing.Point(184, 260);
             this.lblAutoLowMade6.Name = "lblAutoLowMade6";
-            this.lblAutoLowMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowMade6.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowMade6.TabIndex = 239;
             this.lblAutoLowMade6.Text = "00";
             // 
@@ -453,11 +453,11 @@
             // 
             this.lblAutoLowAtt6.AutoSize = true;
             this.lblAutoLowAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt6.Location = new System.Drawing.Point(260, 262);
             this.lblAutoLowAtt6.Name = "lblAutoLowAtt6";
-            this.lblAutoLowAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowAtt6.TabIndex = 238;
             this.lblAutoLowAtt6.Text = "00";
             // 
@@ -465,11 +465,11 @@
             // 
             this.lblAutoMidMade6.AutoSize = true;
             this.lblAutoMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade6.Location = new System.Drawing.Point(184, 208);
             this.lblAutoMidMade6.Name = "lblAutoMidMade6";
-            this.lblAutoMidMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidMade6.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidMade6.TabIndex = 237;
             this.lblAutoMidMade6.Text = "00";
             // 
@@ -477,11 +477,11 @@
             // 
             this.lblAutoMidAtt6.AutoSize = true;
             this.lblAutoMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt6.Location = new System.Drawing.Point(260, 208);
             this.lblAutoMidAtt6.Name = "lblAutoMidAtt6";
-            this.lblAutoMidAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidAtt6.TabIndex = 236;
             this.lblAutoMidAtt6.Text = "00";
             // 
@@ -489,11 +489,11 @@
             // 
             this.lblAutoHighAtt6.AutoSize = true;
             this.lblAutoHighAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt6.Location = new System.Drawing.Point(260, 153);
             this.lblAutoHighAtt6.Name = "lblAutoHighAtt6";
-            this.lblAutoHighAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighAtt6.TabIndex = 235;
             this.lblAutoHighAtt6.Text = "00";
             // 
@@ -501,18 +501,18 @@
             // 
             this.lblAutoHighMade6.AutoSize = true;
             this.lblAutoHighMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade6.Location = new System.Drawing.Point(184, 153);
             this.lblAutoHighMade6.Name = "lblAutoHighMade6";
-            this.lblAutoHighMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighMade6.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighMade6.TabIndex = 234;
             this.lblAutoHighMade6.Text = "00";
             // 
             // lblRobotClimb6
             // 
             this.lblRobotClimb6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotClimb6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb6.Location = new System.Drawing.Point(184, 301);
             this.lblRobotClimb6.Name = "lblRobotClimb6";
@@ -525,11 +525,11 @@
             // 
             this.lblTeleOpMidAtt6.AutoSize = true;
             this.lblTeleOpMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt6.Location = new System.Drawing.Point(260, 206);
             this.lblTeleOpMidAtt6.Name = "lblTeleOpMidAtt6";
-            this.lblTeleOpMidAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidAtt6.TabIndex = 232;
             this.lblTeleOpMidAtt6.Text = "00";
             this.lblTeleOpMidAtt6.Visible = false;
@@ -538,11 +538,11 @@
             // 
             this.lblTeleOpLowAtt6.AutoSize = true;
             this.lblTeleOpLowAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt6.Location = new System.Drawing.Point(260, 262);
             this.lblTeleOpLowAtt6.Name = "lblTeleOpLowAtt6";
-            this.lblTeleOpLowAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowAtt6.TabIndex = 231;
             this.lblTeleOpLowAtt6.Text = "00";
             this.lblTeleOpLowAtt6.Visible = false;
@@ -551,11 +551,11 @@
             // 
             this.lblTeleOpPyramidAtt6.AutoSize = true;
             this.lblTeleOpPyramidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt6.Location = new System.Drawing.Point(260, 101);
             this.lblTeleOpPyramidAtt6.Name = "lblTeleOpPyramidAtt6";
-            this.lblTeleOpPyramidAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidAtt6.TabIndex = 230;
             this.lblTeleOpPyramidAtt6.Text = "00";
             this.lblTeleOpPyramidAtt6.Visible = false;
@@ -564,11 +564,11 @@
             // 
             this.lblTeleOpHighAtt6.AutoSize = true;
             this.lblTeleOpHighAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt6.Location = new System.Drawing.Point(260, 153);
             this.lblTeleOpHighAtt6.Name = "lblTeleOpHighAtt6";
-            this.lblTeleOpHighAtt6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighAtt6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighAtt6.TabIndex = 229;
             this.lblTeleOpHighAtt6.Text = "00";
             this.lblTeleOpHighAtt6.Visible = false;
@@ -577,11 +577,11 @@
             // 
             this.lblTeleOpLowMade6.AutoSize = true;
             this.lblTeleOpLowMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade6.Location = new System.Drawing.Point(184, 260);
             this.lblTeleOpLowMade6.Name = "lblTeleOpLowMade6";
-            this.lblTeleOpLowMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowMade6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowMade6.TabIndex = 227;
             this.lblTeleOpLowMade6.Text = "00";
             this.lblTeleOpLowMade6.Visible = false;
@@ -590,11 +590,11 @@
             // 
             this.lblTeleOpMidMade6.AutoSize = true;
             this.lblTeleOpMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade6.Location = new System.Drawing.Point(184, 208);
             this.lblTeleOpMidMade6.Name = "lblTeleOpMidMade6";
-            this.lblTeleOpMidMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidMade6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidMade6.TabIndex = 226;
             this.lblTeleOpMidMade6.Text = "00";
             this.lblTeleOpMidMade6.Visible = false;
@@ -603,11 +603,11 @@
             // 
             this.lblTeleOpHighMade6.AutoSize = true;
             this.lblTeleOpHighMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade6.Location = new System.Drawing.Point(184, 153);
             this.lblTeleOpHighMade6.Name = "lblTeleOpHighMade6";
-            this.lblTeleOpHighMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighMade6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighMade6.TabIndex = 225;
             this.lblTeleOpHighMade6.Text = "00";
             this.lblTeleOpHighMade6.Visible = false;
@@ -615,50 +615,50 @@
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label57.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label57.Location = new System.Drawing.Point(10, 107);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(130, 25);
+            this.label57.Size = new System.Drawing.Size(117, 26);
             this.label57.TabIndex = 220;
             this.label57.Text = "Scored High";
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label58.Location = new System.Drawing.Point(10, 165);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(125, 25);
+            this.label58.Size = new System.Drawing.Size(110, 26);
             this.label58.TabIndex = 221;
             this.label58.Text = "Scored Low";
             // 
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label59.Location = new System.Drawing.Point(8, 220);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(125, 25);
+            this.label59.Size = new System.Drawing.Size(111, 26);
             this.label59.TabIndex = 222;
             this.label59.Text = "Mid Frisbee";
             // 
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label60.Location = new System.Drawing.Point(8, 272);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(129, 25);
+            this.label60.Size = new System.Drawing.Size(112, 26);
             this.label60.TabIndex = 223;
             this.label60.Text = "Low Frisbee";
             // 
             // label61
             // 
             this.label61.AutoSize = true;
-            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label61.Location = new System.Drawing.Point(8, 308);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(129, 25);
+            this.label61.Size = new System.Drawing.Size(114, 26);
             this.label61.TabIndex = 224;
             this.label61.Text = "Robot Climb";
             // 
@@ -666,11 +666,11 @@
             // 
             this.lblTeleOpPyramidMade6.AutoSize = true;
             this.lblTeleOpPyramidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade6.Location = new System.Drawing.Point(184, 101);
             this.lblTeleOpPyramidMade6.Name = "lblTeleOpPyramidMade6";
-            this.lblTeleOpPyramidMade6.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidMade6.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade6.TabIndex = 220;
             this.lblTeleOpPyramidMade6.Text = "00";
             this.lblTeleOpPyramidMade6.Visible = false;
@@ -678,11 +678,11 @@
             // lblTeleOp6
             // 
             this.lblTeleOp6.AutoSize = true;
-            this.lblTeleOp6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp6.ForeColor = System.Drawing.Color.Black;
+            this.lblTeleOp6.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOp6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp6.Location = new System.Drawing.Point(15, 59);
             this.lblTeleOp6.Name = "lblTeleOp6";
-            this.lblTeleOp6.Size = new System.Drawing.Size(251, 42);
+            this.lblTeleOp6.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp6.TabIndex = 177;
             this.lblTeleOp6.Text = "Teleoperated";
             this.lblTeleOp6.Visible = false;
@@ -690,29 +690,30 @@
             // lblAuto6
             // 
             this.lblAuto6.AutoSize = true;
-            this.lblAuto6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto6.ForeColor = System.Drawing.Color.Black;
+            this.lblAuto6.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuto6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblAuto6.Location = new System.Drawing.Point(15, 53);
             this.lblAuto6.Name = "lblAuto6";
-            this.lblAuto6.Size = new System.Drawing.Size(228, 42);
+            this.lblAuto6.Size = new System.Drawing.Size(209, 45);
             this.lblAuto6.TabIndex = 176;
             this.lblAuto6.Text = "Autonomous";
             // 
             // lblAutoTeamNo6
             // 
-            this.lblAutoTeamNo6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoTeamNo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoTeamNo6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo6.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.lblAutoTeamNo6.Location = new System.Drawing.Point(272, 9);
             this.lblAutoTeamNo6.Name = "lblAutoTeamNo6";
             this.lblAutoTeamNo6.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo6.TabIndex = 170;
             this.lblAutoTeamNo6.Text = "Team";
+            this.lblAutoTeamNo6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblScouter6
             // 
             this.lblScouter6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblScouter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScouter6.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter6.Location = new System.Drawing.Point(15, 15);
             this.lblScouter6.Name = "lblScouter6";
@@ -724,7 +725,7 @@
             // label123
             // 
             this.label123.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label123.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label123.Location = new System.Drawing.Point(176, 15);
             this.label123.Name = "label123";
@@ -735,7 +736,7 @@
             // label124
             // 
             this.label124.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label124.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label124.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label124.Location = new System.Drawing.Point(304, 72);
             this.label124.Name = "label124";
@@ -746,7 +747,7 @@
             // lbldisplayButtons6
             // 
             this.lbldisplayButtons6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lbldisplayButtons6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisplayButtons6.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons6.Location = new System.Drawing.Point(350, 72);
             this.lbldisplayButtons6.Name = "lbldisplayButtons6";
@@ -795,7 +796,7 @@
             this.panel3.Controls.Add(this.label13);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.lbldisplayButtons5);
-            this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel3.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel3.Location = new System.Drawing.Point(455, 392);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(448, 343);
@@ -803,18 +804,18 @@
             // 
             // textBoxScout5
             // 
-            this.textBoxScout5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxScout5.ForeColor = System.Drawing.Color.Black;
+            this.textBoxScout5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxScout5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.textBoxScout5.Location = new System.Drawing.Point(15, 12);
             this.textBoxScout5.Name = "textBoxScout5";
-            this.textBoxScout5.Size = new System.Drawing.Size(92, 31);
+            this.textBoxScout5.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout5.TabIndex = 225;
             // 
             // btnScouter5
             // 
             this.btnScouter5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnScouter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScouter5.ForeColor = System.Drawing.Color.Black;
+            this.btnScouter5.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScouter5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.btnScouter5.Location = new System.Drawing.Point(108, 6);
             this.btnScouter5.Name = "btnScouter5";
             this.btnScouter5.Size = new System.Drawing.Size(62, 44);
@@ -827,7 +828,7 @@
             // 
             this.label74.AutoSize = true;
             this.label74.Font = new System.Drawing.Font("Courier New", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.Location = new System.Drawing.Point(301, 306);
+            this.label74.Location = new System.Drawing.Point(318, 308);
             this.label74.Name = "label74";
             this.label74.Size = new System.Drawing.Size(112, 28);
             this.label74.TabIndex = 231;
@@ -837,70 +838,70 @@
             // 
             this.lblDefense5.AutoSize = true;
             this.lblDefense5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblDefense5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefense5.Location = new System.Drawing.Point(249, 303);
+            this.lblDefense5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefense5.Location = new System.Drawing.Point(274, 303);
             this.lblDefense5.Name = "lblDefense5";
-            this.lblDefense5.Size = new System.Drawing.Size(31, 33);
+            this.lblDefense5.Size = new System.Drawing.Size(31, 36);
             this.lblDefense5.TabIndex = 230;
             this.lblDefense5.Text = "0";
             // 
             // lblTotalPoints5
             // 
             this.lblTotalPoints5.AutoSize = true;
-            this.lblTotalPoints5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPoints5.Location = new System.Drawing.Point(382, 267);
             this.lblTotalPoints5.Name = "lblTotalPoints5";
-            this.lblTotalPoints5.Size = new System.Drawing.Size(31, 33);
+            this.lblTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints5.TabIndex = 229;
             this.lblTotalPoints5.Text = "0";
             // 
             // lblTeleOpTotalPoints5
             // 
             this.lblTeleOpTotalPoints5.AutoSize = true;
-            this.lblTeleOpTotalPoints5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints5.Location = new System.Drawing.Point(382, 182);
+            this.lblTeleOpTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpTotalPoints5.Location = new System.Drawing.Point(382, 184);
             this.lblTeleOpTotalPoints5.Name = "lblTeleOpTotalPoints5";
-            this.lblTeleOpTotalPoints5.Size = new System.Drawing.Size(31, 33);
+            this.lblTeleOpTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints5.TabIndex = 228;
             this.lblTeleOpTotalPoints5.Text = "0";
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label56.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label56.Location = new System.Drawing.Point(316, 274);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(60, 25);
+            this.label56.Size = new System.Drawing.Size(55, 26);
             this.label56.TabIndex = 227;
             this.label56.Text = "Total";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(310, 184);
+            this.label54.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(317, 191);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(74, 24);
+            this.label54.Size = new System.Drawing.Size(63, 23);
             this.label54.TabIndex = 226;
             this.label54.Text = "TeleOp";
             // 
             // lblAutoTotalPoints5
             // 
             this.lblAutoTotalPoints5.AutoSize = true;
-            this.lblAutoTotalPoints5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTotalPoints5.Location = new System.Drawing.Point(382, 107);
             this.lblAutoTotalPoints5.Name = "lblAutoTotalPoints5";
-            this.lblAutoTotalPoints5.Size = new System.Drawing.Size(31, 33);
+            this.lblAutoTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints5.TabIndex = 221;
             this.lblAutoTotalPoints5.Text = "0";
             // 
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label49.Location = new System.Drawing.Point(320, 113);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(56, 25);
+            this.label49.Size = new System.Drawing.Size(50, 26);
             this.label49.TabIndex = 196;
             this.label49.Text = "Auto";
             // 
@@ -908,11 +909,11 @@
             // 
             this.lblAutoLowMade5.AutoSize = true;
             this.lblAutoLowMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade5.Location = new System.Drawing.Point(182, 260);
             this.lblAutoLowMade5.Name = "lblAutoLowMade5";
-            this.lblAutoLowMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowMade5.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowMade5.TabIndex = 225;
             this.lblAutoLowMade5.Text = "00";
             // 
@@ -920,11 +921,11 @@
             // 
             this.lblAutoLowAtt5.AutoSize = true;
             this.lblAutoLowAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt5.Location = new System.Drawing.Point(259, 258);
             this.lblAutoLowAtt5.Name = "lblAutoLowAtt5";
-            this.lblAutoLowAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowAtt5.TabIndex = 224;
             this.lblAutoLowAtt5.Text = "00";
             // 
@@ -932,11 +933,11 @@
             // 
             this.lblAutoMidAtt5.AutoSize = true;
             this.lblAutoMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt5.Location = new System.Drawing.Point(259, 206);
             this.lblAutoMidAtt5.Name = "lblAutoMidAtt5";
-            this.lblAutoMidAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidAtt5.TabIndex = 223;
             this.lblAutoMidAtt5.Text = "00";
             // 
@@ -944,11 +945,11 @@
             // 
             this.lblAutoMidMade5.AutoSize = true;
             this.lblAutoMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade5.Location = new System.Drawing.Point(182, 208);
             this.lblAutoMidMade5.Name = "lblAutoMidMade5";
-            this.lblAutoMidMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidMade5.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidMade5.TabIndex = 222;
             this.lblAutoMidMade5.Text = "00";
             // 
@@ -956,11 +957,11 @@
             // 
             this.lblAutoHighAtt5.AutoSize = true;
             this.lblAutoHighAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt5.Location = new System.Drawing.Point(259, 153);
             this.lblAutoHighAtt5.Name = "lblAutoHighAtt5";
-            this.lblAutoHighAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighAtt5.TabIndex = 221;
             this.lblAutoHighAtt5.Text = "00";
             // 
@@ -968,18 +969,18 @@
             // 
             this.lblAutoHighMade5.AutoSize = true;
             this.lblAutoHighMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade5.Location = new System.Drawing.Point(182, 151);
             this.lblAutoHighMade5.Name = "lblAutoHighMade5";
-            this.lblAutoHighMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighMade5.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighMade5.TabIndex = 220;
             this.lblAutoHighMade5.Text = "00";
             // 
             // lblRobotClimb5
             // 
             this.lblRobotClimb5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotClimb5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb5.Location = new System.Drawing.Point(182, 301);
             this.lblRobotClimb5.Name = "lblRobotClimb5";
@@ -992,11 +993,11 @@
             // 
             this.lblTeleOpPyramidAtt5.AutoSize = true;
             this.lblTeleOpPyramidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt5.Location = new System.Drawing.Point(259, 101);
             this.lblTeleOpPyramidAtt5.Name = "lblTeleOpPyramidAtt5";
-            this.lblTeleOpPyramidAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidAtt5.TabIndex = 219;
             this.lblTeleOpPyramidAtt5.Text = "00";
             this.lblTeleOpPyramidAtt5.Visible = false;
@@ -1005,11 +1006,11 @@
             // 
             this.lblTeleOpMidMade5.AutoSize = true;
             this.lblTeleOpMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade5.Location = new System.Drawing.Point(182, 208);
             this.lblTeleOpMidMade5.Name = "lblTeleOpMidMade5";
-            this.lblTeleOpMidMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidMade5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidMade5.TabIndex = 218;
             this.lblTeleOpMidMade5.Text = "00";
             this.lblTeleOpMidMade5.Visible = false;
@@ -1018,11 +1019,11 @@
             // 
             this.lblTeleOpLowMade5.AutoSize = true;
             this.lblTeleOpLowMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade5.Location = new System.Drawing.Point(182, 260);
             this.lblTeleOpLowMade5.Name = "lblTeleOpLowMade5";
-            this.lblTeleOpLowMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowMade5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowMade5.TabIndex = 217;
             this.lblTeleOpLowMade5.Text = "00";
             this.lblTeleOpLowMade5.Visible = false;
@@ -1031,11 +1032,11 @@
             // 
             this.lblTeleOpLowAtt5.AutoSize = true;
             this.lblTeleOpLowAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt5.Location = new System.Drawing.Point(259, 260);
             this.lblTeleOpLowAtt5.Name = "lblTeleOpLowAtt5";
-            this.lblTeleOpLowAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowAtt5.TabIndex = 216;
             this.lblTeleOpLowAtt5.Text = "00";
             this.lblTeleOpLowAtt5.Visible = false;
@@ -1044,11 +1045,11 @@
             // 
             this.lblTeleOpHighAtt5.AutoSize = true;
             this.lblTeleOpHighAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt5.Location = new System.Drawing.Point(259, 153);
             this.lblTeleOpHighAtt5.Name = "lblTeleOpHighAtt5";
-            this.lblTeleOpHighAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighAtt5.TabIndex = 214;
             this.lblTeleOpHighAtt5.Text = "00";
             this.lblTeleOpHighAtt5.Visible = false;
@@ -1057,11 +1058,11 @@
             // 
             this.lblTeleOpMidAtt5.AutoSize = true;
             this.lblTeleOpMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt5.Location = new System.Drawing.Point(259, 206);
             this.lblTeleOpMidAtt5.Name = "lblTeleOpMidAtt5";
-            this.lblTeleOpMidAtt5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidAtt5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidAtt5.TabIndex = 213;
             this.lblTeleOpMidAtt5.Text = "00";
             this.lblTeleOpMidAtt5.Visible = false;
@@ -1070,11 +1071,11 @@
             // 
             this.lblTeleOpHighMade5.AutoSize = true;
             this.lblTeleOpHighMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade5.Location = new System.Drawing.Point(182, 151);
             this.lblTeleOpHighMade5.Name = "lblTeleOpHighMade5";
-            this.lblTeleOpHighMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighMade5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighMade5.TabIndex = 212;
             this.lblTeleOpHighMade5.Text = "00";
             this.lblTeleOpHighMade5.Visible = false;
@@ -1082,50 +1083,50 @@
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label44.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.Location = new System.Drawing.Point(8, 308);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(129, 25);
+            this.label44.Size = new System.Drawing.Size(114, 26);
             this.label44.TabIndex = 210;
             this.label44.Text = "Robot Climb";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label43.Location = new System.Drawing.Point(10, 274);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(129, 25);
+            this.label43.Size = new System.Drawing.Size(112, 26);
             this.label43.TabIndex = 210;
             this.label43.Text = "Low Frisbee";
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label41.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label41.Location = new System.Drawing.Point(10, 165);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(125, 25);
+            this.label41.Size = new System.Drawing.Size(110, 26);
             this.label41.TabIndex = 210;
             this.label41.Text = "Scored Low";
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label42.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label42.Location = new System.Drawing.Point(10, 220);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(125, 25);
+            this.label42.Size = new System.Drawing.Size(111, 26);
             this.label42.TabIndex = 211;
             this.label42.Text = "Mid Frisbee";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(8, 107);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(130, 25);
+            this.label40.Size = new System.Drawing.Size(117, 26);
             this.label40.TabIndex = 210;
             this.label40.Text = "Scored High";
             // 
@@ -1133,11 +1134,11 @@
             // 
             this.lblTeleOpPyramidMade5.AutoSize = true;
             this.lblTeleOpPyramidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade5.Location = new System.Drawing.Point(182, 101);
             this.lblTeleOpPyramidMade5.Name = "lblTeleOpPyramidMade5";
-            this.lblTeleOpPyramidMade5.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidMade5.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade5.TabIndex = 210;
             this.lblTeleOpPyramidMade5.Text = "00";
             this.lblTeleOpPyramidMade5.Visible = false;
@@ -1145,11 +1146,11 @@
             // lblTeleOp5
             // 
             this.lblTeleOp5.AutoSize = true;
-            this.lblTeleOp5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp5.ForeColor = System.Drawing.Color.Black;
+            this.lblTeleOp5.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOp5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp5.Location = new System.Drawing.Point(13, 53);
             this.lblTeleOp5.Name = "lblTeleOp5";
-            this.lblTeleOp5.Size = new System.Drawing.Size(251, 42);
+            this.lblTeleOp5.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp5.TabIndex = 175;
             this.lblTeleOp5.Text = "Teleoperated";
             this.lblTeleOp5.Visible = false;
@@ -1157,29 +1158,30 @@
             // lblAuto5
             // 
             this.lblAuto5.AutoSize = true;
-            this.lblAuto5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto5.ForeColor = System.Drawing.Color.Black;
+            this.lblAuto5.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuto5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblAuto5.Location = new System.Drawing.Point(13, 53);
             this.lblAuto5.Name = "lblAuto5";
-            this.lblAuto5.Size = new System.Drawing.Size(228, 42);
+            this.lblAuto5.Size = new System.Drawing.Size(209, 45);
             this.lblAuto5.TabIndex = 176;
             this.lblAuto5.Text = "Autonomous";
             // 
             // lblAutoTeamNo5
             // 
-            this.lblAutoTeamNo5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoTeamNo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoTeamNo5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo5.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.lblAutoTeamNo5.Location = new System.Drawing.Point(272, 9);
             this.lblAutoTeamNo5.Name = "lblAutoTeamNo5";
             this.lblAutoTeamNo5.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo5.TabIndex = 170;
             this.lblAutoTeamNo5.Text = "Team";
+            this.lblAutoTeamNo5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblScouter5
             // 
             this.lblScouter5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblScouter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScouter5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter5.Location = new System.Drawing.Point(15, 15);
             this.lblScouter5.Name = "lblScouter5";
@@ -1191,7 +1193,7 @@
             // label12
             // 
             this.label12.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label12.Location = new System.Drawing.Point(176, 15);
             this.label12.Name = "label12";
@@ -1202,7 +1204,7 @@
             // label13
             // 
             this.label13.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label13.Location = new System.Drawing.Point(304, 72);
             this.label13.Name = "label13";
@@ -1225,7 +1227,7 @@
             // lbldisplayButtons5
             // 
             this.lbldisplayButtons5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lbldisplayButtons5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisplayButtons5.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons5.Location = new System.Drawing.Point(350, 72);
             this.lbldisplayButtons5.Name = "lbldisplayButtons5";
@@ -1282,8 +1284,8 @@
             // btnScouter2
             // 
             this.btnScouter2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnScouter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScouter2.ForeColor = System.Drawing.Color.Black;
+            this.btnScouter2.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScouter2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.btnScouter2.Location = new System.Drawing.Point(114, 8);
             this.btnScouter2.Name = "btnScouter2";
             this.btnScouter2.Size = new System.Drawing.Size(62, 44);
@@ -1294,21 +1296,21 @@
             // 
             // textBoxScout2
             // 
-            this.textBoxScout2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxScout2.ForeColor = System.Drawing.Color.Black;
-            this.textBoxScout2.Location = new System.Drawing.Point(13, 15);
+            this.textBoxScout2.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxScout2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.textBoxScout2.Location = new System.Drawing.Point(14, 12);
             this.textBoxScout2.Name = "textBoxScout2";
-            this.textBoxScout2.Size = new System.Drawing.Size(92, 31);
+            this.textBoxScout2.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout2.TabIndex = 221;
             // 
             // lblDefense2
             // 
             this.lblDefense2.AutoSize = true;
             this.lblDefense2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblDefense2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefense2.Location = new System.Drawing.Point(236, 307);
+            this.lblDefense2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefense2.Location = new System.Drawing.Point(261, 306);
             this.lblDefense2.Name = "lblDefense2";
-            this.lblDefense2.Size = new System.Drawing.Size(31, 33);
+            this.lblDefense2.Size = new System.Drawing.Size(31, 36);
             this.lblDefense2.TabIndex = 213;
             this.lblDefense2.Text = "0";
             // 
@@ -1326,11 +1328,11 @@
             // 
             this.lblAutoHighAtt2.AutoSize = true;
             this.lblAutoHighAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt2.Location = new System.Drawing.Point(248, 156);
             this.lblAutoHighAtt2.Name = "lblAutoHighAtt2";
-            this.lblAutoHighAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighAtt2.TabIndex = 210;
             this.lblAutoHighAtt2.Text = "00";
             // 
@@ -1338,11 +1340,11 @@
             // 
             this.lblAutoMidMade2.AutoSize = true;
             this.lblAutoMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade2.Location = new System.Drawing.Point(174, 209);
             this.lblAutoMidMade2.Name = "lblAutoMidMade2";
-            this.lblAutoMidMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidMade2.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidMade2.TabIndex = 209;
             this.lblAutoMidMade2.Text = "00";
             // 
@@ -1350,11 +1352,11 @@
             // 
             this.lblAutoMidAtt2.AutoSize = true;
             this.lblAutoMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt2.Location = new System.Drawing.Point(248, 210);
             this.lblAutoMidAtt2.Name = "lblAutoMidAtt2";
-            this.lblAutoMidAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidAtt2.TabIndex = 208;
             this.lblAutoMidAtt2.Text = "00";
             // 
@@ -1362,11 +1364,11 @@
             // 
             this.lblAutoLowMade2.AutoSize = true;
             this.lblAutoLowMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade2.Location = new System.Drawing.Point(174, 265);
             this.lblAutoLowMade2.Name = "lblAutoLowMade2";
-            this.lblAutoLowMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowMade2.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowMade2.TabIndex = 207;
             this.lblAutoLowMade2.Text = "00";
             // 
@@ -1374,11 +1376,11 @@
             // 
             this.lblAutoLowAtt2.AutoSize = true;
             this.lblAutoLowAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt2.Location = new System.Drawing.Point(248, 265);
             this.lblAutoLowAtt2.Name = "lblAutoLowAtt2";
-            this.lblAutoLowAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowAtt2.TabIndex = 206;
             this.lblAutoLowAtt2.Text = "00";
             // 
@@ -1386,78 +1388,78 @@
             // 
             this.lblAutoHighMade2.AutoSize = true;
             this.lblAutoHighMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade2.Location = new System.Drawing.Point(174, 156);
             this.lblAutoHighMade2.Name = "lblAutoHighMade2";
-            this.lblAutoHighMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighMade2.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighMade2.TabIndex = 205;
             this.lblAutoHighMade2.Text = "00";
             // 
             // lblAutoTotalPoints2
             // 
             this.lblAutoTotalPoints2.AutoSize = true;
-            this.lblAutoTotalPoints2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTotalPoints2.Location = new System.Drawing.Point(375, 114);
             this.lblAutoTotalPoints2.Name = "lblAutoTotalPoints2";
-            this.lblAutoTotalPoints2.Size = new System.Drawing.Size(31, 33);
+            this.lblAutoTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints2.TabIndex = 204;
             this.lblAutoTotalPoints2.Text = "0";
             // 
             // lblTeleOpTotalPoints2
             // 
             this.lblTeleOpTotalPoints2.AutoSize = true;
-            this.lblTeleOpTotalPoints2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(375, 189);
             this.lblTeleOpTotalPoints2.Name = "lblTeleOpTotalPoints2";
-            this.lblTeleOpTotalPoints2.Size = new System.Drawing.Size(31, 33);
+            this.lblTeleOpTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints2.TabIndex = 203;
             this.lblTeleOpTotalPoints2.Text = "0";
             // 
             // lblTotalPoints2
             // 
             this.lblTotalPoints2.AutoSize = true;
-            this.lblTotalPoints2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPoints2.Location = new System.Drawing.Point(375, 271);
             this.lblTotalPoints2.Name = "lblTotalPoints2";
-            this.lblTotalPoints2.Size = new System.Drawing.Size(31, 33);
+            this.lblTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints2.TabIndex = 195;
             this.lblTotalPoints2.Text = "0";
             // 
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label28.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(309, 274);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(60, 25);
+            this.label28.Size = new System.Drawing.Size(55, 26);
             this.label28.TabIndex = 195;
             this.label28.Text = "Total";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(294, 189);
+            this.label27.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Location = new System.Drawing.Point(303, 194);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(82, 25);
+            this.label27.Size = new System.Drawing.Size(70, 26);
             this.label27.TabIndex = 195;
             this.label27.Text = "TeleOp";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(309, 115);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(56, 25);
+            this.label15.Size = new System.Drawing.Size(50, 26);
             this.label15.TabIndex = 195;
             this.label15.Text = "Auto";
             // 
             // lblRobotClimb2
             // 
             this.lblRobotClimb2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotClimb2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb2.Location = new System.Drawing.Point(174, 304);
             this.lblRobotClimb2.Name = "lblRobotClimb2";
@@ -1470,11 +1472,11 @@
             // 
             this.lblTeleOpPyramidAtt2.AutoSize = true;
             this.lblTeleOpPyramidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt2.Location = new System.Drawing.Point(248, 103);
             this.lblTeleOpPyramidAtt2.Name = "lblTeleOpPyramidAtt2";
-            this.lblTeleOpPyramidAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidAtt2.TabIndex = 202;
             this.lblTeleOpPyramidAtt2.Text = "00";
             this.lblTeleOpPyramidAtt2.Visible = false;
@@ -1483,11 +1485,11 @@
             // 
             this.lblTeleOpLowMade2.AutoSize = true;
             this.lblTeleOpLowMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade2.Location = new System.Drawing.Point(174, 263);
             this.lblTeleOpLowMade2.Name = "lblTeleOpLowMade2";
-            this.lblTeleOpLowMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowMade2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowMade2.TabIndex = 201;
             this.lblTeleOpLowMade2.Text = "00";
             this.lblTeleOpLowMade2.Visible = false;
@@ -1496,11 +1498,11 @@
             // 
             this.lblTeleOpLowAtt2.AutoSize = true;
             this.lblTeleOpLowAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt2.Location = new System.Drawing.Point(248, 263);
             this.lblTeleOpLowAtt2.Name = "lblTeleOpLowAtt2";
-            this.lblTeleOpLowAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowAtt2.TabIndex = 200;
             this.lblTeleOpLowAtt2.Text = "00";
             this.lblTeleOpLowAtt2.Visible = false;
@@ -1509,11 +1511,11 @@
             // 
             this.lblTeleOpMidMade2.AutoSize = true;
             this.lblTeleOpMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade2.Location = new System.Drawing.Point(174, 210);
             this.lblTeleOpMidMade2.Name = "lblTeleOpMidMade2";
-            this.lblTeleOpMidMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidMade2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidMade2.TabIndex = 199;
             this.lblTeleOpMidMade2.Text = "00";
             this.lblTeleOpMidMade2.Visible = false;
@@ -1522,11 +1524,11 @@
             // 
             this.lblTeleOpHighAtt2.AutoSize = true;
             this.lblTeleOpHighAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt2.Location = new System.Drawing.Point(248, 156);
             this.lblTeleOpHighAtt2.Name = "lblTeleOpHighAtt2";
-            this.lblTeleOpHighAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighAtt2.TabIndex = 198;
             this.lblTeleOpHighAtt2.Text = "00";
             this.lblTeleOpHighAtt2.Visible = false;
@@ -1535,11 +1537,11 @@
             // 
             this.lblTeleOpMidAtt2.AutoSize = true;
             this.lblTeleOpMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt2.Location = new System.Drawing.Point(248, 210);
             this.lblTeleOpMidAtt2.Name = "lblTeleOpMidAtt2";
-            this.lblTeleOpMidAtt2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidAtt2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidAtt2.TabIndex = 197;
             this.lblTeleOpMidAtt2.Text = "00";
             this.lblTeleOpMidAtt2.Visible = false;
@@ -1548,11 +1550,11 @@
             // 
             this.lblTeleOpHighMade2.AutoSize = true;
             this.lblTeleOpHighMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade2.Location = new System.Drawing.Point(174, 156);
             this.lblTeleOpHighMade2.Name = "lblTeleOpHighMade2";
-            this.lblTeleOpHighMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighMade2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighMade2.TabIndex = 196;
             this.lblTeleOpHighMade2.Text = "00";
             this.lblTeleOpHighMade2.Visible = false;
@@ -1561,11 +1563,11 @@
             // 
             this.lblTeleOpPyramidMade2.AutoSize = true;
             this.lblTeleOpPyramidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade2.Location = new System.Drawing.Point(172, 103);
             this.lblTeleOpPyramidMade2.Name = "lblTeleOpPyramidMade2";
-            this.lblTeleOpPyramidMade2.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidMade2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade2.TabIndex = 195;
             this.lblTeleOpPyramidMade2.Text = "00";
             this.lblTeleOpPyramidMade2.Visible = false;
@@ -1573,50 +1575,50 @@
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label23.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label23.Location = new System.Drawing.Point(0, 315);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(129, 25);
+            this.label23.Size = new System.Drawing.Size(114, 26);
             this.label23.TabIndex = 195;
             this.label23.Text = "Robot Climb";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(1, 274);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(129, 25);
+            this.label22.Size = new System.Drawing.Size(112, 26);
             this.label22.TabIndex = 195;
             this.label22.Text = "Low Frisbee";
             // 
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(0, 222);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(125, 25);
+            this.label21.Size = new System.Drawing.Size(111, 26);
             this.label21.TabIndex = 195;
             this.label21.Text = "Mid Frisbee";
             // 
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(1, 168);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(125, 25);
+            this.label20.Size = new System.Drawing.Size(110, 26);
             this.label20.TabIndex = 195;
             this.label20.Text = "Scored Low";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(0, 113);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(130, 25);
+            this.label7.Size = new System.Drawing.Size(117, 26);
             this.label7.TabIndex = 195;
             this.label7.Text = "Scored High";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -1624,11 +1626,11 @@
             // lblTeleOp2
             // 
             this.lblTeleOp2.AutoSize = true;
-            this.lblTeleOp2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp2.ForeColor = System.Drawing.Color.Black;
+            this.lblTeleOp2.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOp2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp2.Location = new System.Drawing.Point(6, 58);
             this.lblTeleOp2.Name = "lblTeleOp2";
-            this.lblTeleOp2.Size = new System.Drawing.Size(251, 42);
+            this.lblTeleOp2.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp2.TabIndex = 173;
             this.lblTeleOp2.Text = "Teleoperated";
             this.lblTeleOp2.Visible = false;
@@ -1636,29 +1638,31 @@
             // lblAuto2
             // 
             this.lblAuto2.AutoSize = true;
-            this.lblAuto2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto2.ForeColor = System.Drawing.Color.Black;
+            this.lblAuto2.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuto2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblAuto2.Location = new System.Drawing.Point(-1, 59);
             this.lblAuto2.Name = "lblAuto2";
-            this.lblAuto2.Size = new System.Drawing.Size(228, 42);
+            this.lblAuto2.Size = new System.Drawing.Size(209, 45);
             this.lblAuto2.TabIndex = 174;
             this.lblAuto2.Text = "Autonomous";
             // 
             // lblAutoTeamNo2
             // 
-            this.lblAutoTeamNo2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoTeamNo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoTeamNo2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo2.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.lblAutoTeamNo2.Location = new System.Drawing.Point(272, 9);
             this.lblAutoTeamNo2.Name = "lblAutoTeamNo2";
             this.lblAutoTeamNo2.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo2.TabIndex = 169;
             this.lblAutoTeamNo2.Text = "Team";
+            this.lblAutoTeamNo2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAutoTeamNo2.Click += new System.EventHandler(this.lblAutoTeamNo2_Click);
             // 
             // lblScouter2
             // 
             this.lblScouter2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblScouter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScouter2.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter2.Location = new System.Drawing.Point(15, 15);
             this.lblScouter2.Name = "lblScouter2";
@@ -1670,9 +1674,9 @@
             // label98
             // 
             this.label98.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label98.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label98.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label98.Location = new System.Drawing.Point(176, 15);
+            this.label98.Location = new System.Drawing.Point(181, 18);
             this.label98.Name = "label98";
             this.label98.Size = new System.Drawing.Size(86, 28);
             this.label98.TabIndex = 167;
@@ -1681,7 +1685,7 @@
             // label99
             // 
             this.label99.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label99.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label99.Location = new System.Drawing.Point(304, 72);
             this.label99.Name = "label99";
@@ -1692,7 +1696,7 @@
             // lbldisplayButtons2
             // 
             this.lbldisplayButtons2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lbldisplayButtons2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisplayButtons2.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons2.Location = new System.Drawing.Point(350, 72);
             this.lbldisplayButtons2.Name = "lbldisplayButtons2";
@@ -1702,9 +1706,9 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.LawnGreen;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.button1.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.button1.Location = new System.Drawing.Point(956, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(191, 44);
@@ -1715,33 +1719,33 @@
             // 
             // lblmatch
             // 
-            this.lblmatch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.lblmatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblmatch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.lblmatch.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(161)));
             this.lblmatch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblmatch.Location = new System.Drawing.Point(125, 9);
+            this.lblmatch.Location = new System.Drawing.Point(125, 6);
             this.lblmatch.Name = "lblmatch";
-            this.lblmatch.Size = new System.Drawing.Size(80, 34);
+            this.lblmatch.Size = new System.Drawing.Size(47, 34);
             this.lblmatch.TabIndex = 140;
             this.lblmatch.Text = "1";
             // 
             // lblTime
             // 
-            this.lblTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.lblTime.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTime.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTime.Location = new System.Drawing.Point(168, 10);
+            this.lblTime.Location = new System.Drawing.Point(168, 4);
             this.lblTime.Name = "lblTime";
-            this.lblTime.Size = new System.Drawing.Size(188, 34);
+            this.lblTime.Size = new System.Drawing.Size(188, 42);
             this.lblTime.TabIndex = 141;
             this.lblTime.Text = "Time";
             this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // lblEvent
             // 
-            this.lblEvent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.lblEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEvent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.lblEvent.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEvent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblEvent.Location = new System.Drawing.Point(340, 9);
+            this.lblEvent.Location = new System.Drawing.Point(349, 6);
             this.lblEvent.Name = "lblEvent";
             this.lblEvent.Size = new System.Drawing.Size(450, 40);
             this.lblEvent.TabIndex = 143;
@@ -1800,7 +1804,7 @@
             // lbldisplayButtons3
             // 
             this.lbldisplayButtons3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lbldisplayButtons3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisplayButtons3.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons3.Location = new System.Drawing.Point(350, 72);
             this.lbldisplayButtons3.Name = "lbldisplayButtons3";
@@ -1811,7 +1815,7 @@
             // label47
             // 
             this.label47.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label47.Location = new System.Drawing.Point(304, 72);
             this.label47.Name = "label47";
@@ -1822,7 +1826,7 @@
             // label46
             // 
             this.label46.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label46.Location = new System.Drawing.Point(176, 15);
             this.label46.Name = "label46";
@@ -1833,7 +1837,7 @@
             // lblScouter3
             // 
             this.lblScouter3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblScouter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScouter3.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter3.Location = new System.Drawing.Point(15, 15);
             this.lblScouter3.Name = "lblScouter3";
@@ -1844,14 +1848,15 @@
             // 
             // lblAutoTeamNo3
             // 
-            this.lblAutoTeamNo3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoTeamNo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoTeamNo3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo3.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.lblAutoTeamNo3.Location = new System.Drawing.Point(272, 9);
             this.lblAutoTeamNo3.Name = "lblAutoTeamNo3";
             this.lblAutoTeamNo3.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo3.TabIndex = 170;
             this.lblAutoTeamNo3.Text = "Team";
+            this.lblAutoTeamNo3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel56
             // 
@@ -1897,7 +1902,7 @@
             this.panel56.Controls.Add(this.label3);
             this.panel56.Controls.Add(this.label2);
             this.panel56.Controls.Add(this.label1);
-            this.panel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel56.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel56.Location = new System.Drawing.Point(901, 49);
             this.panel56.Name = "panel56";
             this.panel56.Size = new System.Drawing.Size(443, 343);
@@ -1906,8 +1911,8 @@
             // btnScouter3
             // 
             this.btnScouter3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnScouter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScouter3.ForeColor = System.Drawing.Color.Black;
+            this.btnScouter3.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScouter3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.btnScouter3.Location = new System.Drawing.Point(113, 9);
             this.btnScouter3.Name = "btnScouter3";
             this.btnScouter3.Size = new System.Drawing.Size(62, 44);
@@ -1918,11 +1923,11 @@
             // 
             // textBoxScout3
             // 
-            this.textBoxScout3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxScout3.ForeColor = System.Drawing.Color.Black;
+            this.textBoxScout3.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxScout3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.textBoxScout3.Location = new System.Drawing.Point(15, 15);
             this.textBoxScout3.Name = "textBoxScout3";
-            this.textBoxScout3.Size = new System.Drawing.Size(92, 31);
+            this.textBoxScout3.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout3.TabIndex = 222;
             // 
             // label72
@@ -1939,70 +1944,70 @@
             // 
             this.lblDefense3.AutoSize = true;
             this.lblDefense3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblDefense3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefense3.Location = new System.Drawing.Point(238, 306);
+            this.lblDefense3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefense3.Location = new System.Drawing.Point(264, 304);
             this.lblDefense3.Name = "lblDefense3";
-            this.lblDefense3.Size = new System.Drawing.Size(31, 33);
+            this.lblDefense3.Size = new System.Drawing.Size(31, 36);
             this.lblDefense3.TabIndex = 218;
             this.lblDefense3.Text = "0";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(312, 271);
+            this.label51.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(313, 276);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(60, 25);
+            this.label51.Size = new System.Drawing.Size(55, 26);
             this.label51.TabIndex = 211;
             this.label51.Text = "Total";
             // 
             // lblTotalPoints3
             // 
             this.lblTotalPoints3.AutoSize = true;
-            this.lblTotalPoints3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPoints3.Location = new System.Drawing.Point(374, 267);
             this.lblTotalPoints3.Name = "lblTotalPoints3";
-            this.lblTotalPoints3.Size = new System.Drawing.Size(31, 33);
+            this.lblTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints3.TabIndex = 217;
             this.lblTotalPoints3.Text = "0";
             // 
             // lblTeleOpTotalPoints3
             // 
             this.lblTeleOpTotalPoints3.AutoSize = true;
-            this.lblTeleOpTotalPoints3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpTotalPoints3.Location = new System.Drawing.Point(374, 184);
             this.lblTeleOpTotalPoints3.Name = "lblTeleOpTotalPoints3";
-            this.lblTeleOpTotalPoints3.Size = new System.Drawing.Size(31, 33);
+            this.lblTeleOpTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints3.TabIndex = 216;
             this.lblTeleOpTotalPoints3.Text = "0";
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(303, 189);
+            this.label48.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(312, 192);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(74, 24);
+            this.label48.Size = new System.Drawing.Size(63, 23);
             this.label48.TabIndex = 211;
             this.label48.Text = "TeleOp";
             // 
             // lblAutoTotalPoints3
             // 
             this.lblAutoTotalPoints3.AutoSize = true;
-            this.lblAutoTotalPoints3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTotalPoints3.Location = new System.Drawing.Point(374, 115);
             this.lblAutoTotalPoints3.Name = "lblAutoTotalPoints3";
-            this.lblAutoTotalPoints3.Size = new System.Drawing.Size(31, 33);
+            this.lblAutoTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints3.TabIndex = 211;
             this.lblAutoTotalPoints3.Text = "0";
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(303, 116);
+            this.label29.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Location = new System.Drawing.Point(317, 122);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(56, 25);
+            this.label29.Size = new System.Drawing.Size(50, 26);
             this.label29.TabIndex = 211;
             this.label29.Text = "Auto";
             // 
@@ -2010,11 +2015,11 @@
             // 
             this.lblAutoMidAtt3.AutoSize = true;
             this.lblAutoMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt3.Location = new System.Drawing.Point(251, 204);
             this.lblAutoMidAtt3.Name = "lblAutoMidAtt3";
-            this.lblAutoMidAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidAtt3.TabIndex = 215;
             this.lblAutoMidAtt3.Text = "00";
             // 
@@ -2022,11 +2027,11 @@
             // 
             this.lblAutoMidMade3.AutoSize = true;
             this.lblAutoMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade3.Location = new System.Drawing.Point(177, 207);
             this.lblAutoMidMade3.Name = "lblAutoMidMade3";
-            this.lblAutoMidMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidMade3.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidMade3.TabIndex = 214;
             this.lblAutoMidMade3.Text = "00";
             // 
@@ -2034,11 +2039,11 @@
             // 
             this.lblAutoHighAtt3.AutoSize = true;
             this.lblAutoHighAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt3.Location = new System.Drawing.Point(251, 156);
             this.lblAutoHighAtt3.Name = "lblAutoHighAtt3";
-            this.lblAutoHighAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighAtt3.TabIndex = 213;
             this.lblAutoHighAtt3.Text = "00";
             // 
@@ -2046,11 +2051,11 @@
             // 
             this.lblTeleOpLowAtt3.AutoSize = true;
             this.lblTeleOpLowAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt3.Location = new System.Drawing.Point(251, 262);
             this.lblTeleOpLowAtt3.Name = "lblTeleOpLowAtt3";
-            this.lblTeleOpLowAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowAtt3.TabIndex = 212;
             this.lblTeleOpLowAtt3.Text = "00";
             this.lblTeleOpLowAtt3.Visible = false;
@@ -2059,11 +2064,11 @@
             // 
             this.lblAutoLowMade3.AutoSize = true;
             this.lblAutoLowMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade3.Location = new System.Drawing.Point(177, 260);
             this.lblAutoLowMade3.Name = "lblAutoLowMade3";
-            this.lblAutoLowMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowMade3.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowMade3.TabIndex = 211;
             this.lblAutoLowMade3.Text = "00";
             // 
@@ -2071,11 +2076,11 @@
             // 
             this.lblAutoHighMade3.AutoSize = true;
             this.lblAutoHighMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade3.Location = new System.Drawing.Point(177, 156);
             this.lblAutoHighMade3.Name = "lblAutoHighMade3";
-            this.lblAutoHighMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighMade3.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighMade3.TabIndex = 210;
             this.lblAutoHighMade3.Text = "00";
             // 
@@ -2083,11 +2088,11 @@
             // 
             this.lblAutoLowAtt3.AutoSize = true;
             this.lblAutoLowAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt3.Location = new System.Drawing.Point(251, 261);
             this.lblAutoLowAtt3.Name = "lblAutoLowAtt3";
-            this.lblAutoLowAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowAtt3.TabIndex = 209;
             this.lblAutoLowAtt3.Text = "00";
             // 
@@ -2095,11 +2100,11 @@
             // 
             this.lblTeleOpMidAtt3.AutoSize = true;
             this.lblTeleOpMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt3.Location = new System.Drawing.Point(251, 207);
             this.lblTeleOpMidAtt3.Name = "lblTeleOpMidAtt3";
-            this.lblTeleOpMidAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidAtt3.TabIndex = 208;
             this.lblTeleOpMidAtt3.Text = "00";
             this.lblTeleOpMidAtt3.Visible = false;
@@ -2108,11 +2113,11 @@
             // 
             this.lblTeleOpHighAtt3.AutoSize = true;
             this.lblTeleOpHighAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt3.Location = new System.Drawing.Point(251, 156);
             this.lblTeleOpHighAtt3.Name = "lblTeleOpHighAtt3";
-            this.lblTeleOpHighAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighAtt3.TabIndex = 207;
             this.lblTeleOpHighAtt3.Text = "00";
             this.lblTeleOpHighAtt3.Visible = false;
@@ -2121,11 +2126,11 @@
             // 
             this.lblTeleOpPyramidAtt3.AutoSize = true;
             this.lblTeleOpPyramidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt3.Location = new System.Drawing.Point(251, 103);
             this.lblTeleOpPyramidAtt3.Name = "lblTeleOpPyramidAtt3";
-            this.lblTeleOpPyramidAtt3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidAtt3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidAtt3.TabIndex = 206;
             this.lblTeleOpPyramidAtt3.Text = "00";
             this.lblTeleOpPyramidAtt3.Visible = false;
@@ -2133,7 +2138,7 @@
             // lblRobotClimb3
             // 
             this.lblRobotClimb3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotClimb3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb3.Location = new System.Drawing.Point(177, 301);
             this.lblRobotClimb3.Name = "lblRobotClimb3";
@@ -2146,11 +2151,11 @@
             // 
             this.lblTeleOpLowMade3.AutoSize = true;
             this.lblTeleOpLowMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade3.Location = new System.Drawing.Point(177, 260);
             this.lblTeleOpLowMade3.Name = "lblTeleOpLowMade3";
-            this.lblTeleOpLowMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowMade3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowMade3.TabIndex = 205;
             this.lblTeleOpLowMade3.Text = "00";
             this.lblTeleOpLowMade3.Visible = false;
@@ -2159,11 +2164,11 @@
             // 
             this.lblTeleOpMidMade3.AutoSize = true;
             this.lblTeleOpMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade3.Location = new System.Drawing.Point(177, 207);
             this.lblTeleOpMidMade3.Name = "lblTeleOpMidMade3";
-            this.lblTeleOpMidMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidMade3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidMade3.TabIndex = 204;
             this.lblTeleOpMidMade3.Text = "00";
             this.lblTeleOpMidMade3.Visible = false;
@@ -2172,11 +2177,11 @@
             // 
             this.lblTeleOpHighMade3.AutoSize = true;
             this.lblTeleOpHighMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade3.Location = new System.Drawing.Point(177, 154);
             this.lblTeleOpHighMade3.Name = "lblTeleOpHighMade3";
-            this.lblTeleOpHighMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighMade3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighMade3.TabIndex = 203;
             this.lblTeleOpHighMade3.Text = "00";
             this.lblTeleOpHighMade3.Visible = false;
@@ -2185,11 +2190,11 @@
             // 
             this.lblTeleOpPyramidMade3.AutoSize = true;
             this.lblTeleOpPyramidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade3.Location = new System.Drawing.Point(177, 103);
             this.lblTeleOpPyramidMade3.Name = "lblTeleOpPyramidMade3";
-            this.lblTeleOpPyramidMade3.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidMade3.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade3.TabIndex = 203;
             this.lblTeleOpPyramidMade3.Text = "00";
             this.lblTeleOpPyramidMade3.Visible = false;
@@ -2197,61 +2202,61 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(3, 315);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(129, 25);
+            this.label34.Size = new System.Drawing.Size(114, 26);
             this.label34.TabIndex = 203;
             this.label34.Text = "Robot Climb";
             // 
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(3, 275);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(129, 25);
+            this.label33.Size = new System.Drawing.Size(112, 26);
             this.label33.TabIndex = 203;
             this.label33.Text = "Low Frisbee";
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(3, 222);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(125, 25);
+            this.label32.Size = new System.Drawing.Size(111, 26);
             this.label32.TabIndex = 203;
             this.label32.Text = "Mid Frisbee";
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(3, 168);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(125, 25);
+            this.label31.Size = new System.Drawing.Size(110, 26);
             this.label31.TabIndex = 203;
             this.label31.Text = "Scored Low";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 113);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(130, 25);
+            this.label24.Size = new System.Drawing.Size(117, 26);
             this.label24.TabIndex = 203;
             this.label24.Text = "Scored High";
             // 
             // lblTeleOp3
             // 
             this.lblTeleOp3.AutoSize = true;
-            this.lblTeleOp3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp3.ForeColor = System.Drawing.Color.Black;
-            this.lblTeleOp3.Location = new System.Drawing.Point(12, 51);
+            this.lblTeleOp3.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOp3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.lblTeleOp3.Location = new System.Drawing.Point(12, 58);
             this.lblTeleOp3.Name = "lblTeleOp3";
-            this.lblTeleOp3.Size = new System.Drawing.Size(251, 42);
+            this.lblTeleOp3.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp3.TabIndex = 175;
             this.lblTeleOp3.Text = "Teleoperated";
             this.lblTeleOp3.Visible = false;
@@ -2259,11 +2264,11 @@
             // lblAuto3
             // 
             this.lblAuto3.AutoSize = true;
-            this.lblAuto3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto3.ForeColor = System.Drawing.Color.Black;
+            this.lblAuto3.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuto3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblAuto3.Location = new System.Drawing.Point(15, 51);
             this.lblAuto3.Name = "lblAuto3";
-            this.lblAuto3.Size = new System.Drawing.Size(228, 42);
+            this.lblAuto3.Size = new System.Drawing.Size(209, 45);
             this.lblAuto3.TabIndex = 176;
             this.lblAuto3.Text = "Autonomous";
             // 
@@ -2271,11 +2276,11 @@
             // 
             this.lblTeleOpHighAtt.AutoSize = true;
             this.lblTeleOpHighAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt.Location = new System.Drawing.Point(250, 156);
             this.lblTeleOpHighAtt.Name = "lblTeleOpHighAtt";
-            this.lblTeleOpHighAtt.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighAtt.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighAtt.TabIndex = 17;
             this.lblTeleOpHighAtt.Text = "00";
             this.lblTeleOpHighAtt.Visible = false;
@@ -2284,11 +2289,11 @@
             // 
             this.lblTeleOpPyramidMade.AutoSize = true;
             this.lblTeleOpPyramidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade.Location = new System.Drawing.Point(170, 99);
+            this.lblTeleOpPyramidMade.Location = new System.Drawing.Point(170, 102);
             this.lblTeleOpPyramidMade.Name = "lblTeleOpPyramidMade";
-            this.lblTeleOpPyramidMade.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidMade.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade.TabIndex = 16;
             this.lblTeleOpPyramidMade.Text = "00";
             this.lblTeleOpPyramidMade.Visible = false;
@@ -2297,11 +2302,11 @@
             // 
             this.lblTeleOpHighMade.AutoSize = true;
             this.lblTeleOpHighMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade.Location = new System.Drawing.Point(174, 156);
             this.lblTeleOpHighMade.Name = "lblTeleOpHighMade";
-            this.lblTeleOpHighMade.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighMade.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighMade.TabIndex = 11;
             this.lblTeleOpHighMade.Text = "00";
             this.lblTeleOpHighMade.Visible = false;
@@ -2310,11 +2315,11 @@
             // 
             this.lblTeleOpPyramidAtt.AutoSize = true;
             this.lblTeleOpPyramidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt.Location = new System.Drawing.Point(250, 102);
             this.lblTeleOpPyramidAtt.Name = "lblTeleOpPyramidAtt";
-            this.lblTeleOpPyramidAtt.Size = new System.Drawing.Size(57, 39);
+            this.lblTeleOpPyramidAtt.Size = new System.Drawing.Size(59, 43);
             this.lblTeleOpPyramidAtt.TabIndex = 14;
             this.lblTeleOpPyramidAtt.Text = "00";
             this.lblTeleOpPyramidAtt.Visible = false;
@@ -2322,7 +2327,7 @@
             // lbldisplayButtons1
             // 
             this.lbldisplayButtons1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lbldisplayButtons1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisplayButtons1.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons1.Location = new System.Drawing.Point(307, 77);
             this.lbldisplayButtons1.Name = "lbldisplayButtons1";
@@ -2333,7 +2338,7 @@
             // label25
             // 
             this.label25.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label25.Location = new System.Drawing.Point(253, 77);
             this.label25.Name = "label25";
@@ -2344,9 +2349,9 @@
             // label26
             // 
             this.label26.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label26.Location = new System.Drawing.Point(176, 15);
+            this.label26.Location = new System.Drawing.Point(173, 15);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(87, 28);
             this.label26.TabIndex = 143;
@@ -2354,43 +2359,44 @@
             // 
             // lblAutoTeamNo1
             // 
-            this.lblAutoTeamNo1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoTeamNo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoTeamNo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo1.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.lblAutoTeamNo1.Location = new System.Drawing.Point(272, 9);
             this.lblAutoTeamNo1.Name = "lblAutoTeamNo1";
             this.lblAutoTeamNo1.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo1.TabIndex = 145;
             this.lblAutoTeamNo1.Text = "Team1";
+            this.lblAutoTeamNo1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbltest1
             // 
             this.lbltest1.AutoSize = true;
             this.lbltest1.Location = new System.Drawing.Point(17, 51);
             this.lbltest1.Name = "lbltest1";
-            this.lbltest1.Size = new System.Drawing.Size(0, 55);
+            this.lbltest1.Size = new System.Drawing.Size(0, 60);
             this.lbltest1.TabIndex = 147;
             this.lbltest1.Visible = false;
             // 
             // lblAuto
             // 
             this.lblAuto.AutoSize = true;
-            this.lblAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto.ForeColor = System.Drawing.Color.Black;
+            this.lblAuto.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblAuto.Location = new System.Drawing.Point(6, 53);
             this.lblAuto.Name = "lblAuto";
-            this.lblAuto.Size = new System.Drawing.Size(228, 42);
+            this.lblAuto.Size = new System.Drawing.Size(209, 45);
             this.lblAuto.TabIndex = 148;
             this.lblAuto.Text = "Autonomous";
             // 
             // lblTeleOp
             // 
             this.lblTeleOp.AutoSize = true;
-            this.lblTeleOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp.ForeColor = System.Drawing.Color.Black;
-            this.lblTeleOp.Location = new System.Drawing.Point(6, 60);
+            this.lblTeleOp.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.lblTeleOp.Location = new System.Drawing.Point(6, 53);
             this.lblTeleOp.Name = "lblTeleOp";
-            this.lblTeleOp.Size = new System.Drawing.Size(251, 42);
+            this.lblTeleOp.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp.TabIndex = 149;
             this.lblTeleOp.Text = "Teleoperated";
             this.lblTeleOp.Visible = false;
@@ -2399,11 +2405,11 @@
             // 
             this.lblAutoHighAtt.AutoSize = true;
             this.lblAutoHighAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt.Location = new System.Drawing.Point(250, 156);
             this.lblAutoHighAtt.Name = "lblAutoHighAtt";
-            this.lblAutoHighAtt.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighAtt.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighAtt.TabIndex = 150;
             this.lblAutoHighAtt.Text = "00";
             // 
@@ -2411,11 +2417,11 @@
             // 
             this.lblAutoHighMade.AutoSize = true;
             this.lblAutoHighMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade.Location = new System.Drawing.Point(174, 156);
             this.lblAutoHighMade.Name = "lblAutoHighMade";
-            this.lblAutoHighMade.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighMade.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighMade.TabIndex = 171;
             this.lblAutoHighMade.Text = "00";
             // 
@@ -2423,40 +2429,40 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(2, 114);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(130, 25);
+            this.label8.Size = new System.Drawing.Size(117, 26);
             this.label8.TabIndex = 173;
             this.label8.Text = "Scored High";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(3, 168);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(125, 25);
+            this.label10.Size = new System.Drawing.Size(110, 26);
             this.label10.TabIndex = 174;
             this.label10.Text = "Scored Low";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(2, 263);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(129, 25);
+            this.label16.Size = new System.Drawing.Size(112, 26);
             this.label16.TabIndex = 177;
             this.label16.Text = "Low Frisbee";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(0, 216);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(0, 25);
+            this.label17.Size = new System.Drawing.Size(0, 26);
             this.label17.TabIndex = 178;
             // 
             // panel1
@@ -2500,7 +2506,7 @@
             this.panel1.Controls.Add(this.lblTeleOpHighMade);
             this.panel1.Controls.Add(this.lblTeleOpPyramidMade);
             this.panel1.Controls.Add(this.lblTeleOpHighAtt);
-            this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.panel1.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(12, 49);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(443, 345);
@@ -2509,8 +2515,8 @@
             // btnScouter1
             // 
             this.btnScouter1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnScouter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScouter1.ForeColor = System.Drawing.Color.Black;
+            this.btnScouter1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScouter1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.btnScouter1.Location = new System.Drawing.Point(98, 6);
             this.btnScouter1.Name = "btnScouter1";
             this.btnScouter1.Size = new System.Drawing.Size(62, 44);
@@ -2521,11 +2527,11 @@
             // 
             // textBoxScout1
             // 
-            this.textBoxScout1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxScout1.ForeColor = System.Drawing.Color.Black;
-            this.textBoxScout1.Location = new System.Drawing.Point(0, 12);
+            this.textBoxScout1.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxScout1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.textBoxScout1.Location = new System.Drawing.Point(3, 12);
             this.textBoxScout1.Name = "textBoxScout1";
-            this.textBoxScout1.Size = new System.Drawing.Size(92, 31);
+            this.textBoxScout1.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout1.TabIndex = 220;
             // 
             // label65
@@ -2542,60 +2548,60 @@
             // 
             this.lblDefense.AutoSize = true;
             this.lblDefense.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblDefense.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefense.Location = new System.Drawing.Point(232, 306);
+            this.lblDefense.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefense.Location = new System.Drawing.Point(262, 303);
             this.lblDefense.Name = "lblDefense";
-            this.lblDefense.Size = new System.Drawing.Size(31, 33);
+            this.lblDefense.Size = new System.Drawing.Size(31, 36);
             this.lblDefense.TabIndex = 214;
             this.lblDefense.Text = "0";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(309, 263);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(60, 25);
+            this.label19.Size = new System.Drawing.Size(55, 26);
             this.label19.TabIndex = 194;
             this.label19.Text = "Total";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(300, 190);
+            this.label18.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(310, 192);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(74, 24);
+            this.label18.Size = new System.Drawing.Size(63, 23);
             this.label18.TabIndex = 193;
             this.label18.Text = "TeleOp";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(310, 114);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(56, 25);
+            this.label14.Size = new System.Drawing.Size(50, 26);
             this.label14.TabIndex = 192;
             this.label14.Text = "Auto";
             // 
             // lblTotalPoints
             // 
             this.lblTotalPoints.AutoSize = true;
-            this.lblTotalPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPoints.Location = new System.Drawing.Point(372, 260);
             this.lblTotalPoints.Name = "lblTotalPoints";
-            this.lblTotalPoints.Size = new System.Drawing.Size(47, 33);
+            this.lblTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblTotalPoints.TabIndex = 191;
             this.lblTotalPoints.Text = "00";
             // 
             // lblAutoTotalPoints
             // 
             this.lblAutoTotalPoints.AutoSize = true;
-            this.lblAutoTotalPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTotalPoints.Location = new System.Drawing.Point(372, 108);
             this.lblAutoTotalPoints.Name = "lblAutoTotalPoints";
-            this.lblAutoTotalPoints.Size = new System.Drawing.Size(47, 33);
+            this.lblAutoTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblAutoTotalPoints.TabIndex = 190;
             this.lblAutoTotalPoints.Text = "00";
             this.lblAutoTotalPoints.Click += new System.EventHandler(this.lblAutoTotalPoints_Click);
@@ -2603,17 +2609,17 @@
             // lblTeleOpTotalPoints
             // 
             this.lblTeleOpTotalPoints.AutoSize = true;
-            this.lblTeleOpTotalPoints.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpTotalPoints.Location = new System.Drawing.Point(372, 184);
             this.lblTeleOpTotalPoints.Name = "lblTeleOpTotalPoints";
-            this.lblTeleOpTotalPoints.Size = new System.Drawing.Size(47, 33);
+            this.lblTeleOpTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblTeleOpTotalPoints.TabIndex = 189;
             this.lblTeleOpTotalPoints.Text = "00";
             // 
             // lblRobotClimb
             // 
             this.lblRobotClimb.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotClimb.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb.Location = new System.Drawing.Point(174, 304);
             this.lblRobotClimb.Name = "lblRobotClimb";
@@ -2625,10 +2631,10 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(2, 306);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(129, 25);
+            this.label11.Size = new System.Drawing.Size(114, 26);
             this.label11.TabIndex = 187;
             this.label11.Text = "Robot Climb";
             // 
@@ -2636,11 +2642,11 @@
             // 
             this.lblTeleOpLowAtt.AutoSize = true;
             this.lblTeleOpLowAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt.Location = new System.Drawing.Point(250, 260);
             this.lblTeleOpLowAtt.Name = "lblTeleOpLowAtt";
-            this.lblTeleOpLowAtt.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowAtt.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowAtt.TabIndex = 186;
             this.lblTeleOpLowAtt.Text = "00";
             this.lblTeleOpLowAtt.Visible = false;
@@ -2649,11 +2655,11 @@
             // 
             this.lblAutoLowAtt.AutoSize = true;
             this.lblAutoLowAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt.Location = new System.Drawing.Point(250, 260);
             this.lblAutoLowAtt.Name = "lblAutoLowAtt";
-            this.lblAutoLowAtt.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowAtt.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowAtt.TabIndex = 185;
             this.lblAutoLowAtt.Text = "00";
             // 
@@ -2661,11 +2667,11 @@
             // 
             this.lblAutoLowMade.AutoSize = true;
             this.lblAutoLowMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade.Location = new System.Drawing.Point(174, 262);
             this.lblAutoLowMade.Name = "lblAutoLowMade";
-            this.lblAutoLowMade.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowMade.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowMade.TabIndex = 184;
             this.lblAutoLowMade.Text = "00";
             // 
@@ -2673,11 +2679,11 @@
             // 
             this.lblTeleOpLowMade.AutoSize = true;
             this.lblTeleOpLowMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade.Location = new System.Drawing.Point(174, 262);
             this.lblTeleOpLowMade.Name = "lblTeleOpLowMade";
-            this.lblTeleOpLowMade.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowMade.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowMade.TabIndex = 183;
             this.lblTeleOpLowMade.Text = "00";
             // 
@@ -2685,11 +2691,11 @@
             // 
             this.lblAutoMidAtt.AutoSize = true;
             this.lblAutoMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt.Location = new System.Drawing.Point(250, 210);
             this.lblAutoMidAtt.Name = "lblAutoMidAtt";
-            this.lblAutoMidAtt.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidAtt.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidAtt.TabIndex = 182;
             this.lblAutoMidAtt.Text = "00";
             // 
@@ -2697,11 +2703,11 @@
             // 
             this.lblTeleOpMidAtt.AutoSize = true;
             this.lblTeleOpMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt.Location = new System.Drawing.Point(250, 210);
             this.lblTeleOpMidAtt.Name = "lblTeleOpMidAtt";
-            this.lblTeleOpMidAtt.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidAtt.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidAtt.TabIndex = 181;
             this.lblTeleOpMidAtt.Text = "00";
             // 
@@ -2709,11 +2715,11 @@
             // 
             this.lblAutoMidMade.AutoSize = true;
             this.lblAutoMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade.Location = new System.Drawing.Point(174, 211);
             this.lblAutoMidMade.Name = "lblAutoMidMade";
-            this.lblAutoMidMade.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidMade.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidMade.TabIndex = 180;
             this.lblAutoMidMade.Text = "00";
             // 
@@ -2721,20 +2727,20 @@
             // 
             this.lblTeleOpMidMade.AutoSize = true;
             this.lblTeleOpMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade.Location = new System.Drawing.Point(174, 210);
             this.lblTeleOpMidMade.Name = "lblTeleOpMidMade";
-            this.lblTeleOpMidMade.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidMade.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidMade.TabIndex = 179;
             this.lblTeleOpMidMade.Text = "00";
             // 
             // lblScouter1
             // 
             this.lblScouter1.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblScouter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScouter1.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblScouter1.Location = new System.Drawing.Point(0, 12);
+            this.lblScouter1.Location = new System.Drawing.Point(9, 14);
             this.lblScouter1.Name = "lblScouter1";
             this.lblScouter1.Size = new System.Drawing.Size(129, 28);
             this.lblScouter1.TabIndex = 144;
@@ -2744,7 +2750,7 @@
             // lbldisplayButtons4
             // 
             this.lbldisplayButtons4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lbldisplayButtons4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbldisplayButtons4.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons4.Location = new System.Drawing.Point(350, 72);
             this.lbldisplayButtons4.Name = "lbldisplayButtons4";
@@ -2755,7 +2761,7 @@
             // label71
             // 
             this.label71.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label71.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label71.Location = new System.Drawing.Point(304, 72);
             this.label71.Name = "label71";
@@ -2766,7 +2772,7 @@
             // label70
             // 
             this.label70.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label70.Location = new System.Drawing.Point(176, 15);
             this.label70.Name = "label70";
@@ -2777,7 +2783,7 @@
             // lblScouter4
             // 
             this.lblScouter4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblScouter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScouter4.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter4.Location = new System.Drawing.Point(15, 15);
             this.lblScouter4.Name = "lblScouter4";
@@ -2788,23 +2794,24 @@
             // 
             // lblAutoTeamNo4
             // 
-            this.lblAutoTeamNo4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoTeamNo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoTeamNo4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo4.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.lblAutoTeamNo4.Location = new System.Drawing.Point(272, 9);
             this.lblAutoTeamNo4.Name = "lblAutoTeamNo4";
             this.lblAutoTeamNo4.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo4.TabIndex = 170;
             this.lblAutoTeamNo4.Text = "Team";
+            this.lblAutoTeamNo4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblTeleOp4
             // 
             this.lblTeleOp4.AutoSize = true;
-            this.lblTeleOp4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp4.ForeColor = System.Drawing.Color.Black;
+            this.lblTeleOp4.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOp4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp4.Location = new System.Drawing.Point(13, 53);
             this.lblTeleOp4.Name = "lblTeleOp4";
-            this.lblTeleOp4.Size = new System.Drawing.Size(251, 42);
+            this.lblTeleOp4.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp4.TabIndex = 173;
             this.lblTeleOp4.Text = "Teleoperated";
             this.lblTeleOp4.Visible = false;
@@ -2812,11 +2819,11 @@
             // lblAuto4
             // 
             this.lblAuto4.AutoSize = true;
-            this.lblAuto4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto4.ForeColor = System.Drawing.Color.Black;
-            this.lblAuto4.Location = new System.Drawing.Point(29, 53);
+            this.lblAuto4.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAuto4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.lblAuto4.Location = new System.Drawing.Point(27, 52);
             this.lblAuto4.Name = "lblAuto4";
-            this.lblAuto4.Size = new System.Drawing.Size(228, 42);
+            this.lblAuto4.Size = new System.Drawing.Size(209, 45);
             this.lblAuto4.TabIndex = 175;
             this.lblAuto4.Text = "Autonomous";
             // 
@@ -2860,25 +2867,25 @@
             this.panel4.Controls.Add(this.label70);
             this.panel4.Controls.Add(this.label71);
             this.panel4.Controls.Add(this.lbldisplayButtons4);
-            this.panel4.Location = new System.Drawing.Point(12, 391);
+            this.panel4.Location = new System.Drawing.Point(12, 392);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(443, 344);
+            this.panel4.Size = new System.Drawing.Size(443, 343);
             this.panel4.TabIndex = 136;
             // 
             // textBoxScout4
             // 
-            this.textBoxScout4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxScout4.ForeColor = System.Drawing.Color.Black;
+            this.textBoxScout4.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxScout4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.textBoxScout4.Location = new System.Drawing.Point(11, 12);
             this.textBoxScout4.Name = "textBoxScout4";
-            this.textBoxScout4.Size = new System.Drawing.Size(92, 31);
+            this.textBoxScout4.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout4.TabIndex = 224;
             // 
             // btnScouter4
             // 
             this.btnScouter4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.btnScouter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnScouter4.ForeColor = System.Drawing.Color.Black;
+            this.btnScouter4.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnScouter4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.btnScouter4.Location = new System.Drawing.Point(109, 9);
             this.btnScouter4.Name = "btnScouter4";
             this.btnScouter4.Size = new System.Drawing.Size(62, 44);
@@ -2901,70 +2908,70 @@
             // 
             this.lblDefense4.AutoSize = true;
             this.lblDefense4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblDefense4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDefense4.Location = new System.Drawing.Point(240, 306);
+            this.lblDefense4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefense4.Location = new System.Drawing.Point(262, 303);
             this.lblDefense4.Name = "lblDefense4";
-            this.lblDefense4.Size = new System.Drawing.Size(31, 33);
+            this.lblDefense4.Size = new System.Drawing.Size(31, 36);
             this.lblDefense4.TabIndex = 221;
             this.lblDefense4.Text = "0";
             // 
             // lblTotalPoints4
             // 
             this.lblTotalPoints4.AutoSize = true;
-            this.lblTotalPoints4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalPoints4.Location = new System.Drawing.Point(375, 271);
             this.lblTotalPoints4.Name = "lblTotalPoints4";
-            this.lblTotalPoints4.Size = new System.Drawing.Size(31, 33);
+            this.lblTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints4.TabIndex = 220;
             this.lblTotalPoints4.Text = "0";
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(302, 274);
+            this.label55.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label55.Location = new System.Drawing.Point(313, 276);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(60, 25);
+            this.label55.Size = new System.Drawing.Size(55, 26);
             this.label55.TabIndex = 219;
             this.label55.Text = "Total";
             // 
             // lblAutoTotalPoints4
             // 
             this.lblAutoTotalPoints4.AutoSize = true;
-            this.lblAutoTotalPoints4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTotalPoints4.Location = new System.Drawing.Point(375, 105);
             this.lblAutoTotalPoints4.Name = "lblAutoTotalPoints4";
-            this.lblAutoTotalPoints4.Size = new System.Drawing.Size(31, 33);
+            this.lblAutoTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints4.TabIndex = 218;
             this.lblAutoTotalPoints4.Text = "0";
             // 
             // lblTeleOpTotalPoints4
             // 
             this.lblTeleOpTotalPoints4.AutoSize = true;
-            this.lblTeleOpTotalPoints4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpTotalPoints4.Location = new System.Drawing.Point(375, 184);
             this.lblTeleOpTotalPoints4.Name = "lblTeleOpTotalPoints4";
-            this.lblTeleOpTotalPoints4.Size = new System.Drawing.Size(31, 33);
+            this.lblTeleOpTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints4.TabIndex = 217;
             this.lblTeleOpTotalPoints4.Text = "0";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(300, 184);
+            this.label52.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(313, 191);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(74, 24);
+            this.label52.Size = new System.Drawing.Size(63, 23);
             this.label52.TabIndex = 216;
             this.label52.Text = "TeleOp";
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(306, 107);
+            this.label50.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(315, 112);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(56, 25);
+            this.label50.Size = new System.Drawing.Size(50, 26);
             this.label50.TabIndex = 197;
             this.label50.Text = "Auto";
             // 
@@ -2972,11 +2979,11 @@
             // 
             this.lblAutoLowAtt4.AutoSize = true;
             this.lblAutoLowAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt4.Location = new System.Drawing.Point(250, 258);
             this.lblAutoLowAtt4.Name = "lblAutoLowAtt4";
-            this.lblAutoLowAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowAtt4.TabIndex = 215;
             this.lblAutoLowAtt4.Text = "00";
             // 
@@ -2984,11 +2991,11 @@
             // 
             this.lblAutoLowMade4.AutoSize = true;
             this.lblAutoLowMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade4.Location = new System.Drawing.Point(179, 258);
             this.lblAutoLowMade4.Name = "lblAutoLowMade4";
-            this.lblAutoLowMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoLowMade4.Size = new System.Drawing.Size(57, 43);
             this.lblAutoLowMade4.TabIndex = 214;
             this.lblAutoLowMade4.Text = "00";
             // 
@@ -2996,11 +3003,11 @@
             // 
             this.lblAutoMidAtt4.AutoSize = true;
             this.lblAutoMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt4.Location = new System.Drawing.Point(250, 206);
             this.lblAutoMidAtt4.Name = "lblAutoMidAtt4";
-            this.lblAutoMidAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidAtt4.TabIndex = 213;
             this.lblAutoMidAtt4.Text = "00";
             // 
@@ -3008,11 +3015,11 @@
             // 
             this.lblAutoMidMade4.AutoSize = true;
             this.lblAutoMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoMidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade4.Location = new System.Drawing.Point(179, 208);
             this.lblAutoMidMade4.Name = "lblAutoMidMade4";
-            this.lblAutoMidMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoMidMade4.Size = new System.Drawing.Size(57, 43);
             this.lblAutoMidMade4.TabIndex = 212;
             this.lblAutoMidMade4.Text = "00";
             // 
@@ -3020,11 +3027,11 @@
             // 
             this.lblAutoHighAtt4.AutoSize = true;
             this.lblAutoHighAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt4.Location = new System.Drawing.Point(250, 153);
             this.lblAutoHighAtt4.Name = "lblAutoHighAtt4";
-            this.lblAutoHighAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighAtt4.TabIndex = 211;
             this.lblAutoHighAtt4.Text = "00";
             // 
@@ -3032,11 +3039,11 @@
             // 
             this.lblAutoHighMade4.AutoSize = true;
             this.lblAutoHighMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade4.Location = new System.Drawing.Point(176, 153);
             this.lblAutoHighMade4.Name = "lblAutoHighMade4";
-            this.lblAutoHighMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblAutoHighMade4.Size = new System.Drawing.Size(57, 43);
             this.lblAutoHighMade4.TabIndex = 210;
             this.lblAutoHighMade4.Text = "00";
             // 
@@ -3044,11 +3051,11 @@
             // 
             this.lblTeleOpLowAtt4.AutoSize = true;
             this.lblTeleOpLowAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt4.Location = new System.Drawing.Point(250, 260);
             this.lblTeleOpLowAtt4.Name = "lblTeleOpLowAtt4";
-            this.lblTeleOpLowAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowAtt4.TabIndex = 209;
             this.lblTeleOpLowAtt4.Text = "00";
             this.lblTeleOpLowAtt4.Visible = false;
@@ -3057,11 +3064,11 @@
             // 
             this.lblTeleOpMidAtt4.AutoSize = true;
             this.lblTeleOpMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt4.Location = new System.Drawing.Point(250, 208);
             this.lblTeleOpMidAtt4.Name = "lblTeleOpMidAtt4";
-            this.lblTeleOpMidAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidAtt4.TabIndex = 208;
             this.lblTeleOpMidAtt4.Text = "00";
             this.lblTeleOpMidAtt4.Visible = false;
@@ -3070,11 +3077,11 @@
             // 
             this.lblTeleOpHighAtt4.AutoSize = true;
             this.lblTeleOpHighAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt4.Location = new System.Drawing.Point(250, 153);
             this.lblTeleOpHighAtt4.Name = "lblTeleOpHighAtt4";
-            this.lblTeleOpHighAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighAtt4.TabIndex = 207;
             this.lblTeleOpHighAtt4.Text = "00";
             this.lblTeleOpHighAtt4.Visible = false;
@@ -3083,11 +3090,11 @@
             // 
             this.lblTeleOpPyramidAtt4.AutoSize = true;
             this.lblTeleOpPyramidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt4.Location = new System.Drawing.Point(252, 95);
             this.lblTeleOpPyramidAtt4.Name = "lblTeleOpPyramidAtt4";
-            this.lblTeleOpPyramidAtt4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidAtt4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidAtt4.TabIndex = 206;
             this.lblTeleOpPyramidAtt4.Text = "00";
             this.lblTeleOpPyramidAtt4.Visible = false;
@@ -3095,7 +3102,7 @@
             // lblRobotClimb4
             // 
             this.lblRobotClimb4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotClimb4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb4.Location = new System.Drawing.Point(179, 301);
             this.lblRobotClimb4.Name = "lblRobotClimb4";
@@ -3108,11 +3115,11 @@
             // 
             this.lblTeleOpLowMade4.AutoSize = true;
             this.lblTeleOpLowMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade4.Location = new System.Drawing.Point(179, 260);
             this.lblTeleOpLowMade4.Name = "lblTeleOpLowMade4";
-            this.lblTeleOpLowMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpLowMade4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpLowMade4.TabIndex = 204;
             this.lblTeleOpLowMade4.Text = "00";
             this.lblTeleOpLowMade4.Visible = false;
@@ -3121,11 +3128,11 @@
             // 
             this.lblTeleOpMidMade4.AutoSize = true;
             this.lblTeleOpMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpMidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade4.Location = new System.Drawing.Point(179, 208);
             this.lblTeleOpMidMade4.Name = "lblTeleOpMidMade4";
-            this.lblTeleOpMidMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpMidMade4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpMidMade4.TabIndex = 203;
             this.lblTeleOpMidMade4.Text = "00";
             this.lblTeleOpMidMade4.Visible = false;
@@ -3134,11 +3141,11 @@
             // 
             this.lblTeleOpHighMade4.AutoSize = true;
             this.lblTeleOpHighMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade4.Location = new System.Drawing.Point(176, 153);
             this.lblTeleOpHighMade4.Name = "lblTeleOpHighMade4";
-            this.lblTeleOpHighMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpHighMade4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpHighMade4.TabIndex = 202;
             this.lblTeleOpHighMade4.Text = "00";
             this.lblTeleOpHighMade4.Visible = false;
@@ -3146,20 +3153,20 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(3, 107);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(130, 25);
+            this.label38.Size = new System.Drawing.Size(117, 26);
             this.label38.TabIndex = 201;
             this.label38.Text = "Scored High";
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label37.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(3, 165);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(125, 25);
+            this.label37.Size = new System.Drawing.Size(110, 26);
             this.label37.TabIndex = 200;
             this.label37.Text = "Scored Low";
             this.label37.Click += new System.EventHandler(this.label37_Click);
@@ -3167,30 +3174,30 @@
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(2, 220);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(125, 25);
+            this.label36.Size = new System.Drawing.Size(111, 26);
             this.label36.TabIndex = 199;
             this.label36.Text = "Mid Frisbee";
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label35.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label35.Location = new System.Drawing.Point(3, 274);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(129, 25);
+            this.label35.Size = new System.Drawing.Size(112, 26);
             this.label35.TabIndex = 198;
             this.label35.Text = "Low Frisbee";
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(3, 308);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(129, 25);
+            this.label30.Size = new System.Drawing.Size(114, 26);
             this.label30.TabIndex = 197;
             this.label30.Text = "Robot Climb";
             // 
@@ -3198,11 +3205,11 @@
             // 
             this.lblTeleOpPyramidMade4.AutoSize = true;
             this.lblTeleOpPyramidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpPyramidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade4.Location = new System.Drawing.Point(176, 95);
             this.lblTeleOpPyramidMade4.Name = "lblTeleOpPyramidMade4";
-            this.lblTeleOpPyramidMade4.Size = new System.Drawing.Size(55, 39);
+            this.lblTeleOpPyramidMade4.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade4.TabIndex = 196;
             this.lblTeleOpPyramidMade4.Text = "00";
             this.lblTeleOpPyramidMade4.Visible = false;
@@ -3210,19 +3217,19 @@
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label63.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label63.Location = new System.Drawing.Point(3, 10);
+            this.label63.Location = new System.Drawing.Point(4, 5);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(138, 39);
+            this.label63.Size = new System.Drawing.Size(128, 43);
             this.label63.TabIndex = 144;
             this.label63.Text = "Match: ";
             // 
             // SaveDataBtn
             // 
-            this.SaveDataBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.SaveDataBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SaveDataBtn.ForeColor = System.Drawing.Color.LawnGreen;
+            this.SaveDataBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.SaveDataBtn.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SaveDataBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.SaveDataBtn.Location = new System.Drawing.Point(1159, 4);
             this.SaveDataBtn.Name = "SaveDataBtn";
             this.SaveDataBtn.Size = new System.Drawing.Size(110, 44);
@@ -3233,12 +3240,13 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.LawnGreen;
-            this.button3.Location = new System.Drawing.Point(796, 4);
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.button3.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
+            this.button3.Location = new System.Drawing.Point(805, 10);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 44);
+            this.button3.Size = new System.Drawing.Size(144, 33);
             this.button3.TabIndex = 218;
             this.button3.Text = "Set Up Teams and ";
             this.button3.UseVisualStyleBackColor = false;
@@ -3246,17 +3254,17 @@
             // 
             // textBox1
             // 
-            this.textBox1.ForeColor = System.Drawing.Color.Black;
-            this.textBox1.Location = new System.Drawing.Point(677, 19);
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+            this.textBox1.Location = new System.Drawing.Point(679, 16);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(55, 20);
+            this.textBox1.Size = new System.Drawing.Size(55, 21);
             this.textBox1.TabIndex = 219;
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.LawnGreen;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.button4.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.button4.Location = new System.Drawing.Point(740, 4);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(50, 44);
@@ -3267,9 +3275,9 @@
             // 
             // btnSkip
             // 
-            this.btnSkip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
-            this.btnSkip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSkip.ForeColor = System.Drawing.Color.LawnGreen;
+            this.btnSkip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.btnSkip.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSkip.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.btnSkip.Location = new System.Drawing.Point(740, 4);
             this.btnSkip.Name = "btnSkip";
             this.btnSkip.Size = new System.Drawing.Size(50, 44);
@@ -3281,9 +3289,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.ClientSize = new System.Drawing.Size(1343, 737);
             this.Controls.Add(this.btnSkip);
             this.Controls.Add(this.button4);
@@ -3301,7 +3309,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Impact", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "FalconScoutingProgram3.0";

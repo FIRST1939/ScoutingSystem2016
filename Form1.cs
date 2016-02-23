@@ -343,7 +343,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[0])
                 lblTeleOp.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp.ForeColor = Color.Black;
+                lblTeleOp.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
 
 
 
@@ -424,7 +424,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[1])
                 lblTeleOp2.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp2.ForeColor = Color.Black;
+                lblTeleOp2.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
 
 
         }
@@ -504,7 +504,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[2])
                 lblTeleOp3.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp3.ForeColor = Color.Black;
+                lblTeleOp3.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
 
 
 
@@ -585,7 +585,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[3])
                 lblTeleOp4.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp4.ForeColor = Color.Black;
+                lblTeleOp4.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
 
 
 
@@ -667,7 +667,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[4])
                 lblTeleOp5.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp5.ForeColor = Color.Black;
+                lblTeleOp5.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
 
 
         }
@@ -748,7 +748,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[5])
                 lblTeleOp6.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp6.ForeColor = Color.Black;
+                lblTeleOp6.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
 
 
         }
@@ -1425,6 +1425,11 @@ namespace MultipleJoysticks
         }
 
         private void lblTime_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAutoTeamNo2_Click(object sender, EventArgs e)
         {
 
         }
