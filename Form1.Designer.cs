@@ -290,7 +290,7 @@
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.RoyalBlue;
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
             this.panel6.Controls.Add(this.btnScouter6);
             this.panel6.Controls.Add(this.textBoxScout6);
             this.panel6.Controls.Add(this.label73);
@@ -329,14 +329,14 @@
             this.panel6.Controls.Add(this.label124);
             this.panel6.Controls.Add(this.lbldisplayButtons6);
             this.panel6.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel6.Location = new System.Drawing.Point(904, 395);
+            this.panel6.Location = new System.Drawing.Point(901, 392);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(440, 340);
+            this.panel6.Size = new System.Drawing.Size(443, 343);
             this.panel6.TabIndex = 135;
             // 
             // btnScouter6
             // 
-            this.btnScouter6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnScouter6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter6.ForeColor = System.Drawing.Color.Black;
             this.btnScouter6.Location = new System.Drawing.Point(108, 9);
@@ -369,7 +369,7 @@
             // lblDefense6
             // 
             this.lblDefense6.AutoSize = true;
-            this.lblDefense6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblDefense6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDefense6.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefense6.Location = new System.Drawing.Point(252, 304);
             this.lblDefense6.Name = "lblDefense6";
@@ -440,7 +440,7 @@
             // lblAutoLowMade6
             // 
             this.lblAutoLowMade6.AutoSize = true;
-            this.lblAutoLowMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade6.Location = new System.Drawing.Point(184, 260);
@@ -452,7 +452,7 @@
             // lblAutoLowAtt6
             // 
             this.lblAutoLowAtt6.AutoSize = true;
-            this.lblAutoLowAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt6.Location = new System.Drawing.Point(260, 262);
@@ -464,7 +464,7 @@
             // lblAutoMidMade6
             // 
             this.lblAutoMidMade6.AutoSize = true;
-            this.lblAutoMidMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade6.Location = new System.Drawing.Point(184, 208);
@@ -476,7 +476,7 @@
             // lblAutoMidAtt6
             // 
             this.lblAutoMidAtt6.AutoSize = true;
-            this.lblAutoMidAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt6.Location = new System.Drawing.Point(260, 208);
@@ -488,7 +488,7 @@
             // lblAutoHighAtt6
             // 
             this.lblAutoHighAtt6.AutoSize = true;
-            this.lblAutoHighAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt6.Location = new System.Drawing.Point(260, 153);
@@ -500,7 +500,7 @@
             // lblAutoHighMade6
             // 
             this.lblAutoHighMade6.AutoSize = true;
-            this.lblAutoHighMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade6.Location = new System.Drawing.Point(184, 153);
@@ -511,7 +511,7 @@
             // 
             // lblRobotClimb6
             // 
-            this.lblRobotClimb6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRobotClimb6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblRobotClimb6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb6.Location = new System.Drawing.Point(184, 301);
@@ -524,7 +524,7 @@
             // lblTeleOpMidAtt6
             // 
             this.lblTeleOpMidAtt6.AutoSize = true;
-            this.lblTeleOpMidAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt6.Location = new System.Drawing.Point(260, 206);
@@ -537,7 +537,7 @@
             // lblTeleOpLowAtt6
             // 
             this.lblTeleOpLowAtt6.AutoSize = true;
-            this.lblTeleOpLowAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt6.Location = new System.Drawing.Point(260, 262);
@@ -550,7 +550,7 @@
             // lblTeleOpPyramidAtt6
             // 
             this.lblTeleOpPyramidAtt6.AutoSize = true;
-            this.lblTeleOpPyramidAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt6.Location = new System.Drawing.Point(260, 101);
@@ -563,7 +563,7 @@
             // lblTeleOpHighAtt6
             // 
             this.lblTeleOpHighAtt6.AutoSize = true;
-            this.lblTeleOpHighAtt6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighAtt6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt6.Location = new System.Drawing.Point(260, 153);
@@ -576,7 +576,7 @@
             // lblTeleOpLowMade6
             // 
             this.lblTeleOpLowMade6.AutoSize = true;
-            this.lblTeleOpLowMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade6.Location = new System.Drawing.Point(184, 260);
@@ -589,7 +589,7 @@
             // lblTeleOpMidMade6
             // 
             this.lblTeleOpMidMade6.AutoSize = true;
-            this.lblTeleOpMidMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade6.Location = new System.Drawing.Point(184, 208);
@@ -602,7 +602,7 @@
             // lblTeleOpHighMade6
             // 
             this.lblTeleOpHighMade6.AutoSize = true;
-            this.lblTeleOpHighMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade6.Location = new System.Drawing.Point(184, 153);
@@ -665,7 +665,7 @@
             // lblTeleOpPyramidMade6
             // 
             this.lblTeleOpPyramidMade6.AutoSize = true;
-            this.lblTeleOpPyramidMade6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade6.Location = new System.Drawing.Point(184, 101);
@@ -679,7 +679,7 @@
             // 
             this.lblTeleOp6.AutoSize = true;
             this.lblTeleOp6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp6.ForeColor = System.Drawing.Color.Lime;
+            this.lblTeleOp6.ForeColor = System.Drawing.Color.Black;
             this.lblTeleOp6.Location = new System.Drawing.Point(15, 59);
             this.lblTeleOp6.Name = "lblTeleOp6";
             this.lblTeleOp6.Size = new System.Drawing.Size(251, 42);
@@ -691,7 +691,7 @@
             // 
             this.lblAuto6.AutoSize = true;
             this.lblAuto6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto6.ForeColor = System.Drawing.Color.Lime;
+            this.lblAuto6.ForeColor = System.Drawing.Color.Black;
             this.lblAuto6.Location = new System.Drawing.Point(15, 53);
             this.lblAuto6.Name = "lblAuto6";
             this.lblAuto6.Size = new System.Drawing.Size(228, 42);
@@ -700,7 +700,7 @@
             // 
             // lblAutoTeamNo6
             // 
-            this.lblAutoTeamNo6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoTeamNo6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoTeamNo6.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoTeamNo6.Location = new System.Drawing.Point(272, 9);
@@ -711,7 +711,7 @@
             // 
             // lblScouter6
             // 
-            this.lblScouter6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblScouter6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblScouter6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter6.Location = new System.Drawing.Point(15, 15);
@@ -723,7 +723,7 @@
             // 
             // label123
             // 
-            this.label123.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label123.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label123.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label123.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label123.Location = new System.Drawing.Point(176, 15);
@@ -734,7 +734,7 @@
             // 
             // label124
             // 
-            this.label124.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label124.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label124.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label124.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label124.Location = new System.Drawing.Point(304, 72);
@@ -745,7 +745,7 @@
             // 
             // lbldisplayButtons6
             // 
-            this.lbldisplayButtons6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbldisplayButtons6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lbldisplayButtons6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons6.Location = new System.Drawing.Point(350, 72);
@@ -756,7 +756,7 @@
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Blue;
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
             this.panel3.Controls.Add(this.textBoxScout5);
             this.panel3.Controls.Add(this.btnScouter5);
             this.panel3.Controls.Add(this.label74);
@@ -796,9 +796,9 @@
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.lbldisplayButtons5);
             this.panel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel3.Location = new System.Drawing.Point(458, 395);
+            this.panel3.Location = new System.Drawing.Point(455, 392);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(440, 340);
+            this.panel3.Size = new System.Drawing.Size(448, 343);
             this.panel3.TabIndex = 136;
             // 
             // textBoxScout5
@@ -812,7 +812,7 @@
             // 
             // btnScouter5
             // 
-            this.btnScouter5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnScouter5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter5.ForeColor = System.Drawing.Color.Black;
             this.btnScouter5.Location = new System.Drawing.Point(108, 6);
@@ -836,7 +836,7 @@
             // lblDefense5
             // 
             this.lblDefense5.AutoSize = true;
-            this.lblDefense5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblDefense5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDefense5.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefense5.Location = new System.Drawing.Point(249, 303);
             this.lblDefense5.Name = "lblDefense5";
@@ -907,7 +907,7 @@
             // lblAutoLowMade5
             // 
             this.lblAutoLowMade5.AutoSize = true;
-            this.lblAutoLowMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade5.Location = new System.Drawing.Point(182, 260);
@@ -919,7 +919,7 @@
             // lblAutoLowAtt5
             // 
             this.lblAutoLowAtt5.AutoSize = true;
-            this.lblAutoLowAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt5.Location = new System.Drawing.Point(259, 258);
@@ -931,7 +931,7 @@
             // lblAutoMidAtt5
             // 
             this.lblAutoMidAtt5.AutoSize = true;
-            this.lblAutoMidAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt5.Location = new System.Drawing.Point(259, 206);
@@ -943,7 +943,7 @@
             // lblAutoMidMade5
             // 
             this.lblAutoMidMade5.AutoSize = true;
-            this.lblAutoMidMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade5.Location = new System.Drawing.Point(182, 208);
@@ -955,7 +955,7 @@
             // lblAutoHighAtt5
             // 
             this.lblAutoHighAtt5.AutoSize = true;
-            this.lblAutoHighAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt5.Location = new System.Drawing.Point(259, 153);
@@ -967,7 +967,7 @@
             // lblAutoHighMade5
             // 
             this.lblAutoHighMade5.AutoSize = true;
-            this.lblAutoHighMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade5.Location = new System.Drawing.Point(182, 151);
@@ -978,7 +978,7 @@
             // 
             // lblRobotClimb5
             // 
-            this.lblRobotClimb5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRobotClimb5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblRobotClimb5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb5.Location = new System.Drawing.Point(182, 301);
@@ -991,7 +991,7 @@
             // lblTeleOpPyramidAtt5
             // 
             this.lblTeleOpPyramidAtt5.AutoSize = true;
-            this.lblTeleOpPyramidAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt5.Location = new System.Drawing.Point(259, 101);
@@ -1004,7 +1004,7 @@
             // lblTeleOpMidMade5
             // 
             this.lblTeleOpMidMade5.AutoSize = true;
-            this.lblTeleOpMidMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade5.Location = new System.Drawing.Point(182, 208);
@@ -1017,7 +1017,7 @@
             // lblTeleOpLowMade5
             // 
             this.lblTeleOpLowMade5.AutoSize = true;
-            this.lblTeleOpLowMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade5.Location = new System.Drawing.Point(182, 260);
@@ -1030,7 +1030,7 @@
             // lblTeleOpLowAtt5
             // 
             this.lblTeleOpLowAtt5.AutoSize = true;
-            this.lblTeleOpLowAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt5.Location = new System.Drawing.Point(259, 260);
@@ -1043,7 +1043,7 @@
             // lblTeleOpHighAtt5
             // 
             this.lblTeleOpHighAtt5.AutoSize = true;
-            this.lblTeleOpHighAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt5.Location = new System.Drawing.Point(259, 153);
@@ -1056,7 +1056,7 @@
             // lblTeleOpMidAtt5
             // 
             this.lblTeleOpMidAtt5.AutoSize = true;
-            this.lblTeleOpMidAtt5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidAtt5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt5.Location = new System.Drawing.Point(259, 206);
@@ -1069,7 +1069,7 @@
             // lblTeleOpHighMade5
             // 
             this.lblTeleOpHighMade5.AutoSize = true;
-            this.lblTeleOpHighMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade5.Location = new System.Drawing.Point(182, 151);
@@ -1132,7 +1132,7 @@
             // lblTeleOpPyramidMade5
             // 
             this.lblTeleOpPyramidMade5.AutoSize = true;
-            this.lblTeleOpPyramidMade5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade5.Location = new System.Drawing.Point(182, 101);
@@ -1146,7 +1146,7 @@
             // 
             this.lblTeleOp5.AutoSize = true;
             this.lblTeleOp5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp5.ForeColor = System.Drawing.Color.Lime;
+            this.lblTeleOp5.ForeColor = System.Drawing.Color.Black;
             this.lblTeleOp5.Location = new System.Drawing.Point(13, 53);
             this.lblTeleOp5.Name = "lblTeleOp5";
             this.lblTeleOp5.Size = new System.Drawing.Size(251, 42);
@@ -1158,7 +1158,7 @@
             // 
             this.lblAuto5.AutoSize = true;
             this.lblAuto5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto5.ForeColor = System.Drawing.Color.Lime;
+            this.lblAuto5.ForeColor = System.Drawing.Color.Black;
             this.lblAuto5.Location = new System.Drawing.Point(13, 53);
             this.lblAuto5.Name = "lblAuto5";
             this.lblAuto5.Size = new System.Drawing.Size(228, 42);
@@ -1167,7 +1167,7 @@
             // 
             // lblAutoTeamNo5
             // 
-            this.lblAutoTeamNo5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoTeamNo5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoTeamNo5.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoTeamNo5.Location = new System.Drawing.Point(272, 9);
@@ -1178,7 +1178,7 @@
             // 
             // lblScouter5
             // 
-            this.lblScouter5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblScouter5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblScouter5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter5.Location = new System.Drawing.Point(15, 15);
@@ -1190,7 +1190,7 @@
             // 
             // label12
             // 
-            this.label12.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label12.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label12.Location = new System.Drawing.Point(176, 15);
@@ -1201,7 +1201,7 @@
             // 
             // label13
             // 
-            this.label13.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label13.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label13.Location = new System.Drawing.Point(304, 72);
@@ -1212,7 +1212,7 @@
             // 
             // label6
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label6.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Image = ((System.Drawing.Image)(resources.GetObject("label6.Image")));
@@ -1224,7 +1224,7 @@
             // 
             // lbldisplayButtons5
             // 
-            this.lbldisplayButtons5.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbldisplayButtons5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lbldisplayButtons5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons5.Location = new System.Drawing.Point(350, 72);
@@ -1235,7 +1235,7 @@
             // 
             // lblValanceAttempted2
             // 
-            this.lblValanceAttempted2.BackColor = System.Drawing.Color.DarkRed;
+            this.lblValanceAttempted2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.lblValanceAttempted2.Controls.Add(this.btnScouter2);
             this.lblValanceAttempted2.Controls.Add(this.textBoxScout2);
             this.lblValanceAttempted2.Controls.Add(this.lblDefense2);
@@ -1274,14 +1274,14 @@
             this.lblValanceAttempted2.Controls.Add(this.label99);
             this.lblValanceAttempted2.Controls.Add(this.lbldisplayButtons2);
             this.lblValanceAttempted2.Font = new System.Drawing.Font("Courier New", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblValanceAttempted2.Location = new System.Drawing.Point(458, 49);
+            this.lblValanceAttempted2.Location = new System.Drawing.Point(455, 49);
             this.lblValanceAttempted2.Name = "lblValanceAttempted2";
-            this.lblValanceAttempted2.Size = new System.Drawing.Size(440, 340);
+            this.lblValanceAttempted2.Size = new System.Drawing.Size(448, 343);
             this.lblValanceAttempted2.TabIndex = 137;
             // 
             // btnScouter2
             // 
-            this.btnScouter2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnScouter2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter2.ForeColor = System.Drawing.Color.Black;
             this.btnScouter2.Location = new System.Drawing.Point(114, 8);
@@ -1304,7 +1304,7 @@
             // lblDefense2
             // 
             this.lblDefense2.AutoSize = true;
-            this.lblDefense2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblDefense2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDefense2.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefense2.Location = new System.Drawing.Point(236, 307);
             this.lblDefense2.Name = "lblDefense2";
@@ -1325,7 +1325,7 @@
             // lblAutoHighAtt2
             // 
             this.lblAutoHighAtt2.AutoSize = true;
-            this.lblAutoHighAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt2.Location = new System.Drawing.Point(248, 156);
@@ -1337,7 +1337,7 @@
             // lblAutoMidMade2
             // 
             this.lblAutoMidMade2.AutoSize = true;
-            this.lblAutoMidMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade2.Location = new System.Drawing.Point(174, 209);
@@ -1349,7 +1349,7 @@
             // lblAutoMidAtt2
             // 
             this.lblAutoMidAtt2.AutoSize = true;
-            this.lblAutoMidAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt2.Location = new System.Drawing.Point(248, 210);
@@ -1361,7 +1361,7 @@
             // lblAutoLowMade2
             // 
             this.lblAutoLowMade2.AutoSize = true;
-            this.lblAutoLowMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade2.Location = new System.Drawing.Point(174, 265);
@@ -1373,7 +1373,7 @@
             // lblAutoLowAtt2
             // 
             this.lblAutoLowAtt2.AutoSize = true;
-            this.lblAutoLowAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt2.Location = new System.Drawing.Point(248, 265);
@@ -1385,7 +1385,7 @@
             // lblAutoHighMade2
             // 
             this.lblAutoHighMade2.AutoSize = true;
-            this.lblAutoHighMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade2.Location = new System.Drawing.Point(174, 156);
@@ -1456,7 +1456,7 @@
             // 
             // lblRobotClimb2
             // 
-            this.lblRobotClimb2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRobotClimb2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblRobotClimb2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb2.Location = new System.Drawing.Point(174, 304);
@@ -1469,7 +1469,7 @@
             // lblTeleOpPyramidAtt2
             // 
             this.lblTeleOpPyramidAtt2.AutoSize = true;
-            this.lblTeleOpPyramidAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt2.Location = new System.Drawing.Point(248, 103);
@@ -1482,7 +1482,7 @@
             // lblTeleOpLowMade2
             // 
             this.lblTeleOpLowMade2.AutoSize = true;
-            this.lblTeleOpLowMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade2.Location = new System.Drawing.Point(174, 263);
@@ -1495,7 +1495,7 @@
             // lblTeleOpLowAtt2
             // 
             this.lblTeleOpLowAtt2.AutoSize = true;
-            this.lblTeleOpLowAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt2.Location = new System.Drawing.Point(248, 263);
@@ -1508,7 +1508,7 @@
             // lblTeleOpMidMade2
             // 
             this.lblTeleOpMidMade2.AutoSize = true;
-            this.lblTeleOpMidMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade2.Location = new System.Drawing.Point(174, 210);
@@ -1521,7 +1521,7 @@
             // lblTeleOpHighAtt2
             // 
             this.lblTeleOpHighAtt2.AutoSize = true;
-            this.lblTeleOpHighAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt2.Location = new System.Drawing.Point(248, 156);
@@ -1534,7 +1534,7 @@
             // lblTeleOpMidAtt2
             // 
             this.lblTeleOpMidAtt2.AutoSize = true;
-            this.lblTeleOpMidAtt2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidAtt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt2.Location = new System.Drawing.Point(248, 210);
@@ -1547,7 +1547,7 @@
             // lblTeleOpHighMade2
             // 
             this.lblTeleOpHighMade2.AutoSize = true;
-            this.lblTeleOpHighMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade2.Location = new System.Drawing.Point(174, 156);
@@ -1560,7 +1560,7 @@
             // lblTeleOpPyramidMade2
             // 
             this.lblTeleOpPyramidMade2.AutoSize = true;
-            this.lblTeleOpPyramidMade2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade2.Location = new System.Drawing.Point(172, 103);
@@ -1625,7 +1625,7 @@
             // 
             this.lblTeleOp2.AutoSize = true;
             this.lblTeleOp2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp2.ForeColor = System.Drawing.Color.Lime;
+            this.lblTeleOp2.ForeColor = System.Drawing.Color.Black;
             this.lblTeleOp2.Location = new System.Drawing.Point(6, 58);
             this.lblTeleOp2.Name = "lblTeleOp2";
             this.lblTeleOp2.Size = new System.Drawing.Size(251, 42);
@@ -1637,7 +1637,7 @@
             // 
             this.lblAuto2.AutoSize = true;
             this.lblAuto2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto2.ForeColor = System.Drawing.Color.Lime;
+            this.lblAuto2.ForeColor = System.Drawing.Color.Black;
             this.lblAuto2.Location = new System.Drawing.Point(-1, 59);
             this.lblAuto2.Name = "lblAuto2";
             this.lblAuto2.Size = new System.Drawing.Size(228, 42);
@@ -1646,7 +1646,7 @@
             // 
             // lblAutoTeamNo2
             // 
-            this.lblAutoTeamNo2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoTeamNo2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoTeamNo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoTeamNo2.Location = new System.Drawing.Point(272, 9);
@@ -1657,7 +1657,7 @@
             // 
             // lblScouter2
             // 
-            this.lblScouter2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblScouter2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblScouter2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter2.Location = new System.Drawing.Point(15, 15);
@@ -1669,7 +1669,7 @@
             // 
             // label98
             // 
-            this.label98.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label98.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label98.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label98.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label98.Location = new System.Drawing.Point(176, 15);
@@ -1680,7 +1680,7 @@
             // 
             // label99
             // 
-            this.label99.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label99.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label99.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label99.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label99.Location = new System.Drawing.Point(304, 72);
@@ -1691,7 +1691,7 @@
             // 
             // lbldisplayButtons2
             // 
-            this.lbldisplayButtons2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbldisplayButtons2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lbldisplayButtons2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons2.Location = new System.Drawing.Point(350, 72);
@@ -1702,7 +1702,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Black;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.LawnGreen;
             this.button1.Location = new System.Drawing.Point(956, 4);
@@ -1715,10 +1715,10 @@
             // 
             // lblmatch
             // 
-            this.lblmatch.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblmatch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.lblmatch.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblmatch.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblmatch.Location = new System.Drawing.Point(128, 9);
+            this.lblmatch.Location = new System.Drawing.Point(125, 9);
             this.lblmatch.Name = "lblmatch";
             this.lblmatch.Size = new System.Drawing.Size(80, 34);
             this.lblmatch.TabIndex = 140;
@@ -1726,21 +1726,22 @@
             // 
             // lblTime
             // 
-            this.lblTime.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTime.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.lblTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTime.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblTime.Location = new System.Drawing.Point(197, 10);
+            this.lblTime.Location = new System.Drawing.Point(168, 10);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(188, 34);
             this.lblTime.TabIndex = 141;
             this.lblTime.Text = "Time";
+            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // lblEvent
             // 
-            this.lblEvent.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblEvent.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.lblEvent.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEvent.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblEvent.Location = new System.Drawing.Point(347, 4);
+            this.lblEvent.Location = new System.Drawing.Point(340, 9);
             this.lblEvent.Name = "lblEvent";
             this.lblEvent.Size = new System.Drawing.Size(450, 40);
             this.lblEvent.TabIndex = 143;
@@ -1754,7 +1755,7 @@
             // 
             // label1
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label1.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(-576, 291);
@@ -1765,7 +1766,7 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label2.Font = new System.Drawing.Font("Courier New", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(-575, 231);
@@ -1776,7 +1777,7 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label3.Font = new System.Drawing.Font("Courier New", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(-575, 166);
@@ -1787,7 +1788,7 @@
             // 
             // label4
             // 
-            this.label4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label4.Font = new System.Drawing.Font("Courier New", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(-575, 111);
@@ -1798,7 +1799,7 @@
             // 
             // lbldisplayButtons3
             // 
-            this.lbldisplayButtons3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbldisplayButtons3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lbldisplayButtons3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons3.Location = new System.Drawing.Point(350, 72);
@@ -1809,7 +1810,7 @@
             // 
             // label47
             // 
-            this.label47.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label47.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label47.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label47.Location = new System.Drawing.Point(304, 72);
@@ -1820,7 +1821,7 @@
             // 
             // label46
             // 
-            this.label46.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label46.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label46.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label46.Location = new System.Drawing.Point(176, 15);
@@ -1831,7 +1832,7 @@
             // 
             // lblScouter3
             // 
-            this.lblScouter3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblScouter3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblScouter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter3.Location = new System.Drawing.Point(15, 15);
@@ -1843,7 +1844,7 @@
             // 
             // lblAutoTeamNo3
             // 
-            this.lblAutoTeamNo3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoTeamNo3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoTeamNo3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoTeamNo3.Location = new System.Drawing.Point(272, 9);
@@ -1854,7 +1855,7 @@
             // 
             // panel56
             // 
-            this.panel56.BackColor = System.Drawing.Color.OrangeRed;
+            this.panel56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.panel56.Controls.Add(this.btnScouter3);
             this.panel56.Controls.Add(this.textBoxScout3);
             this.panel56.Controls.Add(this.label72);
@@ -1897,14 +1898,14 @@
             this.panel56.Controls.Add(this.label2);
             this.panel56.Controls.Add(this.label1);
             this.panel56.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel56.Location = new System.Drawing.Point(904, 49);
+            this.panel56.Location = new System.Drawing.Point(901, 49);
             this.panel56.Name = "panel56";
-            this.panel56.Size = new System.Drawing.Size(440, 340);
+            this.panel56.Size = new System.Drawing.Size(443, 343);
             this.panel56.TabIndex = 138;
             // 
             // btnScouter3
             // 
-            this.btnScouter3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnScouter3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter3.ForeColor = System.Drawing.Color.Black;
             this.btnScouter3.Location = new System.Drawing.Point(113, 9);
@@ -1937,7 +1938,7 @@
             // lblDefense3
             // 
             this.lblDefense3.AutoSize = true;
-            this.lblDefense3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblDefense3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDefense3.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefense3.Location = new System.Drawing.Point(238, 306);
             this.lblDefense3.Name = "lblDefense3";
@@ -2008,7 +2009,7 @@
             // lblAutoMidAtt3
             // 
             this.lblAutoMidAtt3.AutoSize = true;
-            this.lblAutoMidAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt3.Location = new System.Drawing.Point(251, 204);
@@ -2020,7 +2021,7 @@
             // lblAutoMidMade3
             // 
             this.lblAutoMidMade3.AutoSize = true;
-            this.lblAutoMidMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade3.Location = new System.Drawing.Point(177, 207);
@@ -2032,7 +2033,7 @@
             // lblAutoHighAtt3
             // 
             this.lblAutoHighAtt3.AutoSize = true;
-            this.lblAutoHighAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt3.Location = new System.Drawing.Point(251, 156);
@@ -2044,7 +2045,7 @@
             // lblTeleOpLowAtt3
             // 
             this.lblTeleOpLowAtt3.AutoSize = true;
-            this.lblTeleOpLowAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt3.Location = new System.Drawing.Point(251, 262);
@@ -2057,7 +2058,7 @@
             // lblAutoLowMade3
             // 
             this.lblAutoLowMade3.AutoSize = true;
-            this.lblAutoLowMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade3.Location = new System.Drawing.Point(177, 260);
@@ -2069,7 +2070,7 @@
             // lblAutoHighMade3
             // 
             this.lblAutoHighMade3.AutoSize = true;
-            this.lblAutoHighMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade3.Location = new System.Drawing.Point(177, 156);
@@ -2081,7 +2082,7 @@
             // lblAutoLowAtt3
             // 
             this.lblAutoLowAtt3.AutoSize = true;
-            this.lblAutoLowAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt3.Location = new System.Drawing.Point(251, 261);
@@ -2093,7 +2094,7 @@
             // lblTeleOpMidAtt3
             // 
             this.lblTeleOpMidAtt3.AutoSize = true;
-            this.lblTeleOpMidAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt3.Location = new System.Drawing.Point(251, 207);
@@ -2106,7 +2107,7 @@
             // lblTeleOpHighAtt3
             // 
             this.lblTeleOpHighAtt3.AutoSize = true;
-            this.lblTeleOpHighAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt3.Location = new System.Drawing.Point(251, 156);
@@ -2119,7 +2120,7 @@
             // lblTeleOpPyramidAtt3
             // 
             this.lblTeleOpPyramidAtt3.AutoSize = true;
-            this.lblTeleOpPyramidAtt3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidAtt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt3.Location = new System.Drawing.Point(251, 103);
@@ -2131,7 +2132,7 @@
             // 
             // lblRobotClimb3
             // 
-            this.lblRobotClimb3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRobotClimb3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblRobotClimb3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb3.Location = new System.Drawing.Point(177, 301);
@@ -2144,7 +2145,7 @@
             // lblTeleOpLowMade3
             // 
             this.lblTeleOpLowMade3.AutoSize = true;
-            this.lblTeleOpLowMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade3.Location = new System.Drawing.Point(177, 260);
@@ -2157,7 +2158,7 @@
             // lblTeleOpMidMade3
             // 
             this.lblTeleOpMidMade3.AutoSize = true;
-            this.lblTeleOpMidMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade3.Location = new System.Drawing.Point(177, 207);
@@ -2170,7 +2171,7 @@
             // lblTeleOpHighMade3
             // 
             this.lblTeleOpHighMade3.AutoSize = true;
-            this.lblTeleOpHighMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade3.Location = new System.Drawing.Point(177, 154);
@@ -2183,7 +2184,7 @@
             // lblTeleOpPyramidMade3
             // 
             this.lblTeleOpPyramidMade3.AutoSize = true;
-            this.lblTeleOpPyramidMade3.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade3.Location = new System.Drawing.Point(177, 103);
@@ -2247,7 +2248,7 @@
             // 
             this.lblTeleOp3.AutoSize = true;
             this.lblTeleOp3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp3.ForeColor = System.Drawing.Color.Lime;
+            this.lblTeleOp3.ForeColor = System.Drawing.Color.Black;
             this.lblTeleOp3.Location = new System.Drawing.Point(12, 51);
             this.lblTeleOp3.Name = "lblTeleOp3";
             this.lblTeleOp3.Size = new System.Drawing.Size(251, 42);
@@ -2259,7 +2260,7 @@
             // 
             this.lblAuto3.AutoSize = true;
             this.lblAuto3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto3.ForeColor = System.Drawing.Color.Lime;
+            this.lblAuto3.ForeColor = System.Drawing.Color.Black;
             this.lblAuto3.Location = new System.Drawing.Point(15, 51);
             this.lblAuto3.Name = "lblAuto3";
             this.lblAuto3.Size = new System.Drawing.Size(228, 42);
@@ -2269,7 +2270,7 @@
             // lblTeleOpHighAtt
             // 
             this.lblTeleOpHighAtt.AutoSize = true;
-            this.lblTeleOpHighAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt.Location = new System.Drawing.Point(250, 156);
@@ -2282,7 +2283,7 @@
             // lblTeleOpPyramidMade
             // 
             this.lblTeleOpPyramidMade.AutoSize = true;
-            this.lblTeleOpPyramidMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade.Location = new System.Drawing.Point(170, 99);
@@ -2295,7 +2296,7 @@
             // lblTeleOpHighMade
             // 
             this.lblTeleOpHighMade.AutoSize = true;
-            this.lblTeleOpHighMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade.Location = new System.Drawing.Point(174, 156);
@@ -2308,7 +2309,7 @@
             // lblTeleOpPyramidAtt
             // 
             this.lblTeleOpPyramidAtt.AutoSize = true;
-            this.lblTeleOpPyramidAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt.Location = new System.Drawing.Point(250, 102);
@@ -2320,7 +2321,7 @@
             // 
             // lbldisplayButtons1
             // 
-            this.lbldisplayButtons1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbldisplayButtons1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lbldisplayButtons1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons1.Location = new System.Drawing.Point(307, 77);
@@ -2331,7 +2332,7 @@
             // 
             // label25
             // 
-            this.label25.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label25.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label25.Location = new System.Drawing.Point(253, 77);
@@ -2342,7 +2343,7 @@
             // 
             // label26
             // 
-            this.label26.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label26.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label26.Location = new System.Drawing.Point(176, 15);
@@ -2353,7 +2354,7 @@
             // 
             // lblAutoTeamNo1
             // 
-            this.lblAutoTeamNo1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoTeamNo1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoTeamNo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoTeamNo1.Location = new System.Drawing.Point(272, 9);
@@ -2375,7 +2376,7 @@
             // 
             this.lblAuto.AutoSize = true;
             this.lblAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto.ForeColor = System.Drawing.Color.Lime;
+            this.lblAuto.ForeColor = System.Drawing.Color.Black;
             this.lblAuto.Location = new System.Drawing.Point(6, 53);
             this.lblAuto.Name = "lblAuto";
             this.lblAuto.Size = new System.Drawing.Size(228, 42);
@@ -2386,7 +2387,7 @@
             // 
             this.lblTeleOp.AutoSize = true;
             this.lblTeleOp.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp.ForeColor = System.Drawing.Color.Lime;
+            this.lblTeleOp.ForeColor = System.Drawing.Color.Black;
             this.lblTeleOp.Location = new System.Drawing.Point(6, 60);
             this.lblTeleOp.Name = "lblTeleOp";
             this.lblTeleOp.Size = new System.Drawing.Size(251, 42);
@@ -2397,7 +2398,7 @@
             // lblAutoHighAtt
             // 
             this.lblAutoHighAtt.AutoSize = true;
-            this.lblAutoHighAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt.Location = new System.Drawing.Point(250, 156);
@@ -2409,7 +2410,7 @@
             // lblAutoHighMade
             // 
             this.lblAutoHighMade.AutoSize = true;
-            this.lblAutoHighMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade.Location = new System.Drawing.Point(174, 156);
@@ -2421,7 +2422,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Red;
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(2, 114);
             this.label8.Name = "label8";
@@ -2460,7 +2461,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.panel1.Controls.Add(this.btnScouter1);
             this.panel1.Controls.Add(this.textBoxScout1);
             this.panel1.Controls.Add(this.label65);
@@ -2502,12 +2503,12 @@
             this.panel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(12, 49);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(440, 340);
+            this.panel1.Size = new System.Drawing.Size(443, 345);
             this.panel1.TabIndex = 134;
             // 
             // btnScouter1
             // 
-            this.btnScouter1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnScouter1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter1.ForeColor = System.Drawing.Color.Black;
             this.btnScouter1.Location = new System.Drawing.Point(98, 6);
@@ -2540,7 +2541,7 @@
             // lblDefense
             // 
             this.lblDefense.AutoSize = true;
-            this.lblDefense.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblDefense.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDefense.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefense.Location = new System.Drawing.Point(232, 306);
             this.lblDefense.Name = "lblDefense";
@@ -2611,7 +2612,7 @@
             // 
             // lblRobotClimb
             // 
-            this.lblRobotClimb.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRobotClimb.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblRobotClimb.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb.Location = new System.Drawing.Point(174, 304);
@@ -2634,7 +2635,7 @@
             // lblTeleOpLowAtt
             // 
             this.lblTeleOpLowAtt.AutoSize = true;
-            this.lblTeleOpLowAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt.Location = new System.Drawing.Point(250, 260);
@@ -2647,7 +2648,7 @@
             // lblAutoLowAtt
             // 
             this.lblAutoLowAtt.AutoSize = true;
-            this.lblAutoLowAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt.Location = new System.Drawing.Point(250, 260);
@@ -2659,7 +2660,7 @@
             // lblAutoLowMade
             // 
             this.lblAutoLowMade.AutoSize = true;
-            this.lblAutoLowMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade.Location = new System.Drawing.Point(174, 262);
@@ -2671,7 +2672,7 @@
             // lblTeleOpLowMade
             // 
             this.lblTeleOpLowMade.AutoSize = true;
-            this.lblTeleOpLowMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade.Location = new System.Drawing.Point(174, 262);
@@ -2683,7 +2684,7 @@
             // lblAutoMidAtt
             // 
             this.lblAutoMidAtt.AutoSize = true;
-            this.lblAutoMidAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt.Location = new System.Drawing.Point(250, 210);
@@ -2695,7 +2696,7 @@
             // lblTeleOpMidAtt
             // 
             this.lblTeleOpMidAtt.AutoSize = true;
-            this.lblTeleOpMidAtt.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidAtt.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt.Location = new System.Drawing.Point(250, 210);
@@ -2707,7 +2708,7 @@
             // lblAutoMidMade
             // 
             this.lblAutoMidMade.AutoSize = true;
-            this.lblAutoMidMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade.Location = new System.Drawing.Point(174, 211);
@@ -2719,7 +2720,7 @@
             // lblTeleOpMidMade
             // 
             this.lblTeleOpMidMade.AutoSize = true;
-            this.lblTeleOpMidMade.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidMade.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade.Location = new System.Drawing.Point(174, 210);
@@ -2730,7 +2731,7 @@
             // 
             // lblScouter1
             // 
-            this.lblScouter1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblScouter1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblScouter1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter1.Location = new System.Drawing.Point(0, 12);
@@ -2742,7 +2743,7 @@
             // 
             // lbldisplayButtons4
             // 
-            this.lbldisplayButtons4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbldisplayButtons4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lbldisplayButtons4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldisplayButtons4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbldisplayButtons4.Location = new System.Drawing.Point(350, 72);
@@ -2753,7 +2754,7 @@
             // 
             // label71
             // 
-            this.label71.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label71.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label71.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label71.Location = new System.Drawing.Point(304, 72);
@@ -2764,7 +2765,7 @@
             // 
             // label70
             // 
-            this.label70.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.label70.BackColor = System.Drawing.SystemColors.HighlightText;
             this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label70.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label70.Location = new System.Drawing.Point(176, 15);
@@ -2775,7 +2776,7 @@
             // 
             // lblScouter4
             // 
-            this.lblScouter4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblScouter4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblScouter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScouter4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblScouter4.Location = new System.Drawing.Point(15, 15);
@@ -2787,7 +2788,7 @@
             // 
             // lblAutoTeamNo4
             // 
-            this.lblAutoTeamNo4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoTeamNo4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoTeamNo4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoTeamNo4.Location = new System.Drawing.Point(272, 9);
@@ -2800,7 +2801,7 @@
             // 
             this.lblTeleOp4.AutoSize = true;
             this.lblTeleOp4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOp4.ForeColor = System.Drawing.Color.Lime;
+            this.lblTeleOp4.ForeColor = System.Drawing.Color.Black;
             this.lblTeleOp4.Location = new System.Drawing.Point(13, 53);
             this.lblTeleOp4.Name = "lblTeleOp4";
             this.lblTeleOp4.Size = new System.Drawing.Size(251, 42);
@@ -2812,7 +2813,7 @@
             // 
             this.lblAuto4.AutoSize = true;
             this.lblAuto4.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto4.ForeColor = System.Drawing.Color.Lime;
+            this.lblAuto4.ForeColor = System.Drawing.Color.Black;
             this.lblAuto4.Location = new System.Drawing.Point(29, 53);
             this.lblAuto4.Name = "lblAuto4";
             this.lblAuto4.Size = new System.Drawing.Size(228, 42);
@@ -2821,7 +2822,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Navy;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
             this.panel4.Controls.Add(this.textBoxScout4);
             this.panel4.Controls.Add(this.btnScouter4);
             this.panel4.Controls.Add(this.label75);
@@ -2859,9 +2860,9 @@
             this.panel4.Controls.Add(this.label70);
             this.panel4.Controls.Add(this.label71);
             this.panel4.Controls.Add(this.lbldisplayButtons4);
-            this.panel4.Location = new System.Drawing.Point(12, 395);
+            this.panel4.Location = new System.Drawing.Point(12, 391);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(440, 340);
+            this.panel4.Size = new System.Drawing.Size(443, 344);
             this.panel4.TabIndex = 136;
             // 
             // textBoxScout4
@@ -2875,7 +2876,7 @@
             // 
             // btnScouter4
             // 
-            this.btnScouter4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btnScouter4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter4.ForeColor = System.Drawing.Color.Black;
             this.btnScouter4.Location = new System.Drawing.Point(109, 9);
@@ -2899,7 +2900,7 @@
             // lblDefense4
             // 
             this.lblDefense4.AutoSize = true;
-            this.lblDefense4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblDefense4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblDefense4.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDefense4.Location = new System.Drawing.Point(240, 306);
             this.lblDefense4.Name = "lblDefense4";
@@ -2970,7 +2971,7 @@
             // lblAutoLowAtt4
             // 
             this.lblAutoLowAtt4.AutoSize = true;
-            this.lblAutoLowAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowAtt4.Location = new System.Drawing.Point(250, 258);
@@ -2982,7 +2983,7 @@
             // lblAutoLowMade4
             // 
             this.lblAutoLowMade4.AutoSize = true;
-            this.lblAutoLowMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoLowMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoLowMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoLowMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoLowMade4.Location = new System.Drawing.Point(179, 258);
@@ -2994,7 +2995,7 @@
             // lblAutoMidAtt4
             // 
             this.lblAutoMidAtt4.AutoSize = true;
-            this.lblAutoMidAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidAtt4.Location = new System.Drawing.Point(250, 206);
@@ -3006,7 +3007,7 @@
             // lblAutoMidMade4
             // 
             this.lblAutoMidMade4.AutoSize = true;
-            this.lblAutoMidMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoMidMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoMidMade4.Location = new System.Drawing.Point(179, 208);
@@ -3018,7 +3019,7 @@
             // lblAutoHighAtt4
             // 
             this.lblAutoHighAtt4.AutoSize = true;
-            this.lblAutoHighAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighAtt4.Location = new System.Drawing.Point(250, 153);
@@ -3030,7 +3031,7 @@
             // lblAutoHighMade4
             // 
             this.lblAutoHighMade4.AutoSize = true;
-            this.lblAutoHighMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblAutoHighMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoHighMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoHighMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblAutoHighMade4.Location = new System.Drawing.Point(176, 153);
@@ -3042,7 +3043,7 @@
             // lblTeleOpLowAtt4
             // 
             this.lblTeleOpLowAtt4.AutoSize = true;
-            this.lblTeleOpLowAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowAtt4.Location = new System.Drawing.Point(250, 260);
@@ -3055,7 +3056,7 @@
             // lblTeleOpMidAtt4
             // 
             this.lblTeleOpMidAtt4.AutoSize = true;
-            this.lblTeleOpMidAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidAtt4.Location = new System.Drawing.Point(250, 208);
@@ -3068,7 +3069,7 @@
             // lblTeleOpHighAtt4
             // 
             this.lblTeleOpHighAtt4.AutoSize = true;
-            this.lblTeleOpHighAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighAtt4.Location = new System.Drawing.Point(250, 153);
@@ -3081,7 +3082,7 @@
             // lblTeleOpPyramidAtt4
             // 
             this.lblTeleOpPyramidAtt4.AutoSize = true;
-            this.lblTeleOpPyramidAtt4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidAtt4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidAtt4.Location = new System.Drawing.Point(252, 95);
@@ -3093,7 +3094,7 @@
             // 
             // lblRobotClimb4
             // 
-            this.lblRobotClimb4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblRobotClimb4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblRobotClimb4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblRobotClimb4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblRobotClimb4.Location = new System.Drawing.Point(179, 301);
@@ -3106,7 +3107,7 @@
             // lblTeleOpLowMade4
             // 
             this.lblTeleOpLowMade4.AutoSize = true;
-            this.lblTeleOpLowMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpLowMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpLowMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpLowMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpLowMade4.Location = new System.Drawing.Point(179, 260);
@@ -3119,7 +3120,7 @@
             // lblTeleOpMidMade4
             // 
             this.lblTeleOpMidMade4.AutoSize = true;
-            this.lblTeleOpMidMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpMidMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpMidMade4.Location = new System.Drawing.Point(179, 208);
@@ -3132,7 +3133,7 @@
             // lblTeleOpHighMade4
             // 
             this.lblTeleOpHighMade4.AutoSize = true;
-            this.lblTeleOpHighMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpHighMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpHighMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpHighMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpHighMade4.Location = new System.Drawing.Point(176, 153);
@@ -3196,7 +3197,7 @@
             // lblTeleOpPyramidMade4
             // 
             this.lblTeleOpPyramidMade4.AutoSize = true;
-            this.lblTeleOpPyramidMade4.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lblTeleOpPyramidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lblTeleOpPyramidMade4.Location = new System.Drawing.Point(176, 95);
@@ -3211,7 +3212,7 @@
             this.label63.AutoSize = true;
             this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label63.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label63.Location = new System.Drawing.Point(5, 7);
+            this.label63.Location = new System.Drawing.Point(3, 10);
             this.label63.Name = "label63";
             this.label63.Size = new System.Drawing.Size(138, 39);
             this.label63.TabIndex = 144;
@@ -3219,10 +3220,10 @@
             // 
             // SaveDataBtn
             // 
-            this.SaveDataBtn.BackColor = System.Drawing.Color.Black;
+            this.SaveDataBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.SaveDataBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SaveDataBtn.ForeColor = System.Drawing.Color.LawnGreen;
-            this.SaveDataBtn.Location = new System.Drawing.Point(1158, 2);
+            this.SaveDataBtn.Location = new System.Drawing.Point(1159, 4);
             this.SaveDataBtn.Name = "SaveDataBtn";
             this.SaveDataBtn.Size = new System.Drawing.Size(110, 44);
             this.SaveDataBtn.TabIndex = 218;
@@ -3232,7 +3233,7 @@
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Black;
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.LawnGreen;
             this.button3.Location = new System.Drawing.Point(796, 4);
@@ -3253,7 +3254,7 @@
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Black;
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.LawnGreen;
             this.button4.Location = new System.Drawing.Point(740, 4);
@@ -3266,7 +3267,7 @@
             // 
             // btnSkip
             // 
-            this.btnSkip.BackColor = System.Drawing.Color.Black;
+            this.btnSkip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.btnSkip.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSkip.ForeColor = System.Drawing.Color.LawnGreen;
             this.btnSkip.Location = new System.Drawing.Point(740, 4);
@@ -3282,7 +3283,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(87)))), ((int)(((byte)(79)))));
             this.ClientSize = new System.Drawing.Size(1343, 737);
             this.Controls.Add(this.btnSkip);
             this.Controls.Add(this.button4);

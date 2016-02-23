@@ -343,7 +343,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[0])
                 lblTeleOp.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp.ForeColor = Color.Lime;
+                lblTeleOp.ForeColor = Color.Black;
 
 
 
@@ -424,7 +424,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[1])
                 lblTeleOp2.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp2.ForeColor = Color.Lime;
+                lblTeleOp2.ForeColor = Color.Black;
 
 
         }
@@ -504,7 +504,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[2])
                 lblTeleOp3.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp3.ForeColor = Color.Lime;
+                lblTeleOp3.ForeColor = Color.Black;
 
 
 
@@ -585,7 +585,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[3])
                 lblTeleOp4.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp4.ForeColor = Color.Lime;
+                lblTeleOp4.ForeColor = Color.Black;
 
 
 
@@ -667,7 +667,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[4])
                 lblTeleOp5.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp5.ForeColor = Color.Lime;
+                lblTeleOp5.ForeColor = Color.Black;
 
 
         }
@@ -748,7 +748,7 @@ namespace MultipleJoysticks
             if (FinshedScoring[5])
                 lblTeleOp6.ForeColor = Color.DarkGreen;
             else
-                lblTeleOp6.ForeColor = Color.Lime;
+                lblTeleOp6.ForeColor = Color.Black;
 
 
         }
@@ -1420,6 +1420,11 @@ namespace MultipleJoysticks
         }
 
         private void label37_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTime_Click(object sender, EventArgs e)
         {
 
         }
