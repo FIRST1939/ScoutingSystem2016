@@ -1433,5 +1433,25 @@ namespace MultipleJoysticks
         {
 
         }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAutoTeamNo4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAutoTeamNo5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

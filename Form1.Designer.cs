@@ -276,6 +276,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.btnSkip = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.lblValanceAttempted2.SuspendLayout();
@@ -333,6 +334,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(443, 343);
             this.panel6.TabIndex = 135;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
             // btnScouter6
             // 
@@ -806,7 +808,7 @@
             // 
             this.textBoxScout5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxScout5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
-            this.textBoxScout5.Location = new System.Drawing.Point(15, 12);
+            this.textBoxScout5.Location = new System.Drawing.Point(14, 12);
             this.textBoxScout5.Name = "textBoxScout5";
             this.textBoxScout5.Size = new System.Drawing.Size(92, 33);
             this.textBoxScout5.TabIndex = 225;
@@ -1177,6 +1179,7 @@
             this.lblAutoTeamNo5.TabIndex = 170;
             this.lblAutoTeamNo5.Text = "Team";
             this.lblAutoTeamNo5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAutoTeamNo5.Click += new System.EventHandler(this.lblAutoTeamNo5_Click);
             // 
             // lblScouter5
             // 
@@ -1237,7 +1240,7 @@
             // 
             // lblValanceAttempted2
             // 
-            this.lblValanceAttempted2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
+            this.lblValanceAttempted2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
             this.lblValanceAttempted2.Controls.Add(this.btnScouter2);
             this.lblValanceAttempted2.Controls.Add(this.textBoxScout2);
             this.lblValanceAttempted2.Controls.Add(this.lblDefense2);
@@ -1400,7 +1403,7 @@
             // 
             this.lblAutoTotalPoints2.AutoSize = true;
             this.lblAutoTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints2.Location = new System.Drawing.Point(375, 114);
+            this.lblAutoTotalPoints2.Location = new System.Drawing.Point(375, 103);
             this.lblAutoTotalPoints2.Name = "lblAutoTotalPoints2";
             this.lblAutoTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints2.TabIndex = 204;
@@ -1410,7 +1413,7 @@
             // 
             this.lblTeleOpTotalPoints2.AutoSize = true;
             this.lblTeleOpTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(375, 189);
+            this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(375, 184);
             this.lblTeleOpTotalPoints2.Name = "lblTeleOpTotalPoints2";
             this.lblTeleOpTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints2.TabIndex = 203;
@@ -1440,7 +1443,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(303, 194);
+            this.label27.Location = new System.Drawing.Point(309, 192);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(70, 26);
             this.label27.TabIndex = 195;
@@ -1450,7 +1453,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(309, 115);
+            this.label15.Location = new System.Drawing.Point(316, 108);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(50, 26);
             this.label15.TabIndex = 195;
@@ -1576,7 +1579,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(0, 315);
+            this.label23.Location = new System.Drawing.Point(15, 308);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(114, 26);
             this.label23.TabIndex = 195;
@@ -1586,7 +1589,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(1, 274);
+            this.label22.Location = new System.Drawing.Point(15, 268);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(112, 26);
             this.label22.TabIndex = 195;
@@ -1596,7 +1599,7 @@
             // 
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.Location = new System.Drawing.Point(0, 222);
+            this.label21.Location = new System.Drawing.Point(16, 218);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(111, 26);
             this.label21.TabIndex = 195;
@@ -1606,17 +1609,18 @@
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.Location = new System.Drawing.Point(1, 168);
+            this.label20.Location = new System.Drawing.Point(15, 168);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(110, 26);
             this.label20.TabIndex = 195;
             this.label20.Text = "Scored Low";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(0, 113);
+            this.label7.Location = new System.Drawing.Point(16, 111);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(117, 26);
             this.label7.TabIndex = 195;
@@ -1651,7 +1655,7 @@
             this.lblAutoTeamNo2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
             this.lblAutoTeamNo2.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoTeamNo2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
-            this.lblAutoTeamNo2.Location = new System.Drawing.Point(272, 9);
+            this.lblAutoTeamNo2.Location = new System.Drawing.Point(277, 9);
             this.lblAutoTeamNo2.Name = "lblAutoTeamNo2";
             this.lblAutoTeamNo2.Size = new System.Drawing.Size(165, 51);
             this.lblAutoTeamNo2.TabIndex = 169;
@@ -1860,7 +1864,7 @@
             // 
             // panel56
             // 
-            this.panel56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
+            this.panel56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
             this.panel56.Controls.Add(this.btnScouter3);
             this.panel56.Controls.Add(this.textBoxScout3);
             this.panel56.Controls.Add(this.label72);
@@ -1903,7 +1907,7 @@
             this.panel56.Controls.Add(this.label2);
             this.panel56.Controls.Add(this.label1);
             this.panel56.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel56.Location = new System.Drawing.Point(901, 49);
+            this.panel56.Location = new System.Drawing.Point(903, 49);
             this.panel56.Name = "panel56";
             this.panel56.Size = new System.Drawing.Size(443, 343);
             this.panel56.TabIndex = 138;
@@ -2291,7 +2295,7 @@
             this.lblTeleOpPyramidMade.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpPyramidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpPyramidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade.Location = new System.Drawing.Point(170, 102);
+            this.lblTeleOpPyramidMade.Location = new System.Drawing.Point(174, 102);
             this.lblTeleOpPyramidMade.Name = "lblTeleOpPyramidMade";
             this.lblTeleOpPyramidMade.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpPyramidMade.TabIndex = 16;
@@ -2430,7 +2434,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.label8.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(2, 114);
+            this.label8.Location = new System.Drawing.Point(2, 115);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(117, 26);
             this.label8.TabIndex = 173;
@@ -2440,7 +2444,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(3, 168);
+            this.label10.Location = new System.Drawing.Point(2, 168);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(110, 26);
             this.label10.TabIndex = 174;
@@ -2450,7 +2454,7 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(2, 263);
+            this.label16.Location = new System.Drawing.Point(3, 267);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(112, 26);
             this.label16.TabIndex = 177;
@@ -2467,7 +2471,8 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.panel1.Controls.Add(this.label5);
             this.panel1.Controls.Add(this.btnScouter1);
             this.panel1.Controls.Add(this.textBoxScout1);
             this.panel1.Controls.Add(this.label65);
@@ -2803,6 +2808,7 @@
             this.lblAutoTeamNo4.TabIndex = 170;
             this.lblAutoTeamNo4.Text = "Team";
             this.lblAutoTeamNo4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAutoTeamNo4.Click += new System.EventHandler(this.lblAutoTeamNo4_Click);
             // 
             // lblTeleOp4
             // 
@@ -3244,7 +3250,7 @@
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
             this.button3.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
-            this.button3.Location = new System.Drawing.Point(805, 10);
+            this.button3.Location = new System.Drawing.Point(796, 8);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(144, 33);
             this.button3.TabIndex = 218;
@@ -3286,6 +3292,15 @@
             this.btnSkip.UseVisualStyleBackColor = false;
             this.btnSkip.Visible = false;
             this.btnSkip.Click += new System.EventHandler(this.btnSkip_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 218);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 26);
+            this.label5.TabIndex = 222;
             // 
             // Form1
             // 
@@ -3578,6 +3593,7 @@
         private System.Windows.Forms.Button btnScouter5;
         private System.Windows.Forms.Button btnScouter6;
         private System.Windows.Forms.TextBox textBoxScout6;
+        private System.Windows.Forms.Label label5;
     }
 }
 
