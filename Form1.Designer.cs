@@ -42,26 +42,26 @@
             this.label62 = new System.Windows.Forms.Label();
             this.label53 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
-            this.lblAutoLowMade6 = new System.Windows.Forms.Label();
-            this.lblAutoLowAtt6 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade6 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt6 = new System.Windows.Forms.Label();
-            this.lblAutoHighAtt6 = new System.Windows.Forms.Label();
-            this.lblAutoHighMade6 = new System.Windows.Forms.Label();
-            this.lblRobotClimb6 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt6 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowAtt6 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidAtt6 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighAtt6 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowMade6 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade6 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighMade6 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Made6 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Att6 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Made6 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Att6 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Att6 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Made6 = new System.Windows.Forms.Label();
+            this.lblRobotScale6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Att6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Att6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Att6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Att6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Made6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Made6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Made6 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
             this.label59 = new System.Windows.Forms.Label();
             this.label60 = new System.Windows.Forms.Label();
             this.label61 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidMade6 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Made6 = new System.Windows.Forms.Label();
             this.lblTeleOp6 = new System.Windows.Forms.Label();
             this.lblAuto6 = new System.Windows.Forms.Label();
             this.lblAutoTeamNo6 = new System.Windows.Forms.Label();
@@ -80,26 +80,26 @@
             this.label54 = new System.Windows.Forms.Label();
             this.lblAutoTotalPoints5 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
-            this.lblAutoLowMade5 = new System.Windows.Forms.Label();
-            this.lblAutoLowAtt5 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt5 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade5 = new System.Windows.Forms.Label();
-            this.lblAutoHighAtt5 = new System.Windows.Forms.Label();
-            this.lblAutoHighMade5 = new System.Windows.Forms.Label();
-            this.lblRobotClimb5 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidAtt5 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade5 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowMade5 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowAtt5 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighAtt5 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt5 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighMade5 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Made5 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Att5 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Att5 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Made5 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Att5 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Made5 = new System.Windows.Forms.Label();
+            this.lblRobotScale5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Att5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Made5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Made5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Att5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Att5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Att5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Made5 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label41 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidMade5 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Made5 = new System.Windows.Forms.Label();
             this.lblTeleOp5 = new System.Windows.Forms.Label();
             this.lblAuto5 = new System.Windows.Forms.Label();
             this.lblAutoTeamNo5 = new System.Windows.Forms.Label();
@@ -113,27 +113,27 @@
             this.textBoxScout2 = new System.Windows.Forms.TextBox();
             this.lblDefense2 = new System.Windows.Forms.Label();
             this.lblDefenseRating2 = new System.Windows.Forms.Label();
-            this.lblAutoHighAtt2 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade2 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt2 = new System.Windows.Forms.Label();
-            this.lblAutoLowMade2 = new System.Windows.Forms.Label();
-            this.lblAutoLowAtt2 = new System.Windows.Forms.Label();
-            this.lblAutoHighMade2 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Att2 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Made2 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Att2 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Made2 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Att2 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Made2 = new System.Windows.Forms.Label();
             this.lblAutoTotalPoints2 = new System.Windows.Forms.Label();
             this.lblTeleOpTotalPoints2 = new System.Windows.Forms.Label();
             this.lblTotalPoints2 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.lblRobotClimb2 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidAtt2 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowMade2 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowAtt2 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade2 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighAtt2 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt2 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighMade2 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidMade2 = new System.Windows.Forms.Label();
+            this.lblRobotScale2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Att2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Made2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Att2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Made2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Att2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Att2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Made2 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Made2 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
@@ -171,21 +171,21 @@
             this.label48 = new System.Windows.Forms.Label();
             this.lblAutoTotalPoints3 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt3 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade3 = new System.Windows.Forms.Label();
-            this.lblAutoHighAtt3 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowAtt3 = new System.Windows.Forms.Label();
-            this.lblAutoLowMade3 = new System.Windows.Forms.Label();
-            this.lblAutoHighMade3 = new System.Windows.Forms.Label();
-            this.lblAutoLowAtt3 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt3 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighAtt3 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidAtt3 = new System.Windows.Forms.Label();
-            this.lblRobotClimb3 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowMade3 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade3 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighMade3 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidMade3 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Att3 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Made3 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Att3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Att3 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Made3 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Made3 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Att3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Att3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Att3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Att3 = new System.Windows.Forms.Label();
+            this.lblRobotScale3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Made3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Made3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Made3 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Made3 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
@@ -193,10 +193,10 @@
             this.label24 = new System.Windows.Forms.Label();
             this.lblTeleOp3 = new System.Windows.Forms.Label();
             this.lblAuto3 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighAtt = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidMade = new System.Windows.Forms.Label();
-            this.lblTeleOpHighMade = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidAtt = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Att = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Made = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Made = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Att = new System.Windows.Forms.Label();
             this.lbldisplayButtons1 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
@@ -204,8 +204,8 @@
             this.lbltest1 = new System.Windows.Forms.Label();
             this.lblAuto = new System.Windows.Forms.Label();
             this.lblTeleOp = new System.Windows.Forms.Label();
-            this.lblAutoHighAtt = new System.Windows.Forms.Label();
-            this.lblAutoHighMade = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Att = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Made = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
@@ -221,16 +221,16 @@
             this.lblTotalPoints = new System.Windows.Forms.Label();
             this.lblAutoTotalPoints = new System.Windows.Forms.Label();
             this.lblTeleOpTotalPoints = new System.Windows.Forms.Label();
-            this.lblRobotClimb = new System.Windows.Forms.Label();
+            this.lblRobotScale = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowAtt = new System.Windows.Forms.Label();
-            this.lblAutoLowAtt = new System.Windows.Forms.Label();
-            this.lblAutoLowMade = new System.Windows.Forms.Label();
-            this.lblTeleOpLowMade = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt = new System.Windows.Forms.Label();
-            this.lblAutoMidMade = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Att = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Att = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Made = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Made = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Att = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Att = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Made = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Made = new System.Windows.Forms.Label();
             this.lblScouter1 = new System.Windows.Forms.Label();
             this.lbldisplayButtons4 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
@@ -250,26 +250,26 @@
             this.lblTeleOpTotalPoints4 = new System.Windows.Forms.Label();
             this.label52 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
-            this.lblAutoLowAtt4 = new System.Windows.Forms.Label();
-            this.lblAutoLowMade4 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt4 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade4 = new System.Windows.Forms.Label();
-            this.lblAutoHighAtt4 = new System.Windows.Forms.Label();
-            this.lblAutoHighMade4 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowAtt4 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt4 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighAtt4 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidAtt4 = new System.Windows.Forms.Label();
-            this.lblRobotClimb4 = new System.Windows.Forms.Label();
-            this.lblTeleOpLowMade4 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade4 = new System.Windows.Forms.Label();
-            this.lblTeleOpHighMade4 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Att4 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot4Made4 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Att4 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot3Made4 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Att4 = new System.Windows.Forms.Label();
+            this.lblAutoDefSlot2Made4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Att4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Att4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Att4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Att4 = new System.Windows.Forms.Label();
+            this.lblRobotScale4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot4Made4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot3Made4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot2Made4 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.lblTeleOpPyramidMade4 = new System.Windows.Forms.Label();
+            this.lblTeleOpDefSlot1Made4 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
             this.SaveDataBtn = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -302,26 +302,26 @@
             this.panel6.Controls.Add(this.label62);
             this.panel6.Controls.Add(this.label53);
             this.panel6.Controls.Add(this.label39);
-            this.panel6.Controls.Add(this.lblAutoLowMade6);
-            this.panel6.Controls.Add(this.lblAutoLowAtt6);
-            this.panel6.Controls.Add(this.lblAutoMidMade6);
-            this.panel6.Controls.Add(this.lblAutoMidAtt6);
-            this.panel6.Controls.Add(this.lblAutoHighAtt6);
-            this.panel6.Controls.Add(this.lblAutoHighMade6);
-            this.panel6.Controls.Add(this.lblRobotClimb6);
-            this.panel6.Controls.Add(this.lblTeleOpMidAtt6);
-            this.panel6.Controls.Add(this.lblTeleOpLowAtt6);
-            this.panel6.Controls.Add(this.lblTeleOpPyramidAtt6);
-            this.panel6.Controls.Add(this.lblTeleOpHighAtt6);
-            this.panel6.Controls.Add(this.lblTeleOpLowMade6);
-            this.panel6.Controls.Add(this.lblTeleOpMidMade6);
-            this.panel6.Controls.Add(this.lblTeleOpHighMade6);
+            this.panel6.Controls.Add(this.lblAutoDefSlot4Made6);
+            this.panel6.Controls.Add(this.lblAutoDefSlot4Att6);
+            this.panel6.Controls.Add(this.lblAutoDefSlot3Made6);
+            this.panel6.Controls.Add(this.lblAutoDefSlot3Att6);
+            this.panel6.Controls.Add(this.lblAutoDefSlot2Att6);
+            this.panel6.Controls.Add(this.lblAutoDefSlot2Made6);
+            this.panel6.Controls.Add(this.lblRobotScale6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot3Att6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot4Att6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot1Att6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot2Att6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot4Made6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot3Made6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot2Made6);
             this.panel6.Controls.Add(this.label57);
             this.panel6.Controls.Add(this.label58);
             this.panel6.Controls.Add(this.label59);
             this.panel6.Controls.Add(this.label60);
             this.panel6.Controls.Add(this.label61);
-            this.panel6.Controls.Add(this.lblTeleOpPyramidMade6);
+            this.panel6.Controls.Add(this.lblTeleOpDefSlot1Made6);
             this.panel6.Controls.Add(this.lblTeleOp6);
             this.panel6.Controls.Add(this.lblAuto6);
             this.panel6.Controls.Add(this.lblAutoTeamNo6);
@@ -439,180 +439,180 @@
             this.label39.TabIndex = 195;
             this.label39.Text = "Auto";
             // 
-            // lblAutoLowMade6
+            // lblAutoDefSlot4Made6
             // 
-            this.lblAutoLowMade6.AutoSize = true;
-            this.lblAutoLowMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowMade6.Location = new System.Drawing.Point(184, 260);
-            this.lblAutoLowMade6.Name = "lblAutoLowMade6";
-            this.lblAutoLowMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowMade6.TabIndex = 239;
-            this.lblAutoLowMade6.Text = "00";
+            this.lblAutoDefSlot4Made6.AutoSize = true;
+            this.lblAutoDefSlot4Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Made6.Location = new System.Drawing.Point(184, 260);
+            this.lblAutoDefSlot4Made6.Name = "lblAutoDefSlot4Made6";
+            this.lblAutoDefSlot4Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Made6.TabIndex = 239;
+            this.lblAutoDefSlot4Made6.Text = "00";
             // 
-            // lblAutoLowAtt6
+            // lblAutoDefSlot4Att6
             // 
-            this.lblAutoLowAtt6.AutoSize = true;
-            this.lblAutoLowAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowAtt6.Location = new System.Drawing.Point(260, 262);
-            this.lblAutoLowAtt6.Name = "lblAutoLowAtt6";
-            this.lblAutoLowAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowAtt6.TabIndex = 238;
-            this.lblAutoLowAtt6.Text = "00";
+            this.lblAutoDefSlot4Att6.AutoSize = true;
+            this.lblAutoDefSlot4Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Att6.Location = new System.Drawing.Point(260, 262);
+            this.lblAutoDefSlot4Att6.Name = "lblAutoDefSlot4Att6";
+            this.lblAutoDefSlot4Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Att6.TabIndex = 238;
+            this.lblAutoDefSlot4Att6.Text = "00";
             // 
-            // lblAutoMidMade6
+            // lblAutoDefSlot3Made6
             // 
-            this.lblAutoMidMade6.AutoSize = true;
-            this.lblAutoMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade6.Location = new System.Drawing.Point(184, 208);
-            this.lblAutoMidMade6.Name = "lblAutoMidMade6";
-            this.lblAutoMidMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade6.TabIndex = 237;
-            this.lblAutoMidMade6.Text = "00";
+            this.lblAutoDefSlot3Made6.AutoSize = true;
+            this.lblAutoDefSlot3Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Made6.Location = new System.Drawing.Point(184, 208);
+            this.lblAutoDefSlot3Made6.Name = "lblAutoDefSlot3Made6";
+            this.lblAutoDefSlot3Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Made6.TabIndex = 237;
+            this.lblAutoDefSlot3Made6.Text = "00";
             // 
-            // lblAutoMidAtt6
+            // lblAutoDefSlot3Att6
             // 
-            this.lblAutoMidAtt6.AutoSize = true;
-            this.lblAutoMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt6.Location = new System.Drawing.Point(260, 208);
-            this.lblAutoMidAtt6.Name = "lblAutoMidAtt6";
-            this.lblAutoMidAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt6.TabIndex = 236;
-            this.lblAutoMidAtt6.Text = "00";
+            this.lblAutoDefSlot3Att6.AutoSize = true;
+            this.lblAutoDefSlot3Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Att6.Location = new System.Drawing.Point(260, 208);
+            this.lblAutoDefSlot3Att6.Name = "lblAutoDefSlot3Att6";
+            this.lblAutoDefSlot3Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Att6.TabIndex = 236;
+            this.lblAutoDefSlot3Att6.Text = "00";
             // 
             // lblAutoHighAtt6
             // 
-            this.lblAutoHighAtt6.AutoSize = true;
-            this.lblAutoHighAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighAtt6.Location = new System.Drawing.Point(260, 153);
-            this.lblAutoHighAtt6.Name = "lblAutoHighAtt6";
-            this.lblAutoHighAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighAtt6.TabIndex = 235;
-            this.lblAutoHighAtt6.Text = "00";
+            this.lblAutoDefSlot2Att6.AutoSize = true;
+            this.lblAutoDefSlot2Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Att6.Location = new System.Drawing.Point(260, 153);
+            this.lblAutoDefSlot2Att6.Name = "lblAutoDefSlot2Att6";
+            this.lblAutoDefSlot2Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Att6.TabIndex = 235;
+            this.lblAutoDefSlot2Att6.Text = "00";
             // 
-            // lblAutoHighMade6
+            // lblAutoDefSlot2Made6
             // 
-            this.lblAutoHighMade6.AutoSize = true;
-            this.lblAutoHighMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighMade6.Location = new System.Drawing.Point(184, 153);
-            this.lblAutoHighMade6.Name = "lblAutoHighMade6";
-            this.lblAutoHighMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighMade6.TabIndex = 234;
-            this.lblAutoHighMade6.Text = "00";
+            this.lblAutoDefSlot2Made6.AutoSize = true;
+            this.lblAutoDefSlot2Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Made6.Location = new System.Drawing.Point(184, 153);
+            this.lblAutoDefSlot2Made6.Name = "lblAutoDefSlot2Made6";
+            this.lblAutoDefSlot2Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Made6.TabIndex = 234;
+            this.lblAutoDefSlot2Made6.Text = "00";
             // 
-            // lblRobotClimb6
+            // lblRobotScale6
             // 
-            this.lblRobotClimb6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb6.Location = new System.Drawing.Point(184, 301);
-            this.lblRobotClimb6.Name = "lblRobotClimb6";
-            this.lblRobotClimb6.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb6.TabIndex = 233;
-            this.lblRobotClimb6.Text = "0";
-            this.lblRobotClimb6.Visible = false;
+            this.lblRobotScale6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRobotScale6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotScale6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRobotScale6.Location = new System.Drawing.Point(184, 301);
+            this.lblRobotScale6.Name = "lblRobotScale6";
+            this.lblRobotScale6.Size = new System.Drawing.Size(55, 39);
+            this.lblRobotScale6.TabIndex = 233;
+            this.lblRobotScale6.Text = "0";
+            this.lblRobotScale6.Visible = false;
             // 
-            // lblTeleOpMidAtt6
+            // lblTeleOpDefSlot3Att6
             // 
-            this.lblTeleOpMidAtt6.AutoSize = true;
-            this.lblTeleOpMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt6.Location = new System.Drawing.Point(260, 206);
-            this.lblTeleOpMidAtt6.Name = "lblTeleOpMidAtt6";
-            this.lblTeleOpMidAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt6.TabIndex = 232;
-            this.lblTeleOpMidAtt6.Text = "00";
-            this.lblTeleOpMidAtt6.Visible = false;
+            this.lblTeleOpDefSlot3Att6.AutoSize = true;
+            this.lblTeleOpDefSlot3Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Att6.Location = new System.Drawing.Point(260, 206);
+            this.lblTeleOpDefSlot3Att6.Name = "lblTeleOpDefSlot3Att6";
+            this.lblTeleOpDefSlot3Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Att6.TabIndex = 232;
+            this.lblTeleOpDefSlot3Att6.Text = "00";
+            this.lblTeleOpDefSlot3Att6.Visible = false;
             // 
-            // lblTeleOpLowAtt6
+            // lblTeleOpDefSlot4Att6
             // 
-            this.lblTeleOpLowAtt6.AutoSize = true;
-            this.lblTeleOpLowAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowAtt6.Location = new System.Drawing.Point(260, 262);
-            this.lblTeleOpLowAtt6.Name = "lblTeleOpLowAtt6";
-            this.lblTeleOpLowAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowAtt6.TabIndex = 231;
-            this.lblTeleOpLowAtt6.Text = "00";
-            this.lblTeleOpLowAtt6.Visible = false;
+            this.lblTeleOpDefSlot4Att6.AutoSize = true;
+            this.lblTeleOpDefSlot4Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Att6.Location = new System.Drawing.Point(260, 262);
+            this.lblTeleOpDefSlot4Att6.Name = "lblTeleOpDefSlot4Att6";
+            this.lblTeleOpDefSlot4Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Att6.TabIndex = 231;
+            this.lblTeleOpDefSlot4Att6.Text = "00";
+            this.lblTeleOpDefSlot4Att6.Visible = false;
             // 
-            // lblTeleOpPyramidAtt6
+            // lblTeleOpDefSlot1Att6
             // 
-            this.lblTeleOpPyramidAtt6.AutoSize = true;
-            this.lblTeleOpPyramidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidAtt6.Location = new System.Drawing.Point(260, 101);
-            this.lblTeleOpPyramidAtt6.Name = "lblTeleOpPyramidAtt6";
-            this.lblTeleOpPyramidAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidAtt6.TabIndex = 230;
-            this.lblTeleOpPyramidAtt6.Text = "00";
-            this.lblTeleOpPyramidAtt6.Visible = false;
+            this.lblTeleOpDefSlot1Att6.AutoSize = true;
+            this.lblTeleOpDefSlot1Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Att6.Location = new System.Drawing.Point(260, 101);
+            this.lblTeleOpDefSlot1Att6.Name = "lblTeleOpDefSlot1Att6";
+            this.lblTeleOpDefSlot1Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Att6.TabIndex = 230;
+            this.lblTeleOpDefSlot1Att6.Text = "00";
+            this.lblTeleOpDefSlot1Att6.Visible = false;
             // 
             // lblTeleOpHighAtt6
             // 
-            this.lblTeleOpHighAtt6.AutoSize = true;
-            this.lblTeleOpHighAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighAtt6.Location = new System.Drawing.Point(260, 153);
-            this.lblTeleOpHighAtt6.Name = "lblTeleOpHighAtt6";
-            this.lblTeleOpHighAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighAtt6.TabIndex = 229;
-            this.lblTeleOpHighAtt6.Text = "00";
-            this.lblTeleOpHighAtt6.Visible = false;
+            this.lblTeleOpDefSlot2Att6.AutoSize = true;
+            this.lblTeleOpDefSlot2Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Att6.Location = new System.Drawing.Point(260, 153);
+            this.lblTeleOpDefSlot2Att6.Name = "lblTeleOpDefSlot2Att6";
+            this.lblTeleOpDefSlot2Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Att6.TabIndex = 229;
+            this.lblTeleOpDefSlot2Att6.Text = "00";
+            this.lblTeleOpDefSlot2Att6.Visible = false;
             // 
-            // lblTeleOpLowMade6
+            // lblTeleOpDefSlot4Made6
             // 
-            this.lblTeleOpLowMade6.AutoSize = true;
-            this.lblTeleOpLowMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowMade6.Location = new System.Drawing.Point(184, 260);
-            this.lblTeleOpLowMade6.Name = "lblTeleOpLowMade6";
-            this.lblTeleOpLowMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowMade6.TabIndex = 227;
-            this.lblTeleOpLowMade6.Text = "00";
-            this.lblTeleOpLowMade6.Visible = false;
+            this.lblTeleOpDefSlot4Made6.AutoSize = true;
+            this.lblTeleOpDefSlot4Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Made6.Location = new System.Drawing.Point(184, 260);
+            this.lblTeleOpDefSlot4Made6.Name = "lblTeleOpDefSlot4Made6";
+            this.lblTeleOpDefSlot4Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Made6.TabIndex = 227;
+            this.lblTeleOpDefSlot4Made6.Text = "00";
+            this.lblTeleOpDefSlot4Made6.Visible = false;
             // 
-            // lblTeleOpMidMade6
+            // lblTeleOpDefSlot3Made6
             // 
-            this.lblTeleOpMidMade6.AutoSize = true;
-            this.lblTeleOpMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade6.Location = new System.Drawing.Point(184, 208);
-            this.lblTeleOpMidMade6.Name = "lblTeleOpMidMade6";
-            this.lblTeleOpMidMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade6.TabIndex = 226;
-            this.lblTeleOpMidMade6.Text = "00";
-            this.lblTeleOpMidMade6.Visible = false;
+            this.lblTeleOpDefSlot3Made6.AutoSize = true;
+            this.lblTeleOpDefSlot3Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Made6.Location = new System.Drawing.Point(184, 208);
+            this.lblTeleOpDefSlot3Made6.Name = "lblTeleOpDefSlot3Made6";
+            this.lblTeleOpDefSlot3Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Made6.TabIndex = 226;
+            this.lblTeleOpDefSlot3Made6.Text = "00";
+            this.lblTeleOpDefSlot3Made6.Visible = false;
             // 
             // lblTeleOpHighMade6
             // 
-            this.lblTeleOpHighMade6.AutoSize = true;
-            this.lblTeleOpHighMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighMade6.Location = new System.Drawing.Point(184, 153);
-            this.lblTeleOpHighMade6.Name = "lblTeleOpHighMade6";
-            this.lblTeleOpHighMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighMade6.TabIndex = 225;
-            this.lblTeleOpHighMade6.Text = "00";
-            this.lblTeleOpHighMade6.Visible = false;
+            this.lblTeleOpDefSlot2Made6.AutoSize = true;
+            this.lblTeleOpDefSlot2Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Made6.Location = new System.Drawing.Point(184, 153);
+            this.lblTeleOpDefSlot2Made6.Name = "lblTeleOpDefSlot2Made6";
+            this.lblTeleOpDefSlot2Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Made6.TabIndex = 225;
+            this.lblTeleOpDefSlot2Made6.Text = "00";
+            this.lblTeleOpDefSlot2Made6.Visible = false;
             // 
             // label57
             // 
@@ -622,7 +622,7 @@
             this.label57.Name = "label57";
             this.label57.Size = new System.Drawing.Size(117, 26);
             this.label57.TabIndex = 220;
-            this.label57.Text = "Scored High";
+            this.label57.Text = "Scored DefSlot2";
             // 
             // label58
             // 
@@ -642,7 +642,7 @@
             this.label59.Name = "label59";
             this.label59.Size = new System.Drawing.Size(111, 26);
             this.label59.TabIndex = 222;
-            this.label59.Text = "Mid Frisbee";
+            this.label59.Text = "DefSlot3 Frisbee";
             // 
             // label60
             // 
@@ -662,20 +662,20 @@
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(114, 26);
             this.label61.TabIndex = 224;
-            this.label61.Text = "Robot Climb";
+            this.label61.Text = "Robot Scale";
             // 
-            // lblTeleOpPyramidMade6
+            // lblTeleOpDefSlot1Made6
             // 
-            this.lblTeleOpPyramidMade6.AutoSize = true;
-            this.lblTeleOpPyramidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade6.Location = new System.Drawing.Point(184, 101);
-            this.lblTeleOpPyramidMade6.Name = "lblTeleOpPyramidMade6";
-            this.lblTeleOpPyramidMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidMade6.TabIndex = 220;
-            this.lblTeleOpPyramidMade6.Text = "00";
-            this.lblTeleOpPyramidMade6.Visible = false;
+            this.lblTeleOpDefSlot1Made6.AutoSize = true;
+            this.lblTeleOpDefSlot1Made6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Made6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Made6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Made6.Location = new System.Drawing.Point(184, 101);
+            this.lblTeleOpDefSlot1Made6.Name = "lblTeleOpDefSlot1Made6";
+            this.lblTeleOpDefSlot1Made6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Made6.TabIndex = 220;
+            this.lblTeleOpDefSlot1Made6.Text = "00";
+            this.lblTeleOpDefSlot1Made6.Visible = false;
             // 
             // lblTeleOp6
             // 
@@ -770,26 +770,26 @@
             this.panel3.Controls.Add(this.label54);
             this.panel3.Controls.Add(this.lblAutoTotalPoints5);
             this.panel3.Controls.Add(this.label49);
-            this.panel3.Controls.Add(this.lblAutoLowMade5);
-            this.panel3.Controls.Add(this.lblAutoLowAtt5);
-            this.panel3.Controls.Add(this.lblAutoMidAtt5);
-            this.panel3.Controls.Add(this.lblAutoMidMade5);
-            this.panel3.Controls.Add(this.lblAutoHighAtt5);
-            this.panel3.Controls.Add(this.lblAutoHighMade5);
-            this.panel3.Controls.Add(this.lblRobotClimb5);
-            this.panel3.Controls.Add(this.lblTeleOpPyramidAtt5);
-            this.panel3.Controls.Add(this.lblTeleOpMidMade5);
-            this.panel3.Controls.Add(this.lblTeleOpLowMade5);
-            this.panel3.Controls.Add(this.lblTeleOpLowAtt5);
-            this.panel3.Controls.Add(this.lblTeleOpHighAtt5);
-            this.panel3.Controls.Add(this.lblTeleOpMidAtt5);
-            this.panel3.Controls.Add(this.lblTeleOpHighMade5);
+            this.panel3.Controls.Add(this.lblAutoDefSlot4Made5);
+            this.panel3.Controls.Add(this.lblAutoDefSlot4Att5);
+            this.panel3.Controls.Add(this.lblAutoDefSlot3Att5);
+            this.panel3.Controls.Add(this.lblAutoDefSlot3Made5);
+            this.panel3.Controls.Add(this.lblAutoDefSlot2Att5);
+            this.panel3.Controls.Add(this.lblAutoDefSlot2Made5);
+            this.panel3.Controls.Add(this.lblRobotScale5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot1Att5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot3Made5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot4Made5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot4Att5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot2Att5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot3Att5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot2Made5);
             this.panel3.Controls.Add(this.label44);
             this.panel3.Controls.Add(this.label43);
             this.panel3.Controls.Add(this.label41);
             this.panel3.Controls.Add(this.label42);
             this.panel3.Controls.Add(this.label40);
-            this.panel3.Controls.Add(this.lblTeleOpPyramidMade5);
+            this.panel3.Controls.Add(this.lblTeleOpDefSlot1Made5);
             this.panel3.Controls.Add(this.lblTeleOp5);
             this.panel3.Controls.Add(this.lblAuto5);
             this.panel3.Controls.Add(this.lblAutoTeamNo5);
@@ -907,180 +907,180 @@
             this.label49.TabIndex = 196;
             this.label49.Text = "Auto";
             // 
-            // lblAutoLowMade5
+            // lblAutoDefSlot4Made5
             // 
-            this.lblAutoLowMade5.AutoSize = true;
-            this.lblAutoLowMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowMade5.Location = new System.Drawing.Point(182, 260);
-            this.lblAutoLowMade5.Name = "lblAutoLowMade5";
-            this.lblAutoLowMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowMade5.TabIndex = 225;
-            this.lblAutoLowMade5.Text = "00";
+            this.lblAutoDefSlot4Made5.AutoSize = true;
+            this.lblAutoDefSlot4Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Made5.Location = new System.Drawing.Point(182, 260);
+            this.lblAutoDefSlot4Made5.Name = "lblAutoDefSlot4Made5";
+            this.lblAutoDefSlot4Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Made5.TabIndex = 225;
+            this.lblAutoDefSlot4Made5.Text = "00";
             // 
-            // lblAutoLowAtt5
+            // lblAutoDefSlot4Att5
             // 
-            this.lblAutoLowAtt5.AutoSize = true;
-            this.lblAutoLowAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowAtt5.Location = new System.Drawing.Point(259, 258);
-            this.lblAutoLowAtt5.Name = "lblAutoLowAtt5";
-            this.lblAutoLowAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowAtt5.TabIndex = 224;
-            this.lblAutoLowAtt5.Text = "00";
+            this.lblAutoDefSlot4Att5.AutoSize = true;
+            this.lblAutoDefSlot4Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Att5.Location = new System.Drawing.Point(259, 258);
+            this.lblAutoDefSlot4Att5.Name = "lblAutoDefSlot4Att5";
+            this.lblAutoDefSlot4Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Att5.TabIndex = 224;
+            this.lblAutoDefSlot4Att5.Text = "00";
             // 
-            // lblAutoMidAtt5
+            // lblAutoDefSlot3Att5
             // 
-            this.lblAutoMidAtt5.AutoSize = true;
-            this.lblAutoMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt5.Location = new System.Drawing.Point(259, 206);
-            this.lblAutoMidAtt5.Name = "lblAutoMidAtt5";
-            this.lblAutoMidAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt5.TabIndex = 223;
-            this.lblAutoMidAtt5.Text = "00";
+            this.lblAutoDefSlot3Att5.AutoSize = true;
+            this.lblAutoDefSlot3Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Att5.Location = new System.Drawing.Point(259, 206);
+            this.lblAutoDefSlot3Att5.Name = "lblAutoDefSlot3Att5";
+            this.lblAutoDefSlot3Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Att5.TabIndex = 223;
+            this.lblAutoDefSlot3Att5.Text = "00";
             // 
-            // lblAutoMidMade5
+            // lblAutoDefSlot3Made5
             // 
-            this.lblAutoMidMade5.AutoSize = true;
-            this.lblAutoMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade5.Location = new System.Drawing.Point(182, 208);
-            this.lblAutoMidMade5.Name = "lblAutoMidMade5";
-            this.lblAutoMidMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade5.TabIndex = 222;
-            this.lblAutoMidMade5.Text = "00";
+            this.lblAutoDefSlot3Made5.AutoSize = true;
+            this.lblAutoDefSlot3Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Made5.Location = new System.Drawing.Point(182, 208);
+            this.lblAutoDefSlot3Made5.Name = "lblAutoDefSlot3Made5";
+            this.lblAutoDefSlot3Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Made5.TabIndex = 222;
+            this.lblAutoDefSlot3Made5.Text = "00";
             // 
             // lblAutoHighAtt5
             // 
-            this.lblAutoHighAtt5.AutoSize = true;
-            this.lblAutoHighAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighAtt5.Location = new System.Drawing.Point(259, 153);
-            this.lblAutoHighAtt5.Name = "lblAutoHighAtt5";
-            this.lblAutoHighAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighAtt5.TabIndex = 221;
-            this.lblAutoHighAtt5.Text = "00";
+            this.lblAutoDefSlot2Att5.AutoSize = true;
+            this.lblAutoDefSlot2Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Att5.Location = new System.Drawing.Point(259, 153);
+            this.lblAutoDefSlot2Att5.Name = "lblAutoDefSlot2Att5";
+            this.lblAutoDefSlot2Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Att5.TabIndex = 221;
+            this.lblAutoDefSlot2Att5.Text = "00";
             // 
             // lblAutoHighMade5
             // 
-            this.lblAutoHighMade5.AutoSize = true;
-            this.lblAutoHighMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighMade5.Location = new System.Drawing.Point(182, 151);
-            this.lblAutoHighMade5.Name = "lblAutoHighMade5";
-            this.lblAutoHighMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighMade5.TabIndex = 220;
-            this.lblAutoHighMade5.Text = "00";
+            this.lblAutoDefSlot2Made5.AutoSize = true;
+            this.lblAutoDefSlot2Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Made5.Location = new System.Drawing.Point(182, 151);
+            this.lblAutoDefSlot2Made5.Name = "lblAutoDefSlot2Made5";
+            this.lblAutoDefSlot2Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Made5.TabIndex = 220;
+            this.lblAutoDefSlot2Made5.Text = "00";
             // 
-            // lblRobotClimb5
+            // lblRobotScale5
             // 
-            this.lblRobotClimb5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb5.Location = new System.Drawing.Point(182, 301);
-            this.lblRobotClimb5.Name = "lblRobotClimb5";
-            this.lblRobotClimb5.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb5.TabIndex = 210;
-            this.lblRobotClimb5.Text = "0";
-            this.lblRobotClimb5.Visible = false;
+            this.lblRobotScale5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRobotScale5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotScale5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRobotScale5.Location = new System.Drawing.Point(182, 301);
+            this.lblRobotScale5.Name = "lblRobotScale5";
+            this.lblRobotScale5.Size = new System.Drawing.Size(55, 39);
+            this.lblRobotScale5.TabIndex = 210;
+            this.lblRobotScale5.Text = "0";
+            this.lblRobotScale5.Visible = false;
             // 
-            // lblTeleOpPyramidAtt5
+            // lblTeleOpDefSlot1Att5
             // 
-            this.lblTeleOpPyramidAtt5.AutoSize = true;
-            this.lblTeleOpPyramidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidAtt5.Location = new System.Drawing.Point(259, 101);
-            this.lblTeleOpPyramidAtt5.Name = "lblTeleOpPyramidAtt5";
-            this.lblTeleOpPyramidAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidAtt5.TabIndex = 219;
-            this.lblTeleOpPyramidAtt5.Text = "00";
-            this.lblTeleOpPyramidAtt5.Visible = false;
+            this.lblTeleOpDefSlot1Att5.AutoSize = true;
+            this.lblTeleOpDefSlot1Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Att5.Location = new System.Drawing.Point(259, 101);
+            this.lblTeleOpDefSlot1Att5.Name = "lblTeleOpDefSlot1Att5";
+            this.lblTeleOpDefSlot1Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Att5.TabIndex = 219;
+            this.lblTeleOpDefSlot1Att5.Text = "00";
+            this.lblTeleOpDefSlot1Att5.Visible = false;
             // 
-            // lblTeleOpMidMade5
+            // lblTeleOpDefSlot3Made5
             // 
-            this.lblTeleOpMidMade5.AutoSize = true;
-            this.lblTeleOpMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade5.Location = new System.Drawing.Point(182, 208);
-            this.lblTeleOpMidMade5.Name = "lblTeleOpMidMade5";
-            this.lblTeleOpMidMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade5.TabIndex = 218;
-            this.lblTeleOpMidMade5.Text = "00";
-            this.lblTeleOpMidMade5.Visible = false;
+            this.lblTeleOpDefSlot3Made5.AutoSize = true;
+            this.lblTeleOpDefSlot3Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Made5.Location = new System.Drawing.Point(182, 208);
+            this.lblTeleOpDefSlot3Made5.Name = "lblTeleOpDefSlot3Made5";
+            this.lblTeleOpDefSlot3Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Made5.TabIndex = 218;
+            this.lblTeleOpDefSlot3Made5.Text = "00";
+            this.lblTeleOpDefSlot3Made5.Visible = false;
             // 
-            // lblTeleOpLowMade5
+            // lblTeleOpDefSlot4Made5
             // 
-            this.lblTeleOpLowMade5.AutoSize = true;
-            this.lblTeleOpLowMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowMade5.Location = new System.Drawing.Point(182, 260);
-            this.lblTeleOpLowMade5.Name = "lblTeleOpLowMade5";
-            this.lblTeleOpLowMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowMade5.TabIndex = 217;
-            this.lblTeleOpLowMade5.Text = "00";
-            this.lblTeleOpLowMade5.Visible = false;
+            this.lblTeleOpDefSlot4Made5.AutoSize = true;
+            this.lblTeleOpDefSlot4Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Made5.Location = new System.Drawing.Point(182, 260);
+            this.lblTeleOpDefSlot4Made5.Name = "lblTeleOpDefSlot4Made5";
+            this.lblTeleOpDefSlot4Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Made5.TabIndex = 217;
+            this.lblTeleOpDefSlot4Made5.Text = "00";
+            this.lblTeleOpDefSlot4Made5.Visible = false;
             // 
-            // lblTeleOpLowAtt5
+            // lblTeleOpDefSlot4Att5
             // 
-            this.lblTeleOpLowAtt5.AutoSize = true;
-            this.lblTeleOpLowAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowAtt5.Location = new System.Drawing.Point(259, 260);
-            this.lblTeleOpLowAtt5.Name = "lblTeleOpLowAtt5";
-            this.lblTeleOpLowAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowAtt5.TabIndex = 216;
-            this.lblTeleOpLowAtt5.Text = "00";
-            this.lblTeleOpLowAtt5.Visible = false;
+            this.lblTeleOpDefSlot4Att5.AutoSize = true;
+            this.lblTeleOpDefSlot4Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Att5.Location = new System.Drawing.Point(259, 260);
+            this.lblTeleOpDefSlot4Att5.Name = "lblTeleOpDefSlot4Att5";
+            this.lblTeleOpDefSlot4Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Att5.TabIndex = 216;
+            this.lblTeleOpDefSlot4Att5.Text = "00";
+            this.lblTeleOpDefSlot4Att5.Visible = false;
             // 
             // lblTeleOpHighAtt5
             // 
-            this.lblTeleOpHighAtt5.AutoSize = true;
-            this.lblTeleOpHighAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighAtt5.Location = new System.Drawing.Point(259, 153);
-            this.lblTeleOpHighAtt5.Name = "lblTeleOpHighAtt5";
-            this.lblTeleOpHighAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighAtt5.TabIndex = 214;
-            this.lblTeleOpHighAtt5.Text = "00";
-            this.lblTeleOpHighAtt5.Visible = false;
+            this.lblTeleOpDefSlot2Att5.AutoSize = true;
+            this.lblTeleOpDefSlot2Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Att5.Location = new System.Drawing.Point(259, 153);
+            this.lblTeleOpDefSlot2Att5.Name = "lblTeleOpDefSlot2Att5";
+            this.lblTeleOpDefSlot2Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Att5.TabIndex = 214;
+            this.lblTeleOpDefSlot2Att5.Text = "00";
+            this.lblTeleOpDefSlot2Att5.Visible = false;
             // 
-            // lblTeleOpMidAtt5
+            // lblTeleOpDefSlot3Att5
             // 
-            this.lblTeleOpMidAtt5.AutoSize = true;
-            this.lblTeleOpMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt5.Location = new System.Drawing.Point(259, 206);
-            this.lblTeleOpMidAtt5.Name = "lblTeleOpMidAtt5";
-            this.lblTeleOpMidAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt5.TabIndex = 213;
-            this.lblTeleOpMidAtt5.Text = "00";
-            this.lblTeleOpMidAtt5.Visible = false;
+            this.lblTeleOpDefSlot3Att5.AutoSize = true;
+            this.lblTeleOpDefSlot3Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Att5.Location = new System.Drawing.Point(259, 206);
+            this.lblTeleOpDefSlot3Att5.Name = "lblTeleOpDefSlot3Att5";
+            this.lblTeleOpDefSlot3Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Att5.TabIndex = 213;
+            this.lblTeleOpDefSlot3Att5.Text = "00";
+            this.lblTeleOpDefSlot3Att5.Visible = false;
             // 
             // lblTeleOpHighMade5
             // 
-            this.lblTeleOpHighMade5.AutoSize = true;
-            this.lblTeleOpHighMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighMade5.Location = new System.Drawing.Point(182, 151);
-            this.lblTeleOpHighMade5.Name = "lblTeleOpHighMade5";
-            this.lblTeleOpHighMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighMade5.TabIndex = 212;
-            this.lblTeleOpHighMade5.Text = "00";
-            this.lblTeleOpHighMade5.Visible = false;
+            this.lblTeleOpDefSlot2Made5.AutoSize = true;
+            this.lblTeleOpDefSlot2Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Made5.Location = new System.Drawing.Point(182, 151);
+            this.lblTeleOpDefSlot2Made5.Name = "lblTeleOpDefSlot2Made5";
+            this.lblTeleOpDefSlot2Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Made5.TabIndex = 212;
+            this.lblTeleOpDefSlot2Made5.Text = "00";
+            this.lblTeleOpDefSlot2Made5.Visible = false;
             // 
             // label44
             // 
@@ -1090,7 +1090,7 @@
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(114, 26);
             this.label44.TabIndex = 210;
-            this.label44.Text = "Robot Climb";
+            this.label44.Text = "Robot Scale";
             // 
             // label43
             // 
@@ -1130,20 +1130,20 @@
             this.label40.Name = "label40";
             this.label40.Size = new System.Drawing.Size(117, 26);
             this.label40.TabIndex = 210;
-            this.label40.Text = "Scored High";
+            this.label40.Text = "Scored DefSlot2";
             // 
-            // lblTeleOpPyramidMade5
+            // lblTeleOpDefSlot1Made5
             // 
-            this.lblTeleOpPyramidMade5.AutoSize = true;
-            this.lblTeleOpPyramidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade5.Location = new System.Drawing.Point(182, 101);
-            this.lblTeleOpPyramidMade5.Name = "lblTeleOpPyramidMade5";
-            this.lblTeleOpPyramidMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidMade5.TabIndex = 210;
-            this.lblTeleOpPyramidMade5.Text = "00";
-            this.lblTeleOpPyramidMade5.Visible = false;
+            this.lblTeleOpDefSlot1Made5.AutoSize = true;
+            this.lblTeleOpDefSlot1Made5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Made5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Made5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Made5.Location = new System.Drawing.Point(182, 101);
+            this.lblTeleOpDefSlot1Made5.Name = "lblTeleOpDefSlot1Made5";
+            this.lblTeleOpDefSlot1Made5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Made5.TabIndex = 210;
+            this.lblTeleOpDefSlot1Made5.Text = "00";
+            this.lblTeleOpDefSlot1Made5.Visible = false;
             // 
             // lblTeleOp5
             // 
@@ -1245,27 +1245,27 @@
             this.lblValanceAttempted2.Controls.Add(this.textBoxScout2);
             this.lblValanceAttempted2.Controls.Add(this.lblDefense2);
             this.lblValanceAttempted2.Controls.Add(this.lblDefenseRating2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoHighAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoMidMade2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoMidAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoLowMade2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoLowAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoHighMade2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoDefSlot2Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoDefSlot3Made2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoDefSlot3Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoDefSlot4Made2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoDefSlot4Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoDefSlot2Made2);
             this.lblValanceAttempted2.Controls.Add(this.lblAutoTotalPoints2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpTotalPoints2);
             this.lblValanceAttempted2.Controls.Add(this.lblTotalPoints2);
             this.lblValanceAttempted2.Controls.Add(this.label28);
             this.lblValanceAttempted2.Controls.Add(this.label27);
             this.lblValanceAttempted2.Controls.Add(this.label15);
-            this.lblValanceAttempted2.Controls.Add(this.lblRobotClimb2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpPyramidAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowMade2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpMidMade2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpHighAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpMidAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpHighMade2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpPyramidMade2);
+            this.lblValanceAttempted2.Controls.Add(this.lblRobotScale2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot1Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot4Made2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot4Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot3Made2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot2Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot3Att2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot2Made2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpDefSlot1Made2);
             this.lblValanceAttempted2.Controls.Add(this.label23);
             this.lblValanceAttempted2.Controls.Add(this.label22);
             this.lblValanceAttempted2.Controls.Add(this.label21);
@@ -1327,77 +1327,77 @@
             this.lblDefenseRating2.TabIndex = 212;
             this.lblDefenseRating2.Text = "Defense Rating \r\nOut of 10";
             // 
-            // lblAutoHighAtt2
+            // lblAutoDefSlot2Att2
             // 
-            this.lblAutoHighAtt2.AutoSize = true;
-            this.lblAutoHighAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighAtt2.Location = new System.Drawing.Point(248, 156);
-            this.lblAutoHighAtt2.Name = "lblAutoHighAtt2";
-            this.lblAutoHighAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighAtt2.TabIndex = 210;
-            this.lblAutoHighAtt2.Text = "00";
+            this.lblAutoDefSlot2Att2.AutoSize = true;
+            this.lblAutoDefSlot2Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Att2.Location = new System.Drawing.Point(248, 156);
+            this.lblAutoDefSlot2Att2.Name = "lblAutoDefSlot2Att2";
+            this.lblAutoDefSlot2Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Att2.TabIndex = 210;
+            this.lblAutoDefSlot2Att2.Text = "00";
             // 
-            // lblAutoMidMade2
+            // lblAutoDefSlot3Made2
             // 
-            this.lblAutoMidMade2.AutoSize = true;
-            this.lblAutoMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade2.Location = new System.Drawing.Point(174, 209);
-            this.lblAutoMidMade2.Name = "lblAutoMidMade2";
-            this.lblAutoMidMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade2.TabIndex = 209;
-            this.lblAutoMidMade2.Text = "00";
+            this.lblAutoDefSlot3Made2.AutoSize = true;
+            this.lblAutoDefSlot3Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Made2.Location = new System.Drawing.Point(174, 209);
+            this.lblAutoDefSlot3Made2.Name = "lblAutoDefSlot3Made2";
+            this.lblAutoDefSlot3Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Made2.TabIndex = 209;
+            this.lblAutoDefSlot3Made2.Text = "00";
             // 
-            // lblAutoMidAtt2
+            // lblAutoDefSlot3Att2
             // 
-            this.lblAutoMidAtt2.AutoSize = true;
-            this.lblAutoMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt2.Location = new System.Drawing.Point(248, 210);
-            this.lblAutoMidAtt2.Name = "lblAutoMidAtt2";
-            this.lblAutoMidAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt2.TabIndex = 208;
-            this.lblAutoMidAtt2.Text = "00";
+            this.lblAutoDefSlot3Att2.AutoSize = true;
+            this.lblAutoDefSlot3Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Att2.Location = new System.Drawing.Point(248, 210);
+            this.lblAutoDefSlot3Att2.Name = "lblAutoDefSlot3Att2";
+            this.lblAutoDefSlot3Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Att2.TabIndex = 208;
+            this.lblAutoDefSlot3Att2.Text = "00";
             // 
-            // lblAutoLowMade2
+            // lblAutoDefSlot4Made2
             // 
-            this.lblAutoLowMade2.AutoSize = true;
-            this.lblAutoLowMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowMade2.Location = new System.Drawing.Point(174, 265);
-            this.lblAutoLowMade2.Name = "lblAutoLowMade2";
-            this.lblAutoLowMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowMade2.TabIndex = 207;
-            this.lblAutoLowMade2.Text = "00";
+            this.lblAutoDefSlot4Made2.AutoSize = true;
+            this.lblAutoDefSlot4Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Made2.Location = new System.Drawing.Point(174, 265);
+            this.lblAutoDefSlot4Made2.Name = "lblAutoDefSlot4Made2";
+            this.lblAutoDefSlot4Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Made2.TabIndex = 207;
+            this.lblAutoDefSlot4Made2.Text = "00";
             // 
-            // lblAutoLowAtt2
+            // lblAutoDefSlot4Att2
             // 
-            this.lblAutoLowAtt2.AutoSize = true;
-            this.lblAutoLowAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowAtt2.Location = new System.Drawing.Point(248, 265);
-            this.lblAutoLowAtt2.Name = "lblAutoLowAtt2";
-            this.lblAutoLowAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowAtt2.TabIndex = 206;
-            this.lblAutoLowAtt2.Text = "00";
+            this.lblAutoDefSlot4Att2.AutoSize = true;
+            this.lblAutoDefSlot4Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Att2.Location = new System.Drawing.Point(248, 265);
+            this.lblAutoDefSlot4Att2.Name = "lblAutoDefSlot4Att2";
+            this.lblAutoDefSlot4Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Att2.TabIndex = 206;
+            this.lblAutoDefSlot4Att2.Text = "00";
             // 
             // lblAutoHighMade2
             // 
-            this.lblAutoHighMade2.AutoSize = true;
-            this.lblAutoHighMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighMade2.Location = new System.Drawing.Point(174, 156);
-            this.lblAutoHighMade2.Name = "lblAutoHighMade2";
-            this.lblAutoHighMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighMade2.TabIndex = 205;
-            this.lblAutoHighMade2.Text = "00";
+            this.lblAutoDefSlot2Made2.AutoSize = true;
+            this.lblAutoDefSlot2Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Made2.Location = new System.Drawing.Point(174, 156);
+            this.lblAutoDefSlot2Made2.Name = "lblAutoDefSlot2Made2";
+            this.lblAutoDefSlot2Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Made2.TabIndex = 205;
+            this.lblAutoDefSlot2Made2.Text = "00";
             // 
             // lblAutoTotalPoints2
             // 
@@ -1459,121 +1459,121 @@
             this.label15.TabIndex = 195;
             this.label15.Text = "Auto";
             // 
-            // lblRobotClimb2
+            // lblRobotScale2
             // 
-            this.lblRobotClimb2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb2.Location = new System.Drawing.Point(174, 304);
-            this.lblRobotClimb2.Name = "lblRobotClimb2";
-            this.lblRobotClimb2.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb2.TabIndex = 195;
-            this.lblRobotClimb2.Text = "00";
-            this.lblRobotClimb2.Visible = false;
+            this.lblRobotScale2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRobotScale2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotScale2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRobotScale2.Location = new System.Drawing.Point(174, 304);
+            this.lblRobotScale2.Name = "lblRobotScale2";
+            this.lblRobotScale2.Size = new System.Drawing.Size(55, 39);
+            this.lblRobotScale2.TabIndex = 195;
+            this.lblRobotScale2.Text = "00";
+            this.lblRobotScale2.Visible = false;
             // 
-            // lblTeleOpPyramidAtt2
+            // lblTeleOpDefSlot1Att2
             // 
-            this.lblTeleOpPyramidAtt2.AutoSize = true;
-            this.lblTeleOpPyramidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidAtt2.Location = new System.Drawing.Point(248, 103);
-            this.lblTeleOpPyramidAtt2.Name = "lblTeleOpPyramidAtt2";
-            this.lblTeleOpPyramidAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidAtt2.TabIndex = 202;
-            this.lblTeleOpPyramidAtt2.Text = "00";
-            this.lblTeleOpPyramidAtt2.Visible = false;
+            this.lblTeleOpDefSlot1Att2.AutoSize = true;
+            this.lblTeleOpDefSlot1Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Att2.Location = new System.Drawing.Point(248, 103);
+            this.lblTeleOpDefSlot1Att2.Name = "lblTeleOpDefSlot1Att2";
+            this.lblTeleOpDefSlot1Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Att2.TabIndex = 202;
+            this.lblTeleOpDefSlot1Att2.Text = "00";
+            this.lblTeleOpDefSlot1Att2.Visible = false;
             // 
-            // lblTeleOpLowMade2
+            // lblTeleOpDefSlot4Made2
             // 
-            this.lblTeleOpLowMade2.AutoSize = true;
-            this.lblTeleOpLowMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowMade2.Location = new System.Drawing.Point(174, 263);
-            this.lblTeleOpLowMade2.Name = "lblTeleOpLowMade2";
-            this.lblTeleOpLowMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowMade2.TabIndex = 201;
-            this.lblTeleOpLowMade2.Text = "00";
-            this.lblTeleOpLowMade2.Visible = false;
+            this.lblTeleOpDefSlot4Made2.AutoSize = true;
+            this.lblTeleOpDefSlot4Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Made2.Location = new System.Drawing.Point(174, 263);
+            this.lblTeleOpDefSlot4Made2.Name = "lblTeleOpDefSlot4Made2";
+            this.lblTeleOpDefSlot4Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Made2.TabIndex = 201;
+            this.lblTeleOpDefSlot4Made2.Text = "00";
+            this.lblTeleOpDefSlot4Made2.Visible = false;
             // 
-            // lblTeleOpLowAtt2
+            // lblTeleOpDefSlot4Att2
             // 
-            this.lblTeleOpLowAtt2.AutoSize = true;
-            this.lblTeleOpLowAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowAtt2.Location = new System.Drawing.Point(248, 263);
-            this.lblTeleOpLowAtt2.Name = "lblTeleOpLowAtt2";
-            this.lblTeleOpLowAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowAtt2.TabIndex = 200;
-            this.lblTeleOpLowAtt2.Text = "00";
-            this.lblTeleOpLowAtt2.Visible = false;
+            this.lblTeleOpDefSlot4Att2.AutoSize = true;
+            this.lblTeleOpDefSlot4Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Att2.Location = new System.Drawing.Point(248, 263);
+            this.lblTeleOpDefSlot4Att2.Name = "lblTeleOpDefSlot4Att2";
+            this.lblTeleOpDefSlot4Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Att2.TabIndex = 200;
+            this.lblTeleOpDefSlot4Att2.Text = "00";
+            this.lblTeleOpDefSlot4Att2.Visible = false;
             // 
-            // lblTeleOpMidMade2
+            // lblTeleOpDefSlot3Made2
             // 
-            this.lblTeleOpMidMade2.AutoSize = true;
-            this.lblTeleOpMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade2.Location = new System.Drawing.Point(174, 210);
-            this.lblTeleOpMidMade2.Name = "lblTeleOpMidMade2";
-            this.lblTeleOpMidMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade2.TabIndex = 199;
-            this.lblTeleOpMidMade2.Text = "00";
-            this.lblTeleOpMidMade2.Visible = false;
+            this.lblTeleOpDefSlot3Made2.AutoSize = true;
+            this.lblTeleOpDefSlot3Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Made2.Location = new System.Drawing.Point(174, 210);
+            this.lblTeleOpDefSlot3Made2.Name = "lblTeleOpDefSlot3Made2";
+            this.lblTeleOpDefSlot3Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Made2.TabIndex = 199;
+            this.lblTeleOpDefSlot3Made2.Text = "00";
+            this.lblTeleOpDefSlot3Made2.Visible = false;
             // 
-            // lblTeleOpHighAtt2
+            // lblTeleOpDefSlot2Att2
             // 
-            this.lblTeleOpHighAtt2.AutoSize = true;
-            this.lblTeleOpHighAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighAtt2.Location = new System.Drawing.Point(248, 156);
-            this.lblTeleOpHighAtt2.Name = "lblTeleOpHighAtt2";
-            this.lblTeleOpHighAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighAtt2.TabIndex = 198;
-            this.lblTeleOpHighAtt2.Text = "00";
-            this.lblTeleOpHighAtt2.Visible = false;
+            this.lblTeleOpDefSlot2Att2.AutoSize = true;
+            this.lblTeleOpDefSlot2Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Att2.Location = new System.Drawing.Point(248, 156);
+            this.lblTeleOpDefSlot2Att2.Name = "lblTeleOpDefSlot2Att2";
+            this.lblTeleOpDefSlot2Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Att2.TabIndex = 198;
+            this.lblTeleOpDefSlot2Att2.Text = "00";
+            this.lblTeleOpDefSlot2Att2.Visible = false;
             // 
-            // lblTeleOpMidAtt2
+            // lblTeleOpDefSlot3Att2
             // 
-            this.lblTeleOpMidAtt2.AutoSize = true;
-            this.lblTeleOpMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt2.Location = new System.Drawing.Point(248, 210);
-            this.lblTeleOpMidAtt2.Name = "lblTeleOpMidAtt2";
-            this.lblTeleOpMidAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt2.TabIndex = 197;
-            this.lblTeleOpMidAtt2.Text = "00";
-            this.lblTeleOpMidAtt2.Visible = false;
+            this.lblTeleOpDefSlot3Att2.AutoSize = true;
+            this.lblTeleOpDefSlot3Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Att2.Location = new System.Drawing.Point(248, 210);
+            this.lblTeleOpDefSlot3Att2.Name = "lblTeleOpDefSlot3Att2";
+            this.lblTeleOpDefSlot3Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Att2.TabIndex = 197;
+            this.lblTeleOpDefSlot3Att2.Text = "00";
+            this.lblTeleOpDefSlot3Att2.Visible = false;
             // 
             // lblTeleOpHighMade2
             // 
-            this.lblTeleOpHighMade2.AutoSize = true;
-            this.lblTeleOpHighMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighMade2.Location = new System.Drawing.Point(174, 156);
-            this.lblTeleOpHighMade2.Name = "lblTeleOpHighMade2";
-            this.lblTeleOpHighMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighMade2.TabIndex = 196;
-            this.lblTeleOpHighMade2.Text = "00";
-            this.lblTeleOpHighMade2.Visible = false;
+            this.lblTeleOpDefSlot2Made2.AutoSize = true;
+            this.lblTeleOpDefSlot2Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Made2.Location = new System.Drawing.Point(174, 156);
+            this.lblTeleOpDefSlot2Made2.Name = "lblTeleOpDefSlot2Made2";
+            this.lblTeleOpDefSlot2Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Made2.TabIndex = 196;
+            this.lblTeleOpDefSlot2Made2.Text = "00";
+            this.lblTeleOpDefSlot2Made2.Visible = false;
             // 
-            // lblTeleOpPyramidMade2
+            // lblTeleOpDefSlot1Made2
             // 
-            this.lblTeleOpPyramidMade2.AutoSize = true;
-            this.lblTeleOpPyramidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade2.Location = new System.Drawing.Point(172, 103);
-            this.lblTeleOpPyramidMade2.Name = "lblTeleOpPyramidMade2";
-            this.lblTeleOpPyramidMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidMade2.TabIndex = 195;
-            this.lblTeleOpPyramidMade2.Text = "00";
-            this.lblTeleOpPyramidMade2.Visible = false;
+            this.lblTeleOpDefSlot1Made2.AutoSize = true;
+            this.lblTeleOpDefSlot1Made2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Made2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Made2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Made2.Location = new System.Drawing.Point(172, 103);
+            this.lblTeleOpDefSlot1Made2.Name = "lblTeleOpDefSlot1Made2";
+            this.lblTeleOpDefSlot1Made2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Made2.TabIndex = 195;
+            this.lblTeleOpDefSlot1Made2.Text = "00";
+            this.lblTeleOpDefSlot1Made2.Visible = false;
             // 
             // label23
             // 
@@ -1583,7 +1583,7 @@
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(114, 26);
             this.label23.TabIndex = 195;
-            this.label23.Text = "Robot Climb";
+            this.label23.Text = "Robot Scale";
             // 
             // label22
             // 
@@ -1875,21 +1875,21 @@
             this.panel56.Controls.Add(this.label48);
             this.panel56.Controls.Add(this.lblAutoTotalPoints3);
             this.panel56.Controls.Add(this.label29);
-            this.panel56.Controls.Add(this.lblAutoMidAtt3);
-            this.panel56.Controls.Add(this.lblAutoMidMade3);
-            this.panel56.Controls.Add(this.lblAutoHighAtt3);
-            this.panel56.Controls.Add(this.lblTeleOpLowAtt3);
-            this.panel56.Controls.Add(this.lblAutoLowMade3);
-            this.panel56.Controls.Add(this.lblAutoHighMade3);
-            this.panel56.Controls.Add(this.lblAutoLowAtt3);
-            this.panel56.Controls.Add(this.lblTeleOpMidAtt3);
-            this.panel56.Controls.Add(this.lblTeleOpHighAtt3);
-            this.panel56.Controls.Add(this.lblTeleOpPyramidAtt3);
-            this.panel56.Controls.Add(this.lblRobotClimb3);
-            this.panel56.Controls.Add(this.lblTeleOpLowMade3);
-            this.panel56.Controls.Add(this.lblTeleOpMidMade3);
-            this.panel56.Controls.Add(this.lblTeleOpHighMade3);
-            this.panel56.Controls.Add(this.lblTeleOpPyramidMade3);
+            this.panel56.Controls.Add(this.lblAutoDefSlot3Att3);
+            this.panel56.Controls.Add(this.lblAutoDefSlot3Made3);
+            this.panel56.Controls.Add(this.lblAutoDefSlot2Att3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot4Att3);
+            this.panel56.Controls.Add(this.lblAutoDefSlot4Made3);
+            this.panel56.Controls.Add(this.lblAutoDefSlot2Made3);
+            this.panel56.Controls.Add(this.lblAutoDefSlot4Att3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot3Att3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot2Att3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot1Att3);
+            this.panel56.Controls.Add(this.lblRobotScale3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot4Made3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot3Made3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot2Made3);
+            this.panel56.Controls.Add(this.lblTeleOpDefSlot1Made3);
             this.panel56.Controls.Add(this.label34);
             this.panel56.Controls.Add(this.label33);
             this.panel56.Controls.Add(this.label32);
@@ -2015,193 +2015,193 @@
             this.label29.TabIndex = 211;
             this.label29.Text = "Auto";
             // 
-            // lblAutoMidAtt3
+            // lblAutoDefSlot3Att3
             // 
-            this.lblAutoMidAtt3.AutoSize = true;
-            this.lblAutoMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt3.Location = new System.Drawing.Point(251, 204);
-            this.lblAutoMidAtt3.Name = "lblAutoMidAtt3";
-            this.lblAutoMidAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt3.TabIndex = 215;
-            this.lblAutoMidAtt3.Text = "00";
+            this.lblAutoDefSlot3Att3.AutoSize = true;
+            this.lblAutoDefSlot3Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Att3.Location = new System.Drawing.Point(251, 204);
+            this.lblAutoDefSlot3Att3.Name = "lblAutoDefSlot3Att3";
+            this.lblAutoDefSlot3Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Att3.TabIndex = 215;
+            this.lblAutoDefSlot3Att3.Text = "00";
             // 
-            // lblAutoMidMade3
+            // lblAutoDefSlot3Made3
             // 
-            this.lblAutoMidMade3.AutoSize = true;
-            this.lblAutoMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade3.Location = new System.Drawing.Point(177, 207);
-            this.lblAutoMidMade3.Name = "lblAutoMidMade3";
-            this.lblAutoMidMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade3.TabIndex = 214;
-            this.lblAutoMidMade3.Text = "00";
+            this.lblAutoDefSlot3Made3.AutoSize = true;
+            this.lblAutoDefSlot3Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Made3.Location = new System.Drawing.Point(177, 207);
+            this.lblAutoDefSlot3Made3.Name = "lblAutoDefSlot3Made3";
+            this.lblAutoDefSlot3Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Made3.TabIndex = 214;
+            this.lblAutoDefSlot3Made3.Text = "00";
             // 
             // lblAutoHighAtt3
             // 
-            this.lblAutoHighAtt3.AutoSize = true;
-            this.lblAutoHighAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighAtt3.Location = new System.Drawing.Point(251, 156);
-            this.lblAutoHighAtt3.Name = "lblAutoHighAtt3";
-            this.lblAutoHighAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighAtt3.TabIndex = 213;
-            this.lblAutoHighAtt3.Text = "00";
+            this.lblAutoDefSlot2Att3.AutoSize = true;
+            this.lblAutoDefSlot2Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Att3.Location = new System.Drawing.Point(251, 156);
+            this.lblAutoDefSlot2Att3.Name = "lblAutoDefSlot2Att3";
+            this.lblAutoDefSlot2Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Att3.TabIndex = 213;
+            this.lblAutoDefSlot2Att3.Text = "00";
             // 
-            // lblTeleOpLowAtt3
+            // lblTeleOpDefSlot4Att3
             // 
-            this.lblTeleOpLowAtt3.AutoSize = true;
-            this.lblTeleOpLowAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowAtt3.Location = new System.Drawing.Point(251, 262);
-            this.lblTeleOpLowAtt3.Name = "lblTeleOpLowAtt3";
-            this.lblTeleOpLowAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowAtt3.TabIndex = 212;
-            this.lblTeleOpLowAtt3.Text = "00";
-            this.lblTeleOpLowAtt3.Visible = false;
+            this.lblTeleOpDefSlot4Att3.AutoSize = true;
+            this.lblTeleOpDefSlot4Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Att3.Location = new System.Drawing.Point(251, 262);
+            this.lblTeleOpDefSlot4Att3.Name = "lblTeleOpDefSlot4Att3";
+            this.lblTeleOpDefSlot4Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Att3.TabIndex = 212;
+            this.lblTeleOpDefSlot4Att3.Text = "00";
+            this.lblTeleOpDefSlot4Att3.Visible = false;
             // 
-            // lblAutoLowMade3
+            // lblAutoDefSlot4Made3
             // 
-            this.lblAutoLowMade3.AutoSize = true;
-            this.lblAutoLowMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowMade3.Location = new System.Drawing.Point(177, 260);
-            this.lblAutoLowMade3.Name = "lblAutoLowMade3";
-            this.lblAutoLowMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowMade3.TabIndex = 211;
-            this.lblAutoLowMade3.Text = "00";
+            this.lblAutoDefSlot4Made3.AutoSize = true;
+            this.lblAutoDefSlot4Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Made3.Location = new System.Drawing.Point(177, 260);
+            this.lblAutoDefSlot4Made3.Name = "lblAutoDefSlot4Made3";
+            this.lblAutoDefSlot4Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Made3.TabIndex = 211;
+            this.lblAutoDefSlot4Made3.Text = "00";
             // 
             // lblAutoHighMade3
             // 
-            this.lblAutoHighMade3.AutoSize = true;
-            this.lblAutoHighMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighMade3.Location = new System.Drawing.Point(177, 156);
-            this.lblAutoHighMade3.Name = "lblAutoHighMade3";
-            this.lblAutoHighMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighMade3.TabIndex = 210;
-            this.lblAutoHighMade3.Text = "00";
+            this.lblAutoDefSlot2Made3.AutoSize = true;
+            this.lblAutoDefSlot2Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Made3.Location = new System.Drawing.Point(177, 156);
+            this.lblAutoDefSlot2Made3.Name = "lblAutoDefSlot2Made3";
+            this.lblAutoDefSlot2Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Made3.TabIndex = 210;
+            this.lblAutoDefSlot2Made3.Text = "00";
             // 
-            // lblAutoLowAtt3
+            // lblAutoDefSlot4Att3
             // 
-            this.lblAutoLowAtt3.AutoSize = true;
-            this.lblAutoLowAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowAtt3.Location = new System.Drawing.Point(251, 261);
-            this.lblAutoLowAtt3.Name = "lblAutoLowAtt3";
-            this.lblAutoLowAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowAtt3.TabIndex = 209;
-            this.lblAutoLowAtt3.Text = "00";
+            this.lblAutoDefSlot4Att3.AutoSize = true;
+            this.lblAutoDefSlot4Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Att3.Location = new System.Drawing.Point(251, 261);
+            this.lblAutoDefSlot4Att3.Name = "lblAutoDefSlot4Att3";
+            this.lblAutoDefSlot4Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Att3.TabIndex = 209;
+            this.lblAutoDefSlot4Att3.Text = "00";
             // 
-            // lblTeleOpMidAtt3
+            // lblTeleOpDefSlot3Att3
             // 
-            this.lblTeleOpMidAtt3.AutoSize = true;
-            this.lblTeleOpMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt3.Location = new System.Drawing.Point(251, 207);
-            this.lblTeleOpMidAtt3.Name = "lblTeleOpMidAtt3";
-            this.lblTeleOpMidAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt3.TabIndex = 208;
-            this.lblTeleOpMidAtt3.Text = "00";
-            this.lblTeleOpMidAtt3.Visible = false;
+            this.lblTeleOpDefSlot3Att3.AutoSize = true;
+            this.lblTeleOpDefSlot3Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Att3.Location = new System.Drawing.Point(251, 207);
+            this.lblTeleOpDefSlot3Att3.Name = "lblTeleOpDefSlot3Att3";
+            this.lblTeleOpDefSlot3Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Att3.TabIndex = 208;
+            this.lblTeleOpDefSlot3Att3.Text = "00";
+            this.lblTeleOpDefSlot3Att3.Visible = false;
             // 
             // lblTeleOpHighAtt3
             // 
-            this.lblTeleOpHighAtt3.AutoSize = true;
-            this.lblTeleOpHighAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighAtt3.Location = new System.Drawing.Point(251, 156);
-            this.lblTeleOpHighAtt3.Name = "lblTeleOpHighAtt3";
-            this.lblTeleOpHighAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighAtt3.TabIndex = 207;
-            this.lblTeleOpHighAtt3.Text = "00";
-            this.lblTeleOpHighAtt3.Visible = false;
+            this.lblTeleOpDefSlot2Att3.AutoSize = true;
+            this.lblTeleOpDefSlot2Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Att3.Location = new System.Drawing.Point(251, 156);
+            this.lblTeleOpDefSlot2Att3.Name = "lblTeleOpDefSlot2Att3";
+            this.lblTeleOpDefSlot2Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Att3.TabIndex = 207;
+            this.lblTeleOpDefSlot2Att3.Text = "00";
+            this.lblTeleOpDefSlot2Att3.Visible = false;
             // 
-            // lblTeleOpPyramidAtt3
+            // lblTeleOpDefSlot1Att3
             // 
-            this.lblTeleOpPyramidAtt3.AutoSize = true;
-            this.lblTeleOpPyramidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidAtt3.Location = new System.Drawing.Point(251, 103);
-            this.lblTeleOpPyramidAtt3.Name = "lblTeleOpPyramidAtt3";
-            this.lblTeleOpPyramidAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidAtt3.TabIndex = 206;
-            this.lblTeleOpPyramidAtt3.Text = "00";
-            this.lblTeleOpPyramidAtt3.Visible = false;
+            this.lblTeleOpDefSlot1Att3.AutoSize = true;
+            this.lblTeleOpDefSlot1Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Att3.Location = new System.Drawing.Point(251, 103);
+            this.lblTeleOpDefSlot1Att3.Name = "lblTeleOpDefSlot1Att3";
+            this.lblTeleOpDefSlot1Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Att3.TabIndex = 206;
+            this.lblTeleOpDefSlot1Att3.Text = "00";
+            this.lblTeleOpDefSlot1Att3.Visible = false;
             // 
-            // lblRobotClimb3
+            // lblRobotScale3
             // 
-            this.lblRobotClimb3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb3.Location = new System.Drawing.Point(177, 301);
-            this.lblRobotClimb3.Name = "lblRobotClimb3";
-            this.lblRobotClimb3.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb3.TabIndex = 203;
-            this.lblRobotClimb3.Text = "0";
-            this.lblRobotClimb3.Visible = false;
+            this.lblRobotScale3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRobotScale3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotScale3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRobotScale3.Location = new System.Drawing.Point(177, 301);
+            this.lblRobotScale3.Name = "lblRobotScale3";
+            this.lblRobotScale3.Size = new System.Drawing.Size(55, 39);
+            this.lblRobotScale3.TabIndex = 203;
+            this.lblRobotScale3.Text = "0";
+            this.lblRobotScale3.Visible = false;
             // 
-            // lblTeleOpLowMade3
+            // lblTeleOpDefSlot4Made3
             // 
-            this.lblTeleOpLowMade3.AutoSize = true;
-            this.lblTeleOpLowMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowMade3.Location = new System.Drawing.Point(177, 260);
-            this.lblTeleOpLowMade3.Name = "lblTeleOpLowMade3";
-            this.lblTeleOpLowMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowMade3.TabIndex = 205;
-            this.lblTeleOpLowMade3.Text = "00";
-            this.lblTeleOpLowMade3.Visible = false;
+            this.lblTeleOpDefSlot4Made3.AutoSize = true;
+            this.lblTeleOpDefSlot4Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Made3.Location = new System.Drawing.Point(177, 260);
+            this.lblTeleOpDefSlot4Made3.Name = "lblTeleOpDefSlot4Made3";
+            this.lblTeleOpDefSlot4Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Made3.TabIndex = 205;
+            this.lblTeleOpDefSlot4Made3.Text = "00";
+            this.lblTeleOpDefSlot4Made3.Visible = false;
             // 
-            // lblTeleOpMidMade3
+            // lblTeleOpDefSlot3Made3
             // 
-            this.lblTeleOpMidMade3.AutoSize = true;
-            this.lblTeleOpMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade3.Location = new System.Drawing.Point(177, 207);
-            this.lblTeleOpMidMade3.Name = "lblTeleOpMidMade3";
-            this.lblTeleOpMidMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade3.TabIndex = 204;
-            this.lblTeleOpMidMade3.Text = "00";
-            this.lblTeleOpMidMade3.Visible = false;
+            this.lblTeleOpDefSlot3Made3.AutoSize = true;
+            this.lblTeleOpDefSlot3Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Made3.Location = new System.Drawing.Point(177, 207);
+            this.lblTeleOpDefSlot3Made3.Name = "lblTeleOpDefSlot3Made3";
+            this.lblTeleOpDefSlot3Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Made3.TabIndex = 204;
+            this.lblTeleOpDefSlot3Made3.Text = "00";
+            this.lblTeleOpDefSlot3Made3.Visible = false;
             // 
             // lblTeleOpHighMade3
             // 
-            this.lblTeleOpHighMade3.AutoSize = true;
-            this.lblTeleOpHighMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighMade3.Location = new System.Drawing.Point(177, 154);
-            this.lblTeleOpHighMade3.Name = "lblTeleOpHighMade3";
-            this.lblTeleOpHighMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighMade3.TabIndex = 203;
-            this.lblTeleOpHighMade3.Text = "00";
-            this.lblTeleOpHighMade3.Visible = false;
+            this.lblTeleOpDefSlot2Made3.AutoSize = true;
+            this.lblTeleOpDefSlot2Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Made3.Location = new System.Drawing.Point(177, 154);
+            this.lblTeleOpDefSlot2Made3.Name = "lblTeleOpDefSlot2Made3";
+            this.lblTeleOpDefSlot2Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Made3.TabIndex = 203;
+            this.lblTeleOpDefSlot2Made3.Text = "00";
+            this.lblTeleOpDefSlot2Made3.Visible = false;
             // 
-            // lblTeleOpPyramidMade3
+            // lblTeleOpDefSlot1Made3
             // 
-            this.lblTeleOpPyramidMade3.AutoSize = true;
-            this.lblTeleOpPyramidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade3.Location = new System.Drawing.Point(177, 103);
-            this.lblTeleOpPyramidMade3.Name = "lblTeleOpPyramidMade3";
-            this.lblTeleOpPyramidMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidMade3.TabIndex = 203;
-            this.lblTeleOpPyramidMade3.Text = "00";
-            this.lblTeleOpPyramidMade3.Visible = false;
+            this.lblTeleOpDefSlot1Made3.AutoSize = true;
+            this.lblTeleOpDefSlot1Made3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Made3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Made3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Made3.Location = new System.Drawing.Point(177, 103);
+            this.lblTeleOpDefSlot1Made3.Name = "lblTeleOpDefSlot1Made3";
+            this.lblTeleOpDefSlot1Made3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Made3.TabIndex = 203;
+            this.lblTeleOpDefSlot1Made3.Text = "00";
+            this.lblTeleOpDefSlot1Made3.Visible = false;
             // 
             // label34
             // 
@@ -2211,7 +2211,7 @@
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(114, 26);
             this.label34.TabIndex = 203;
-            this.label34.Text = "Robot Climb";
+            this.label34.Text = "Robot Scale";
             // 
             // label33
             // 
@@ -2231,7 +2231,7 @@
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(111, 26);
             this.label32.TabIndex = 203;
-            this.label32.Text = "Mid Frisbee";
+            this.label32.Text = "DefSlot3 Frisbee";
             // 
             // label31
             // 
@@ -2251,7 +2251,7 @@
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(117, 26);
             this.label24.TabIndex = 203;
-            this.label24.Text = "Scored High";
+            this.label24.Text = "Scored DefSlot2";
             // 
             // lblTeleOp3
             // 
@@ -2278,55 +2278,55 @@
             // 
             // lblTeleOpHighAtt
             // 
-            this.lblTeleOpHighAtt.AutoSize = true;
-            this.lblTeleOpHighAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighAtt.Location = new System.Drawing.Point(250, 156);
-            this.lblTeleOpHighAtt.Name = "lblTeleOpHighAtt";
-            this.lblTeleOpHighAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighAtt.TabIndex = 17;
-            this.lblTeleOpHighAtt.Text = "00";
-            this.lblTeleOpHighAtt.Visible = false;
+            this.lblTeleOpDefSlot2Att.AutoSize = true;
+            this.lblTeleOpDefSlot2Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Att.Location = new System.Drawing.Point(250, 156);
+            this.lblTeleOpDefSlot2Att.Name = "lblTeleOpDefSlot2Att";
+            this.lblTeleOpDefSlot2Att.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Att.TabIndex = 17;
+            this.lblTeleOpDefSlot2Att.Text = "00";
+            this.lblTeleOpDefSlot2Att.Visible = false;
             // 
-            // lblTeleOpPyramidMade
+            // lblTeleOpDefSlot1Made
             // 
-            this.lblTeleOpPyramidMade.AutoSize = true;
-            this.lblTeleOpPyramidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade.Location = new System.Drawing.Point(174, 102);
-            this.lblTeleOpPyramidMade.Name = "lblTeleOpPyramidMade";
-            this.lblTeleOpPyramidMade.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidMade.TabIndex = 16;
-            this.lblTeleOpPyramidMade.Text = "00";
-            this.lblTeleOpPyramidMade.Visible = false;
+            this.lblTeleOpDefSlot1Made.AutoSize = true;
+            this.lblTeleOpDefSlot1Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Made.Location = new System.Drawing.Point(174, 102);
+            this.lblTeleOpDefSlot1Made.Name = "lblTeleOpDefSlot1Made";
+            this.lblTeleOpDefSlot1Made.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Made.TabIndex = 16;
+            this.lblTeleOpDefSlot1Made.Text = "00";
+            this.lblTeleOpDefSlot1Made.Visible = false;
             // 
             // lblTeleOpHighMade
             // 
-            this.lblTeleOpHighMade.AutoSize = true;
-            this.lblTeleOpHighMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighMade.Location = new System.Drawing.Point(174, 156);
-            this.lblTeleOpHighMade.Name = "lblTeleOpHighMade";
-            this.lblTeleOpHighMade.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighMade.TabIndex = 11;
-            this.lblTeleOpHighMade.Text = "00";
-            this.lblTeleOpHighMade.Visible = false;
+            this.lblTeleOpDefSlot2Made.AutoSize = true;
+            this.lblTeleOpDefSlot2Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Made.Location = new System.Drawing.Point(174, 156);
+            this.lblTeleOpDefSlot2Made.Name = "lblTeleOpDefSlot2Made";
+            this.lblTeleOpDefSlot2Made.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Made.TabIndex = 11;
+            this.lblTeleOpDefSlot2Made.Text = "00";
+            this.lblTeleOpDefSlot2Made.Visible = false;
             // 
-            // lblTeleOpPyramidAtt
+            // lblTeleOpDefSlot1Att
             // 
-            this.lblTeleOpPyramidAtt.AutoSize = true;
-            this.lblTeleOpPyramidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidAtt.Location = new System.Drawing.Point(250, 102);
-            this.lblTeleOpPyramidAtt.Name = "lblTeleOpPyramidAtt";
-            this.lblTeleOpPyramidAtt.Size = new System.Drawing.Size(59, 43);
-            this.lblTeleOpPyramidAtt.TabIndex = 14;
-            this.lblTeleOpPyramidAtt.Text = "00";
-            this.lblTeleOpPyramidAtt.Visible = false;
+            this.lblTeleOpDefSlot1Att.AutoSize = true;
+            this.lblTeleOpDefSlot1Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Att.Location = new System.Drawing.Point(250, 102);
+            this.lblTeleOpDefSlot1Att.Name = "lblTeleOpDefSlot1Att";
+            this.lblTeleOpDefSlot1Att.Size = new System.Drawing.Size(59, 43);
+            this.lblTeleOpDefSlot1Att.TabIndex = 14;
+            this.lblTeleOpDefSlot1Att.Text = "00";
+            this.lblTeleOpDefSlot1Att.Visible = false;
             // 
             // lbldisplayButtons1
             // 
@@ -2407,27 +2407,27 @@
             // 
             // lblAutoHighAtt
             // 
-            this.lblAutoHighAtt.AutoSize = true;
-            this.lblAutoHighAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighAtt.Location = new System.Drawing.Point(250, 156);
-            this.lblAutoHighAtt.Name = "lblAutoHighAtt";
-            this.lblAutoHighAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighAtt.TabIndex = 150;
-            this.lblAutoHighAtt.Text = "00";
+            this.lblAutoDefSlot2Att.AutoSize = true;
+            this.lblAutoDefSlot2Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Att.Location = new System.Drawing.Point(250, 156);
+            this.lblAutoDefSlot2Att.Name = "lblAutoDefSlot2Att";
+            this.lblAutoDefSlot2Att.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Att.TabIndex = 150;
+            this.lblAutoDefSlot2Att.Text = "00";
             // 
             // lblAutoHighMade
             // 
-            this.lblAutoHighMade.AutoSize = true;
-            this.lblAutoHighMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighMade.Location = new System.Drawing.Point(174, 156);
-            this.lblAutoHighMade.Name = "lblAutoHighMade";
-            this.lblAutoHighMade.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighMade.TabIndex = 171;
-            this.lblAutoHighMade.Text = "00";
+            this.lblAutoDefSlot2Made.AutoSize = true;
+            this.lblAutoDefSlot2Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Made.Location = new System.Drawing.Point(174, 156);
+            this.lblAutoDefSlot2Made.Name = "lblAutoDefSlot2Made";
+            this.lblAutoDefSlot2Made.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Made.TabIndex = 171;
+            this.lblAutoDefSlot2Made.Text = "00";
             // 
             // label8
             // 
@@ -2438,7 +2438,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(117, 26);
             this.label8.TabIndex = 173;
-            this.label8.Text = "Scored High";
+            this.label8.Text = "Scored DefSlot2";
             // 
             // label10
             // 
@@ -2483,22 +2483,22 @@
             this.panel1.Controls.Add(this.lblTotalPoints);
             this.panel1.Controls.Add(this.lblAutoTotalPoints);
             this.panel1.Controls.Add(this.lblTeleOpTotalPoints);
-            this.panel1.Controls.Add(this.lblRobotClimb);
+            this.panel1.Controls.Add(this.lblRobotScale);
             this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.lblTeleOpLowAtt);
-            this.panel1.Controls.Add(this.lblAutoLowAtt);
-            this.panel1.Controls.Add(this.lblAutoLowMade);
-            this.panel1.Controls.Add(this.lblTeleOpLowMade);
-            this.panel1.Controls.Add(this.lblAutoMidAtt);
-            this.panel1.Controls.Add(this.lblTeleOpMidAtt);
-            this.panel1.Controls.Add(this.lblAutoMidMade);
-            this.panel1.Controls.Add(this.lblTeleOpMidMade);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot4Att);
+            this.panel1.Controls.Add(this.lblAutoDefSlot4Att);
+            this.panel1.Controls.Add(this.lblAutoDefSlot4Made);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot4Made);
+            this.panel1.Controls.Add(this.lblAutoDefSlot3Att);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot3Att);
+            this.panel1.Controls.Add(this.lblAutoDefSlot3Made);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot3Made);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.lblAutoHighMade);
-            this.panel1.Controls.Add(this.lblAutoHighAtt);
+            this.panel1.Controls.Add(this.lblAutoDefSlot2Made);
+            this.panel1.Controls.Add(this.lblAutoDefSlot2Att);
             this.panel1.Controls.Add(this.lblTeleOp);
             this.panel1.Controls.Add(this.lblAuto);
             this.panel1.Controls.Add(this.lbltest1);
@@ -2507,10 +2507,10 @@
             this.panel1.Controls.Add(this.label26);
             this.panel1.Controls.Add(this.label25);
             this.panel1.Controls.Add(this.lbldisplayButtons1);
-            this.panel1.Controls.Add(this.lblTeleOpPyramidAtt);
-            this.panel1.Controls.Add(this.lblTeleOpHighMade);
-            this.panel1.Controls.Add(this.lblTeleOpPyramidMade);
-            this.panel1.Controls.Add(this.lblTeleOpHighAtt);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot1Att);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot2Made);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot1Made);
+            this.panel1.Controls.Add(this.lblTeleOpDefSlot2Att);
             this.panel1.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1.Location = new System.Drawing.Point(12, 49);
             this.panel1.Name = "panel1";
@@ -2621,17 +2621,17 @@
             this.lblTeleOpTotalPoints.TabIndex = 189;
             this.lblTeleOpTotalPoints.Text = "00";
             // 
-            // lblRobotClimb
+            // lblRobotScale
             // 
-            this.lblRobotClimb.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb.Location = new System.Drawing.Point(174, 304);
-            this.lblRobotClimb.Name = "lblRobotClimb";
-            this.lblRobotClimb.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb.TabIndex = 188;
-            this.lblRobotClimb.Text = "00";
-            this.lblRobotClimb.Visible = false;
+            this.lblRobotScale.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRobotScale.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotScale.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRobotScale.Location = new System.Drawing.Point(174, 304);
+            this.lblRobotScale.Name = "lblRobotScale";
+            this.lblRobotScale.Size = new System.Drawing.Size(55, 39);
+            this.lblRobotScale.TabIndex = 188;
+            this.lblRobotScale.Text = "00";
+            this.lblRobotScale.Visible = false;
             // 
             // label11
             // 
@@ -2641,104 +2641,104 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(114, 26);
             this.label11.TabIndex = 187;
-            this.label11.Text = "Robot Climb";
+            this.label11.Text = "Robot Scale";
             // 
-            // lblTeleOpLowAtt
+            // lblTeleOpDefSlot4Att
             // 
-            this.lblTeleOpLowAtt.AutoSize = true;
-            this.lblTeleOpLowAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowAtt.Location = new System.Drawing.Point(250, 260);
-            this.lblTeleOpLowAtt.Name = "lblTeleOpLowAtt";
-            this.lblTeleOpLowAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowAtt.TabIndex = 186;
-            this.lblTeleOpLowAtt.Text = "00";
-            this.lblTeleOpLowAtt.Visible = false;
+            this.lblTeleOpDefSlot4Att.AutoSize = true;
+            this.lblTeleOpDefSlot4Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Att.Location = new System.Drawing.Point(250, 260);
+            this.lblTeleOpDefSlot4Att.Name = "lblTeleOpDefSlot4Att";
+            this.lblTeleOpDefSlot4Att.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Att.TabIndex = 186;
+            this.lblTeleOpDefSlot4Att.Text = "00";
+            this.lblTeleOpDefSlot4Att.Visible = false;
             // 
-            // lblAutoLowAtt
+            // lblAutoDefSlot4Att
             // 
-            this.lblAutoLowAtt.AutoSize = true;
-            this.lblAutoLowAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowAtt.Location = new System.Drawing.Point(250, 260);
-            this.lblAutoLowAtt.Name = "lblAutoLowAtt";
-            this.lblAutoLowAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowAtt.TabIndex = 185;
-            this.lblAutoLowAtt.Text = "00";
+            this.lblAutoDefSlot4Att.AutoSize = true;
+            this.lblAutoDefSlot4Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Att.Location = new System.Drawing.Point(250, 260);
+            this.lblAutoDefSlot4Att.Name = "lblAutoDefSlot4Att";
+            this.lblAutoDefSlot4Att.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Att.TabIndex = 185;
+            this.lblAutoDefSlot4Att.Text = "00";
             // 
-            // lblAutoLowMade
+            // lblAutoDefSlot4Made
             // 
-            this.lblAutoLowMade.AutoSize = true;
-            this.lblAutoLowMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowMade.Location = new System.Drawing.Point(174, 262);
-            this.lblAutoLowMade.Name = "lblAutoLowMade";
-            this.lblAutoLowMade.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowMade.TabIndex = 184;
-            this.lblAutoLowMade.Text = "00";
+            this.lblAutoDefSlot4Made.AutoSize = true;
+            this.lblAutoDefSlot4Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Made.Location = new System.Drawing.Point(174, 262);
+            this.lblAutoDefSlot4Made.Name = "lblAutoDefSlot4Made";
+            this.lblAutoDefSlot4Made.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Made.TabIndex = 184;
+            this.lblAutoDefSlot4Made.Text = "00";
             // 
-            // lblTeleOpLowMade
+            // lblTeleOpDefSlot4Made
             // 
-            this.lblTeleOpLowMade.AutoSize = true;
-            this.lblTeleOpLowMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowMade.Location = new System.Drawing.Point(174, 262);
-            this.lblTeleOpLowMade.Name = "lblTeleOpLowMade";
-            this.lblTeleOpLowMade.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowMade.TabIndex = 183;
-            this.lblTeleOpLowMade.Text = "00";
+            this.lblTeleOpDefSlot4Made.AutoSize = true;
+            this.lblTeleOpDefSlot4Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Made.Location = new System.Drawing.Point(174, 262);
+            this.lblTeleOpDefSlot4Made.Name = "lblTeleOpDefSlot4Made";
+            this.lblTeleOpDefSlot4Made.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Made.TabIndex = 183;
+            this.lblTeleOpDefSlot4Made.Text = "00";
             // 
-            // lblAutoMidAtt
+            // lblAutoDefSlot3Att
             // 
-            this.lblAutoMidAtt.AutoSize = true;
-            this.lblAutoMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt.Location = new System.Drawing.Point(250, 210);
-            this.lblAutoMidAtt.Name = "lblAutoMidAtt";
-            this.lblAutoMidAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt.TabIndex = 182;
-            this.lblAutoMidAtt.Text = "00";
+            this.lblAutoDefSlot3Att.AutoSize = true;
+            this.lblAutoDefSlot3Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Att.Location = new System.Drawing.Point(250, 210);
+            this.lblAutoDefSlot3Att.Name = "lblAutoDefSlot3Att";
+            this.lblAutoDefSlot3Att.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Att.TabIndex = 182;
+            this.lblAutoDefSlot3Att.Text = "00";
             // 
-            // lblTeleOpMidAtt
+            // lblTeleOpDefSlot3Att
             // 
-            this.lblTeleOpMidAtt.AutoSize = true;
-            this.lblTeleOpMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt.Location = new System.Drawing.Point(250, 210);
-            this.lblTeleOpMidAtt.Name = "lblTeleOpMidAtt";
-            this.lblTeleOpMidAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt.TabIndex = 181;
-            this.lblTeleOpMidAtt.Text = "00";
+            this.lblTeleOpDefSlot3Att.AutoSize = true;
+            this.lblTeleOpDefSlot3Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Att.Location = new System.Drawing.Point(250, 210);
+            this.lblTeleOpDefSlot3Att.Name = "lblTeleOpDefSlot3Att";
+            this.lblTeleOpDefSlot3Att.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Att.TabIndex = 181;
+            this.lblTeleOpDefSlot3Att.Text = "00";
             // 
-            // lblAutoMidMade
+            // lblAutoDefSlot3Made
             // 
-            this.lblAutoMidMade.AutoSize = true;
-            this.lblAutoMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade.Location = new System.Drawing.Point(174, 211);
-            this.lblAutoMidMade.Name = "lblAutoMidMade";
-            this.lblAutoMidMade.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade.TabIndex = 180;
-            this.lblAutoMidMade.Text = "00";
+            this.lblAutoDefSlot3Made.AutoSize = true;
+            this.lblAutoDefSlot3Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Made.Location = new System.Drawing.Point(174, 211);
+            this.lblAutoDefSlot3Made.Name = "lblAutoDefSlot3Made";
+            this.lblAutoDefSlot3Made.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Made.TabIndex = 180;
+            this.lblAutoDefSlot3Made.Text = "00";
             // 
-            // lblTeleOpMidMade
+            // lblTeleOpDefSlot3Made
             // 
-            this.lblTeleOpMidMade.AutoSize = true;
-            this.lblTeleOpMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade.Location = new System.Drawing.Point(174, 210);
-            this.lblTeleOpMidMade.Name = "lblTeleOpMidMade";
-            this.lblTeleOpMidMade.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade.TabIndex = 179;
-            this.lblTeleOpMidMade.Text = "00";
+            this.lblTeleOpDefSlot3Made.AutoSize = true;
+            this.lblTeleOpDefSlot3Made.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Made.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Made.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Made.Location = new System.Drawing.Point(174, 210);
+            this.lblTeleOpDefSlot3Made.Name = "lblTeleOpDefSlot3Made";
+            this.lblTeleOpDefSlot3Made.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Made.TabIndex = 179;
+            this.lblTeleOpDefSlot3Made.Text = "00";
             // 
             // lblScouter1
             // 
@@ -2846,26 +2846,26 @@
             this.panel4.Controls.Add(this.lblTeleOpTotalPoints4);
             this.panel4.Controls.Add(this.label52);
             this.panel4.Controls.Add(this.label50);
-            this.panel4.Controls.Add(this.lblAutoLowAtt4);
-            this.panel4.Controls.Add(this.lblAutoLowMade4);
-            this.panel4.Controls.Add(this.lblAutoMidAtt4);
-            this.panel4.Controls.Add(this.lblAutoMidMade4);
-            this.panel4.Controls.Add(this.lblAutoHighAtt4);
-            this.panel4.Controls.Add(this.lblAutoHighMade4);
-            this.panel4.Controls.Add(this.lblTeleOpLowAtt4);
-            this.panel4.Controls.Add(this.lblTeleOpMidAtt4);
-            this.panel4.Controls.Add(this.lblTeleOpHighAtt4);
-            this.panel4.Controls.Add(this.lblTeleOpPyramidAtt4);
-            this.panel4.Controls.Add(this.lblRobotClimb4);
-            this.panel4.Controls.Add(this.lblTeleOpLowMade4);
-            this.panel4.Controls.Add(this.lblTeleOpMidMade4);
-            this.panel4.Controls.Add(this.lblTeleOpHighMade4);
+            this.panel4.Controls.Add(this.lblAutoDefSlot4Att4);
+            this.panel4.Controls.Add(this.lblAutoDefSlot4Made4);
+            this.panel4.Controls.Add(this.lblAutoDefSlot3Att4);
+            this.panel4.Controls.Add(this.lblAutoDefSlot3Made4);
+            this.panel4.Controls.Add(this.lblAutoDefSlot2Att4);
+            this.panel4.Controls.Add(this.lblAutoDefSlot2Made4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot4Att4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot3Att4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot2Att4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot1Att4);
+            this.panel4.Controls.Add(this.lblRobotScale4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot4Made4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot3Made4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot2Made4);
             this.panel4.Controls.Add(this.label38);
             this.panel4.Controls.Add(this.label37);
             this.panel4.Controls.Add(this.label36);
             this.panel4.Controls.Add(this.label35);
             this.panel4.Controls.Add(this.label30);
-            this.panel4.Controls.Add(this.lblTeleOpPyramidMade4);
+            this.panel4.Controls.Add(this.lblTeleOpDefSlot1Made4);
             this.panel4.Controls.Add(this.lblAuto4);
             this.panel4.Controls.Add(this.lblTeleOp4);
             this.panel4.Controls.Add(this.lblAutoTeamNo4);
@@ -2981,180 +2981,180 @@
             this.label50.TabIndex = 197;
             this.label50.Text = "Auto";
             // 
-            // lblAutoLowAtt4
+            // lblAutoDefSlot4Att4
             // 
-            this.lblAutoLowAtt4.AutoSize = true;
-            this.lblAutoLowAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowAtt4.Location = new System.Drawing.Point(250, 258);
-            this.lblAutoLowAtt4.Name = "lblAutoLowAtt4";
-            this.lblAutoLowAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowAtt4.TabIndex = 215;
-            this.lblAutoLowAtt4.Text = "00";
+            this.lblAutoDefSlot4Att4.AutoSize = true;
+            this.lblAutoDefSlot4Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Att4.Location = new System.Drawing.Point(250, 258);
+            this.lblAutoDefSlot4Att4.Name = "lblAutoDefSlot4Att4";
+            this.lblAutoDefSlot4Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Att4.TabIndex = 215;
+            this.lblAutoDefSlot4Att4.Text = "00";
             // 
-            // lblAutoLowMade4
+            // lblAutoDefSlot4Made4
             // 
-            this.lblAutoLowMade4.AutoSize = true;
-            this.lblAutoLowMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoLowMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoLowMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoLowMade4.Location = new System.Drawing.Point(179, 258);
-            this.lblAutoLowMade4.Name = "lblAutoLowMade4";
-            this.lblAutoLowMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoLowMade4.TabIndex = 214;
-            this.lblAutoLowMade4.Text = "00";
+            this.lblAutoDefSlot4Made4.AutoSize = true;
+            this.lblAutoDefSlot4Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot4Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot4Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot4Made4.Location = new System.Drawing.Point(179, 258);
+            this.lblAutoDefSlot4Made4.Name = "lblAutoDefSlot4Made4";
+            this.lblAutoDefSlot4Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot4Made4.TabIndex = 214;
+            this.lblAutoDefSlot4Made4.Text = "00";
             // 
-            // lblAutoMidAtt4
+            // lblAutoDefSlot3Att4
             // 
-            this.lblAutoMidAtt4.AutoSize = true;
-            this.lblAutoMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt4.Location = new System.Drawing.Point(250, 206);
-            this.lblAutoMidAtt4.Name = "lblAutoMidAtt4";
-            this.lblAutoMidAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt4.TabIndex = 213;
-            this.lblAutoMidAtt4.Text = "00";
+            this.lblAutoDefSlot3Att4.AutoSize = true;
+            this.lblAutoDefSlot3Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Att4.Location = new System.Drawing.Point(250, 206);
+            this.lblAutoDefSlot3Att4.Name = "lblAutoDefSlot3Att4";
+            this.lblAutoDefSlot3Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Att4.TabIndex = 213;
+            this.lblAutoDefSlot3Att4.Text = "00";
             // 
-            // lblAutoMidMade4
+            // lblAutoDefSlot3Made4
             // 
-            this.lblAutoMidMade4.AutoSize = true;
-            this.lblAutoMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade4.Location = new System.Drawing.Point(179, 208);
-            this.lblAutoMidMade4.Name = "lblAutoMidMade4";
-            this.lblAutoMidMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade4.TabIndex = 212;
-            this.lblAutoMidMade4.Text = "00";
+            this.lblAutoDefSlot3Made4.AutoSize = true;
+            this.lblAutoDefSlot3Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot3Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot3Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot3Made4.Location = new System.Drawing.Point(179, 208);
+            this.lblAutoDefSlot3Made4.Name = "lblAutoDefSlot3Made4";
+            this.lblAutoDefSlot3Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot3Made4.TabIndex = 212;
+            this.lblAutoDefSlot3Made4.Text = "00";
             // 
             // lblAutoHighAtt4
             // 
-            this.lblAutoHighAtt4.AutoSize = true;
-            this.lblAutoHighAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighAtt4.Location = new System.Drawing.Point(250, 153);
-            this.lblAutoHighAtt4.Name = "lblAutoHighAtt4";
-            this.lblAutoHighAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighAtt4.TabIndex = 211;
-            this.lblAutoHighAtt4.Text = "00";
+            this.lblAutoDefSlot2Att4.AutoSize = true;
+            this.lblAutoDefSlot2Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Att4.Location = new System.Drawing.Point(250, 153);
+            this.lblAutoDefSlot2Att4.Name = "lblAutoDefSlot2Att4";
+            this.lblAutoDefSlot2Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Att4.TabIndex = 211;
+            this.lblAutoDefSlot2Att4.Text = "00";
             // 
             // lblAutoHighMade4
             // 
-            this.lblAutoHighMade4.AutoSize = true;
-            this.lblAutoHighMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoHighMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoHighMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoHighMade4.Location = new System.Drawing.Point(176, 153);
-            this.lblAutoHighMade4.Name = "lblAutoHighMade4";
-            this.lblAutoHighMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoHighMade4.TabIndex = 210;
-            this.lblAutoHighMade4.Text = "00";
+            this.lblAutoDefSlot2Made4.AutoSize = true;
+            this.lblAutoDefSlot2Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoDefSlot2Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoDefSlot2Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoDefSlot2Made4.Location = new System.Drawing.Point(176, 153);
+            this.lblAutoDefSlot2Made4.Name = "lblAutoDefSlot2Made4";
+            this.lblAutoDefSlot2Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoDefSlot2Made4.TabIndex = 210;
+            this.lblAutoDefSlot2Made4.Text = "00";
             // 
-            // lblTeleOpLowAtt4
+            // lblTeleOpDefSlot4Att4
             // 
-            this.lblTeleOpLowAtt4.AutoSize = true;
-            this.lblTeleOpLowAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowAtt4.Location = new System.Drawing.Point(250, 260);
-            this.lblTeleOpLowAtt4.Name = "lblTeleOpLowAtt4";
-            this.lblTeleOpLowAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowAtt4.TabIndex = 209;
-            this.lblTeleOpLowAtt4.Text = "00";
-            this.lblTeleOpLowAtt4.Visible = false;
+            this.lblTeleOpDefSlot4Att4.AutoSize = true;
+            this.lblTeleOpDefSlot4Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Att4.Location = new System.Drawing.Point(250, 260);
+            this.lblTeleOpDefSlot4Att4.Name = "lblTeleOpDefSlot4Att4";
+            this.lblTeleOpDefSlot4Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Att4.TabIndex = 209;
+            this.lblTeleOpDefSlot4Att4.Text = "00";
+            this.lblTeleOpDefSlot4Att4.Visible = false;
             // 
-            // lblTeleOpMidAtt4
+            // lblTeleOpDefSlot3Att4
             // 
-            this.lblTeleOpMidAtt4.AutoSize = true;
-            this.lblTeleOpMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt4.Location = new System.Drawing.Point(250, 208);
-            this.lblTeleOpMidAtt4.Name = "lblTeleOpMidAtt4";
-            this.lblTeleOpMidAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt4.TabIndex = 208;
-            this.lblTeleOpMidAtt4.Text = "00";
-            this.lblTeleOpMidAtt4.Visible = false;
+            this.lblTeleOpDefSlot3Att4.AutoSize = true;
+            this.lblTeleOpDefSlot3Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Att4.Location = new System.Drawing.Point(250, 208);
+            this.lblTeleOpDefSlot3Att4.Name = "lblTeleOpDefSlot3Att4";
+            this.lblTeleOpDefSlot3Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Att4.TabIndex = 208;
+            this.lblTeleOpDefSlot3Att4.Text = "00";
+            this.lblTeleOpDefSlot3Att4.Visible = false;
             // 
             // lblTeleOpHighAtt4
             // 
-            this.lblTeleOpHighAtt4.AutoSize = true;
-            this.lblTeleOpHighAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighAtt4.Location = new System.Drawing.Point(250, 153);
-            this.lblTeleOpHighAtt4.Name = "lblTeleOpHighAtt4";
-            this.lblTeleOpHighAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighAtt4.TabIndex = 207;
-            this.lblTeleOpHighAtt4.Text = "00";
-            this.lblTeleOpHighAtt4.Visible = false;
+            this.lblTeleOpDefSlot2Att4.AutoSize = true;
+            this.lblTeleOpDefSlot2Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Att4.Location = new System.Drawing.Point(250, 153);
+            this.lblTeleOpDefSlot2Att4.Name = "lblTeleOpDefSlot2Att4";
+            this.lblTeleOpDefSlot2Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Att4.TabIndex = 207;
+            this.lblTeleOpDefSlot2Att4.Text = "00";
+            this.lblTeleOpDefSlot2Att4.Visible = false;
             // 
-            // lblTeleOpPyramidAtt4
+            // lblTeleOpDefSlot1Att4
             // 
-            this.lblTeleOpPyramidAtt4.AutoSize = true;
-            this.lblTeleOpPyramidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidAtt4.Location = new System.Drawing.Point(252, 95);
-            this.lblTeleOpPyramidAtt4.Name = "lblTeleOpPyramidAtt4";
-            this.lblTeleOpPyramidAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidAtt4.TabIndex = 206;
-            this.lblTeleOpPyramidAtt4.Text = "00";
-            this.lblTeleOpPyramidAtt4.Visible = false;
+            this.lblTeleOpDefSlot1Att4.AutoSize = true;
+            this.lblTeleOpDefSlot1Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Att4.Location = new System.Drawing.Point(252, 95);
+            this.lblTeleOpDefSlot1Att4.Name = "lblTeleOpDefSlot1Att4";
+            this.lblTeleOpDefSlot1Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Att4.TabIndex = 206;
+            this.lblTeleOpDefSlot1Att4.Text = "00";
+            this.lblTeleOpDefSlot1Att4.Visible = false;
             // 
-            // lblRobotClimb4
+            // lblRobotScale4
             // 
-            this.lblRobotClimb4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb4.Location = new System.Drawing.Point(179, 301);
-            this.lblRobotClimb4.Name = "lblRobotClimb4";
-            this.lblRobotClimb4.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb4.TabIndex = 205;
-            this.lblRobotClimb4.Text = "0";
-            this.lblRobotClimb4.Visible = false;
+            this.lblRobotScale4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblRobotScale4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRobotScale4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblRobotScale4.Location = new System.Drawing.Point(179, 301);
+            this.lblRobotScale4.Name = "lblRobotScale4";
+            this.lblRobotScale4.Size = new System.Drawing.Size(55, 39);
+            this.lblRobotScale4.TabIndex = 205;
+            this.lblRobotScale4.Text = "0";
+            this.lblRobotScale4.Visible = false;
             // 
-            // lblTeleOpLowMade4
+            // lblTeleOpDefSlot4Made4
             // 
-            this.lblTeleOpLowMade4.AutoSize = true;
-            this.lblTeleOpLowMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpLowMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpLowMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpLowMade4.Location = new System.Drawing.Point(179, 260);
-            this.lblTeleOpLowMade4.Name = "lblTeleOpLowMade4";
-            this.lblTeleOpLowMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpLowMade4.TabIndex = 204;
-            this.lblTeleOpLowMade4.Text = "00";
-            this.lblTeleOpLowMade4.Visible = false;
+            this.lblTeleOpDefSlot4Made4.AutoSize = true;
+            this.lblTeleOpDefSlot4Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot4Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot4Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot4Made4.Location = new System.Drawing.Point(179, 260);
+            this.lblTeleOpDefSlot4Made4.Name = "lblTeleOpDefSlot4Made4";
+            this.lblTeleOpDefSlot4Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot4Made4.TabIndex = 204;
+            this.lblTeleOpDefSlot4Made4.Text = "00";
+            this.lblTeleOpDefSlot4Made4.Visible = false;
             // 
-            // lblTeleOpMidMade4
+            // lblTeleOpDefSlot3Made4
             // 
-            this.lblTeleOpMidMade4.AutoSize = true;
-            this.lblTeleOpMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade4.Location = new System.Drawing.Point(179, 208);
-            this.lblTeleOpMidMade4.Name = "lblTeleOpMidMade4";
-            this.lblTeleOpMidMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade4.TabIndex = 203;
-            this.lblTeleOpMidMade4.Text = "00";
-            this.lblTeleOpMidMade4.Visible = false;
+            this.lblTeleOpDefSlot3Made4.AutoSize = true;
+            this.lblTeleOpDefSlot3Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot3Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot3Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot3Made4.Location = new System.Drawing.Point(179, 208);
+            this.lblTeleOpDefSlot3Made4.Name = "lblTeleOpDefSlot3Made4";
+            this.lblTeleOpDefSlot3Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot3Made4.TabIndex = 203;
+            this.lblTeleOpDefSlot3Made4.Text = "00";
+            this.lblTeleOpDefSlot3Made4.Visible = false;
             // 
             // lblTeleOpHighMade4
             // 
-            this.lblTeleOpHighMade4.AutoSize = true;
-            this.lblTeleOpHighMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpHighMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpHighMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpHighMade4.Location = new System.Drawing.Point(176, 153);
-            this.lblTeleOpHighMade4.Name = "lblTeleOpHighMade4";
-            this.lblTeleOpHighMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpHighMade4.TabIndex = 202;
-            this.lblTeleOpHighMade4.Text = "00";
-            this.lblTeleOpHighMade4.Visible = false;
+            this.lblTeleOpDefSlot2Made4.AutoSize = true;
+            this.lblTeleOpDefSlot2Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot2Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot2Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot2Made4.Location = new System.Drawing.Point(176, 153);
+            this.lblTeleOpDefSlot2Made4.Name = "lblTeleOpDefSlot2Made4";
+            this.lblTeleOpDefSlot2Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot2Made4.TabIndex = 202;
+            this.lblTeleOpDefSlot2Made4.Text = "00";
+            this.lblTeleOpDefSlot2Made4.Visible = false;
             // 
             // label38
             // 
@@ -3164,7 +3164,7 @@
             this.label38.Name = "label38";
             this.label38.Size = new System.Drawing.Size(117, 26);
             this.label38.TabIndex = 201;
-            this.label38.Text = "Scored High";
+            this.label38.Text = "Scored DefSlot2";
             // 
             // label37
             // 
@@ -3174,7 +3174,7 @@
             this.label37.Name = "label37";
             this.label37.Size = new System.Drawing.Size(110, 26);
             this.label37.TabIndex = 200;
-            this.label37.Text = "Scored Low";
+            this.label37.Text = "Scored DefSlot4";
             this.label37.Click += new System.EventHandler(this.label37_Click);
             // 
             // label36
@@ -3205,20 +3205,20 @@
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(114, 26);
             this.label30.TabIndex = 197;
-            this.label30.Text = "Robot Climb";
+            this.label30.Text = "Robot Scale";
             // 
-            // lblTeleOpPyramidMade4
+            // lblTeleOpDefSlot1Made4
             // 
-            this.lblTeleOpPyramidMade4.AutoSize = true;
-            this.lblTeleOpPyramidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpPyramidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpPyramidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpPyramidMade4.Location = new System.Drawing.Point(176, 95);
-            this.lblTeleOpPyramidMade4.Name = "lblTeleOpPyramidMade4";
-            this.lblTeleOpPyramidMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpPyramidMade4.TabIndex = 196;
-            this.lblTeleOpPyramidMade4.Text = "00";
-            this.lblTeleOpPyramidMade4.Visible = false;
+            this.lblTeleOpDefSlot1Made4.AutoSize = true;
+            this.lblTeleOpDefSlot1Made4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpDefSlot1Made4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpDefSlot1Made4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpDefSlot1Made4.Location = new System.Drawing.Point(176, 95);
+            this.lblTeleOpDefSlot1Made4.Name = "lblTeleOpDefSlot1Made4";
+            this.lblTeleOpDefSlot1Made4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpDefSlot1Made4.TabIndex = 196;
+            this.lblTeleOpDefSlot1Made4.Text = "00";
+            this.lblTeleOpDefSlot1Made4.Visible = false;
             // 
             // label63
             // 
@@ -3390,10 +3390,10 @@
         private System.Windows.Forms.Label lblTeleOp5;
         private System.Windows.Forms.Label lblAuto6;
         private System.Windows.Forms.Label lblTeleOp6;
-        private System.Windows.Forms.Label lblTeleOpHighAtt;
-        private System.Windows.Forms.Label lblTeleOpPyramidMade;
-        private System.Windows.Forms.Label lblTeleOpHighMade;
-        private System.Windows.Forms.Label lblTeleOpPyramidAtt;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Att;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Made;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Made;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Att;
         private System.Windows.Forms.Label lbldisplayButtons1;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
@@ -3401,22 +3401,22 @@
         private System.Windows.Forms.Label lbltest1;
         private System.Windows.Forms.Label lblAuto;
         private System.Windows.Forms.Label lblTeleOp;
-        private System.Windows.Forms.Label lblAutoHighAtt;
-        private System.Windows.Forms.Label lblAutoHighMade;
+        private System.Windows.Forms.Label lblAutoDefSlot2Att;
+        private System.Windows.Forms.Label lblAutoDefSlot2Made;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblTeleOpMidMade;
-        private System.Windows.Forms.Label lblAutoMidMade;
-        private System.Windows.Forms.Label lblAutoLowMade;
-        private System.Windows.Forms.Label lblTeleOpLowMade;
-        private System.Windows.Forms.Label lblAutoMidAtt;
-        private System.Windows.Forms.Label lblTeleOpMidAtt;
-        private System.Windows.Forms.Label lblTeleOpLowAtt;
-        private System.Windows.Forms.Label lblAutoLowAtt;
-        private System.Windows.Forms.Label lblRobotClimb;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Made;
+        private System.Windows.Forms.Label lblAutoDefSlot3Made;
+        private System.Windows.Forms.Label lblAutoDefSlot4Made;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Made;
+        private System.Windows.Forms.Label lblAutoDefSlot3Att;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Att;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Att;
+        private System.Windows.Forms.Label lblAutoDefSlot4Att;
+        private System.Windows.Forms.Label lblRobotScale;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label lblTeleOpTotalPoints;
         private System.Windows.Forms.Label lblAutoTotalPoints;
@@ -3424,15 +3424,15 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label lblRobotClimb2;
-        private System.Windows.Forms.Label lblTeleOpPyramidAtt2;
-        private System.Windows.Forms.Label lblTeleOpLowMade2;
-        private System.Windows.Forms.Label lblTeleOpLowAtt2;
-        private System.Windows.Forms.Label lblTeleOpMidMade2;
-        private System.Windows.Forms.Label lblTeleOpHighAtt2;
-        private System.Windows.Forms.Label lblTeleOpMidAtt2;
-        private System.Windows.Forms.Label lblTeleOpHighMade2;
-        private System.Windows.Forms.Label lblTeleOpPyramidMade2;
+        private System.Windows.Forms.Label lblRobotScale2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Att2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Made2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Att2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Made2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Att2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Att2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Made2;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Made2;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.Label label21;
@@ -3449,15 +3449,15 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label lblAutoLowAtt3;
-        private System.Windows.Forms.Label lblTeleOpMidAtt3;
-        private System.Windows.Forms.Label lblTeleOpHighAtt3;
-        private System.Windows.Forms.Label lblTeleOpPyramidAtt3;
-        private System.Windows.Forms.Label lblRobotClimb3;
-        private System.Windows.Forms.Label lblTeleOpLowMade3;
-        private System.Windows.Forms.Label lblTeleOpMidMade3;
-        private System.Windows.Forms.Label lblTeleOpHighMade3;
-        private System.Windows.Forms.Label lblTeleOpPyramidMade3;
+        private System.Windows.Forms.Label lblAutoDefSlot4Att3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Att3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Att3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Att3;
+        private System.Windows.Forms.Label lblRobotScale3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Made3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Made3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Made3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Made3;
         private System.Windows.Forms.Label lbldisplayButtons4;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Label label70;
@@ -3466,78 +3466,78 @@
         private System.Windows.Forms.Label lblTeleOp4;
         private System.Windows.Forms.Label lblAuto4;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Label lblTeleOpLowAtt4;
-        private System.Windows.Forms.Label lblTeleOpMidAtt4;
-        private System.Windows.Forms.Label lblTeleOpHighAtt4;
-        private System.Windows.Forms.Label lblTeleOpPyramidAtt4;
-        private System.Windows.Forms.Label lblRobotClimb4;
-        private System.Windows.Forms.Label lblTeleOpLowMade4;
-        private System.Windows.Forms.Label lblTeleOpMidMade4;
-        private System.Windows.Forms.Label lblTeleOpHighMade4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Att4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Att4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Att4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Att4;
+        private System.Windows.Forms.Label lblRobotScale4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Made4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Made4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Made4;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label37;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label lblTeleOpPyramidMade4;
-        private System.Windows.Forms.Label lblRobotClimb6;
-        private System.Windows.Forms.Label lblTeleOpMidAtt6;
-        private System.Windows.Forms.Label lblTeleOpLowAtt6;
-        private System.Windows.Forms.Label lblTeleOpPyramidAtt6;
-        private System.Windows.Forms.Label lblTeleOpHighAtt6;
-        private System.Windows.Forms.Label lblTeleOpLowMade6;
-        private System.Windows.Forms.Label lblTeleOpMidMade6;
-        private System.Windows.Forms.Label lblTeleOpHighMade6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Made4;
+        private System.Windows.Forms.Label lblRobotScale6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Att6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Att6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Att6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Att6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Made6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Made6;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Made6;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
         private System.Windows.Forms.Label label59;
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label lblTeleOpPyramidMade6;
-        private System.Windows.Forms.Label lblRobotClimb5;
-        private System.Windows.Forms.Label lblTeleOpPyramidAtt5;
-        private System.Windows.Forms.Label lblTeleOpMidMade5;
-        private System.Windows.Forms.Label lblTeleOpLowMade5;
-        private System.Windows.Forms.Label lblTeleOpLowAtt5;
-        private System.Windows.Forms.Label lblTeleOpHighAtt5;
-        private System.Windows.Forms.Label lblTeleOpMidAtt5;
-        private System.Windows.Forms.Label lblTeleOpHighMade5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Made6;
+        private System.Windows.Forms.Label lblRobotScale5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Att5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Made5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Made5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Att5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Att5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot3Att5;
+        private System.Windows.Forms.Label lblTeleOpDefSlot2Made5;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label lblTeleOpPyramidMade5;
-        private System.Windows.Forms.Label lblAutoLowMade6;
-        private System.Windows.Forms.Label lblAutoLowAtt6;
-        private System.Windows.Forms.Label lblAutoMidMade6;
-        private System.Windows.Forms.Label lblAutoMidAtt6;
-        private System.Windows.Forms.Label lblAutoHighAtt6;
-        private System.Windows.Forms.Label lblAutoHighMade6;
-        private System.Windows.Forms.Label lblAutoLowMade5;
-        private System.Windows.Forms.Label lblAutoLowAtt5;
-        private System.Windows.Forms.Label lblAutoMidAtt5;
-        private System.Windows.Forms.Label lblAutoMidMade5;
-        private System.Windows.Forms.Label lblAutoHighAtt5;
-        private System.Windows.Forms.Label lblAutoHighMade5;
-        private System.Windows.Forms.Label lblAutoHighAtt2;
-        private System.Windows.Forms.Label lblAutoMidMade2;
-        private System.Windows.Forms.Label lblAutoMidAtt2;
-        private System.Windows.Forms.Label lblAutoLowMade2;
-        private System.Windows.Forms.Label lblAutoLowAtt2;
-        private System.Windows.Forms.Label lblAutoHighMade2;
-        private System.Windows.Forms.Label lblAutoMidAtt3;
-        private System.Windows.Forms.Label lblAutoMidMade3;
-        private System.Windows.Forms.Label lblAutoHighAtt3;
-        private System.Windows.Forms.Label lblTeleOpLowAtt3;
-        private System.Windows.Forms.Label lblAutoLowMade3;
-        private System.Windows.Forms.Label lblAutoHighMade3;
-        private System.Windows.Forms.Label lblAutoLowAtt4;
-        private System.Windows.Forms.Label lblAutoLowMade4;
-        private System.Windows.Forms.Label lblAutoMidAtt4;
-        private System.Windows.Forms.Label lblAutoMidMade4;
-        private System.Windows.Forms.Label lblAutoHighAtt4;
-        private System.Windows.Forms.Label lblAutoHighMade4;
+        private System.Windows.Forms.Label lblTeleOpDefSlot1Made5;
+        private System.Windows.Forms.Label lblAutoDefSlot4Made6;
+        private System.Windows.Forms.Label lblAutoDefSlot4Att6;
+        private System.Windows.Forms.Label lblAutoDefSlot3Made6;
+        private System.Windows.Forms.Label lblAutoDefSlot3Att6;
+        private System.Windows.Forms.Label lblAutoDefSlot2Att6;
+        private System.Windows.Forms.Label lblAutoDefSlot2Made6;
+        private System.Windows.Forms.Label lblAutoDefSlot4Made5;
+        private System.Windows.Forms.Label lblAutoDefSlot4Att5;
+        private System.Windows.Forms.Label lblAutoDefSlot3Att5;
+        private System.Windows.Forms.Label lblAutoDefSlot3Made5;
+        private System.Windows.Forms.Label lblAutoDefSlot2Att5;
+        private System.Windows.Forms.Label lblAutoDefSlot2Made5;
+        private System.Windows.Forms.Label lblAutoDefSlot2Att2;
+        private System.Windows.Forms.Label lblAutoDefSlot3Made2;
+        private System.Windows.Forms.Label lblAutoDefSlot3Att2;
+        private System.Windows.Forms.Label lblAutoDefSlot4Made2;
+        private System.Windows.Forms.Label lblAutoDefSlot4Att2;
+        private System.Windows.Forms.Label lblAutoDefSlot2Made2;
+        private System.Windows.Forms.Label lblAutoDefSlot3Att3;
+        private System.Windows.Forms.Label lblAutoDefSlot3Made3;
+        private System.Windows.Forms.Label lblAutoDefSlot2Att3;
+        private System.Windows.Forms.Label lblTeleOpDefSlot4Att3;
+        private System.Windows.Forms.Label lblAutoDefSlot4Made3;
+        private System.Windows.Forms.Label lblAutoDefSlot2Made3;
+        private System.Windows.Forms.Label lblAutoDefSlot4Att4;
+        private System.Windows.Forms.Label lblAutoDefSlot4Made4;
+        private System.Windows.Forms.Label lblAutoDefSlot3Att4;
+        private System.Windows.Forms.Label lblAutoDefSlot3Made4;
+        private System.Windows.Forms.Label lblAutoDefSlot2Att4;
+        private System.Windows.Forms.Label lblAutoDefSlot2Made4;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label lblTotalPoints3;
         private System.Windows.Forms.Label lblTeleOpTotalPoints3;
