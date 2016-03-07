@@ -14,44 +14,48 @@ namespace MultipleJoysticks
 
         //Arrays that hold the values for the made and attempt numbers of the frisbee scoring
         // 1 point frisbees
-        int[] displayLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] lowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] lowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot4Made = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot4Made = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot4Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot4Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot4Att = { 0, 0, 0, 0, 0, 0 };
 
         // 2 point frisbees
-        int[] displayMidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] midFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] midFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayMidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoMidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot3Made = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot3Made = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot3Att = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot3Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot3Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot3Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot3Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot3Att = { 0, 0, 0, 0, 0, 0 };
 
         // 3 point frisbees
-        int[] displayHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] highFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] highFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot2Made = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot2Made = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot2Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot2Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot2Att = { 0, 0, 0, 0, 0, 0 };
 
         // Pyramid Frisbees
-        int[] displayPyramidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] pyramidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayPyramidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] pyramidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot1Made = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot1Made = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefSlot1Att = { 0, 0, 0, 0, 0, 0 };
+        int[] DefSlot1Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot1Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot1Made = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefSlot1Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefSlot1Att = { 0, 0, 0, 0, 0, 0 };
 
-        // Robot Climbing
-        int[] climb = { 0, 0, 0, 0, 0, 0 };
-        int[] robotClimb = { 0, 0, 0, 0, 0, 0 };
+        // Robot Scaleing
+        int[] scale = { 0, 0, 0, 0, 0, 0 };
+        int[] robotScale = { 0, 0, 0, 0, 0, 0 };
 
         // Total Points
         int[] teleOpTotalPoints = { 0, 0, 0, 0, 0, 0 };
@@ -84,22 +88,22 @@ namespace MultipleJoysticks
             public const int Autonomous = 1;
             public const int scoreHigh = 2;
             public const int scoreLow = 3;
-            public const int ShotsMissedPlus = 4;
-            public const int ShotsMissedMinus = 5;
-            public const int PyramidFrisbeesAttMinus = 6;
-            public const int PyramidFrisbeesAttPlus = 7;
-            public const int HighFrisbeesMadeMinus = 8;
-            public const int HighFrisbeesMadePlus = 9;
-            public const int HighFrisbeesAttMinus = 10;
-            public const int HighFrisbeesAttPlus = 11;
-            public const int MidFrisbeesMadeMinus = 12;
-            public const int MidFrisbeesMadePlus = 13;
-            public const int MidFrisbeesAttMinus = 14;
-            public const int MidFrisbeesAttPlus = 15;
-            public const int LowFrisbeesMadeMinus = 16;
-            public const int LowFrisbeesMadePlus = 17;
-            public const int LowFrisbeesAttMinus = 18;
-            public const int LowFrisbeesAttPlus = 19;
+            public const int DefSlot1MadeMinus = 4;
+            public const int DefSlot1MadePlus = 5;
+            public const int DefSlot1AttMinus = 6;
+            public const int DefSlot1AttPlus = 7;
+            public const int DefSlot2MadeMinus = 8;
+            public const int DefSlot2MadePlus = 9;
+            public const int DefSlot2AttMinus = 10;
+            public const int DefSlot2AttPlus = 11;
+            public const int DefSlot3MadeMinus = 12;
+            public const int DefSlot3MadePlus = 13;
+            public const int DefSlot3AttMinus = 14;
+            public const int DefSlot3AttPlus = 15;
+            public const int DefSlot4MadeMinus = 16;
+            public const int DefSlot4MadePlus = 17;
+            public const int DefSlot4AttMinus = 18;
+            public const int DefSlot4AttPlus = 19;
             public const int RobotScalePlus = 20;
             public const int FinishedScoring = 21;
         }
@@ -107,6 +111,7 @@ namespace MultipleJoysticks
         String[,] ControllerCommands = new String[6, 22];
         String[] LastButtonPattern = new String[6];
         Label[] displayButtons;
+
 
         // --- INITIALIZATION
         public Form1()
@@ -129,7 +134,7 @@ namespace MultipleJoysticks
 
         public void SetControllerCommands(int controllernumber, string[] Command, string buttons)
         {
-            switch (Command[0].ToUpper())
+            switch (Command[0].ToUpper())  //Case name should be all caps
             {
                 case "TELEOP":
                     ControllerCommands[controllernumber, Form1.GameCommands.TeleOp] = buttons;
@@ -143,55 +148,55 @@ namespace MultipleJoysticks
                 case "DEFENSIVERATINGMINUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.scoreLow] = buttons;
                     break;
-                case "ShotsMissedPlus":
-                    ControllerCommands[controllernumber, Form1.GameCommands.ShotsMissedPlus] = buttons;
+                case "DEFSLOT1MADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot1MadeMinus] = buttons;
                     break;
-                case "ShotsMissedMinus":
-                    ControllerCommands[controllernumber, Form1.GameCommands.ShotsMissedMinus] = buttons;
+                case "DEFSLOT1MADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot1MadePlus] = buttons;
                     break;
-                case "PYRAMIDFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttMinus] = buttons;
+                case "DEFSLOT1ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot1AttMinus] = buttons;
                     break;
-                case "PYRAMIDFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttPlus] = buttons;
+                case "DEFSLOT1ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot1AttPlus] = buttons;
                     break;
-                case "HIGHFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadeMinus] = buttons;
+                case "DEFSLOT2MADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot2MadeMinus] = buttons;
                     break;
-                case "HIGHFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadePlus] = buttons;
+                case "DEFSLOT2MADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot2MadePlus] = buttons;
                     break;
-                case "HIGHFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttMinus] = buttons;
+                case "DEFSLOT2ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot2AttMinus] = buttons;
                     break;
-                case "HIGHFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttPlus] = buttons;
+                case "DEFSLOT2ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot2AttPlus] = buttons;
                     break;
-                case "MIDFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadeMinus] = buttons;
+                case "DEFSLOT3MADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot3MadeMinus] = buttons;
                     break;
-                case "MIDFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadePlus] = buttons;
+                case "DEFSLOT3MADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot3MadePlus] = buttons;
                     break;
-                case "MIDFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesAttMinus] = buttons;
+                case "DEFSLOT3ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot3AttMinus] = buttons;
                     break;
-                case "MIDFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesAttPlus] = buttons;
+                case "DEFSLOT3ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot3AttPlus] = buttons;
                     break;
-                case "LOWFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadeMinus] = buttons;
+                case "DEFSLOT4MADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot4MadeMinus] = buttons;
                     break;
-                case "LOWFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadePlus] = buttons;
+                case "DEFSLOT4MADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot4MadePlus] = buttons;
                     break;
-                case "LOWFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttMinus] = buttons;
+                case "DEFSLOT4ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot4AttMinus] = buttons;
                     break;
-                case "LOWFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttPlus] = buttons;
+                case "DEFSLOT4ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.DefSlot4AttPlus] = buttons;
                     break;
-                case "RobotScalePlus":
+                case "ROBOTSCALEPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.RobotScalePlus] = buttons;
                     break;
                 case "FINISHEDSCORING":
@@ -227,13 +232,13 @@ namespace MultipleJoysticks
 
         void UpdateScores(int id)
         {
-            autoTotalPoints[id] = (autoHighFrisbeesMade[id] * 6) +
-                    (autoMidFrisbeesMade[id] * 4) +
-                    (autoLowFrisbeesMade[id] * 2);
-            teleOpTotalPoints[id] = (pyramidFrisbeesMade[id] * 5) +
-                    (highFrisbeesMade[id] * 3) +
-                    (midFrisbeesMade[id] * 2) +
-                    lowFrisbeesMade[id];
+            autoTotalPoints[id] = (autoDefSlot2Made[id] * 6) +
+                    (autoDefSlot3Made[id] * 4) +
+                    (autoDefSlot4Made[id] * 2);
+            teleOpTotalPoints[id] = (DefSlot1Made[id] * 5) +
+                    (DefSlot2Made[id] * 3) +
+                    (DefSlot3Made[id] * 2) +
+                    DefSlot4Made[id];
 
         }
 
@@ -273,73 +278,79 @@ namespace MultipleJoysticks
             {
                 lblAuto.Visible = false;
                 lblTeleOp.Visible = true;
-                lblAutoHighAtt.Visible = false;
-                lblTeleOpHighAtt.Visible = true;
-                lblAutoHighMade.Visible = false;
-                lblTeleOpHighMade.Visible = true;
-                lblAutoMidAtt.Visible = false;
-                lblTeleOpMidAtt.Visible = true;
-                lblAutoMidMade.Visible = false;
-                lblTeleOpMidMade.Visible = true;
-                lblAutoLowAtt.Visible = false;
-                lblTeleOpLowAtt.Visible = true;
-                lblAutoLowMade.Visible = false;
-                lblTeleOpLowMade.Visible = true;
-                lblTeleOpPyramidAtt.Visible = true;
-                lblTeleOpPyramidMade.Visible = true;
-                lblRobotClimb.Visible = true;
+                lblAutoDefSlot2Att.Visible = false;
+                lblTeleOpDefSlot2Att.Visible = true;
+                lblAutoDefSlot2Made.Visible = false;
+                lblTeleOpDefSlot2Made.Visible = true;
+                lblAutoDefSlot3Att.Visible = false;
+                lblTeleOpDefSlot3Att.Visible = true;
+                lblAutoDefSlot3Made.Visible = false;
+                lblTeleOpDefSlot3Made.Visible = true;
+                lblAutoDefSlot4Att.Visible = false;
+                lblTeleOpDefSlot4Att.Visible = true;
+                lblAutoDefSlot4Made.Visible = false;
+                lblTeleOpDefSlot4Made.Visible = true;
+                lblAutoDefSlot1Att.Visible = false;
+                lblAutoDefSlot1Made.Visible = false;
+                lblTeleOpDefSlot1Att.Visible = true;
+                lblTeleOpDefSlot1Made.Visible = true;
+                lblRobotScale.Visible = true;
             }
             if (AutonomousMode[0])
             {
                 lblAuto.Visible = true;
                 lblTeleOp.Visible = false;
-                lblAutoHighAtt.Visible = true;
-                lblTeleOpHighAtt.Visible = false;
-                lblAutoHighMade.Visible = true;
-                lblTeleOpHighMade.Visible = false;
-                lblAutoMidAtt.Visible = true;
-                lblTeleOpMidAtt.Visible = false;
-                lblAutoMidMade.Visible = true;
-                lblTeleOpMidMade.Visible = false;
-                lblAutoLowAtt.Visible = true;
-                lblTeleOpLowAtt.Visible = false;
-                lblAutoLowMade.Visible = true;
-                lblTeleOpLowMade.Visible = false;
-                lblTeleOpPyramidAtt.Visible = false;
-                lblTeleOpPyramidMade.Visible = false;
-                lblRobotClimb.Visible = false;
+                lblAutoDefSlot2Att.Visible = true;
+                lblTeleOpDefSlot2Att.Visible = false;
+                lblAutoDefSlot2Made.Visible = true;
+                lblTeleOpDefSlot2Made.Visible = false;
+                lblAutoDefSlot3Att.Visible = true;
+                lblTeleOpDefSlot3Att.Visible = false;
+                lblAutoDefSlot3Made.Visible = true;
+                lblTeleOpDefSlot3Made.Visible = false;
+                lblAutoDefSlot4Att.Visible = true;
+                lblTeleOpDefSlot4Att.Visible = false;
+                lblAutoDefSlot4Made.Visible = true;
+                lblTeleOpDefSlot4Made.Visible = false;
+                lblAutoDefSlot1Att.Visible = true;
+                lblAutoDefSlot1Made.Visible = true;
+                lblTeleOpDefSlot1Att.Visible = false;
+                lblTeleOpDefSlot1Made.Visible = false;
+                lblRobotScale.Visible = false;
             }
             //Defense Rating
             lblDefense.Text = displayDefenseRating[0].ToString();
 
-            // Pyramid Goals
-            lblTeleOpPyramidMade.Text = displayPyramidFrisbeesMade[0].ToString();
-            lblTeleOpPyramidAtt.Text = displayPyramidFrisbeesAtt[0].ToString();
+            // Defense Slot 1 Crossings
+            lblTeleOpDefSlot1Made.Text = displayDefSlot1Made[0].ToString();
+            lblTeleOpDefSlot1Att.Text = displayDefSlot1Att[0].ToString();
+            lblAutoDefSlot2Made.Text = autoDisplayDefSlot1Made[0].ToString();
+            lblAutoDefSlot2Att.Text = autoDisplayDefSlot1Att[0].ToString();
 
-            // High Goals
-            lblTeleOpHighMade.Text = displayHighFrisbeesMade[0].ToString();
-            lblTeleOpHighAtt.Text = displayHighFrisbeesAtt[0].ToString();
-            lblAutoHighMade.Text = autoDisplayHighFrisbeesMade[0].ToString();
-            lblAutoHighAtt.Text = autoDisplayHighFrisbeesAtt[0].ToString();
+            // Defense Slot 2 Crossings
+            lblTeleOpDefSlot2Made.Text = displayDefSlot2Made[0].ToString();
+            lblTeleOpDefSlot2Att.Text = displayDefSlot2Att[0].ToString();
+            lblAutoDefSlot2Made.Text = autoDisplayDefSlot2Made[0].ToString();
+            lblAutoDefSlot2Att.Text = autoDisplayDefSlot2Att[0].ToString();
 
-            // Mid Goals
-            lblTeleOpMidMade.Text = displayMidFrisbeesMade[0].ToString();
-            lblTeleOpMidAtt.Text = displayMidFrisbeesAtt[0].ToString();
-            lblAutoMidMade.Text = autoDisplayMidFrisbeesMade[0].ToString();
-            lblAutoMidAtt.Text = autoDisplayMidFrisbeesAtt[0].ToString();
+            // Defense Slot 3 Crossings
+            lblTeleOpDefSlot3Made.Text = displayDefSlot3Made[0].ToString();
+            lblTeleOpDefSlot3Att.Text = displayDefSlot3Att[0].ToString();
+            lblAutoDefSlot3Made.Text = autoDisplayDefSlot3Made[0].ToString();
+            lblAutoDefSlot3Att.Text = autoDisplayDefSlot3Att[0].ToString();
 
-            // Low Goals
-            lblTeleOpLowMade.Text = displayLowFrisbeesMade[0].ToString();
-            lblTeleOpLowAtt.Text = displayLowFrisbeesAtt[0].ToString();
-            lblAutoLowMade.Text = autoDisplayLowFrisbeesMade[0].ToString();
-            lblAutoLowAtt.Text = autoDisplayLowFrisbeesAtt[0].ToString();
+            // Defense Slot 4 Crossings
+            lblTeleOpDefSlot4Made.Text = displayDefSlot4Made[0].ToString();
+            lblTeleOpDefSlot4Att.Text = displayDefSlot4Att[0].ToString();
+            lblAutoDefSlot4Made.Text = autoDisplayDefSlot4Made[0].ToString();
+            lblAutoDefSlot4Att.Text = autoDisplayDefSlot4Att[0].ToString();
 
-            // Robot Climb
-            lblRobotClimb.Text = robotClimb[0].ToString();
+            // Robot Scale
+            lblRobotScale.Text = robotScale[0].ToString();
 
             lblTeleOpTotalPoints.Text = teleOpTotalPoints[0].ToString();
             lblAutoTotalPoints.Text = autoTotalPoints[0].ToString();
-            lblTotalPoints.Text = (autoTotalPoints[0] + teleOpTotalPoints[0] + robotClimb[0]).ToString();
+            lblTotalPoints.Text = (autoTotalPoints[0] + teleOpTotalPoints[0] + robotScale[0]).ToString();
             if (FinshedScoring[0])
                 lblTeleOp.ForeColor = Color.DarkGreen;
             else
@@ -354,73 +365,79 @@ namespace MultipleJoysticks
             {
                 lblAuto2.Visible = false;
                 lblTeleOp2.Visible = true;
-                lblAutoHighAtt2.Visible = false;
-                lblTeleOpHighAtt2.Visible = true;
-                lblAutoHighMade2.Visible = false;
-                lblTeleOpHighMade2.Visible = true;
-                lblAutoMidAtt2.Visible = false;
-                lblTeleOpMidAtt2.Visible = true;
-                lblAutoMidMade2.Visible = false;
-                lblTeleOpMidMade2.Visible = true;
-                lblAutoLowAtt2.Visible = false;
-                lblTeleOpLowAtt2.Visible = true;
-                lblAutoLowMade2.Visible = false;
-                lblTeleOpLowMade2.Visible = true;
-                lblTeleOpPyramidAtt2.Visible = true;
-                lblTeleOpPyramidMade2.Visible = true;
-                lblRobotClimb2.Visible = true;
+                lblAutoDefSlot2Att2.Visible = false;
+                lblTeleOpDefSlot2Att2.Visible = true;
+                lblAutoDefSlot2Made2.Visible = false;
+                lblTeleOpDefSlot2Made2.Visible = true;
+                lblAutoDefSlot3Att2.Visible = false;
+                lblTeleOpDefSlot3Att2.Visible = true;
+                lblAutoDefSlot3Made2.Visible = false;
+                lblTeleOpDefSlot3Made2.Visible = true;
+                lblAutoDefSlot4Att2.Visible = false;
+                lblTeleOpDefSlot4Att2.Visible = true;
+                lblAutoDefSlot4Made2.Visible = false;
+                lblTeleOpDefSlot4Made2.Visible = true;
+                lblAutoDefSlot1Att2.Visible = false;
+                lblAutoDefSlot1Made2.Visible = false;
+                lblAutoDefSlot1Att2.Visible = true;
+                lblAutoDefSlot1Made2.Visible = true;
+                lblRobotScale2.Visible = true;
             }
             if (AutonomousMode[1])
             {
                 lblAuto2.Visible = true;
                 lblTeleOp2.Visible = false;
-                lblAutoHighAtt2.Visible = true;
-                lblTeleOpHighAtt2.Visible = false;
-                lblAutoHighMade2.Visible = true;
-                lblTeleOpHighMade2.Visible = false;
-                lblAutoMidAtt2.Visible = true;
-                lblTeleOpMidAtt2.Visible = false;
-                lblAutoMidMade2.Visible = true;
-                lblTeleOpMidMade2.Visible = false;
-                lblAutoLowAtt2.Visible = true;
-                lblTeleOpLowAtt2.Visible = false;
-                lblAutoLowMade2.Visible = true;
-                lblTeleOpLowMade2.Visible = false;
-                lblTeleOpPyramidAtt2.Visible = false;
-                lblTeleOpPyramidMade2.Visible = false;
-                lblRobotClimb2.Visible = false;
+                lblAutoDefSlot2Att2.Visible = true;
+                lblTeleOpDefSlot2Att2.Visible = false;
+                lblAutoDefSlot2Made2.Visible = true;
+                lblTeleOpDefSlot2Made2.Visible = false;
+                lblAutoDefSlot3Att2.Visible = true;
+                lblTeleOpDefSlot3Att2.Visible = false;
+                lblAutoDefSlot3Made2.Visible = true;
+                lblTeleOpDefSlot3Made2.Visible = false;
+                lblAutoDefSlot4Att2.Visible = true;
+                lblTeleOpDefSlot4Att2.Visible = false;
+                lblAutoDefSlot4Made2.Visible = true;
+                lblTeleOpDefSlot4Made2.Visible = false;
+                lblAutoDefSlot1Att2.Visible = true;
+                lblAutoDefSlot1Made2.Visible = true;
+                lblTeleOpDefSlot1Att2.Visible = false;
+                lblTeleOpDefSlot1Made2.Visible = false;
+                lblRobotScale2.Visible = false;
             }
             //Defense Rating
             lblDefense2.Text = displayDefenseRating[1].ToString();
 
-            // Pyramid Goals
-            lblTeleOpPyramidMade2.Text = displayPyramidFrisbeesMade[1].ToString();
-            lblTeleOpPyramidAtt2.Text = displayPyramidFrisbeesAtt[1].ToString();
+            // Defense Slot 1 Crossings
+            lblTeleOpDefSlot1Made2.Text = displayDefSlot1Made[1].ToString();
+            lblTeleOpDefSlot1Att2.Text = displayDefSlot1Att[1].ToString();
+            lblAutoDefSlot1Made2.Text = autoDisplayDefSlot1Made[1].ToString();
+            lblAutoDefSlot1Att2.Text = autoDisplayDefSlot1Att[1].ToString();
 
-            // High Goals
-            lblTeleOpHighMade2.Text = displayHighFrisbeesMade[1].ToString();
-            lblTeleOpHighAtt2.Text = displayHighFrisbeesAtt[1].ToString();
-            lblAutoHighMade2.Text = autoDisplayHighFrisbeesMade[1].ToString();
-            lblAutoHighAtt2.Text = autoDisplayHighFrisbeesAtt[1].ToString();
+            // Defense Slot 2 Crossings
+            lblTeleOpDefSlot2Made2.Text = displayDefSlot2Made[1].ToString();
+            lblTeleOpDefSlot2Att2.Text = displayDefSlot2Att[1].ToString();
+            lblAutoDefSlot2Made2.Text = autoDisplayDefSlot2Made[1].ToString();
+            lblAutoDefSlot2Att2.Text = autoDisplayDefSlot2Att[1].ToString();
 
-            // Mid Goals
-            lblTeleOpMidMade2.Text = displayMidFrisbeesMade[1].ToString();
-            lblTeleOpMidAtt2.Text = displayMidFrisbeesAtt[1].ToString();
-            lblAutoMidMade2.Text = autoDisplayMidFrisbeesMade[1].ToString();
-            lblAutoMidAtt2.Text = autoDisplayMidFrisbeesAtt[1].ToString();
+            // Defense Slot 3 Crossings
+            lblTeleOpDefSlot3Made2.Text = displayDefSlot3Made[1].ToString();
+            lblTeleOpDefSlot3Att2.Text = displayDefSlot3Att[1].ToString();
+            lblAutoDefSlot3Made2.Text = autoDisplayDefSlot3Made[1].ToString();
+            lblAutoDefSlot3Att2.Text = autoDisplayDefSlot3Att[1].ToString();
 
-            // Low Goals
-            lblTeleOpLowMade2.Text = displayLowFrisbeesMade[1].ToString();
-            lblTeleOpLowAtt2.Text = displayLowFrisbeesAtt[1].ToString();
-            lblAutoLowMade2.Text = autoDisplayLowFrisbeesMade[1].ToString();
-            lblAutoLowAtt2.Text = autoDisplayLowFrisbeesAtt[1].ToString();
+            // Defense Slot 4 Crossings
+            lblTeleOpDefSlot4Made2.Text = displayDefSlot4Made[1].ToString();
+            lblTeleOpDefSlot4Att2.Text = displayDefSlot4Att[1].ToString();
+            lblAutoDefSlot4Made2.Text = autoDisplayDefSlot4Made[1].ToString();
+            lblAutoDefSlot4Att2.Text = autoDisplayDefSlot4Att[1].ToString();
 
-            // Robot Climb
-            lblRobotClimb2.Text = robotClimb[1].ToString();
+            // Robot Scale
+            lblRobotScale2.Text = robotScale[1].ToString();
 
             lblTeleOpTotalPoints2.Text = teleOpTotalPoints[1].ToString();
             lblAutoTotalPoints2.Text = autoTotalPoints[1].ToString();
-            lblTotalPoints2.Text = (autoTotalPoints[1] + teleOpTotalPoints[1] + robotClimb[1]).ToString();
+            lblTotalPoints2.Text = (autoTotalPoints[1] + teleOpTotalPoints[1] + robotScale[1]).ToString();
             if (FinshedScoring[1])
                 lblTeleOp2.ForeColor = Color.DarkGreen;
             else
@@ -434,73 +451,79 @@ namespace MultipleJoysticks
             {
                 lblAuto3.Visible = false;
                 lblTeleOp3.Visible = true;
-                lblAutoHighAtt3.Visible = false;
-                lblTeleOpHighAtt3.Visible = true;
-                lblAutoHighMade3.Visible = false;
-                lblTeleOpHighMade3.Visible = true;
-                lblAutoMidAtt3.Visible = false;
-                lblTeleOpMidAtt3.Visible = true;
-                lblAutoMidMade3.Visible = false;
-                lblTeleOpMidMade3.Visible = true;
-                lblAutoLowAtt3.Visible = false;
-                lblTeleOpLowAtt3.Visible = true;
-                lblAutoLowMade3.Visible = false;
-                lblTeleOpLowMade3.Visible = true;
-                lblTeleOpPyramidAtt3.Visible = true;
-                lblTeleOpPyramidMade3.Visible = true;
-                lblRobotClimb3.Visible = true;
+                lblAutoDefSlot2Att3.Visible = false;
+                lblTeleOpDefSlot2Att3.Visible = true;
+                lblAutoDefSlot2Made3.Visible = false;
+                lblTeleOpDefSlot2Made3.Visible = true;
+                lblAutoDefSlot3Att3.Visible = false;
+                lblTeleOpDefSlot3Att3.Visible = true;
+                lblAutoDefSlot3Made3.Visible = false;
+                lblTeleOpDefSlot3Made3.Visible = true;
+                lblAutoDefSlot4Att3.Visible = false;
+                lblTeleOpDefSlot4Att3.Visible = true;
+                lblAutoDefSlot4Made3.Visible = false;
+                lblTeleOpDefSlot4Made3.Visible = true;
+                lblAutoDefSlot1Att3.Visible = false;
+                lblAutoDefSlot1Made3.Visible = false;
+                lblTeleOpDefSlot1Att3.Visible = true;
+                lblTeleOpDefSlot1Made3.Visible = true;
+                lblRobotScale3.Visible = true;
             }
             if (AutonomousMode[2])
             {
                 lblAuto3.Visible = true;
                 lblTeleOp3.Visible = false;
-                lblAutoHighAtt3.Visible = true;
-                lblTeleOpHighAtt3.Visible = false;
-                lblAutoHighMade3.Visible = true;
-                lblTeleOpHighMade3.Visible = false;
-                lblAutoMidAtt3.Visible = true;
-                lblTeleOpMidAtt3.Visible = false;
-                lblAutoMidMade3.Visible = true;
-                lblTeleOpMidMade3.Visible = false;
-                lblAutoLowAtt3.Visible = true;
-                lblTeleOpLowAtt3.Visible = false;
-                lblAutoLowMade3.Visible = true;
-                lblTeleOpLowMade3.Visible = false;
-                lblTeleOpPyramidAtt3.Visible = false;
-                lblTeleOpPyramidMade3.Visible = false;
-                lblRobotClimb3.Visible = false;
+                lblAutoDefSlot2Att3.Visible = true;
+                lblTeleOpDefSlot2Att3.Visible = false;
+                lblAutoDefSlot2Made3.Visible = true;
+                lblTeleOpDefSlot2Made3.Visible = false;
+                lblAutoDefSlot3Att3.Visible = true;
+                lblTeleOpDefSlot3Att3.Visible = false;
+                lblAutoDefSlot3Made3.Visible = true;
+                lblTeleOpDefSlot3Made3.Visible = false;
+                lblAutoDefSlot4Att3.Visible = true;
+                lblTeleOpDefSlot4Att3.Visible = false;
+                lblAutoDefSlot4Made3.Visible = true;
+                lblTeleOpDefSlot4Made3.Visible = false;
+                lblAutoDefSlot1Att3.Visible = true;
+                lblAutoDefSlot1Made3.Visible = true;
+                lblTeleOpDefSlot1Att3.Visible = false;
+                lblTeleOpDefSlot1Made3.Visible = false;
+                lblRobotScale3.Visible = false;
             }
             //Defense Rating
             lblDefense3.Text = displayDefenseRating[2].ToString();
 
-            // Pyramid Goals
-            lblTeleOpPyramidMade3.Text = displayPyramidFrisbeesMade[2].ToString();
-            lblTeleOpPyramidAtt3.Text = displayPyramidFrisbeesAtt[2].ToString();
+            // Defense Slot 1 Crossings
+            lblTeleOpDefSlot1Made3.Text = displayDefSlot1Made[2].ToString();
+            lblTeleOpDefSlot1Att3.Text = displayDefSlot1Att[2].ToString();
+            lblAutoDefSlot1Made3.Text = autoDisplayDefSlot1Made[2].ToString();
+            lblAutoDefSlot1Att3.Text = autoDisplayDefSlot1Att[2].ToString();
 
-            // High Goals
-            lblTeleOpHighMade3.Text = displayHighFrisbeesMade[2].ToString();
-            lblTeleOpHighAtt3.Text = displayHighFrisbeesAtt[2].ToString();
-            lblAutoHighMade3.Text = autoDisplayHighFrisbeesMade[2].ToString();
-            lblAutoHighAtt3.Text = autoDisplayHighFrisbeesAtt[2].ToString();
+            // Defense Slot 2 Crossings
+            lblTeleOpDefSlot2Made3.Text = displayDefSlot2Made[2].ToString();
+            lblTeleOpDefSlot2Att3.Text = displayDefSlot2Att[2].ToString();
+            lblAutoDefSlot2Made3.Text = autoDisplayDefSlot2Made[2].ToString();
+            lblAutoDefSlot2Att3.Text = autoDisplayDefSlot2Att[2].ToString();
 
-            // Mid Goals
-            lblTeleOpMidMade3.Text = displayMidFrisbeesMade[2].ToString();
-            lblTeleOpMidAtt3.Text = displayMidFrisbeesAtt[2].ToString();
-            lblAutoMidMade3.Text = autoDisplayMidFrisbeesMade[2].ToString();
-            lblAutoMidAtt3.Text = autoDisplayMidFrisbeesAtt[2].ToString();
+            // Defense Slot 3 Crossings
+            lblTeleOpDefSlot3Made3.Text = displayDefSlot3Made[2].ToString();
+            lblTeleOpDefSlot3Att3.Text = displayDefSlot3Att[2].ToString();
+            lblAutoDefSlot3Made3.Text = autoDisplayDefSlot3Made[2].ToString();
+            lblAutoDefSlot3Att3.Text = autoDisplayDefSlot3Att[2].ToString();
 
-            // Low Goals
-            lblTeleOpLowMade3.Text = displayLowFrisbeesMade[2].ToString();
-            lblTeleOpLowAtt3.Text = displayLowFrisbeesAtt[2].ToString();
-            lblAutoLowMade3.Text = autoDisplayLowFrisbeesMade[2].ToString();
-            lblAutoLowAtt3.Text = autoDisplayLowFrisbeesAtt[2].ToString();
+            // Defense Slot 4 Crossings
+            lblTeleOpDefSlot4Made3.Text = displayDefSlot4Made[2].ToString();
+            lblTeleOpDefSlot4Att3.Text = displayDefSlot4Att[2].ToString();
+            lblAutoDefSlot4Made3.Text = autoDisplayDefSlot4Made[2].ToString();
+            lblAutoDefSlot4Att3.Text = autoDisplayDefSlot4Att[2].ToString();
 
-            // Robot Climb
-            lblRobotClimb3.Text = robotClimb[2].ToString();
+            // Robot Scale
+            lblRobotScale3.Text = robotScale[2].ToString();
 
             lblTeleOpTotalPoints3.Text = teleOpTotalPoints[2].ToString();
             lblAutoTotalPoints3.Text = autoTotalPoints[2].ToString();
-            lblTotalPoints3.Text = (autoTotalPoints[2] + teleOpTotalPoints[2] + robotClimb[2]).ToString();
+            lblTotalPoints3.Text = (autoTotalPoints[2] + teleOpTotalPoints[2] + robotScale[2]).ToString();
             if (FinshedScoring[2])
                 lblTeleOp3.ForeColor = Color.DarkGreen;
             else
@@ -515,73 +538,79 @@ namespace MultipleJoysticks
             {
                 lblAuto4.Visible = false;
                 lblTeleOp4.Visible = true;
-                lblAutoHighAtt4.Visible = false;
-                lblTeleOpHighAtt4.Visible = true;
-                lblAutoHighMade4.Visible = false;
-                lblTeleOpHighMade4.Visible = true;
-                lblAutoMidAtt4.Visible = false;
-                lblTeleOpMidAtt4.Visible = true;
-                lblAutoMidMade4.Visible = false;
-                lblTeleOpMidMade4.Visible = true;
-                lblAutoLowAtt4.Visible = false;
-                lblTeleOpLowAtt4.Visible = true;
-                lblAutoLowMade4.Visible = false;
-                lblTeleOpLowMade4.Visible = true;
-                lblTeleOpPyramidAtt4.Visible = true;
-                lblTeleOpPyramidMade4.Visible = true;
-                lblRobotClimb4.Visible = true;
+                lblAutoDefSlot2Att4.Visible = false;
+                lblTeleOpDefSlot2Att4.Visible = true;
+                lblAutoDefSlot2Made4.Visible = false;
+                lblTeleOpDefSlot2Made4.Visible = true;
+                lblAutoDefSlot3Att4.Visible = false;
+                lblTeleOpDefSlot3Att4.Visible = true;
+                lblAutoDefSlot3Made4.Visible = false;
+                lblTeleOpDefSlot3Made4.Visible = true;
+                lblAutoDefSlot4Att4.Visible = false;
+                lblTeleOpDefSlot4Att4.Visible = true;
+                lblAutoDefSlot4Made4.Visible = false;
+                lblTeleOpDefSlot4Made4.Visible = true;
+                lblAutoDefSlot1Att4.Visible = false;
+                lblAutoDefSlot1Made4.Visible = false;
+                lblTeleOpDefSlot1Att4.Visible = true;
+                lblTeleOpDefSlot1Made4.Visible = true;
+                lblRobotScale4.Visible = true;
             }
             if (AutonomousMode[3])
             {
                 lblAuto4.Visible = true;
                 lblTeleOp4.Visible = false;
-                lblAutoHighAtt4.Visible = true;
-                lblTeleOpHighAtt4.Visible = false;
-                lblAutoHighMade4.Visible = true;
-                lblTeleOpHighMade4.Visible = false;
-                lblAutoMidAtt4.Visible = true;
-                lblTeleOpMidAtt4.Visible = false;
-                lblAutoMidMade4.Visible = true;
-                lblTeleOpMidMade4.Visible = false;
-                lblAutoLowAtt4.Visible = true;
-                lblTeleOpLowAtt4.Visible = false;
-                lblAutoLowMade4.Visible = true;
-                lblTeleOpLowMade4.Visible = false;
-                lblTeleOpPyramidAtt4.Visible = false;
-                lblTeleOpPyramidMade4.Visible = false;
-                lblRobotClimb4.Visible = false;
+                lblAutoDefSlot2Att4.Visible = true;
+                lblTeleOpDefSlot2Att4.Visible = false;
+                lblAutoDefSlot2Made4.Visible = true;
+                lblTeleOpDefSlot2Made4.Visible = false;
+                lblAutoDefSlot3Att4.Visible = true;
+                lblTeleOpDefSlot3Att4.Visible = false;
+                lblAutoDefSlot3Made4.Visible = true;
+                lblTeleOpDefSlot3Made4.Visible = false;
+                lblAutoDefSlot4Att4.Visible = true;
+                lblTeleOpDefSlot4Att4.Visible = false;
+                lblAutoDefSlot4Made4.Visible = true;
+                lblTeleOpDefSlot4Made4.Visible = false;
+                lblAutoDefSlot1Att4.Visible = true;
+                lblAutoDefSlot1Made4.Visible = true;
+                lblTeleOpDefSlot1Att4.Visible = false;
+                lblTeleOpDefSlot1Made4.Visible = false;
+                lblRobotScale4.Visible = false;
             }
             //Defense Rating
             lblDefense4.Text = displayDefenseRating[3].ToString();
 
-            // Pyramid Goals
-            lblTeleOpPyramidMade4.Text = displayPyramidFrisbeesMade[3].ToString();
-            lblTeleOpPyramidAtt4.Text = displayPyramidFrisbeesAtt[3].ToString();
+            // Defense Slot 1 Crossings
+            lblTeleOpDefSlot1Made4.Text = displayDefSlot1Made[3].ToString();
+            lblTeleOpDefSlot1Att4.Text = displayDefSlot1Att[3].ToString();
+            lblAutoDefSlot1Made4.Text = autoDisplayDefSlot1Made[3].ToString();
+            lblAutoDefSlot1Att4.Text = autoDisplayDefSlot1Att[3].ToString();
 
-            // High Goals
-            lblTeleOpHighMade4.Text = displayHighFrisbeesMade[3].ToString();
-            lblTeleOpHighAtt4.Text = displayHighFrisbeesAtt[3].ToString();
-            lblAutoHighMade4.Text = autoDisplayHighFrisbeesMade[3].ToString();
-            lblAutoHighAtt4.Text = autoDisplayHighFrisbeesAtt[3].ToString();
+            // Defense Slot 2 Crossings
+            lblTeleOpDefSlot2Made4.Text = displayDefSlot2Made[3].ToString();
+            lblTeleOpDefSlot2Att4.Text = displayDefSlot2Att[3].ToString();
+            lblAutoDefSlot2Made4.Text = autoDisplayDefSlot2Made[3].ToString();
+            lblAutoDefSlot2Att4.Text = autoDisplayDefSlot2Att[3].ToString();
 
-            // Mid Goals
-            lblTeleOpMidMade4.Text = displayMidFrisbeesMade[3].ToString();
-            lblTeleOpMidAtt4.Text = displayMidFrisbeesAtt[3].ToString();
-            lblAutoMidMade4.Text = autoDisplayMidFrisbeesMade[3].ToString();
-            lblAutoMidAtt4.Text = autoDisplayMidFrisbeesAtt[3].ToString();
+            // Defense Slot 3 Crossings
+            lblTeleOpDefSlot3Made4.Text = displayDefSlot3Made[3].ToString();
+            lblTeleOpDefSlot3Att4.Text = displayDefSlot3Att[3].ToString();
+            lblAutoDefSlot3Made4.Text = autoDisplayDefSlot3Made[3].ToString();
+            lblAutoDefSlot3Att4.Text = autoDisplayDefSlot3Att[3].ToString();
 
-            // Low Goals
-            lblTeleOpLowMade4.Text = displayLowFrisbeesMade[3].ToString();
-            lblTeleOpLowAtt4.Text = displayLowFrisbeesAtt[3].ToString();
-            lblAutoLowMade4.Text = autoDisplayLowFrisbeesMade[3].ToString();
-            lblAutoLowAtt4.Text = autoDisplayLowFrisbeesAtt[3].ToString();
+            // Defense Slot 4 Crossings
+            lblTeleOpDefSlot4Made4.Text = displayDefSlot4Made[3].ToString();
+            lblTeleOpDefSlot4Att4.Text = displayDefSlot4Att[3].ToString();
+            lblAutoDefSlot4Made4.Text = autoDisplayDefSlot4Made[3].ToString();
+            lblAutoDefSlot4Att4.Text = autoDisplayDefSlot4Att[3].ToString();
 
-            // Robot Climb
-            lblRobotClimb4.Text = robotClimb[3].ToString();
+            // Robot Scale
+            lblRobotScale4.Text = robotScale[3].ToString();
 
             lblTeleOpTotalPoints4.Text = teleOpTotalPoints[3].ToString();
             lblAutoTotalPoints4.Text = autoTotalPoints[3].ToString();
-            lblTotalPoints4.Text = (autoTotalPoints[3] + teleOpTotalPoints[3] + robotClimb[3]).ToString();
+            lblTotalPoints4.Text = (autoTotalPoints[3] + teleOpTotalPoints[3] + robotScale[3]).ToString();
             if (FinshedScoring[3])
                 lblTeleOp4.ForeColor = Color.DarkGreen;
             else
@@ -596,73 +625,79 @@ namespace MultipleJoysticks
             {
                 lblAuto5.Visible = false;
                 lblTeleOp5.Visible = true;
-                lblAutoHighAtt5.Visible = false;
-                lblTeleOpHighAtt5.Visible = true;
-                lblAutoHighMade5.Visible = false;
-                lblTeleOpHighMade5.Visible = true;
-                lblAutoMidAtt5.Visible = false;
-                lblTeleOpMidAtt5.Visible = true;
-                lblAutoMidMade5.Visible = false;
-                lblTeleOpMidMade5.Visible = true;
-                lblAutoLowAtt5.Visible = false;
-                lblTeleOpLowAtt5.Visible = true;
-                lblAutoLowMade5.Visible = false;
-                lblTeleOpLowMade5.Visible = true;
-                lblTeleOpPyramidAtt5.Visible = true;
-                lblTeleOpPyramidMade5.Visible = true;
-                lblRobotClimb5.Visible = true;
+                lblAutoDefSlot2Att5.Visible = false;
+                lblTeleOpDefSlot2Att5.Visible = true;
+                lblAutoDefSlot2Made5.Visible = false;
+                lblTeleOpDefSlot2Made5.Visible = true;
+                lblAutoDefSlot3Att5.Visible = false;
+                lblTeleOpDefSlot3Att5.Visible = true;
+                lblAutoDefSlot3Made5.Visible = false;
+                lblTeleOpDefSlot3Made5.Visible = true;
+                lblAutoDefSlot4Att5.Visible = false;
+                lblTeleOpDefSlot4Att5.Visible = true;
+                lblAutoDefSlot4Made5.Visible = false;
+                lblTeleOpDefSlot4Made5.Visible = true;
+                lblAutoDefSlot1Att5.Visible = false;
+                lblAutoDefSlot1Made5.Visible = false;
+                lblTeleOpDefSlot1Att5.Visible = true;
+                lblTeleOpDefSlot1Made5.Visible = true;
+                lblRobotScale5.Visible = true;
             }
             if (AutonomousMode[4])
             {
                 lblAuto5.Visible = true;
                 lblTeleOp5.Visible = false;
-                lblAutoHighAtt5.Visible = true;
-                lblTeleOpHighAtt5.Visible = false;
-                lblAutoHighMade5.Visible = true;
-                lblTeleOpHighMade5.Visible = false;
-                lblAutoMidAtt5.Visible = true;
-                lblTeleOpMidAtt5.Visible = false;
-                lblAutoMidMade5.Visible = true;
-                lblTeleOpMidMade5.Visible = false;
-                lblAutoLowAtt5.Visible = true;
-                lblTeleOpLowAtt5.Visible = false;
-                lblAutoLowMade5.Visible = true;
-                lblTeleOpLowMade5.Visible = false;
-                lblTeleOpPyramidAtt5.Visible = false;
-                lblTeleOpPyramidMade5.Visible = false;
-                lblRobotClimb5.Visible = false;
+                lblAutoDefSlot2Att5.Visible = true;
+                lblTeleOpDefSlot2Att5.Visible = false;
+                lblAutoDefSlot2Made5.Visible = true;
+                lblTeleOpDefSlot2Made5.Visible = false;
+                lblAutoDefSlot3Att5.Visible = true;
+                lblTeleOpDefSlot3Att5.Visible = false;
+                lblAutoDefSlot3Made5.Visible = true;
+                lblTeleOpDefSlot3Made5.Visible = false;
+                lblAutoDefSlot4Att5.Visible = true;
+                lblTeleOpDefSlot4Att5.Visible = false;
+                lblAutoDefSlot4Made5.Visible = true;
+                lblTeleOpDefSlot4Made5.Visible = false;
+                lblAutoDefSlot1Att5.Visible = true;
+                lblAutoDefSlot1Made5.Visible = true;
+                lblTeleOpDefSlot1Att5.Visible = false;
+                lblTeleOpDefSlot1Made5.Visible = false;
+                lblRobotScale5.Visible = false;
             }
             //Defense Rating
             lblDefense5.Text = displayDefenseRating[4].ToString();
 
-            // Pyramid Goals
-            lblTeleOpPyramidMade5.Text = displayPyramidFrisbeesMade[4].ToString();
-            lblTeleOpPyramidAtt5.Text = displayPyramidFrisbeesAtt[4].ToString();
+            // Defense Slot 1 Crossings
+            lblTeleOpDefSlot1Made5.Text = displayDefSlot1Made[4].ToString();
+            lblTeleOpDefSlot1Att5.Text = displayDefSlot1Att[4].ToString();
+            lblAutoDefSlot1Made5.Text = autoDisplayDefSlot1Made[4].ToString();
+            lblAutoDefSlot1Att5.Text = autoDisplayDefSlot1Att[4].ToString();
 
-            // High Goals
-            lblTeleOpHighMade5.Text = displayHighFrisbeesMade[4].ToString();
-            lblTeleOpHighAtt5.Text = displayHighFrisbeesAtt[4].ToString();
-            lblAutoHighMade5.Text = autoDisplayHighFrisbeesMade[4].ToString();
-            lblAutoHighAtt5.Text = autoDisplayHighFrisbeesAtt[4].ToString();
+            // Defense Slot 2 Crossings
+            lblTeleOpDefSlot2Made5.Text = displayDefSlot2Made[4].ToString();
+            lblTeleOpDefSlot2Att5.Text = displayDefSlot2Att[4].ToString();
+            lblAutoDefSlot2Made5.Text = autoDisplayDefSlot2Made[4].ToString();
+            lblAutoDefSlot2Att5.Text = autoDisplayDefSlot2Att[4].ToString();
 
-            // Mid Goals
-            lblTeleOpMidMade5.Text = displayMidFrisbeesMade[4].ToString();
-            lblTeleOpMidAtt5.Text = displayMidFrisbeesAtt[4].ToString();
-            lblAutoMidMade5.Text = autoDisplayMidFrisbeesMade[4].ToString();
-            lblAutoMidAtt5.Text = autoDisplayMidFrisbeesAtt[4].ToString();
+            // Defense Slot 3 Crossings
+            lblTeleOpDefSlot3Made5.Text = displayDefSlot3Made[4].ToString();
+            lblTeleOpDefSlot3Att5.Text = displayDefSlot3Att[4].ToString();
+            lblAutoDefSlot3Made5.Text = autoDisplayDefSlot3Made[4].ToString();
+            lblAutoDefSlot3Att5.Text = autoDisplayDefSlot3Att[4].ToString();
 
-            // Low Goals
-            lblTeleOpLowMade5.Text = displayLowFrisbeesMade[4].ToString();
-            lblTeleOpLowAtt5.Text = displayLowFrisbeesAtt[4].ToString();
-            lblAutoLowMade5.Text = autoDisplayLowFrisbeesMade[4].ToString();
-            lblAutoLowAtt5.Text = autoDisplayLowFrisbeesAtt[4].ToString();
+            // Defense Slot 4 Crossings
+            lblTeleOpDefSlot4Made5.Text = displayDefSlot4Made[4].ToString();
+            lblTeleOpDefSlot4Att5.Text = displayDefSlot4Att[4].ToString();
+            lblAutoDefSlot4Made5.Text = autoDisplayDefSlot4Made[4].ToString();
+            lblAutoDefSlot4Att5.Text = autoDisplayDefSlot4Att[4].ToString();
 
-            // Robot Climb
-            lblRobotClimb5.Text = robotClimb[4].ToString();
+            // Robot Scale
+            lblRobotScale5.Text = robotScale[4].ToString();
 
             lblTeleOpTotalPoints5.Text = teleOpTotalPoints[4].ToString();
             lblAutoTotalPoints5.Text = autoTotalPoints[4].ToString();
-            lblTotalPoints5.Text = (autoTotalPoints[4] + teleOpTotalPoints[4] + robotClimb[4]).ToString();
+            lblTotalPoints5.Text = (autoTotalPoints[4] + teleOpTotalPoints[4] + robotScale[4]).ToString();
 
             if (FinshedScoring[4])
                 lblTeleOp5.ForeColor = Color.DarkGreen;
@@ -677,73 +712,79 @@ namespace MultipleJoysticks
             {
                 lblAuto6.Visible = false;
                 lblTeleOp6.Visible = true;
-                lblAutoHighAtt6.Visible = false;
-                lblTeleOpHighAtt6.Visible = true;
-                lblAutoHighMade6.Visible = false;
-                lblTeleOpHighMade6.Visible = true;
-                lblAutoMidAtt6.Visible = false;
-                lblTeleOpMidAtt6.Visible = true;
-                lblAutoMidMade6.Visible = false;
-                lblTeleOpMidMade6.Visible = true;
-                lblAutoLowAtt6.Visible = false;
-                lblTeleOpLowAtt6.Visible = true;
-                lblAutoLowMade6.Visible = false;
-                lblTeleOpLowMade6.Visible = true;
-                lblTeleOpPyramidAtt6.Visible = true;
-                lblTeleOpPyramidMade6.Visible = true;
-                lblRobotClimb6.Visible = true;
+                lblAutoDefSlot2Att6.Visible = false;
+                lblTeleOpDefSlot2Att6.Visible = true;
+                lblAutoDefSlot2Made6.Visible = false;
+                lblTeleOpDefSlot2Made6.Visible = true;
+                lblAutoDefSlot3Att6.Visible = false;
+                lblTeleOpDefSlot3Att6.Visible = true;
+                lblAutoDefSlot3Made6.Visible = false;
+                lblTeleOpDefSlot3Made6.Visible = true;
+                lblAutoDefSlot4Att6.Visible = false;
+                lblTeleOpDefSlot4Att6.Visible = true;
+                lblAutoDefSlot4Made6.Visible = false;
+                lblTeleOpDefSlot4Made6.Visible = true;
+                lblAutoDefSlot1Att6.Visible = false;
+                lblAutoDefSlot1Made6.Visible = false;
+                lblTeleOpDefSlot1Att6.Visible = true;PyraDefense Slot 3 Crossings
+                lblTeleOpDefSlot1Made6.Visible = true;
+                lblRobotScale6.Visible = true;
             }
             if (AutonomousMode[5])
             {
                 lblAuto6.Visible = true;
                 lblTeleOp6.Visible = false;
-                lblAutoHighAtt6.Visible = true;
-                lblTeleOpHighAtt6.Visible = false;
-                lblAutoHighMade6.Visible = true;
-                lblTeleOpHighMade6.Visible = false;
-                lblAutoMidAtt6.Visible = true;
-                lblTeleOpMidAtt6.Visible = false;
-                lblAutoMidMade6.Visible = true;
-                lblTeleOpMidMade6.Visible = false;
-                lblAutoLowAtt6.Visible = true;
-                lblTeleOpLowAtt6.Visible = false;
-                lblAutoLowMade6.Visible = true;
-                lblTeleOpLowMade6.Visible = false;
-                lblTeleOpPyramidAtt6.Visible = false;
-                lblTeleOpPyramidMade6.Visible = false;
-                lblRobotClimb6.Visible = false;
+                lblAutoDefSlot2Att6.Visible = true;
+                lblTeleOpDefSlot2Att6.Visible = false;
+                lblAutoDefSlot2Made6.Visible = true;
+                lblTeleOpDefSlot2Made6.Visible = false;
+                lblAutoDefSlot3Att6.Visible = true;
+                lblTeleOpDefSlot3Att6.Visible = false;
+                lblAutoDefSlot3Made6.Visible = true;
+                lblTeleOpDefSlot3Made6.Visible = false;
+                lblAutoDefSlot4Att6.Visible = true;
+                lblTeleOpDefSlot4Att6.Visible = false;
+                lblAutoDefSlot4Made6.Visible = true;
+                lblTeleOpDefSlot4Made6.Visible = false;
+                lblAutoDefSlot1Att6.Visible = true;
+                lblAutoDefSlot1Made6.Visible = true;
+                lblTeleOpDefSlot1Att6.Visible = false;
+                lblTeleOpDefSlot1Made6.Visible = false;
+                lblRobotScale6.Visible = false;
             }
             //Defense Rating
             lblDefense6.Text = displayDefenseRating[5].ToString();
 
-            // Pyramid Goals
-            lblTeleOpPyramidMade6.Text = displayPyramidFrisbeesMade[5].ToString();
-            lblTeleOpPyramidAtt6.Text = displayPyramidFrisbeesAtt[5].ToString();
+            // Defense Slot 1 Crossings
+            lblTeleOpDefSlot1Made6.Text = displayDefSlot1Made[5].ToString();
+            lblTeleOpDefSlot1Att6.Text = displayDefSlot1Att[5].ToString();
+            lblAutoDefSlot1Made6.Text = autoDisplayDefSlot1Made[5].ToString();
+            lblAutoDefSlot1Att6.Text = autoDisplayDefSlot1Att[5].ToString();
 
-            // High Goals
-            lblTeleOpHighMade6.Text = displayHighFrisbeesMade[5].ToString();
-            lblTeleOpHighAtt6.Text = displayHighFrisbeesAtt[5].ToString();
-            lblAutoHighMade6.Text = autoDisplayHighFrisbeesMade[5].ToString();
-            lblAutoHighAtt6.Text = autoDisplayHighFrisbeesAtt[5].ToString();
+            // Defense Slot 2 Crossings
+            lblTeleOpDefSlot2Made6.Text = displayDefSlot2Made[5].ToString();
+            lblTeleOpDefSlot2Att6.Text = displayDefSlot2Att[5].ToString();
+            lblAutoDefSlot2Made6.Text = autoDisplayDefSlot2Made[5].ToString();
+            lblAutoDefSlot2Att6.Text = autoDisplayDefSlot2Att[5].ToString();
 
-            // Mid Goals
-            lblTeleOpMidMade6.Text = displayMidFrisbeesMade[5].ToString();
-            lblTeleOpMidAtt6.Text = displayMidFrisbeesAtt[5].ToString();
-            lblAutoMidMade6.Text = autoDisplayMidFrisbeesMade[5].ToString();
-            lblAutoMidAtt6.Text = autoDisplayMidFrisbeesAtt[5].ToString();
+            // Defense Slot 3 Crossings
+            lblTeleOpDefSlot3Made6.Text = displayDefSlot3Made[5].ToString();
+            lblTeleOpDefSlot3Att6.Text = displayDefSlot3Att[5].ToString();
+            lblAutoDefSlot3Made6.Text = autoDisplayDefSlot3Made[5].ToString();
+            lblAutoDefSlot3Att6.Text = autoDisplayDefSlot3Att[5].ToString();
 
-            // Low Goals
-            lblTeleOpLowMade6.Text = displayLowFrisbeesMade[5].ToString();
-            lblTeleOpLowAtt6.Text = displayLowFrisbeesAtt[5].ToString();
-            lblAutoLowMade6.Text = autoDisplayLowFrisbeesMade[5].ToString();
-            lblAutoLowAtt6.Text = autoDisplayLowFrisbeesAtt[5].ToString();
+            // Defense Slot 4 Crossings
+            lblTeleOpDefSlot4Made6.Text = displayDefSlot4Made[5].ToString();
+            lblTeleOpDefSlot4Att6.Text = displayDefSlot4Att[5].ToString();
+            lblAutoDefSlot4Made6.Text = autoDisplayDefSlot4Made[5].ToString();
+            lblAutoDefSlot4Att6.Text = autoDisplayDefSlot4Att[5].ToString();
 
-            // Robot Climb
-            lblRobotClimb6.Text = robotClimb[5].ToString();
+            // Robot Scale
+            lblRobotScale6.Text = robotScale[5].ToString();
 
             lblTeleOpTotalPoints6.Text = teleOpTotalPoints[5].ToString();
             lblAutoTotalPoints6.Text = autoTotalPoints[5].ToString();
-            lblTotalPoints6.Text = (autoTotalPoints[5] + teleOpTotalPoints[5] + robotClimb[5]).ToString();
+            lblTotalPoints6.Text = (autoTotalPoints[5] + teleOpTotalPoints[5] + robotScale[5]).ToString();
 
             if (FinshedScoring[5])
                 lblTeleOp6.ForeColor = Color.DarkGreen;
@@ -799,261 +840,304 @@ namespace MultipleJoysticks
 
                     break;
 
-                case (GameCommands.HighFrisbeesAttMinus):
+                case (GameCommands.DefSlot2AttMinus):
                     if (TeleOp[id])
                     {
-                        if (highFrisbeesAtt[id] > 0 && highFrisbeesMade[id] < highFrisbeesAtt[id])
+                        if (DefSlot2Att[id] > 0 && DefSlot2Made[id] < DefSlot2Att[id])
                         {
-                            highFrisbeesAtt[id]--;
-                            displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
+                            DefSlot2Att[id]--;
+                            displayDefSlot2Att[id] = DefSlot2Att[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoHighFrisbeesAtt[id] > 0 && autoHighFrisbeesMade[id] < autoHighFrisbeesAtt[id])
+                        if (autoDefSlot2Att[id] > 0 && autoDefSlot2Made[id] < autoDefSlot2Att[id])
                         {
-                            autoHighFrisbeesAtt[id]--;
-                            autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                        }
-                    }
-
-                    break;
-
-                case (GameCommands.HighFrisbeesAttPlus):
-                    if (TeleOp[id])
-                    {
-                        highFrisbeesAtt[id]++;
-                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoHighFrisbeesAtt[id]++;
-                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                    }
-
-                    break;
-
-                case (GameCommands.HighFrisbeesMadeMinus):
-                    if (TeleOp[id])
-                    {
-                        if (highFrisbeesMade[id] > 0)
-                        {
-                            highFrisbeesMade[id]--;
-                            displayHighFrisbeesMade[id] = highFrisbeesMade[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoHighFrisbeesMade[id] > 0)
-                        {
-                            autoHighFrisbeesMade[id]--;
-                            autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                        }
-                    }
-                    break;
-
-                case (GameCommands.HighFrisbeesMadePlus):
-                    if (TeleOp[id])
-                    {
-                        highFrisbeesMade[id]++;
-                        displayHighFrisbeesMade[id] = highFrisbeesMade[id];
-                        highFrisbeesAtt[id]++;
-                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoHighFrisbeesMade[id]++;
-                        autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                        autoHighFrisbeesAtt[id]++;
-                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                    }
-                    break;
-
-                case (GameCommands.LowFrisbeesAttMinus):
-                    if (TeleOp[id])
-                    {
-                        if (lowFrisbeesAtt[id] > 0 && lowFrisbeesMade[id] < lowFrisbeesAtt[id])
-                        {
-                            lowFrisbeesAtt[id]--;
-                            displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoLowFrisbeesAtt[id] > 0 && autoLowFrisbeesMade[id] < autoLowFrisbeesAtt[id])
-                        {
-                            autoLowFrisbeesAtt[id]--;
-                            autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
+                            autoDefSlot2Att[id]--;
+                            autoDisplayDefSlot2Att[id] = autoDefSlot2Att[id];
                         }
                     }
 
                     break;
 
-                case (GameCommands.LowFrisbeesAttPlus):
+                case (GameCommands.DefSlot2AttPlus):
                     if (TeleOp[id])
                     {
-                        lowFrisbeesAtt[id]++;
-                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
+                        DefSlot2Att[id]++;
+                        displayDefSlot2Att[id] = DefSlot2Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoLowFrisbeesAtt[id]++;
-                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                    }
-
-
-                    break;
-
-                case (GameCommands.LowFrisbeesMadeMinus):
-                    if (TeleOp[id])
-                    {
-                        if (lowFrisbeesMade[id] > 0)
-                        {
-                            lowFrisbeesMade[id]--;
-                            displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoLowFrisbeesMade[id] > 0)
-                        {
-                            autoLowFrisbeesMade[id]--;
-                            autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                        }
+                        autoDefSlot2Att[id]++;
+                        autoDisplayDefSlot2Att[id] = autoDefSlot2Att[id];
                     }
 
                     break;
 
-                case (GameCommands.LowFrisbeesMadePlus):
+                case (GameCommands.DefSlot2MadeMinus):
                     if (TeleOp[id])
                     {
-                        lowFrisbeesMade[id]++;
-                        displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                        lowFrisbeesAtt[id]++;
-                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoLowFrisbeesMade[id]++;
-                        autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                        autoLowFrisbeesAtt[id]++;
-                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                    }
-
-                    break;
-
-                case (GameCommands.MidFrisbeesAttMinus):
-                    if (TeleOp[id])
-                    {
-                        if (midFrisbeesAtt[id] > 0 && midFrisbeesMade[id] < midFrisbeesAtt[id])
+                        if (DefSlot2Made[id] > 0)
                         {
-                            midFrisbeesAtt[id]--;
-                            displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                            DefSlot2Made[id]--;
+                            displayDefSlot2Made[id] = DefSlot2Made[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoMidFrisbeesAtt[id] > 0 && autoMidFrisbeesMade[id] < autoMidFrisbeesAtt[id])
+                        if (autoDefSlot2Made[id] > 0)
                         {
-                            autoMidFrisbeesAtt[id]--;
-                            autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                            autoDefSlot2Made[id]--;
+                            autoDisplayDefSlot2Made[id] = autoDefSlot2Made[id];
                         }
                     }
                     break;
 
-                case (GameCommands.MidFrisbeesAttPlus):
+                case (GameCommands.DefSlot2MadePlus):
                     if (TeleOp[id])
                     {
-                        midFrisbeesAtt[id]++;
-                        displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                        DefSlot2Made[id]++;
+                        displayDefSlot2Made[id] = DefSlot2Made[id];
+                        DefSlot2Att[id]++;
+                        displayDefSlot2Att[id] = DefSlot2Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoMidFrisbeesAtt[id]++;
-                        autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                        autoDefSlot2Made[id]++;
+                        autoDisplayDefSlot2Made[id] = autoDefSlot2Made[id];
+                        autoDefSlot2Att[id]++;
+                        autoDisplayDefSlot2Att[id] = autoDefSlot2Att[id];
                     }
-
-
                     break;
 
-                case (GameCommands.MidFrisbeesMadeMinus):
+                case (GameCommands.DefSlot4AttMinus):
                     if (TeleOp[id])
                     {
-                        if (midFrisbeesMade[id] > 0)
+                        if (DefSlot4Att[id] > 0 && DefSlot4Made[id] < DefSlot4Att[id])
                         {
-                            midFrisbeesMade[id]--;
-                            displayMidFrisbeesMade[id] = midFrisbeesMade[id];
+                            DefSlot4Att[id]--;
+                            displayDefSlot4Att[id] = DefSlot4Att[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoMidFrisbeesMade[id] > 0)
+                        if (autoDefSlot4Att[id] > 0 && autoDefSlot4Made[id] < autoDefSlot4Att[id])
                         {
-                            autoMidFrisbeesMade[id]--;
-                            autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
+                            autoDefSlot4Att[id]--;
+                            autoDisplayDefSlot4Att[id] = autoDefSlot4Att[id];
                         }
                     }
 
                     break;
 
-                case (GameCommands.MidFrisbeesMadePlus):
+                case (GameCommands.DefSlot4AttPlus):
                     if (TeleOp[id])
                     {
-                        midFrisbeesMade[id]++;
-                        displayMidFrisbeesMade[id] = midFrisbeesMade[id];
-                        midFrisbeesAtt[id]++;
-                        displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                        DefSlot4Att[id]++;
+                        displayDefSlot4Att[id] = DefSlot4Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoMidFrisbeesMade[id]++;
-                        autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
-                        autoMidFrisbeesAtt[id]++;
-                        autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                        autoDefSlot4Att[id]++;
+                        autoDisplayDefSlot4Att[id] = autoDefSlot4Att[id];
+                    }
+
+
+                    break;
+
+                case (GameCommands.DefSlot4MadeMinus):
+                    if (TeleOp[id])
+                    {
+                        if (DefSlot4Made[id] > 0)
+                        {
+                            DefSlot4Made[id]--;
+                            displayDefSlot4Made[id] = DefSlot4Made[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefSlot4Made[id] > 0)
+                        {
+                            autoDefSlot4Made[id]--;
+                            autoDisplayDefSlot4Made[id] = autoDefSlot4Made[id];
+                        }
                     }
 
                     break;
 
-                case (GameCommands.PyramidFrisbeesAttMinus):
-                    if (pyramidFrisbeesAtt[id] > 0 && pyramidFrisbeesMade[id] < pyramidFrisbeesAtt[id])
-                        pyramidFrisbeesAtt[id]--;
-                    displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
+                case (GameCommands.DefSlot4MadePlus):
+                    if (TeleOp[id])
+                    {
+                        DefSlot4Made[id]++;
+                        displayDefSlot4Made[id] = DefSlot4Made[id];
+                        DefSlot4Att[id]++;
+                        displayDefSlot4Att[id] = DefSlot4Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefSlot4Made[id]++;
+                        autoDisplayDefSlot4Made[id] = autoDefSlot4Made[id];
+                        autoDefSlot4Att[id]++;
+                        autoDisplayDefSlot4Att[id] = autoDefSlot4Att[id];
+                    }
 
                     break;
 
-                case (GameCommands.PyramidFrisbeesAttPlus):
-                    pyramidFrisbeesAtt[id]++;
-                    displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
+                case (GameCommands.DefSlot3AttMinus):
+                    if (TeleOp[id])
+                    {
+                        if (DefSlot3Att[id] > 0 && DefSlot3Made[id] < DefSlot3Att[id])
+                        {
+                            DefSlot3Att[id]--;
+                            displayDefSlot3Att[id] = DefSlot3Att[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefSlot3Att[id] > 0 && autoDefSlot3Made[id] < autoDefSlot3Att[id])
+                        {
+                            autoDefSlot3Att[id]--;
+                            autoDisplayDefSlot3Att[id] = autoDefSlot3Att[id];
+                        }
+                    }
                     break;
 
-                case (GameCommands.ShotsMissedPlus):
-                    if (pyramidFrisbeesMade[id] > 0)
-                        pyramidFrisbeesMade[id]--;
-                    displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
+                case (GameCommands.DefSlot3AttPlus):
+                    if (TeleOp[id])
+                    {
+                        DefSlot3Att[id]++;
+                        displayDefSlot3Att[id] = DefSlot3Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefSlot3Att[id]++;
+                        autoDisplayDefSlot3Att[id] = autoDefSlot3Att[id];
+                    }
+
+
                     break;
 
-                case (GameCommands.ShotsMissedMinus):
-                    pyramidFrisbeesMade[id]++;
-                    displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
-                    // If they made it increase the attempts
-                    pyramidFrisbeesAtt[id]++;
-                    displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
+                case (GameCommands.DefSlot3MadeMinus):
+                    if (TeleOp[id])
+                    {
+                        if (DefSlot3Made[id] > 0)
+                        {
+                            DefSlot3Made[id]--;
+                            displayDefSlot3Made[id] = DefSlot3Made[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefSlot3Made[id] > 0)
+                        {
+                            autoDefSlot3Made[id]--;
+                            autoDisplayDefSlot3Made[id] = autoDefSlot3Made[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.DefSlot3MadePlus):
+                    if (TeleOp[id])
+                    {
+                        DefSlot3Made[id]++;
+                        displayDefSlot3Made[id] = DefSlot3Made[id];
+                        DefSlot3Att[id]++;
+                        displayDefSlot3Att[id] = DefSlot3Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefSlot3Made[id]++;
+                        autoDisplayDefSlot3Made[id] = autoDefSlot3Made[id];
+                        autoDefSlot3Att[id]++;
+                        autoDisplayDefSlot3Att[id] = autoDefSlot3Att[id];
+                    }
+
+                    break;
+
+                case (GameCommands.DefSlot1AttMinus):
+                    if (TeleOp[id])
+                    {
+                        if (DefSlot1Att[id] > 0 && DefSlot1Made[id] < DefSlot1Att[id])
+                        {
+                            DefSlot1Att[id]--;
+                            displayDefSlot1Att[id] = DefSlot1Att[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefSlot1Att[id] > 0 && autoDefSlot1Made[id] < autoDefSlot1Att[id])
+                        {
+                            autoDefSlot1Att[id]--;
+                            autoDisplayDefSlot1Att[id] = autoDefSlot1Att[id];
+                        }
+                    }
+                    break;
+
+                case (GameCommands.DefSlot1AttPlus):
+                    if (TeleOp[id])
+                    {
+                        DefSlot1Att[id]++;
+                        displayDefSlot1Att[id] = DefSlot1Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefSlot1Att[id]++;
+                        autoDisplayDefSlot1Att[id] = autoDefSlot1Att[id];
+                    }
+
+                    break;
+
+                case (GameCommands.DefSlot1MadeMinus):
+                    if (TeleOp[id])
+                    {
+                        if (DefSlot1Made[id] > 0)
+                        {
+                            DefSlot1Made[id]--;
+                            displayDefSlot1Made[id] = DefSlot1Made[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefSlot1Made[id] > 0)
+                        {
+                            autoDefSlot1Made[id]--;
+                            autoDisplayDefSlot1Made[id] = autoDefSlot1Made[id];
+                        }
+                    }
+                    break;
+
+                case (GameCommands.DefSlot1MadePlus):
+                    if (TeleOp[id])
+                    {
+                        DefSlot1Made[id]++;
+                        displayDefSlot1Made[id] = DefSlot1Made[id];
+                        DefSlot1Att[id]++;
+                        displayDefSlot1Att[id] = DefSlot1Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefSlot1Made[id]++;
+                        autoDisplayDefSlot1Made[id] = autoDefSlot1Made[id];
+                        autoDefSlot1Att[id]++;
+                        autoDisplayDefSlot1Att[id] = autoDefSlot1Att[id];
+                    }
 
                     break;
 
                 case (GameCommands.RobotScalePlus):
                     if (TeleOp[id])
                     {
-                        climb[id]++;
-                        robotClimb[id] = climb[id];
+                        scale[id]++;
+                        robotScale[id] = scale[id];
 
-                        if (robotClimb[id] > 3)
+                        if (robotScale[id] > 2)  //Three levels No, Capture, Scale
                         {
-                            robotClimb[id] = 0;
-                            climb[id] = 0;
+                            robotScale[id] = 0;
+                            scale[id] = 0;
                         }
 
-                        robotClimb[id] = robotClimb[id] * 10;
+                        robotScale[id] = robotScale[id] * 10;
                     }
                     break;
                 case (GameCommands.FinishedScoring):
@@ -1115,36 +1199,40 @@ namespace MultipleJoysticks
 
                 for (int f = 0; f < 6; f++)
                 {
-                    displayLowFrisbeesMade[f] = 0;
-                    displayLowFrisbeesAtt[f] = 0;
-                    lowFrisbeesMade[f] = 0;
-                    lowFrisbeesAtt[f] = 0;
-                    autoDisplayLowFrisbeesMade[f] = 0;
-                    autoLowFrisbeesMade[f] = 0;
-                    autoDisplayLowFrisbeesAtt[f] = 0;
-                    autoLowFrisbeesAtt[f] = 0;
-                    displayMidFrisbeesMade[f] = 0;
-                    midFrisbeesMade[f] = 0;
-                    displayMidFrisbeesAtt[f] = 0;
-                    midFrisbeesAtt[f] = 0;
-                    autoDisplayMidFrisbeesMade[f] = 0;
-                    autoMidFrisbeesMade[f] = 0;
-                    autoDisplayMidFrisbeesAtt[f] = 0;
-                    autoMidFrisbeesAtt[f] = 0;
-                    displayHighFrisbeesMade[f] = 0;
-                    highFrisbeesMade[f] = 0;
-                    displayHighFrisbeesAtt[f] = 0;
-                    highFrisbeesAtt[f] = 0;
-                    autoDisplayHighFrisbeesMade[f] = 0;
-                    autoHighFrisbeesMade[f] = 0;
-                    autoDisplayHighFrisbeesAtt[f] = 0;
-                    autoHighFrisbeesAtt[f] = 0;
-                    displayPyramidFrisbeesMade[f] = 0;
-                    pyramidFrisbeesMade[f] = 0;
-                    displayPyramidFrisbeesAtt[f] = 0;
-                    pyramidFrisbeesAtt[f] = 0;
-                    climb[f] = 0;
-                    robotClimb[f] = 0;
+                    displayDefSlot4Made[f] = 0;
+                    displayDefSlot4Att[f] = 0;
+                    DefSlot4Made[f] = 0;
+                    DefSlot4Att[f] = 0;
+                    autoDisplayDefSlot4Made[f] = 0;
+                    autoDefSlot4Made[f] = 0;
+                    autoDisplayDefSlot4Att[f] = 0;
+                    autoDefSlot4Att[f] = 0;
+                    displayDefSlot3Made[f] = 0;
+                    DefSlot3Made[f] = 0;
+                    displayDefSlot3Att[f] = 0;
+                    DefSlot3Att[f] = 0;
+                    autoDisplayDefSlot3Made[f] = 0;
+                    autoDefSlot3Made[f] = 0;
+                    autoDisplayDefSlot3Att[f] = 0;
+                    autoDefSlot3Att[f] = 0;
+                    displayDefSlot2Made[f] = 0;
+                    DefSlot2Made[f] = 0;
+                    displayDefSlot2Att[f] = 0;
+                    DefSlot2Att[f] = 0;
+                    autoDisplayDefSlot2Made[f] = 0;
+                    autoDefSlot2Made[f] = 0;
+                    autoDisplayDefSlot2Att[f] = 0;
+                    autoDefSlot2Att[f] = 0;
+                    displayDefSlot1Made[f] = 0;
+                    DefSlot1Made[f] = 0;
+                    displayDefSlot1Att[f] = 0;
+                    DefSlot1Att[f] = 0;
+                    autoDisplayDefSlot1Made[f] = 0;
+                    autoDefSlot1Made[f] = 0;
+                    autoDisplayDefSlot1Att[f] = 0;
+                    autoDefSlot1Att[f] = 0;
+                    scale[f] = 0;
+                    robotScale[f] = 0;
                     teleOpTotalPoints[f] = 0;
                     autoTotalPoints[f] = 0;
                     defenseRating[f] = 0;
@@ -1161,12 +1249,12 @@ namespace MultipleJoysticks
                     lblTeleOp4.Visible = false;
                     lblTeleOp5.Visible = false;
                     lblTeleOp6.Visible = false;
-                    lblRobotClimb.Visible = false;
-                    lblRobotClimb2.Visible = false;
-                    lblRobotClimb3.Visible = false;
-                    lblRobotClimb4.Visible = false;
-                    lblRobotClimb5.Visible = false;
-                    lblRobotClimb6.Visible = false;
+                    lblRobotScale.Visible = false;
+                    lblRobotScale2.Visible = false;
+                    lblRobotScale3.Visible = false;
+                    lblRobotScale4.Visible = false;
+                    lblRobotScale5.Visible = false;
+                    lblRobotScale6.Visible = false;
                     FinshedScoring[f] = false;
                     tm1939RefreshScreen(f);
                 }
@@ -1202,36 +1290,40 @@ namespace MultipleJoysticks
 
             for (int f = 0; f < 6; f++)
             {
-                displayLowFrisbeesMade[f] = 0;
-                displayLowFrisbeesAtt[f] = 0;
-                lowFrisbeesMade[f] = 0;
-                lowFrisbeesAtt[f] = 0;
-                autoDisplayLowFrisbeesMade[f] = 0;
-                autoLowFrisbeesMade[f] = 0;
-                autoDisplayLowFrisbeesAtt[f] = 0;
-                autoLowFrisbeesAtt[f] = 0;
-                displayMidFrisbeesMade[f] = 0;
-                midFrisbeesMade[f] = 0;
-                displayMidFrisbeesAtt[f] = 0;
-                midFrisbeesAtt[f] = 0;
-                autoDisplayMidFrisbeesMade[f] = 0;
-                autoMidFrisbeesMade[f] = 0;
-                autoDisplayMidFrisbeesAtt[f] = 0;
-                autoMidFrisbeesAtt[f] = 0;
-                displayHighFrisbeesMade[f] = 0;
-                highFrisbeesMade[f] = 0;
-                displayHighFrisbeesAtt[f] = 0;
-                highFrisbeesAtt[f] = 0;
-                autoDisplayHighFrisbeesMade[f] = 0;
-                autoHighFrisbeesMade[f] = 0;
-                autoDisplayHighFrisbeesAtt[f] = 0;
-                autoHighFrisbeesAtt[f] = 0;
-                displayPyramidFrisbeesMade[f] = 0;
-                pyramidFrisbeesMade[f] = 0;
-                displayPyramidFrisbeesAtt[f] = 0;
-                pyramidFrisbeesAtt[f] = 0;
-                climb[f] = 0;
-                robotClimb[f] = 0;
+                displayDefSlot4Made[f] = 0;
+                displayDefSlot4Att[f] = 0;
+                DefSlot4Made[f] = 0;
+                DefSlot4Att[f] = 0;
+                autoDisplayDefSlot4Made[f] = 0;
+                autoDefSlot4Made[f] = 0;
+                autoDisplayDefSlot4Att[f] = 0;
+                autoDefSlot4Att[f] = 0;
+                displayDefSlot3Made[f] = 0;
+                DefSlot3Made[f] = 0;
+                displayDefSlot3Att[f] = 0;
+                DefSlot3Att[f] = 0;
+                autoDisplayDefSlot3Made[f] = 0;
+                autoDefSlot3Made[f] = 0;
+                autoDisplayDefSlot3Att[f] = 0;
+                autoDefSlot3Att[f] = 0;
+                displayDefSlot2Made[f] = 0;
+                DefSlot2Made[f] = 0;
+                displayDefSlot2Att[f] = 0;
+                DefSlot2Att[f] = 0;
+                autoDisplayDefSlot2Made[f] = 0;
+                autoDefSlot2Made[f] = 0;
+                autoDisplayDefSlot2Att[f] = 0;
+                autoDefSlot2Att[f] = 0;
+                displayDefSlot1Made[f] = 0;
+                DefSlot1Made[f] = 0;
+                displayDefSlot1Att[f] = 0;
+                DefSlot1Att[f] = 0;
+                autoDisplayDefSlot1Made[f] = 0;
+                autoDefSlot1Made[f] = 0;
+                autoDisplayDefSlot1Att[f] = 0;
+                autoDefSlot1Att[f] = 0;
+                scale[f] = 0;
+                robotScale[f] = 0;
                 teleOpTotalPoints[f] = 0;
                 autoTotalPoints[f] = 0;
                 defenseRating[f] = 0;
@@ -1251,24 +1343,24 @@ namespace MultipleJoysticks
             lblTeleOp4.Visible = false;
             lblTeleOp5.Visible = false;
             lblTeleOp6.Visible = false;
-            lblRobotClimb.Visible = false;
-            lblRobotClimb2.Visible = false;
-            lblRobotClimb3.Visible = false;
-            lblRobotClimb4.Visible = false;
-            lblRobotClimb5.Visible = false;
-            lblRobotClimb6.Visible = false;
+            lblRobotScale.Visible = false;
+            lblRobotScale2.Visible = false;
+            lblRobotScale3.Visible = false;
+            lblRobotScale4.Visible = false;
+            lblRobotScale5.Visible = false;
+            lblRobotScale6.Visible = false;
         }
 
         private void tm1939SaveFile(StreamWriter outputstream)
         {
             // A single writeline section to handle both save buttons.
             // Added Match to the end of each record
-            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoHighMade.Text + x + lblAutoHighAtt.Text + x + lblAutoMidMade.Text + x + lblAutoMidAtt.Text + x + lblAutoLowMade.Text + x + lblAutoLowAtt.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpPyramidMade.Text + x + lblTeleOpPyramidAtt.Text + x + lblTeleOpHighMade.Text + x + lblTeleOpHighAtt.Text + x + lblTeleOpMidMade.Text + x + lblTeleOpMidAtt.Text + x + lblTeleOpLowMade.Text + x + lblTeleOpLowAtt.Text + x + lblRobotClimb.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoHighMade2.Text + x + lblAutoHighAtt2.Text + x + lblAutoMidMade2.Text + x + lblAutoMidAtt2.Text + x + lblAutoLowMade2.Text + x + lblAutoLowAtt2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpPyramidMade2.Text + x + lblTeleOpPyramidAtt2.Text + x + lblTeleOpHighMade2.Text + x + lblTeleOpHighAtt2.Text + x + lblTeleOpMidMade2.Text + x + lblTeleOpMidAtt2.Text + x + lblTeleOpLowMade2.Text + x + lblTeleOpLowAtt2.Text + x + lblRobotClimb2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoHighMade3.Text + x + lblAutoHighAtt3.Text + x + lblAutoMidMade3.Text + x + lblAutoMidAtt3.Text + x + lblAutoLowMade3.Text + x + lblAutoLowAtt3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpPyramidMade3.Text + x + lblTeleOpPyramidAtt3.Text + x + lblTeleOpHighMade3.Text + x + lblTeleOpHighAtt3.Text + x + lblTeleOpMidMade3.Text + x + lblTeleOpMidAtt3.Text + x + lblTeleOpLowMade3.Text + x + lblTeleOpLowAtt3.Text + x + lblRobotClimb3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoHighMade4.Text + x + lblAutoHighAtt4.Text + x + lblAutoMidMade4.Text + x + lblAutoMidAtt4.Text + x + lblAutoLowMade4.Text + x + lblAutoLowAtt4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpPyramidMade4.Text + x + lblTeleOpPyramidAtt4.Text + x + lblTeleOpHighMade4.Text + x + lblTeleOpHighAtt4.Text + x + lblTeleOpMidMade4.Text + x + lblTeleOpMidAtt4.Text + x + lblTeleOpLowMade4.Text + x + lblTeleOpLowAtt4.Text + x + lblRobotClimb4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoHighMade5.Text + x + lblAutoHighAtt5.Text + x + lblAutoMidMade5.Text + x + lblAutoMidAtt5.Text + x + lblAutoLowMade5.Text + x + lblAutoLowAtt5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpPyramidMade5.Text + x + lblTeleOpPyramidAtt5.Text + x + lblTeleOpHighMade5.Text + x + lblTeleOpHighAtt5.Text + x + lblTeleOpMidMade5.Text + x + lblTeleOpMidAtt5.Text + x + lblTeleOpLowMade5.Text + x + lblTeleOpLowAtt5.Text + x + lblRobotClimb5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoHighMade6.Text + x + lblAutoHighAtt6.Text + x + lblAutoMidMade6.Text + x + lblAutoMidAtt6.Text + x + lblAutoLowMade6.Text + x + lblAutoLowAtt6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpPyramidMade6.Text + x + lblTeleOpPyramidAtt6.Text + x + lblTeleOpHighMade6.Text + x + lblTeleOpHighAtt6.Text + x + lblTeleOpMidMade6.Text + x + lblTeleOpMidAtt6.Text + x + lblTeleOpLowMade6.Text + x + lblTeleOpLowAtt6.Text + x + lblRobotClimb6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoDefSlot1Made.Text + x + lblAutoDefSlot1Att.Text + x + lblAutoDefSlot2Made.Text + x + lblAutoDefSlot2Att.Text + x + lblAutoDefSlot3Made.Text + x + lblAutoDefSlot3Att.Text + x + lblAutoDefSlot4Made.Text + x + lblAutoDefSlot4Att.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpDefSlot1Made.Text + x + lblTeleOpDefSlot1Att.Text + x + lblTeleOpDefSlot2Made.Text + x + lblTeleOpDefSlot2Att.Text + x + lblTeleOpDefSlot3Made.Text + x + lblTeleOpDefSlot3Att.Text + x + lblTeleOpDefSlot4Made.Text + x + lblTeleOpDefSlot4Att.Text + x + lblRobotScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoDefSlot1Made2.Text + x + lblAutoDefSlot1Att2.Text + x + lblAutoDefSlot2Made2.Text + x + lblAutoDefSlot2Att2.Text + x + lblAutoDefSlot3Made2.Text + x + lblAutoDefSlot3Att2.Text + x + lblAutoDefSlot4Made2.Text + x + lblAutoDefSlot4Att2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpDefSlot1Made2.Text + x + lblTeleOpDefSlot1Att2.Text + x + lblTeleOpDefSlot2Made2.Text + x + lblTeleOpDefSlot2Att2.Text + x + lblTeleOpDefSlot3Made2.Text + x + lblTeleOpDefSlot3Att2.Text + x + lblTeleOpDefSlot4Made2.Text + x + lblTeleOpDefSlot4Att2.Text + x + lblRobotScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoDefSlot1Made3.Text + x + lblAutoDefSlot1Att3.Text + x + lblAutoDefSlot2Made3.Text + x + lblAutoDefSlot2Att3.Text + x + lblAutoDefSlot3Made3.Text + x + lblAutoDefSlot3Att3.Text + x + lblAutoDefSlot4Made3.Text + x + lblAutoDefSlot4Att3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpDefSlot1Made3.Text + x + lblTeleOpDefSlot1Att3.Text + x + lblTeleOpDefSlot2Made3.Text + x + lblTeleOpDefSlot2Att3.Text + x + lblTeleOpDefSlot3Made3.Text + x + lblTeleOpDefSlot3Att3.Text + x + lblTeleOpDefSlot4Made3.Text + x + lblTeleOpDefSlot4Att3.Text + x + lblRobotScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoDefSlot1Made4.Text + x + lblAutoDefSlot1Att4.Text + x + lblAutoDefSlot2Made4.Text + x + lblAutoDefSlot2Att4.Text + x + lblAutoDefSlot3Made4.Text + x + lblAutoDefSlot3Att4.Text + x + lblAutoDefSlot4Made4.Text + x + lblAutoDefSlot4Att4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpDefSlot1Made4.Text + x + lblTeleOpDefSlot1Att4.Text + x + lblTeleOpDefSlot2Made4.Text + x + lblTeleOpDefSlot2Att4.Text + x + lblTeleOpDefSlot3Made4.Text + x + lblTeleOpDefSlot3Att4.Text + x + lblTeleOpDefSlot4Made4.Text + x + lblTeleOpDefSlot4Att4.Text + x + lblRobotScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoDefSlot1Made5.Text + x + lblAutoDefSlot1Att5.Text + x + lblAutoDefSlot2Made5.Text + x + lblAutoDefSlot2Att5.Text + x + lblAutoDefSlot3Made5.Text + x + lblAutoDefSlot3Att5.Text + x + lblAutoDefSlot4Made5.Text + x + lblAutoDefSlot4Att5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpDefSlot1Made5.Text + x + lblTeleOpDefSlot1Att5.Text + x + lblTeleOpDefSlot2Made5.Text + x + lblTeleOpDefSlot2Att5.Text + x + lblTeleOpDefSlot3Made5.Text + x + lblTeleOpDefSlot3Att5.Text + x + lblTeleOpDefSlot4Made5.Text + x + lblTeleOpDefSlot4Att5.Text + x + lblRobotScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoDefSlot1Made6.Text + x + lblAutoDefSlot1Att6.Text + x + lblAutoDefSlot2Made6.Text + x + lblAutoDefSlot2Att6.Text + x + lblAutoDefSlot3Made6.Text + x + lblAutoDefSlot3Att6.Text + x + lblAutoDefSlot4Made6.Text + x + lblAutoDefSlot4Att6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpDefSlot1Made6.Text + x + lblTeleOpDefSlot1Att6.Text + x + lblTeleOpDefSlot2Made6.Text + x + lblTeleOpDefSlot2Att6.Text + x + lblTeleOpDefSlot3Made6.Text + x + lblTeleOpDefSlot3Att6.Text + x + lblTeleOpDefSlot4Made6.Text + x + lblTeleOpDefSlot4Att6.Text + x + lblRobotScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
 
 
 
