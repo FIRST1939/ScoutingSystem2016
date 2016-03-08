@@ -110,9 +110,6 @@
     <None Include="Controllers\GenericUSBJoystick.ctrl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Controllers\4axis13buttongamepadwithhatswitch.ctrl">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Include="Controllers\Playstation3.ctrl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
