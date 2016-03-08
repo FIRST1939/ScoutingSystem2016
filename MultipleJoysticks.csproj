@@ -96,11 +96,12 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GameInput.cs" />
-    <Compile Include="GamePad.cs">
+    <Compile Include="GamePad.cs" />
+    <Compile Include="GamePadControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GamePad.Designer.cs">
-      <DependentUpon>GamePad.cs</DependentUpon>
+    <Compile Include="GamePadControl.Designer.cs">
+      <DependentUpon>GamePadControl.cs</DependentUpon>
     </Compile>
     <Compile Include="MatchDisplay.cs">
       <SubType>Form</SubType>
@@ -113,8 +114,8 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GamePad.resx">
-      <DependentUpon>GamePad.cs</DependentUpon>
+    <EmbeddedResource Include="GamePadControl.resx">
+      <DependentUpon>GamePadControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MatchDisplay.resx">
       <DependentUpon>MatchDisplay.cs</DependentUpon>
