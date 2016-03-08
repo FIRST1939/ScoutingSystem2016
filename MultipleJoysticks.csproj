@@ -96,10 +96,28 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GameInput.cs" />
+    <Compile Include="GamePad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GamePad.Designer.cs">
+      <DependentUpon>GamePad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MatchDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MatchDisplay.Designer.cs">
+      <DependentUpon>MatchDisplay.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GamePad.resx">
+      <DependentUpon>GamePad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatchDisplay.resx">
+      <DependentUpon>MatchDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Controllers\Controllers.cfg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -149,9 +167,6 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="SlimDX.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
