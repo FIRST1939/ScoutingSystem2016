@@ -111,11 +111,7 @@ namespace MultipleJoysticks
         String[,] ControllerCommands = new String[6, 22];
         String[] LastButtonPattern = new String[6];
         Label[] displayButtons;
-        private object lblAutoDefSlot2Att;
-        private object lblAutoDefSlot2Att2;
-        private object lblTeleOpDefSlot2Att;
-        private object lblAutoDefSlot2Made;
-        private object lblTeleOpDefSlot1Made;
+
 
         // --- INITIALIZATION
         public Form1()
@@ -730,7 +726,7 @@ namespace MultipleJoysticks
                 lblTeleOpDefSlot4Made6.Visible = true;
                 lblAutoDefSlot1Att6.Visible = false;
                 lblAutoDefSlot1Made6.Visible = false;
-                lblTeleOpDefSlot1Att6.Visible = true;
+                lblTeleOpDefSlot1Att6.Visible = true;PyraDefense Slot 3 Crossings
                 lblTeleOpDefSlot1Made6.Visible = true;
                 lblRobotScale6.Visible = true;
             }
