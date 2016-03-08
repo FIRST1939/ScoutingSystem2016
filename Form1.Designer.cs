@@ -48,7 +48,7 @@
             this.lblAutoMidAtt6 = new System.Windows.Forms.Label();
             this.lblAutoHighAtt6 = new System.Windows.Forms.Label();
             this.lblAutoHighMade6 = new System.Windows.Forms.Label();
-            this.lblRobotClimb6 = new System.Windows.Forms.Label();
+            this.lblChallengeScale6 = new System.Windows.Forms.Label();
             this.lblTeleOpMidAtt6 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt6 = new System.Windows.Forms.Label();
             this.lblTeleOpPyramidAtt6 = new System.Windows.Forms.Label();
@@ -86,7 +86,7 @@
             this.lblAutoMidMade5 = new System.Windows.Forms.Label();
             this.lblAutoHighAtt5 = new System.Windows.Forms.Label();
             this.lblAutoHighMade5 = new System.Windows.Forms.Label();
-            this.lblRobotClimb5 = new System.Windows.Forms.Label();
+            this.lblChallengeScale5 = new System.Windows.Forms.Label();
             this.lblTeleOpPyramidAtt5 = new System.Windows.Forms.Label();
             this.lblTeleOpMidMade5 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade5 = new System.Windows.Forms.Label();
@@ -125,7 +125,7 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.lblRobotClimb2 = new System.Windows.Forms.Label();
+            this.lblChallengeScale2 = new System.Windows.Forms.Label();
             this.lblTeleOpPyramidAtt2 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade2 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt2 = new System.Windows.Forms.Label();
@@ -181,7 +181,7 @@
             this.lblTeleOpMidAtt3 = new System.Windows.Forms.Label();
             this.lblTeleOpHighAtt3 = new System.Windows.Forms.Label();
             this.lblTeleOpPyramidAtt3 = new System.Windows.Forms.Label();
-            this.lblRobotClimb3 = new System.Windows.Forms.Label();
+            this.lblChallengeScale3 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade3 = new System.Windows.Forms.Label();
             this.lblTeleOpMidMade3 = new System.Windows.Forms.Label();
             this.lblTeleOpHighMade3 = new System.Windows.Forms.Label();
@@ -211,6 +211,7 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
             this.btnScouter1 = new System.Windows.Forms.Button();
             this.textBoxScout1 = new System.Windows.Forms.TextBox();
             this.label65 = new System.Windows.Forms.Label();
@@ -221,7 +222,7 @@
             this.lblTotalPoints = new System.Windows.Forms.Label();
             this.lblAutoTotalPoints = new System.Windows.Forms.Label();
             this.lblTeleOpTotalPoints = new System.Windows.Forms.Label();
-            this.lblRobotClimb = new System.Windows.Forms.Label();
+            this.lblChallengeScale = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt = new System.Windows.Forms.Label();
             this.lblAutoLowAtt = new System.Windows.Forms.Label();
@@ -260,7 +261,7 @@
             this.lblTeleOpMidAtt4 = new System.Windows.Forms.Label();
             this.lblTeleOpHighAtt4 = new System.Windows.Forms.Label();
             this.lblTeleOpPyramidAtt4 = new System.Windows.Forms.Label();
-            this.lblRobotClimb4 = new System.Windows.Forms.Label();
+            this.lblChallengeScale4 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade4 = new System.Windows.Forms.Label();
             this.lblTeleOpMidMade4 = new System.Windows.Forms.Label();
             this.lblTeleOpHighMade4 = new System.Windows.Forms.Label();
@@ -276,7 +277,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.btnSkip = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.lblValanceAttempted2.SuspendLayout();
@@ -308,7 +308,7 @@
             this.panel6.Controls.Add(this.lblAutoMidAtt6);
             this.panel6.Controls.Add(this.lblAutoHighAtt6);
             this.panel6.Controls.Add(this.lblAutoHighMade6);
-            this.panel6.Controls.Add(this.lblRobotClimb6);
+            this.panel6.Controls.Add(this.lblChallengeScale6);
             this.panel6.Controls.Add(this.lblTeleOpMidAtt6);
             this.panel6.Controls.Add(this.lblTeleOpLowAtt6);
             this.panel6.Controls.Add(this.lblTeleOpPyramidAtt6);
@@ -425,7 +425,7 @@
             this.label53.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label53.Location = new System.Drawing.Point(318, 197);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(63, 23);
+            this.label53.Size = new System.Drawing.Size(64, 23);
             this.label53.TabIndex = 230;
             this.label53.Text = "TeleOp";
             // 
@@ -511,17 +511,17 @@
             this.lblAutoHighMade6.TabIndex = 234;
             this.lblAutoHighMade6.Text = "00";
             // 
-            // lblRobotClimb6
+            // lblChallengeScale6
             // 
-            this.lblRobotClimb6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb6.Location = new System.Drawing.Point(184, 301);
-            this.lblRobotClimb6.Name = "lblRobotClimb6";
-            this.lblRobotClimb6.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb6.TabIndex = 233;
-            this.lblRobotClimb6.Text = "0";
-            this.lblRobotClimb6.Visible = false;
+            this.lblChallengeScale6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblChallengeScale6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChallengeScale6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChallengeScale6.Location = new System.Drawing.Point(184, 301);
+            this.lblChallengeScale6.Name = "lblChallengeScale6";
+            this.lblChallengeScale6.Size = new System.Drawing.Size(55, 39);
+            this.lblChallengeScale6.TabIndex = 233;
+            this.lblChallengeScale6.Text = "0";
+            this.lblChallengeScale6.Visible = false;
             // 
             // lblTeleOpMidAtt6
             // 
@@ -684,7 +684,7 @@
             this.lblTeleOp6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp6.Location = new System.Drawing.Point(15, 59);
             this.lblTeleOp6.Name = "lblTeleOp6";
-            this.lblTeleOp6.Size = new System.Drawing.Size(233, 45);
+            this.lblTeleOp6.Size = new System.Drawing.Size(235, 45);
             this.lblTeleOp6.TabIndex = 177;
             this.lblTeleOp6.Text = "Teleoperated";
             this.lblTeleOp6.Visible = false;
@@ -776,7 +776,7 @@
             this.panel3.Controls.Add(this.lblAutoMidMade5);
             this.panel3.Controls.Add(this.lblAutoHighAtt5);
             this.panel3.Controls.Add(this.lblAutoHighMade5);
-            this.panel3.Controls.Add(this.lblRobotClimb5);
+            this.panel3.Controls.Add(this.lblChallengeScale5);
             this.panel3.Controls.Add(this.lblTeleOpPyramidAtt5);
             this.panel3.Controls.Add(this.lblTeleOpMidMade5);
             this.panel3.Controls.Add(this.lblTeleOpLowMade5);
@@ -883,7 +883,7 @@
             this.label54.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label54.Location = new System.Drawing.Point(317, 191);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(63, 23);
+            this.label54.Size = new System.Drawing.Size(64, 23);
             this.label54.TabIndex = 226;
             this.label54.Text = "TeleOp";
             // 
@@ -979,17 +979,17 @@
             this.lblAutoHighMade5.TabIndex = 220;
             this.lblAutoHighMade5.Text = "00";
             // 
-            // lblRobotClimb5
+            // lblChallengeScale5
             // 
-            this.lblRobotClimb5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb5.Location = new System.Drawing.Point(182, 301);
-            this.lblRobotClimb5.Name = "lblRobotClimb5";
-            this.lblRobotClimb5.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb5.TabIndex = 210;
-            this.lblRobotClimb5.Text = "0";
-            this.lblRobotClimb5.Visible = false;
+            this.lblChallengeScale5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblChallengeScale5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChallengeScale5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChallengeScale5.Location = new System.Drawing.Point(182, 301);
+            this.lblChallengeScale5.Name = "lblChallengeScale5";
+            this.lblChallengeScale5.Size = new System.Drawing.Size(55, 39);
+            this.lblChallengeScale5.TabIndex = 210;
+            this.lblChallengeScale5.Text = "0";
+            this.lblChallengeScale5.Visible = false;
             // 
             // lblTeleOpPyramidAtt5
             // 
@@ -1152,7 +1152,7 @@
             this.lblTeleOp5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp5.Location = new System.Drawing.Point(13, 53);
             this.lblTeleOp5.Name = "lblTeleOp5";
-            this.lblTeleOp5.Size = new System.Drawing.Size(233, 45);
+            this.lblTeleOp5.Size = new System.Drawing.Size(235, 45);
             this.lblTeleOp5.TabIndex = 175;
             this.lblTeleOp5.Text = "Teleoperated";
             this.lblTeleOp5.Visible = false;
@@ -1257,7 +1257,7 @@
             this.lblValanceAttempted2.Controls.Add(this.label28);
             this.lblValanceAttempted2.Controls.Add(this.label27);
             this.lblValanceAttempted2.Controls.Add(this.label15);
-            this.lblValanceAttempted2.Controls.Add(this.lblRobotClimb2);
+            this.lblValanceAttempted2.Controls.Add(this.lblChallengeScale2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpPyramidAtt2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowMade2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowAtt2);
@@ -1445,7 +1445,7 @@
             this.label27.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(309, 192);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(70, 26);
+            this.label27.Size = new System.Drawing.Size(71, 26);
             this.label27.TabIndex = 195;
             this.label27.Text = "TeleOp";
             // 
@@ -1459,17 +1459,17 @@
             this.label15.TabIndex = 195;
             this.label15.Text = "Auto";
             // 
-            // lblRobotClimb2
+            // lblChallengeScale2
             // 
-            this.lblRobotClimb2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb2.Location = new System.Drawing.Point(174, 304);
-            this.lblRobotClimb2.Name = "lblRobotClimb2";
-            this.lblRobotClimb2.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb2.TabIndex = 195;
-            this.lblRobotClimb2.Text = "00";
-            this.lblRobotClimb2.Visible = false;
+            this.lblChallengeScale2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblChallengeScale2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChallengeScale2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChallengeScale2.Location = new System.Drawing.Point(174, 304);
+            this.lblChallengeScale2.Name = "lblChallengeScale2";
+            this.lblChallengeScale2.Size = new System.Drawing.Size(55, 39);
+            this.lblChallengeScale2.TabIndex = 195;
+            this.lblChallengeScale2.Text = "00";
+            this.lblChallengeScale2.Visible = false;
             // 
             // lblTeleOpPyramidAtt2
             // 
@@ -1634,7 +1634,7 @@
             this.lblTeleOp2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp2.Location = new System.Drawing.Point(6, 58);
             this.lblTeleOp2.Name = "lblTeleOp2";
-            this.lblTeleOp2.Size = new System.Drawing.Size(233, 45);
+            this.lblTeleOp2.Size = new System.Drawing.Size(235, 45);
             this.lblTeleOp2.TabIndex = 173;
             this.lblTeleOp2.Text = "Teleoperated";
             this.lblTeleOp2.Visible = false;
@@ -1885,7 +1885,7 @@
             this.panel56.Controls.Add(this.lblTeleOpMidAtt3);
             this.panel56.Controls.Add(this.lblTeleOpHighAtt3);
             this.panel56.Controls.Add(this.lblTeleOpPyramidAtt3);
-            this.panel56.Controls.Add(this.lblRobotClimb3);
+            this.panel56.Controls.Add(this.lblChallengeScale3);
             this.panel56.Controls.Add(this.lblTeleOpLowMade3);
             this.panel56.Controls.Add(this.lblTeleOpMidMade3);
             this.panel56.Controls.Add(this.lblTeleOpHighMade3);
@@ -1991,7 +1991,7 @@
             this.label48.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label48.Location = new System.Drawing.Point(312, 192);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(63, 23);
+            this.label48.Size = new System.Drawing.Size(64, 23);
             this.label48.TabIndex = 211;
             this.label48.Text = "TeleOp";
             // 
@@ -2139,17 +2139,17 @@
             this.lblTeleOpPyramidAtt3.Text = "00";
             this.lblTeleOpPyramidAtt3.Visible = false;
             // 
-            // lblRobotClimb3
+            // lblChallengeScale3
             // 
-            this.lblRobotClimb3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb3.Location = new System.Drawing.Point(177, 301);
-            this.lblRobotClimb3.Name = "lblRobotClimb3";
-            this.lblRobotClimb3.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb3.TabIndex = 203;
-            this.lblRobotClimb3.Text = "0";
-            this.lblRobotClimb3.Visible = false;
+            this.lblChallengeScale3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblChallengeScale3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChallengeScale3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChallengeScale3.Location = new System.Drawing.Point(177, 301);
+            this.lblChallengeScale3.Name = "lblChallengeScale3";
+            this.lblChallengeScale3.Size = new System.Drawing.Size(55, 39);
+            this.lblChallengeScale3.TabIndex = 203;
+            this.lblChallengeScale3.Text = "0";
+            this.lblChallengeScale3.Visible = false;
             // 
             // lblTeleOpLowMade3
             // 
@@ -2260,7 +2260,7 @@
             this.lblTeleOp3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp3.Location = new System.Drawing.Point(12, 58);
             this.lblTeleOp3.Name = "lblTeleOp3";
-            this.lblTeleOp3.Size = new System.Drawing.Size(233, 45);
+            this.lblTeleOp3.Size = new System.Drawing.Size(235, 45);
             this.lblTeleOp3.TabIndex = 175;
             this.lblTeleOp3.Text = "Teleoperated";
             this.lblTeleOp3.Visible = false;
@@ -2400,7 +2400,7 @@
             this.lblTeleOp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp.Location = new System.Drawing.Point(6, 53);
             this.lblTeleOp.Name = "lblTeleOp";
-            this.lblTeleOp.Size = new System.Drawing.Size(233, 45);
+            this.lblTeleOp.Size = new System.Drawing.Size(235, 45);
             this.lblTeleOp.TabIndex = 149;
             this.lblTeleOp.Text = "Teleoperated";
             this.lblTeleOp.Visible = false;
@@ -2483,7 +2483,7 @@
             this.panel1.Controls.Add(this.lblTotalPoints);
             this.panel1.Controls.Add(this.lblAutoTotalPoints);
             this.panel1.Controls.Add(this.lblTeleOpTotalPoints);
-            this.panel1.Controls.Add(this.lblRobotClimb);
+            this.panel1.Controls.Add(this.lblChallengeScale);
             this.panel1.Controls.Add(this.label11);
             this.panel1.Controls.Add(this.lblTeleOpLowAtt);
             this.panel1.Controls.Add(this.lblAutoLowAtt);
@@ -2516,6 +2516,15 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(443, 345);
             this.panel1.TabIndex = 134;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 218);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(0, 26);
+            this.label5.TabIndex = 222;
             // 
             // btnScouter1
             // 
@@ -2576,7 +2585,7 @@
             this.label18.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(310, 192);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(63, 23);
+            this.label18.Size = new System.Drawing.Size(64, 23);
             this.label18.TabIndex = 193;
             this.label18.Text = "TeleOp";
             // 
@@ -2621,17 +2630,17 @@
             this.lblTeleOpTotalPoints.TabIndex = 189;
             this.lblTeleOpTotalPoints.Text = "00";
             // 
-            // lblRobotClimb
+            // lblChallengeScale
             // 
-            this.lblRobotClimb.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb.Location = new System.Drawing.Point(174, 304);
-            this.lblRobotClimb.Name = "lblRobotClimb";
-            this.lblRobotClimb.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb.TabIndex = 188;
-            this.lblRobotClimb.Text = "00";
-            this.lblRobotClimb.Visible = false;
+            this.lblChallengeScale.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblChallengeScale.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChallengeScale.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChallengeScale.Location = new System.Drawing.Point(174, 304);
+            this.lblChallengeScale.Name = "lblChallengeScale";
+            this.lblChallengeScale.Size = new System.Drawing.Size(55, 39);
+            this.lblChallengeScale.TabIndex = 188;
+            this.lblChallengeScale.Text = "00";
+            this.lblChallengeScale.Visible = false;
             // 
             // label11
             // 
@@ -2817,7 +2826,7 @@
             this.lblTeleOp4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
             this.lblTeleOp4.Location = new System.Drawing.Point(13, 53);
             this.lblTeleOp4.Name = "lblTeleOp4";
-            this.lblTeleOp4.Size = new System.Drawing.Size(233, 45);
+            this.lblTeleOp4.Size = new System.Drawing.Size(235, 45);
             this.lblTeleOp4.TabIndex = 173;
             this.lblTeleOp4.Text = "Teleoperated";
             this.lblTeleOp4.Visible = false;
@@ -2856,7 +2865,7 @@
             this.panel4.Controls.Add(this.lblTeleOpMidAtt4);
             this.panel4.Controls.Add(this.lblTeleOpHighAtt4);
             this.panel4.Controls.Add(this.lblTeleOpPyramidAtt4);
-            this.panel4.Controls.Add(this.lblRobotClimb4);
+            this.panel4.Controls.Add(this.lblChallengeScale4);
             this.panel4.Controls.Add(this.lblTeleOpLowMade4);
             this.panel4.Controls.Add(this.lblTeleOpMidMade4);
             this.panel4.Controls.Add(this.lblTeleOpHighMade4);
@@ -2967,7 +2976,7 @@
             this.label52.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.Location = new System.Drawing.Point(313, 191);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(63, 23);
+            this.label52.Size = new System.Drawing.Size(64, 23);
             this.label52.TabIndex = 216;
             this.label52.Text = "TeleOp";
             // 
@@ -3105,17 +3114,17 @@
             this.lblTeleOpPyramidAtt4.Text = "00";
             this.lblTeleOpPyramidAtt4.Visible = false;
             // 
-            // lblRobotClimb4
+            // lblChallengeScale4
             // 
-            this.lblRobotClimb4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblRobotClimb4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRobotClimb4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblRobotClimb4.Location = new System.Drawing.Point(179, 301);
-            this.lblRobotClimb4.Name = "lblRobotClimb4";
-            this.lblRobotClimb4.Size = new System.Drawing.Size(55, 39);
-            this.lblRobotClimb4.TabIndex = 205;
-            this.lblRobotClimb4.Text = "0";
-            this.lblRobotClimb4.Visible = false;
+            this.lblChallengeScale4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblChallengeScale4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblChallengeScale4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblChallengeScale4.Location = new System.Drawing.Point(179, 301);
+            this.lblChallengeScale4.Name = "lblChallengeScale4";
+            this.lblChallengeScale4.Size = new System.Drawing.Size(55, 39);
+            this.lblChallengeScale4.TabIndex = 205;
+            this.lblChallengeScale4.Text = "0";
+            this.lblChallengeScale4.Visible = false;
             // 
             // lblTeleOpLowMade4
             // 
@@ -3293,15 +3302,6 @@
             this.btnSkip.Visible = false;
             this.btnSkip.Click += new System.EventHandler(this.btnSkip_Click);
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 218);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(0, 26);
-            this.label5.TabIndex = 222;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(5F, 15F);
@@ -3416,7 +3416,7 @@
         private System.Windows.Forms.Label lblTeleOpMidAtt;
         private System.Windows.Forms.Label lblTeleOpLowAtt;
         private System.Windows.Forms.Label lblAutoLowAtt;
-        private System.Windows.Forms.Label lblRobotClimb;
+        private System.Windows.Forms.Label lblChallengeScale;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label lblTeleOpTotalPoints;
         private System.Windows.Forms.Label lblAutoTotalPoints;
@@ -3424,7 +3424,7 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label lblRobotClimb2;
+        private System.Windows.Forms.Label lblChallengeScale2;
         private System.Windows.Forms.Label lblTeleOpPyramidAtt2;
         private System.Windows.Forms.Label lblTeleOpLowMade2;
         private System.Windows.Forms.Label lblTeleOpLowAtt2;
@@ -3453,7 +3453,7 @@
         private System.Windows.Forms.Label lblTeleOpMidAtt3;
         private System.Windows.Forms.Label lblTeleOpHighAtt3;
         private System.Windows.Forms.Label lblTeleOpPyramidAtt3;
-        private System.Windows.Forms.Label lblRobotClimb3;
+        private System.Windows.Forms.Label lblChallengeScale3;
         private System.Windows.Forms.Label lblTeleOpLowMade3;
         private System.Windows.Forms.Label lblTeleOpMidMade3;
         private System.Windows.Forms.Label lblTeleOpHighMade3;
@@ -3470,7 +3470,7 @@
         private System.Windows.Forms.Label lblTeleOpMidAtt4;
         private System.Windows.Forms.Label lblTeleOpHighAtt4;
         private System.Windows.Forms.Label lblTeleOpPyramidAtt4;
-        private System.Windows.Forms.Label lblRobotClimb4;
+        private System.Windows.Forms.Label lblChallengeScale4;
         private System.Windows.Forms.Label lblTeleOpLowMade4;
         private System.Windows.Forms.Label lblTeleOpMidMade4;
         private System.Windows.Forms.Label lblTeleOpHighMade4;
@@ -3480,7 +3480,7 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label lblTeleOpPyramidMade4;
-        private System.Windows.Forms.Label lblRobotClimb6;
+        private System.Windows.Forms.Label lblChallengeScale6;
         private System.Windows.Forms.Label lblTeleOpMidAtt6;
         private System.Windows.Forms.Label lblTeleOpLowAtt6;
         private System.Windows.Forms.Label lblTeleOpPyramidAtt6;
@@ -3494,7 +3494,7 @@
         private System.Windows.Forms.Label label60;
         private System.Windows.Forms.Label label61;
         private System.Windows.Forms.Label lblTeleOpPyramidMade6;
-        private System.Windows.Forms.Label lblRobotClimb5;
+        private System.Windows.Forms.Label lblChallengeScale5;
         private System.Windows.Forms.Label lblTeleOpPyramidAtt5;
         private System.Windows.Forms.Label lblTeleOpMidMade5;
         private System.Windows.Forms.Label lblTeleOpLowMade5;
