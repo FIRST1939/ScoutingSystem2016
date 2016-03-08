@@ -11,6 +11,14 @@ namespace MultipleJoysticks
 {
     public partial class GamePadControl : UserControl
     {
+        private GamePad gamePad;
+
+        public GamePad GamePad
+        {
+            get { return gamePad; } 
+            set { gamePad = value; }
+        }
+
         public GamePadControl()
         {
             InitializeComponent();
