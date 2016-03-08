@@ -34,14 +34,14 @@ namespace MultipleJoysticks
         int[] autoMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
 
         // 3 point frisbees
-        int[] displayHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] highFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] highFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense2Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense2Reach = { 0, 0, 0, 0, 0, 0 };
 
         // Pyramid Frisbees
         int[] displayPyramidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
@@ -88,10 +88,10 @@ namespace MultipleJoysticks
             public const int PyramidFrisbeesMadePlus = 5;
             public const int PyramidFrisbeesAttMinus = 6;
             public const int PyramidFrisbeesAttPlus = 7;
-            public const int HighFrisbeesMadeMinus = 8;
-            public const int HighFrisbeesMadePlus = 9;
-            public const int HighFrisbeesAttMinus = 10;
-            public const int HighFrisbeesAttPlus = 11;
+            public const int Defense2CrossMinus = 8;
+            public const int Defense2CrossPlus = 9;
+            public const int Defense2AttMinus = 10;
+            public const int Defense2AttPlus = 11;
             public const int MidFrisbeesMadeMinus = 12;
             public const int MidFrisbeesMadePlus = 13;
             public const int MidFrisbeesAttMinus = 14;
@@ -155,17 +155,17 @@ namespace MultipleJoysticks
                 case "PYRAMIDFRISBEESATTPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttPlus] = buttons;
                     break;
-                case "HIGHFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadeMinus] = buttons;
+                case "DEFENSE2CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2CrossMinus] = buttons;
                     break;
-                case "HIGHFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadePlus] = buttons;
+                case "DEFENSE2CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2CrossPlus] = buttons;
                     break;
-                case "HIGHFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttMinus] = buttons;
+                case "DEFENSE2ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2AttMinus] = buttons;
                     break;
-                case "HIGHFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttPlus] = buttons;
+                case "DEFENSE2ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2AttPlus] = buttons;
                     break;
                 case "MIDFRISBEESMADEMINUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadeMinus] = buttons;
@@ -227,11 +227,11 @@ namespace MultipleJoysticks
 
         void UpdateScores(int id)
         {
-            autoTotalPoints[id] = (autoHighFrisbeesMade[id] * 6) +
+            autoTotalPoints[id] = (autoDefense2Cross[id] * 6) +
                     (autoMidFrisbeesMade[id] * 4) +
                     (autoLowFrisbeesMade[id] * 2);
             teleOpTotalPoints[id] = (pyramidFrisbeesMade[id] * 5) +
-                    (highFrisbeesMade[id] * 3) +
+                    (defense2Cross[id] * 3) +
                     (midFrisbeesMade[id] * 2) +
                     lowFrisbeesMade[id];
 
@@ -273,10 +273,10 @@ namespace MultipleJoysticks
             {
                 lblAuto.Visible = false;
                 lblTeleOp.Visible = true;
-                lblAutoHighAtt.Visible = false;
-                lblTeleOpHighAtt.Visible = true;
-                lblAutoHighMade.Visible = false;
-                lblTeleOpHighMade.Visible = true;
+                lblAutoD2Reach.Visible = false;
+                lblTeleOpD2Att.Visible = true;
+                lblAutoD2Cross.Visible = false;
+                lblTeleOpD2Cross.Visible = true;
                 lblAutoMidAtt.Visible = false;
                 lblTeleOpMidAtt.Visible = true;
                 lblAutoMidMade.Visible = false;
@@ -293,10 +293,10 @@ namespace MultipleJoysticks
             {
                 lblAuto.Visible = true;
                 lblTeleOp.Visible = false;
-                lblAutoHighAtt.Visible = true;
-                lblTeleOpHighAtt.Visible = false;
-                lblAutoHighMade.Visible = true;
-                lblTeleOpHighMade.Visible = false;
+                lblAutoD2Reach.Visible = true;
+                lblTeleOpD2Att.Visible = false;
+                lblAutoD2Cross.Visible = true;
+                lblTeleOpD2Cross.Visible = false;
                 lblAutoMidAtt.Visible = true;
                 lblTeleOpMidAtt.Visible = false;
                 lblAutoMidMade.Visible = true;
@@ -317,10 +317,10 @@ namespace MultipleJoysticks
             lblTeleOpPyramidAtt.Text = displayPyramidFrisbeesAtt[0].ToString();
 
             // High Goals
-            lblTeleOpHighMade.Text = displayHighFrisbeesMade[0].ToString();
-            lblTeleOpHighAtt.Text = displayHighFrisbeesAtt[0].ToString();
-            lblAutoHighMade.Text = autoDisplayHighFrisbeesMade[0].ToString();
-            lblAutoHighAtt.Text = autoDisplayHighFrisbeesAtt[0].ToString();
+            lblTeleOpD2Cross.Text = displayDefense2Cross[0].ToString();
+            lblTeleOpD2Att.Text = displayDefense2Att[0].ToString();
+            lblAutoD2Cross.Text = autoDisplayDefense2Cross[0].ToString();
+            lblAutoD2Reach.Text = autoDisplayDefense2Reach[0].ToString();
 
             // Mid Goals
             lblTeleOpMidMade.Text = displayMidFrisbeesMade[0].ToString();
@@ -354,10 +354,10 @@ namespace MultipleJoysticks
             {
                 lblAuto2.Visible = false;
                 lblTeleOp2.Visible = true;
-                lblAutoHighAtt2.Visible = false;
-                lblTeleOpHighAtt2.Visible = true;
-                lblAutoHighMade2.Visible = false;
-                lblTeleOpHighMade2.Visible = true;
+                lblAutoD2Reach2.Visible = false;
+                lblTeleOpD2Att2.Visible = true;
+                lblAutoD2Cross2.Visible = false;
+                lblTeleOpD2Cross2.Visible = true;
                 lblAutoMidAtt2.Visible = false;
                 lblTeleOpMidAtt2.Visible = true;
                 lblAutoMidMade2.Visible = false;
@@ -374,10 +374,10 @@ namespace MultipleJoysticks
             {
                 lblAuto2.Visible = true;
                 lblTeleOp2.Visible = false;
-                lblAutoHighAtt2.Visible = true;
-                lblTeleOpHighAtt2.Visible = false;
-                lblAutoHighMade2.Visible = true;
-                lblTeleOpHighMade2.Visible = false;
+                lblAutoD2Reach2.Visible = true;
+                lblTeleOpD2Att2.Visible = false;
+                lblAutoD2Cross2.Visible = true;
+                lblTeleOpD2Cross2.Visible = false;
                 lblAutoMidAtt2.Visible = true;
                 lblTeleOpMidAtt2.Visible = false;
                 lblAutoMidMade2.Visible = true;
@@ -398,10 +398,10 @@ namespace MultipleJoysticks
             lblTeleOpPyramidAtt2.Text = displayPyramidFrisbeesAtt[1].ToString();
 
             // High Goals
-            lblTeleOpHighMade2.Text = displayHighFrisbeesMade[1].ToString();
-            lblTeleOpHighAtt2.Text = displayHighFrisbeesAtt[1].ToString();
-            lblAutoHighMade2.Text = autoDisplayHighFrisbeesMade[1].ToString();
-            lblAutoHighAtt2.Text = autoDisplayHighFrisbeesAtt[1].ToString();
+            lblTeleOpD2Cross2.Text = displayDefense2Cross[1].ToString();
+            lblTeleOpD2Att2.Text = displayDefense2Att[1].ToString();
+            lblAutoD2Cross2.Text = autoDisplayDefense2Cross[1].ToString();
+            lblAutoD2Reach2.Text = autoDisplayDefense2Reach[1].ToString();
 
             // Mid Goals
             lblTeleOpMidMade2.Text = displayMidFrisbeesMade[1].ToString();
@@ -434,10 +434,10 @@ namespace MultipleJoysticks
             {
                 lblAuto3.Visible = false;
                 lblTeleOp3.Visible = true;
-                lblAutoHighAtt3.Visible = false;
-                lblTeleOpHighAtt3.Visible = true;
-                lblAutoHighMade3.Visible = false;
-                lblTeleOpHighMade3.Visible = true;
+                lblAutoD2Reach3.Visible = false;
+                lblTeleOpD2Att3.Visible = true;
+                lblAutoD2Cross3.Visible = false;
+                lblTeleOpD2Cross3.Visible = true;
                 lblAutoMidAtt3.Visible = false;
                 lblTeleOpMidAtt3.Visible = true;
                 lblAutoMidMade3.Visible = false;
@@ -454,10 +454,10 @@ namespace MultipleJoysticks
             {
                 lblAuto3.Visible = true;
                 lblTeleOp3.Visible = false;
-                lblAutoHighAtt3.Visible = true;
-                lblTeleOpHighAtt3.Visible = false;
-                lblAutoHighMade3.Visible = true;
-                lblTeleOpHighMade3.Visible = false;
+                lblAutoD2Reach3.Visible = true;
+                lblTeleOpD2Att3.Visible = false;
+                lblAutoD2Cross3.Visible = true;
+                lblTeleOpD2Cross3.Visible = false;
                 lblAutoMidAtt3.Visible = true;
                 lblTeleOpMidAtt3.Visible = false;
                 lblAutoMidMade3.Visible = true;
@@ -478,10 +478,10 @@ namespace MultipleJoysticks
             lblTeleOpPyramidAtt3.Text = displayPyramidFrisbeesAtt[2].ToString();
 
             // High Goals
-            lblTeleOpHighMade3.Text = displayHighFrisbeesMade[2].ToString();
-            lblTeleOpHighAtt3.Text = displayHighFrisbeesAtt[2].ToString();
-            lblAutoHighMade3.Text = autoDisplayHighFrisbeesMade[2].ToString();
-            lblAutoHighAtt3.Text = autoDisplayHighFrisbeesAtt[2].ToString();
+            lblTeleOpD2Cross3.Text = displayDefense2Cross[2].ToString();
+            lblTeleOpD2Att3.Text = displayDefense2Att[2].ToString();
+            lblAutoD2Cross3.Text = autoDisplayDefense2Cross[2].ToString();
+            lblAutoD2Reach3.Text = autoDisplayDefense2Reach[2].ToString();
 
             // Mid Goals
             lblTeleOpMidMade3.Text = displayMidFrisbeesMade[2].ToString();
@@ -515,10 +515,10 @@ namespace MultipleJoysticks
             {
                 lblAuto4.Visible = false;
                 lblTeleOp4.Visible = true;
-                lblAutoHighAtt4.Visible = false;
-                lblTeleOpHighAtt4.Visible = true;
-                lblAutoHighMade4.Visible = false;
-                lblTeleOpHighMade4.Visible = true;
+                lblAutoD2Reach4.Visible = false;
+                lblTeleOpD2Att4.Visible = true;
+                lblAutoD2Cross4.Visible = false;
+                lblTeleOpD2Cross4.Visible = true;
                 lblAutoMidAtt4.Visible = false;
                 lblTeleOpMidAtt4.Visible = true;
                 lblAutoMidMade4.Visible = false;
@@ -535,10 +535,10 @@ namespace MultipleJoysticks
             {
                 lblAuto4.Visible = true;
                 lblTeleOp4.Visible = false;
-                lblAutoHighAtt4.Visible = true;
-                lblTeleOpHighAtt4.Visible = false;
-                lblAutoHighMade4.Visible = true;
-                lblTeleOpHighMade4.Visible = false;
+                lblAutoD2Reach4.Visible = true;
+                lblTeleOpD2Att4.Visible = false;
+                lblAutoD2Cross4.Visible = true;
+                lblTeleOpD2Cross4.Visible = false;
                 lblAutoMidAtt4.Visible = true;
                 lblTeleOpMidAtt4.Visible = false;
                 lblAutoMidMade4.Visible = true;
@@ -559,10 +559,10 @@ namespace MultipleJoysticks
             lblTeleOpPyramidAtt4.Text = displayPyramidFrisbeesAtt[3].ToString();
 
             // High Goals
-            lblTeleOpHighMade4.Text = displayHighFrisbeesMade[3].ToString();
-            lblTeleOpHighAtt4.Text = displayHighFrisbeesAtt[3].ToString();
-            lblAutoHighMade4.Text = autoDisplayHighFrisbeesMade[3].ToString();
-            lblAutoHighAtt4.Text = autoDisplayHighFrisbeesAtt[3].ToString();
+            lblTeleOpD2Cross4.Text = displayDefense2Cross[3].ToString();
+            lblTeleOpD2Att4.Text = displayDefense2Att[3].ToString();
+            lblAutoD2Cross4.Text = autoDisplayDefense2Cross[3].ToString();
+            lblAutoD2Reach4.Text = autoDisplayDefense2Reach[3].ToString();
 
             // Mid Goals
             lblTeleOpMidMade4.Text = displayMidFrisbeesMade[3].ToString();
@@ -596,10 +596,10 @@ namespace MultipleJoysticks
             {
                 lblAuto5.Visible = false;
                 lblTeleOp5.Visible = true;
-                lblAutoHighAtt5.Visible = false;
-                lblTeleOpHighAtt5.Visible = true;
-                lblAutoHighMade5.Visible = false;
-                lblTeleOpHighMade5.Visible = true;
+                lblAutoD2Reach5.Visible = false;
+                lblTeleOpD25.Visible = true;
+                lblAutoD2Cross5.Visible = false;
+                lblTeleOpD2Cross5.Visible = true;
                 lblAutoMidAtt5.Visible = false;
                 lblTeleOpMidAtt5.Visible = true;
                 lblAutoMidMade5.Visible = false;
@@ -616,10 +616,10 @@ namespace MultipleJoysticks
             {
                 lblAuto5.Visible = true;
                 lblTeleOp5.Visible = false;
-                lblAutoHighAtt5.Visible = true;
-                lblTeleOpHighAtt5.Visible = false;
-                lblAutoHighMade5.Visible = true;
-                lblTeleOpHighMade5.Visible = false;
+                lblAutoD2Reach5.Visible = true;
+                lblTeleOpD25.Visible = false;
+                lblAutoD2Cross5.Visible = true;
+                lblTeleOpD2Cross5.Visible = false;
                 lblAutoMidAtt5.Visible = true;
                 lblTeleOpMidAtt5.Visible = false;
                 lblAutoMidMade5.Visible = true;
@@ -640,10 +640,10 @@ namespace MultipleJoysticks
             lblTeleOpPyramidAtt5.Text = displayPyramidFrisbeesAtt[4].ToString();
 
             // High Goals
-            lblTeleOpHighMade5.Text = displayHighFrisbeesMade[4].ToString();
-            lblTeleOpHighAtt5.Text = displayHighFrisbeesAtt[4].ToString();
-            lblAutoHighMade5.Text = autoDisplayHighFrisbeesMade[4].ToString();
-            lblAutoHighAtt5.Text = autoDisplayHighFrisbeesAtt[4].ToString();
+            lblTeleOpD2Cross5.Text = displayDefense2Cross[4].ToString();
+            lblTeleOpD25.Text = displayDefense2Att[4].ToString();
+            lblAutoD2Cross5.Text = autoDisplayDefense2Cross[4].ToString();
+            lblAutoD2Reach5.Text = autoDisplayDefense2Reach[4].ToString();
 
             // Mid Goals
             lblTeleOpMidMade5.Text = displayMidFrisbeesMade[4].ToString();
@@ -677,10 +677,10 @@ namespace MultipleJoysticks
             {
                 lblAuto6.Visible = false;
                 lblTeleOp6.Visible = true;
-                lblAutoHighAtt6.Visible = false;
-                lblTeleOpHighAtt6.Visible = true;
-                lblAutoHighMade6.Visible = false;
-                lblTeleOpHighMade6.Visible = true;
+                lblAutoD2Reach6.Visible = false;
+                lblTeleOpD2Att6.Visible = true;
+                lblAutoD2Cross6.Visible = false;
+                lblTeleOpD2Cross6.Visible = true;
                 lblAutoMidAtt6.Visible = false;
                 lblTeleOpMidAtt6.Visible = true;
                 lblAutoMidMade6.Visible = false;
@@ -697,10 +697,10 @@ namespace MultipleJoysticks
             {
                 lblAuto6.Visible = true;
                 lblTeleOp6.Visible = false;
-                lblAutoHighAtt6.Visible = true;
-                lblTeleOpHighAtt6.Visible = false;
-                lblAutoHighMade6.Visible = true;
-                lblTeleOpHighMade6.Visible = false;
+                lblAutoD2Reach6.Visible = true;
+                lblTeleOpD2Att6.Visible = false;
+                lblAutoD2Cross6.Visible = true;
+                lblTeleOpD2Cross6.Visible = false;
                 lblAutoMidAtt6.Visible = true;
                 lblTeleOpMidAtt6.Visible = false;
                 lblAutoMidMade6.Visible = true;
@@ -721,10 +721,10 @@ namespace MultipleJoysticks
             lblTeleOpPyramidAtt6.Text = displayPyramidFrisbeesAtt[5].ToString();
 
             // High Goals
-            lblTeleOpHighMade6.Text = displayHighFrisbeesMade[5].ToString();
-            lblTeleOpHighAtt6.Text = displayHighFrisbeesAtt[5].ToString();
-            lblAutoHighMade6.Text = autoDisplayHighFrisbeesMade[5].ToString();
-            lblAutoHighAtt6.Text = autoDisplayHighFrisbeesAtt[5].ToString();
+            lblTeleOpD2Cross6.Text = displayDefense2Cross[5].ToString();
+            lblTeleOpD2Att6.Text = displayDefense2Att[5].ToString();
+            lblAutoD2Cross6.Text = autoDisplayDefense2Cross[5].ToString();
+            lblAutoD2Reach6.Text = autoDisplayDefense2Reach[5].ToString();
 
             // Mid Goals
             lblTeleOpMidMade6.Text = displayMidFrisbeesMade[5].ToString();
@@ -799,73 +799,73 @@ namespace MultipleJoysticks
 
                     break;
 
-                case (GameCommands.HighFrisbeesAttMinus):
+                case (GameCommands.Defense2AttMinus):
                     if (TeleOp[id])
                     {
-                        if (highFrisbeesAtt[id] > 0 && highFrisbeesMade[id] < highFrisbeesAtt[id])
+                        if (defense2Att[id] > 0 && defense2Cross[id] < defense2Att[id])
                         {
-                            highFrisbeesAtt[id]--;
-                            displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
+                            defense2Att[id]--;
+                            displayDefense2Att[id] = defense2Att[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoHighFrisbeesAtt[id] > 0 && autoHighFrisbeesMade[id] < autoHighFrisbeesAtt[id])
+                        if (autoDefense2Reach[id] > 0 && autoDefense2Cross[id] < autoDefense2Reach[id])
                         {
-                            autoHighFrisbeesAtt[id]--;
-                            autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
+                            autoDefense2Reach[id]--;
+                            autoDisplayDefense2Reach[id] = autoDefense2Reach[id];
                         }
                     }
 
                     break;
 
-                case (GameCommands.HighFrisbeesAttPlus):
+                case (GameCommands.Defense2AttPlus):
                     if (TeleOp[id])
                     {
-                        highFrisbeesAtt[id]++;
-                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
+                        defense2Att[id]++;
+                        displayDefense2Att[id] = defense2Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoHighFrisbeesAtt[id]++;
-                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
+                        autoDefense2Reach[id]++;
+                        autoDisplayDefense2Reach[id] = autoDefense2Reach[id];
                     }
 
                     break;
 
-                case (GameCommands.HighFrisbeesMadeMinus):
+                case (GameCommands.Defense2CrossMinus):
                     if (TeleOp[id])
                     {
-                        if (highFrisbeesMade[id] > 0)
+                        if (defense2Cross[id] > 0)
                         {
-                            highFrisbeesMade[id]--;
-                            displayHighFrisbeesMade[id] = highFrisbeesMade[id];
+                            defense2Cross[id]--;
+                            displayDefense2Cross[id] = defense2Cross[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoHighFrisbeesMade[id] > 0)
+                        if (autoDefense2Cross[id] > 0)
                         {
-                            autoHighFrisbeesMade[id]--;
-                            autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
+                            autoDefense2Cross[id]--;
+                            autoDisplayDefense2Cross[id] = autoDefense2Cross[id];
                         }
                     }
                     break;
 
-                case (GameCommands.HighFrisbeesMadePlus):
+                case (GameCommands.Defense2CrossPlus):
                     if (TeleOp[id])
                     {
-                        highFrisbeesMade[id]++;
-                        displayHighFrisbeesMade[id] = highFrisbeesMade[id];
-                        highFrisbeesAtt[id]++;
-                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
+                        defense2Cross[id]++;
+                        displayDefense2Cross[id] = defense2Cross[id];
+                        defense2Att[id]++;
+                        displayDefense2Att[id] = defense2Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoHighFrisbeesMade[id]++;
-                        autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                        autoHighFrisbeesAtt[id]++;
-                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
+                        autoDefense2Cross[id]++;
+                        autoDisplayDefense2Cross[id] = autoDefense2Cross[id];
+                        autoDefense2Reach[id]++;
+                        autoDisplayDefense2Reach[id] = autoDefense2Reach[id];
                     }
                     break;
 
@@ -1132,14 +1132,14 @@ namespace MultipleJoysticks
                     autoMidFrisbeesMade[f] = 0;
                     autoDisplayMidFrisbeesAtt[f] = 0;
                     autoMidFrisbeesAtt[f] = 0;
-                    displayHighFrisbeesMade[f] = 0;
-                    highFrisbeesMade[f] = 0;
-                    displayHighFrisbeesAtt[f] = 0;
-                    highFrisbeesAtt[f] = 0;
-                    autoDisplayHighFrisbeesMade[f] = 0;
-                    autoHighFrisbeesMade[f] = 0;
-                    autoDisplayHighFrisbeesAtt[f] = 0;
-                    autoHighFrisbeesAtt[f] = 0;
+                    displayDefense2Cross[f] = 0;
+                    defense2Cross[f] = 0;
+                    displayDefense2Att[f] = 0;
+                    defense2Att[f] = 0;
+                    autoDisplayDefense2Cross[f] = 0;
+                    autoDefense2Cross[f] = 0;
+                    autoDisplayDefense2Reach[f] = 0;
+                    autoDefense2Reach[f] = 0;
                     displayPyramidFrisbeesMade[f] = 0;
                     pyramidFrisbeesMade[f] = 0;
                     displayPyramidFrisbeesAtt[f] = 0;
@@ -1219,14 +1219,14 @@ namespace MultipleJoysticks
                 autoMidFrisbeesMade[f] = 0;
                 autoDisplayMidFrisbeesAtt[f] = 0;
                 autoMidFrisbeesAtt[f] = 0;
-                displayHighFrisbeesMade[f] = 0;
-                highFrisbeesMade[f] = 0;
-                displayHighFrisbeesAtt[f] = 0;
-                highFrisbeesAtt[f] = 0;
-                autoDisplayHighFrisbeesMade[f] = 0;
-                autoHighFrisbeesMade[f] = 0;
-                autoDisplayHighFrisbeesAtt[f] = 0;
-                autoHighFrisbeesAtt[f] = 0;
+                displayDefense2Cross[f] = 0;
+                defense2Cross[f] = 0;
+                displayDefense2Att[f] = 0;
+                defense2Att[f] = 0;
+                autoDisplayDefense2Cross[f] = 0;
+                autoDefense2Cross[f] = 0;
+                autoDisplayDefense2Reach[f] = 0;
+                autoDefense2Reach[f] = 0;
                 displayPyramidFrisbeesMade[f] = 0;
                 pyramidFrisbeesMade[f] = 0;
                 displayPyramidFrisbeesAtt[f] = 0;
@@ -1264,12 +1264,12 @@ namespace MultipleJoysticks
         {
             // A single writeline section to handle both save buttons.
             // Added Match to the end of each record
-            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoHighMade.Text + x + lblAutoHighAtt.Text + x + lblAutoMidMade.Text + x + lblAutoMidAtt.Text + x + lblAutoLowMade.Text + x + lblAutoLowAtt.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpPyramidMade.Text + x + lblTeleOpPyramidAtt.Text + x + lblTeleOpHighMade.Text + x + lblTeleOpHighAtt.Text + x + lblTeleOpMidMade.Text + x + lblTeleOpMidAtt.Text + x + lblTeleOpLowMade.Text + x + lblTeleOpLowAtt.Text + x + lblChallengeScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoHighMade2.Text + x + lblAutoHighAtt2.Text + x + lblAutoMidMade2.Text + x + lblAutoMidAtt2.Text + x + lblAutoLowMade2.Text + x + lblAutoLowAtt2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpPyramidMade2.Text + x + lblTeleOpPyramidAtt2.Text + x + lblTeleOpHighMade2.Text + x + lblTeleOpHighAtt2.Text + x + lblTeleOpMidMade2.Text + x + lblTeleOpMidAtt2.Text + x + lblTeleOpLowMade2.Text + x + lblTeleOpLowAtt2.Text + x + lblChallengeScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoHighMade3.Text + x + lblAutoHighAtt3.Text + x + lblAutoMidMade3.Text + x + lblAutoMidAtt3.Text + x + lblAutoLowMade3.Text + x + lblAutoLowAtt3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpPyramidMade3.Text + x + lblTeleOpPyramidAtt3.Text + x + lblTeleOpHighMade3.Text + x + lblTeleOpHighAtt3.Text + x + lblTeleOpMidMade3.Text + x + lblTeleOpMidAtt3.Text + x + lblTeleOpLowMade3.Text + x + lblTeleOpLowAtt3.Text + x + lblChallengeScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoHighMade4.Text + x + lblAutoHighAtt4.Text + x + lblAutoMidMade4.Text + x + lblAutoMidAtt4.Text + x + lblAutoLowMade4.Text + x + lblAutoLowAtt4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpPyramidMade4.Text + x + lblTeleOpPyramidAtt4.Text + x + lblTeleOpHighMade4.Text + x + lblTeleOpHighAtt4.Text + x + lblTeleOpMidMade4.Text + x + lblTeleOpMidAtt4.Text + x + lblTeleOpLowMade4.Text + x + lblTeleOpLowAtt4.Text + x + lblChallengeScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoHighMade5.Text + x + lblAutoHighAtt5.Text + x + lblAutoMidMade5.Text + x + lblAutoMidAtt5.Text + x + lblAutoLowMade5.Text + x + lblAutoLowAtt5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpPyramidMade5.Text + x + lblTeleOpPyramidAtt5.Text + x + lblTeleOpHighMade5.Text + x + lblTeleOpHighAtt5.Text + x + lblTeleOpMidMade5.Text + x + lblTeleOpMidAtt5.Text + x + lblTeleOpLowMade5.Text + x + lblTeleOpLowAtt5.Text + x + lblChallengeScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoHighMade6.Text + x + lblAutoHighAtt6.Text + x + lblAutoMidMade6.Text + x + lblAutoMidAtt6.Text + x + lblAutoLowMade6.Text + x + lblAutoLowAtt6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpPyramidMade6.Text + x + lblTeleOpPyramidAtt6.Text + x + lblTeleOpHighMade6.Text + x + lblTeleOpHighAtt6.Text + x + lblTeleOpMidMade6.Text + x + lblTeleOpMidAtt6.Text + x + lblTeleOpLowMade6.Text + x + lblTeleOpLowAtt6.Text + x + lblChallengeScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoMidMade.Text + x + lblAutoMidAtt.Text + x + lblAutoLowMade.Text + x + lblAutoLowAtt.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpPyramidMade.Text + x + lblTeleOpPyramidAtt.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpMidMade.Text + x + lblTeleOpMidAtt.Text + x + lblTeleOpLowMade.Text + x + lblTeleOpLowAtt.Text + x + lblChallengeScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoD2Cross2.Text + x + lblAutoD2Reach2.Text + x + lblAutoMidMade2.Text + x + lblAutoMidAtt2.Text + x + lblAutoLowMade2.Text + x + lblAutoLowAtt2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpPyramidMade2.Text + x + lblTeleOpPyramidAtt2.Text + x + lblTeleOpD2Cross2.Text + x + lblTeleOpD2Att2.Text + x + lblTeleOpMidMade2.Text + x + lblTeleOpMidAtt2.Text + x + lblTeleOpLowMade2.Text + x + lblTeleOpLowAtt2.Text + x + lblChallengeScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoD2Cross3.Text + x + lblAutoD2Reach3.Text + x + lblAutoMidMade3.Text + x + lblAutoMidAtt3.Text + x + lblAutoLowMade3.Text + x + lblAutoLowAtt3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpPyramidMade3.Text + x + lblTeleOpPyramidAtt3.Text + x + lblTeleOpD2Cross3.Text + x + lblTeleOpD2Att3.Text + x + lblTeleOpMidMade3.Text + x + lblTeleOpMidAtt3.Text + x + lblTeleOpLowMade3.Text + x + lblTeleOpLowAtt3.Text + x + lblChallengeScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoD2Cross4.Text + x + lblAutoD2Reach4.Text + x + lblAutoMidMade4.Text + x + lblAutoMidAtt4.Text + x + lblAutoLowMade4.Text + x + lblAutoLowAtt4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpPyramidMade4.Text + x + lblTeleOpPyramidAtt4.Text + x + lblTeleOpD2Cross4.Text + x + lblTeleOpD2Att4.Text + x + lblTeleOpMidMade4.Text + x + lblTeleOpMidAtt4.Text + x + lblTeleOpLowMade4.Text + x + lblTeleOpLowAtt4.Text + x + lblChallengeScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoD2Cross5.Text + x + lblAutoD2Reach5.Text + x + lblAutoMidMade5.Text + x + lblAutoMidAtt5.Text + x + lblAutoLowMade5.Text + x + lblAutoLowAtt5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpPyramidMade5.Text + x + lblTeleOpPyramidAtt5.Text + x + lblTeleOpD2Cross5.Text + x + lblTeleOpD25.Text + x + lblTeleOpMidMade5.Text + x + lblTeleOpMidAtt5.Text + x + lblTeleOpLowMade5.Text + x + lblTeleOpLowAtt5.Text + x + lblChallengeScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoD2Cross6.Text + x + lblAutoD2Reach6.Text + x + lblAutoMidMade6.Text + x + lblAutoMidAtt6.Text + x + lblAutoLowMade6.Text + x + lblAutoLowAtt6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpPyramidMade6.Text + x + lblTeleOpPyramidAtt6.Text + x + lblTeleOpD2Cross6.Text + x + lblTeleOpD2Att6.Text + x + lblTeleOpMidMade6.Text + x + lblTeleOpMidAtt6.Text + x + lblTeleOpLowMade6.Text + x + lblTeleOpLowAtt6.Text + x + lblChallengeScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
 
 
 
@@ -1451,6 +1451,16 @@ namespace MultipleJoysticks
         }
 
         private void lblAutoTeamNo5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
         {
 
         }
