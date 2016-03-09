@@ -1055,29 +1055,72 @@ namespace MultipleJoysticks
                     break;
 
                 case (GameCommands.Defense1AttMinus):
-                    if (defense1Att[id] > 0 && defense1Cross[id] < defense1Att[id])
-                        defense1Att[id]--;
-                    displayDefense1Att[id] = defense1Att[id];
+                    if (TeleOp[id])
+                    {
+                        if (defense1Att[id] > 0 && defense1Cross[id] < defense1Att[id])
+                        {
+                            defense1Att[id]--;
+                            displayDefense1Att[id] = defense1Att[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense1Reach[id] > 0 && autoDefense1Cross[id] < autoDefense1Reach[id])
+                        {
+                            autoDefense1Reach[id]--;
+                            autoDisplayDefense1Reach[id] = autoDefense1Reach[id];
+                        }
+                    }
 
                     break;
 
                 case (GameCommands.Defense1AttPlus):
-                    defense1Att[id]++;
-                    displayDefense1Att[id] = defense1Att[id];
+                    if (TeleOp[id])
+                    {
+                        defense1Att[id]++;
+                        displayDefense1Att[id] = defense1Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense1Reach[id]++;
+                        autoDisplayDefense1Reach[id] = autoDefense1Reach[id];
+                    }
                     break;
 
                 case (GameCommands.Defense1CrossMinus):
-                    if (defense1Cross[id] > 0)
-                        defense1Cross[id]--;
-                    displayDefense1Cross[id] = defense1Cross[id];
+                    if (TeleOp[id])
+                    {
+                        if (defense1Cross[id] > 0)
+                        {
+                            defense1Cross[id]--;
+                            displayDefense1Cross[id] = defense1Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense1Cross[id] > 0)
+                        {
+                            autoDefense1Cross[id]--;
+                            autoDisplayDefense1Cross[id] = autoDefense1Cross[id];
+                        }
+                    }
                     break;
 
                 case (GameCommands.Defense1CrossPlus):
-                    defense1Cross[id]++;
-                    displayDefense1Cross[id] = defense1Cross[id];
-                    // If they made it increase the attempts
-                    defense1Att[id]++;
-                    displayDefense1Att[id] = defense1Att[id];
+                    if (TeleOp[id])
+                    {
+                        defense1Cross[id]++;
+                        displayDefense1Cross[id] = defense1Cross[id];
+                        defense1Att[id]++;
+                        displayDefense1Att[id] = defense1Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense1Cross[id]++;
+                        autoDisplayDefense1Cross[id] = autoDefense1Cross[id];
+                        autoDefense1Reach[id]++;
+                        autoDisplayDefense1Reach[id] = autoDefense1Reach[id];
+                    }
 
                     break;
 
@@ -1180,6 +1223,10 @@ namespace MultipleJoysticks
                     autoDefense2Cross[f] = 0;
                     autoDisplayDefense2Reach[f] = 0;
                     autoDefense2Reach[f] = 0;
+                    autoDisplayDefense1Cross[f] = 0;
+                    autoDefense1Cross[f] = 0;
+                    autoDisplayDefense1Reach[f] = 0;
+                    autoDefense1Reach[f] = 0;
                     displayDefense1Cross[f] = 0;
                     defense1Cross[f] = 0;
                     displayDefense1Att[f] = 0;

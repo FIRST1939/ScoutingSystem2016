@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel6 = new System.Windows.Forms.Panel();
+            this.lblAutoD1Reach6 = new System.Windows.Forms.Label();
+            this.lblAutoD1Cross6 = new System.Windows.Forms.Label();
             this.btnScouter6 = new System.Windows.Forms.Button();
             this.textBoxScout6 = new System.Windows.Forms.TextBox();
             this.label73 = new System.Windows.Forms.Label();
@@ -70,6 +72,8 @@
             this.label124 = new System.Windows.Forms.Label();
             this.lbldisplayButtons6 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.lblAutoD1Reach5 = new System.Windows.Forms.Label();
+            this.lblAutoD1Cross5 = new System.Windows.Forms.Label();
             this.textBoxScout5 = new System.Windows.Forms.TextBox();
             this.btnScouter5 = new System.Windows.Forms.Button();
             this.label74 = new System.Windows.Forms.Label();
@@ -109,6 +113,8 @@
             this.label6 = new System.Windows.Forms.Label();
             this.lbldisplayButtons5 = new System.Windows.Forms.Label();
             this.lblValanceAttempted2 = new System.Windows.Forms.Panel();
+            this.lblAutoD1Reach2 = new System.Windows.Forms.Label();
+            this.lblAutoD1Cross2 = new System.Windows.Forms.Label();
             this.btnScouter2 = new System.Windows.Forms.Button();
             this.textBoxScout2 = new System.Windows.Forms.TextBox();
             this.lblDefense2 = new System.Windows.Forms.Label();
@@ -161,6 +167,8 @@
             this.lblScouter3 = new System.Windows.Forms.Label();
             this.lblAutoTeamNo3 = new System.Windows.Forms.Label();
             this.panel56 = new System.Windows.Forms.Panel();
+            this.lblAutoD1Reach3 = new System.Windows.Forms.Label();
+            this.lblAutoD1Cross3 = new System.Windows.Forms.Label();
             this.btnScouter3 = new System.Windows.Forms.Button();
             this.textBoxScout3 = new System.Windows.Forms.TextBox();
             this.label72 = new System.Windows.Forms.Label();
@@ -211,6 +219,8 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.lblAutoD1Reach = new System.Windows.Forms.Label();
+            this.lblAutoD1Cross = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.btnScouter1 = new System.Windows.Forms.Button();
@@ -242,6 +252,8 @@
             this.lblTeleOp4 = new System.Windows.Forms.Label();
             this.lblAuto4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.lblAutoD1Reach4 = new System.Windows.Forms.Label();
+            this.lblAutoD1Cross4 = new System.Windows.Forms.Label();
             this.textBoxScout4 = new System.Windows.Forms.TextBox();
             this.btnScouter4 = new System.Windows.Forms.Button();
             this.label75 = new System.Windows.Forms.Label();
@@ -278,18 +290,6 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.btnSkip = new System.Windows.Forms.Button();
-            this.lblAutoD1Cross = new System.Windows.Forms.Label();
-            this.lblAutoD1Reach = new System.Windows.Forms.Label();
-            this.lblAutoD1Cross2 = new System.Windows.Forms.Label();
-            this.lblAutoD1Reach2 = new System.Windows.Forms.Label();
-            this.lblAutoD1Cross3 = new System.Windows.Forms.Label();
-            this.lblAutoD1Reach3 = new System.Windows.Forms.Label();
-            this.lblAutoD1Cross4 = new System.Windows.Forms.Label();
-            this.lblAutoD1Reach4 = new System.Windows.Forms.Label();
-            this.lblAutoD1Cross5 = new System.Windows.Forms.Label();
-            this.lblAutoD1Reach5 = new System.Windows.Forms.Label();
-            this.lblAutoD1Cross6 = new System.Windows.Forms.Label();
-            this.lblAutoD1Reach6 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.lblValanceAttempted2.SuspendLayout();
@@ -351,6 +351,30 @@
             this.panel6.TabIndex = 135;
             this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
             // 
+            // lblAutoD1Reach6
+            // 
+            this.lblAutoD1Reach6.AutoSize = true;
+            this.lblAutoD1Reach6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Reach6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Reach6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Reach6.Location = new System.Drawing.Point(136, 101);
+            this.lblAutoD1Reach6.Name = "lblAutoD1Reach6";
+            this.lblAutoD1Reach6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Reach6.TabIndex = 245;
+            this.lblAutoD1Reach6.Text = "00";
+            // 
+            // lblAutoD1Cross6
+            // 
+            this.lblAutoD1Cross6.AutoSize = true;
+            this.lblAutoD1Cross6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Cross6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Cross6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Cross6.Location = new System.Drawing.Point(62, 100);
+            this.lblAutoD1Cross6.Name = "lblAutoD1Cross6";
+            this.lblAutoD1Cross6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Cross6.TabIndex = 244;
+            this.lblAutoD1Cross6.Text = "00";
+            // 
             // btnScouter6
             // 
             this.btnScouter6.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -398,7 +422,7 @@
             // 
             this.lblAutoTotalPoints6.AutoSize = true;
             this.lblAutoTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints6.Location = new System.Drawing.Point(383, 107);
+            this.lblAutoTotalPoints6.Location = new System.Drawing.Point(395, 199);
             this.lblAutoTotalPoints6.Name = "lblAutoTotalPoints6";
             this.lblAutoTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints6.TabIndex = 241;
@@ -408,7 +432,7 @@
             // 
             this.lblTotalPoints6.AutoSize = true;
             this.lblTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints6.Location = new System.Drawing.Point(382, 272);
+            this.lblTotalPoints6.Location = new System.Drawing.Point(395, 272);
             this.lblTotalPoints6.Name = "lblTotalPoints6";
             this.lblTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints6.TabIndex = 240;
@@ -418,7 +442,7 @@
             // 
             this.lblTeleOpTotalPoints6.AutoSize = true;
             this.lblTeleOpTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints6.Location = new System.Drawing.Point(382, 191);
+            this.lblTeleOpTotalPoints6.Location = new System.Drawing.Point(395, 236);
             this.lblTeleOpTotalPoints6.Name = "lblTeleOpTotalPoints6";
             this.lblTeleOpTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints6.TabIndex = 230;
@@ -428,7 +452,7 @@
             // 
             this.label62.AutoSize = true;
             this.label62.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label62.Location = new System.Drawing.Point(321, 279);
+            this.label62.Location = new System.Drawing.Point(339, 280);
             this.label62.Name = "label62";
             this.label62.Size = new System.Drawing.Size(55, 26);
             this.label62.TabIndex = 230;
@@ -438,7 +462,7 @@
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(318, 197);
+            this.label53.Location = new System.Drawing.Point(325, 246);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(64, 23);
             this.label53.TabIndex = 230;
@@ -448,7 +472,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(321, 113);
+            this.label39.Location = new System.Drawing.Point(339, 209);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(50, 26);
             this.label39.TabIndex = 195;
@@ -531,7 +555,7 @@
             this.lblChallengeScale6.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale6.Location = new System.Drawing.Point(184, 301);
+            this.lblChallengeScale6.Location = new System.Drawing.Point(375, 105);
             this.lblChallengeScale6.Name = "lblChallengeScale6";
             this.lblChallengeScale6.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale6.TabIndex = 233;
@@ -673,7 +697,7 @@
             // 
             this.label61.AutoSize = true;
             this.label61.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label61.Location = new System.Drawing.Point(8, 308);
+            this.label61.Location = new System.Drawing.Point(213, 114);
             this.label61.Name = "label61";
             this.label61.Size = new System.Drawing.Size(156, 26);
             this.label61.TabIndex = 224;
@@ -821,6 +845,30 @@
             this.panel3.Size = new System.Drawing.Size(448, 343);
             this.panel3.TabIndex = 136;
             // 
+            // lblAutoD1Reach5
+            // 
+            this.lblAutoD1Reach5.AutoSize = true;
+            this.lblAutoD1Reach5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Reach5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Reach5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Reach5.Location = new System.Drawing.Point(137, 100);
+            this.lblAutoD1Reach5.Name = "lblAutoD1Reach5";
+            this.lblAutoD1Reach5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Reach5.TabIndex = 234;
+            this.lblAutoD1Reach5.Text = "00";
+            // 
+            // lblAutoD1Cross5
+            // 
+            this.lblAutoD1Cross5.AutoSize = true;
+            this.lblAutoD1Cross5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Cross5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Cross5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Cross5.Location = new System.Drawing.Point(65, 100);
+            this.lblAutoD1Cross5.Name = "lblAutoD1Cross5";
+            this.lblAutoD1Cross5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Cross5.TabIndex = 233;
+            this.lblAutoD1Cross5.Text = "00";
+            // 
             // textBoxScout5
             // 
             this.textBoxScout5.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -868,7 +916,7 @@
             // 
             this.lblTotalPoints5.AutoSize = true;
             this.lblTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints5.Location = new System.Drawing.Point(382, 267);
+            this.lblTotalPoints5.Location = new System.Drawing.Point(404, 267);
             this.lblTotalPoints5.Name = "lblTotalPoints5";
             this.lblTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints5.TabIndex = 229;
@@ -878,7 +926,7 @@
             // 
             this.lblTeleOpTotalPoints5.AutoSize = true;
             this.lblTeleOpTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints5.Location = new System.Drawing.Point(382, 184);
+            this.lblTeleOpTotalPoints5.Location = new System.Drawing.Point(404, 233);
             this.lblTeleOpTotalPoints5.Name = "lblTeleOpTotalPoints5";
             this.lblTeleOpTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints5.TabIndex = 228;
@@ -888,7 +936,7 @@
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(316, 274);
+            this.label56.Location = new System.Drawing.Point(349, 272);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(55, 26);
             this.label56.TabIndex = 227;
@@ -898,7 +946,7 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(317, 191);
+            this.label54.Location = new System.Drawing.Point(340, 244);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(64, 23);
             this.label54.TabIndex = 226;
@@ -908,7 +956,7 @@
             // 
             this.lblAutoTotalPoints5.AutoSize = true;
             this.lblAutoTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints5.Location = new System.Drawing.Point(382, 107);
+            this.lblAutoTotalPoints5.Location = new System.Drawing.Point(404, 199);
             this.lblAutoTotalPoints5.Name = "lblAutoTotalPoints5";
             this.lblAutoTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints5.TabIndex = 221;
@@ -918,7 +966,7 @@
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(320, 113);
+            this.label49.Location = new System.Drawing.Point(354, 203);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(50, 26);
             this.label49.TabIndex = 196;
@@ -1001,7 +1049,7 @@
             this.lblChallengeScale5.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale5.Location = new System.Drawing.Point(182, 301);
+            this.lblChallengeScale5.Location = new System.Drawing.Point(380, 101);
             this.lblChallengeScale5.Name = "lblChallengeScale5";
             this.lblChallengeScale5.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale5.TabIndex = 210;
@@ -1103,7 +1151,7 @@
             // 
             this.label44.AutoSize = true;
             this.label44.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label44.Location = new System.Drawing.Point(8, 308);
+            this.label44.Location = new System.Drawing.Point(219, 107);
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(156, 26);
             this.label44.TabIndex = 210;
@@ -1303,6 +1351,30 @@
             this.lblValanceAttempted2.Size = new System.Drawing.Size(448, 343);
             this.lblValanceAttempted2.TabIndex = 137;
             // 
+            // lblAutoD1Reach2
+            // 
+            this.lblAutoD1Reach2.AutoSize = true;
+            this.lblAutoD1Reach2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Reach2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Reach2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Reach2.Location = new System.Drawing.Point(137, 105);
+            this.lblAutoD1Reach2.Name = "lblAutoD1Reach2";
+            this.lblAutoD1Reach2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Reach2.TabIndex = 224;
+            this.lblAutoD1Reach2.Text = "00";
+            // 
+            // lblAutoD1Cross2
+            // 
+            this.lblAutoD1Cross2.AutoSize = true;
+            this.lblAutoD1Cross2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Cross2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Cross2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Cross2.Location = new System.Drawing.Point(73, 105);
+            this.lblAutoD1Cross2.Name = "lblAutoD1Cross2";
+            this.lblAutoD1Cross2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Cross2.TabIndex = 223;
+            this.lblAutoD1Cross2.Text = "00";
+            // 
             // btnScouter2
             // 
             this.btnScouter2.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -1422,7 +1494,7 @@
             // 
             this.lblAutoTotalPoints2.AutoSize = true;
             this.lblAutoTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints2.Location = new System.Drawing.Point(375, 103);
+            this.lblAutoTotalPoints2.Location = new System.Drawing.Point(399, 197);
             this.lblAutoTotalPoints2.Name = "lblAutoTotalPoints2";
             this.lblAutoTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints2.TabIndex = 204;
@@ -1432,7 +1504,7 @@
             // 
             this.lblTeleOpTotalPoints2.AutoSize = true;
             this.lblTeleOpTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(375, 184);
+            this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(399, 233);
             this.lblTeleOpTotalPoints2.Name = "lblTeleOpTotalPoints2";
             this.lblTeleOpTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints2.TabIndex = 203;
@@ -1442,7 +1514,7 @@
             // 
             this.lblTotalPoints2.AutoSize = true;
             this.lblTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints2.Location = new System.Drawing.Point(375, 271);
+            this.lblTotalPoints2.Location = new System.Drawing.Point(399, 269);
             this.lblTotalPoints2.Name = "lblTotalPoints2";
             this.lblTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints2.TabIndex = 195;
@@ -1452,7 +1524,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(309, 274);
+            this.label28.Location = new System.Drawing.Point(338, 274);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(55, 26);
             this.label28.TabIndex = 195;
@@ -1462,7 +1534,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(309, 192);
+            this.label27.Location = new System.Drawing.Point(322, 241);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(71, 26);
             this.label27.TabIndex = 195;
@@ -1472,7 +1544,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(316, 108);
+            this.label15.Location = new System.Drawing.Point(343, 204);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(50, 26);
             this.label15.TabIndex = 195;
@@ -1483,7 +1555,7 @@
             this.lblChallengeScale2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale2.Location = new System.Drawing.Point(174, 304);
+            this.lblChallengeScale2.Location = new System.Drawing.Point(380, 102);
             this.lblChallengeScale2.Name = "lblChallengeScale2";
             this.lblChallengeScale2.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale2.TabIndex = 195;
@@ -1598,7 +1670,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(15, 308);
+            this.label23.Location = new System.Drawing.Point(214, 105);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(156, 26);
             this.label23.TabIndex = 195;
@@ -1933,6 +2005,30 @@
             this.panel56.Size = new System.Drawing.Size(443, 343);
             this.panel56.TabIndex = 138;
             // 
+            // lblAutoD1Reach3
+            // 
+            this.lblAutoD1Reach3.AutoSize = true;
+            this.lblAutoD1Reach3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Reach3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Reach3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Reach3.Location = new System.Drawing.Point(124, 103);
+            this.lblAutoD1Reach3.Name = "lblAutoD1Reach3";
+            this.lblAutoD1Reach3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Reach3.TabIndex = 225;
+            this.lblAutoD1Reach3.Text = "00";
+            // 
+            // lblAutoD1Cross3
+            // 
+            this.lblAutoD1Cross3.AutoSize = true;
+            this.lblAutoD1Cross3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Cross3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Cross3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Cross3.Location = new System.Drawing.Point(61, 105);
+            this.lblAutoD1Cross3.Name = "lblAutoD1Cross3";
+            this.lblAutoD1Cross3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Cross3.TabIndex = 224;
+            this.lblAutoD1Cross3.Text = "00";
+            // 
             // btnScouter3
             // 
             this.btnScouter3.BackColor = System.Drawing.SystemColors.HighlightText;
@@ -1980,7 +2076,7 @@
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(313, 276);
+            this.label51.Location = new System.Drawing.Point(332, 275);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(55, 26);
             this.label51.TabIndex = 211;
@@ -1990,7 +2086,7 @@
             // 
             this.lblTotalPoints3.AutoSize = true;
             this.lblTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints3.Location = new System.Drawing.Point(374, 267);
+            this.lblTotalPoints3.Location = new System.Drawing.Point(393, 267);
             this.lblTotalPoints3.Name = "lblTotalPoints3";
             this.lblTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints3.TabIndex = 217;
@@ -2000,7 +2096,7 @@
             // 
             this.lblTeleOpTotalPoints3.AutoSize = true;
             this.lblTeleOpTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints3.Location = new System.Drawing.Point(374, 184);
+            this.lblTeleOpTotalPoints3.Location = new System.Drawing.Point(393, 231);
             this.lblTeleOpTotalPoints3.Name = "lblTeleOpTotalPoints3";
             this.lblTeleOpTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints3.TabIndex = 216;
@@ -2010,7 +2106,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(312, 192);
+            this.label48.Location = new System.Drawing.Point(333, 241);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(64, 23);
             this.label48.TabIndex = 211;
@@ -2020,7 +2116,7 @@
             // 
             this.lblAutoTotalPoints3.AutoSize = true;
             this.lblAutoTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints3.Location = new System.Drawing.Point(374, 115);
+            this.lblAutoTotalPoints3.Location = new System.Drawing.Point(393, 194);
             this.lblAutoTotalPoints3.Name = "lblAutoTotalPoints3";
             this.lblAutoTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints3.TabIndex = 211;
@@ -2030,7 +2126,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(317, 122);
+            this.label29.Location = new System.Drawing.Point(337, 197);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(50, 26);
             this.label29.TabIndex = 211;
@@ -2165,7 +2261,7 @@
             this.lblChallengeScale3.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale3.Location = new System.Drawing.Point(177, 301);
+            this.lblChallengeScale3.Location = new System.Drawing.Point(369, 105);
             this.lblChallengeScale3.Name = "lblChallengeScale3";
             this.lblChallengeScale3.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale3.TabIndex = 203;
@@ -2228,7 +2324,7 @@
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(3, 315);
+            this.label34.Location = new System.Drawing.Point(207, 104);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(156, 26);
             this.label34.TabIndex = 203;
@@ -2541,6 +2637,30 @@
             this.panel1.Size = new System.Drawing.Size(443, 345);
             this.panel1.TabIndex = 134;
             // 
+            // lblAutoD1Reach
+            // 
+            this.lblAutoD1Reach.AutoSize = true;
+            this.lblAutoD1Reach.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Reach.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Reach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Reach.Location = new System.Drawing.Point(120, 102);
+            this.lblAutoD1Reach.Name = "lblAutoD1Reach";
+            this.lblAutoD1Reach.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Reach.TabIndex = 225;
+            this.lblAutoD1Reach.Text = "00";
+            // 
+            // lblAutoD1Cross
+            // 
+            this.lblAutoD1Cross.AutoSize = true;
+            this.lblAutoD1Cross.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Cross.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Cross.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Cross.Location = new System.Drawing.Point(55, 103);
+            this.lblAutoD1Cross.Name = "lblAutoD1Cross";
+            this.lblAutoD1Cross.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Cross.TabIndex = 224;
+            this.lblAutoD1Cross.Text = "00";
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -2618,7 +2738,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(310, 192);
+            this.label18.Location = new System.Drawing.Point(310, 227);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(64, 23);
             this.label18.TabIndex = 193;
@@ -2628,7 +2748,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(310, 114);
+            this.label14.Location = new System.Drawing.Point(314, 192);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(50, 26);
             this.label14.TabIndex = 192;
@@ -2648,7 +2768,7 @@
             // 
             this.lblAutoTotalPoints.AutoSize = true;
             this.lblAutoTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints.Location = new System.Drawing.Point(372, 108);
+            this.lblAutoTotalPoints.Location = new System.Drawing.Point(372, 186);
             this.lblAutoTotalPoints.Name = "lblAutoTotalPoints";
             this.lblAutoTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblAutoTotalPoints.TabIndex = 190;
@@ -2659,7 +2779,7 @@
             // 
             this.lblTeleOpTotalPoints.AutoSize = true;
             this.lblTeleOpTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints.Location = new System.Drawing.Point(372, 184);
+            this.lblTeleOpTotalPoints.Location = new System.Drawing.Point(372, 222);
             this.lblTeleOpTotalPoints.Name = "lblTeleOpTotalPoints";
             this.lblTeleOpTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblTeleOpTotalPoints.TabIndex = 189;
@@ -2670,7 +2790,7 @@
             this.lblChallengeScale.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale.Location = new System.Drawing.Point(174, 304);
+            this.lblChallengeScale.Location = new System.Drawing.Point(373, 109);
             this.lblChallengeScale.Name = "lblChallengeScale";
             this.lblChallengeScale.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale.TabIndex = 188;
@@ -2681,7 +2801,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(2, 306);
+            this.label11.Location = new System.Drawing.Point(209, 115);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(156, 26);
             this.label11.TabIndex = 187;
@@ -2925,6 +3045,30 @@
             this.panel4.Size = new System.Drawing.Size(443, 343);
             this.panel4.TabIndex = 136;
             // 
+            // lblAutoD1Reach4
+            // 
+            this.lblAutoD1Reach4.AutoSize = true;
+            this.lblAutoD1Reach4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Reach4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Reach4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Reach4.Location = new System.Drawing.Point(126, 97);
+            this.lblAutoD1Reach4.Name = "lblAutoD1Reach4";
+            this.lblAutoD1Reach4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Reach4.TabIndex = 226;
+            this.lblAutoD1Reach4.Text = "00";
+            // 
+            // lblAutoD1Cross4
+            // 
+            this.lblAutoD1Cross4.AutoSize = true;
+            this.lblAutoD1Cross4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD1Cross4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD1Cross4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD1Cross4.Location = new System.Drawing.Point(55, 101);
+            this.lblAutoD1Cross4.Name = "lblAutoD1Cross4";
+            this.lblAutoD1Cross4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD1Cross4.TabIndex = 225;
+            this.lblAutoD1Cross4.Text = "00";
+            // 
             // textBoxScout4
             // 
             this.textBoxScout4.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -2972,7 +3116,7 @@
             // 
             this.lblTotalPoints4.AutoSize = true;
             this.lblTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints4.Location = new System.Drawing.Point(375, 271);
+            this.lblTotalPoints4.Location = new System.Drawing.Point(397, 271);
             this.lblTotalPoints4.Name = "lblTotalPoints4";
             this.lblTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints4.TabIndex = 220;
@@ -2982,7 +3126,7 @@
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(313, 276);
+            this.label55.Location = new System.Drawing.Point(340, 276);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(55, 26);
             this.label55.TabIndex = 219;
@@ -2992,7 +3136,7 @@
             // 
             this.lblAutoTotalPoints4.AutoSize = true;
             this.lblAutoTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints4.Location = new System.Drawing.Point(375, 105);
+            this.lblAutoTotalPoints4.Location = new System.Drawing.Point(397, 199);
             this.lblAutoTotalPoints4.Name = "lblAutoTotalPoints4";
             this.lblAutoTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints4.TabIndex = 218;
@@ -3002,7 +3146,7 @@
             // 
             this.lblTeleOpTotalPoints4.AutoSize = true;
             this.lblTeleOpTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints4.Location = new System.Drawing.Point(375, 184);
+            this.lblTeleOpTotalPoints4.Location = new System.Drawing.Point(397, 235);
             this.lblTeleOpTotalPoints4.Name = "lblTeleOpTotalPoints4";
             this.lblTeleOpTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints4.TabIndex = 217;
@@ -3012,7 +3156,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(313, 191);
+            this.label52.Location = new System.Drawing.Point(331, 246);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(64, 23);
             this.label52.TabIndex = 216;
@@ -3022,7 +3166,7 @@
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(315, 112);
+            this.label50.Location = new System.Drawing.Point(345, 206);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(50, 26);
             this.label50.TabIndex = 197;
@@ -3157,7 +3301,7 @@
             this.lblChallengeScale4.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale4.Location = new System.Drawing.Point(179, 301);
+            this.lblChallengeScale4.Location = new System.Drawing.Point(373, 104);
             this.lblChallengeScale4.Name = "lblChallengeScale4";
             this.lblChallengeScale4.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale4.TabIndex = 205;
@@ -3248,7 +3392,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(3, 308);
+            this.label30.Location = new System.Drawing.Point(208, 111);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(156, 26);
             this.label30.TabIndex = 197;
@@ -3339,150 +3483,6 @@
             this.btnSkip.UseVisualStyleBackColor = false;
             this.btnSkip.Visible = false;
             this.btnSkip.Click += new System.EventHandler(this.btnSkip_Click);
-            // 
-            // lblAutoD1Cross
-            // 
-            this.lblAutoD1Cross.AutoSize = true;
-            this.lblAutoD1Cross.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Cross.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Cross.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Cross.Location = new System.Drawing.Point(55, 103);
-            this.lblAutoD1Cross.Name = "lblAutoD1Cross";
-            this.lblAutoD1Cross.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Cross.TabIndex = 224;
-            this.lblAutoD1Cross.Text = "00";
-            // 
-            // lblAutoD1Reach
-            // 
-            this.lblAutoD1Reach.AutoSize = true;
-            this.lblAutoD1Reach.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Reach.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Reach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach.Location = new System.Drawing.Point(120, 102);
-            this.lblAutoD1Reach.Name = "lblAutoD1Reach";
-            this.lblAutoD1Reach.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Reach.TabIndex = 225;
-            this.lblAutoD1Reach.Text = "00";
-            // 
-            // lblAutoD1Cross2
-            // 
-            this.lblAutoD1Cross2.AutoSize = true;
-            this.lblAutoD1Cross2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Cross2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Cross2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Cross2.Location = new System.Drawing.Point(73, 105);
-            this.lblAutoD1Cross2.Name = "lblAutoD1Cross2";
-            this.lblAutoD1Cross2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Cross2.TabIndex = 223;
-            this.lblAutoD1Cross2.Text = "00";
-            // 
-            // lblAutoD1Reach2
-            // 
-            this.lblAutoD1Reach2.AutoSize = true;
-            this.lblAutoD1Reach2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Reach2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Reach2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach2.Location = new System.Drawing.Point(137, 105);
-            this.lblAutoD1Reach2.Name = "lblAutoD1Reach2";
-            this.lblAutoD1Reach2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Reach2.TabIndex = 224;
-            this.lblAutoD1Reach2.Text = "00";
-            // 
-            // lblAutoD1Cross3
-            // 
-            this.lblAutoD1Cross3.AutoSize = true;
-            this.lblAutoD1Cross3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Cross3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Cross3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Cross3.Location = new System.Drawing.Point(61, 105);
-            this.lblAutoD1Cross3.Name = "lblAutoD1Cross3";
-            this.lblAutoD1Cross3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Cross3.TabIndex = 224;
-            this.lblAutoD1Cross3.Text = "00";
-            // 
-            // lblAutoD1Reach3
-            // 
-            this.lblAutoD1Reach3.AutoSize = true;
-            this.lblAutoD1Reach3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Reach3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Reach3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach3.Location = new System.Drawing.Point(124, 103);
-            this.lblAutoD1Reach3.Name = "lblAutoD1Reach3";
-            this.lblAutoD1Reach3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Reach3.TabIndex = 225;
-            this.lblAutoD1Reach3.Text = "00";
-            // 
-            // lblAutoD1Cross4
-            // 
-            this.lblAutoD1Cross4.AutoSize = true;
-            this.lblAutoD1Cross4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Cross4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Cross4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Cross4.Location = new System.Drawing.Point(55, 101);
-            this.lblAutoD1Cross4.Name = "lblAutoD1Cross4";
-            this.lblAutoD1Cross4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Cross4.TabIndex = 225;
-            this.lblAutoD1Cross4.Text = "00";
-            // 
-            // lblAutoD1Reach4
-            // 
-            this.lblAutoD1Reach4.AutoSize = true;
-            this.lblAutoD1Reach4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Reach4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Reach4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach4.Location = new System.Drawing.Point(126, 97);
-            this.lblAutoD1Reach4.Name = "lblAutoD1Reach4";
-            this.lblAutoD1Reach4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Reach4.TabIndex = 226;
-            this.lblAutoD1Reach4.Text = "00";
-            // 
-            // lblAutoD1Cross5
-            // 
-            this.lblAutoD1Cross5.AutoSize = true;
-            this.lblAutoD1Cross5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Cross5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Cross5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Cross5.Location = new System.Drawing.Point(65, 100);
-            this.lblAutoD1Cross5.Name = "lblAutoD1Cross5";
-            this.lblAutoD1Cross5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Cross5.TabIndex = 233;
-            this.lblAutoD1Cross5.Text = "00";
-            // 
-            // lblAutoD1Reach5
-            // 
-            this.lblAutoD1Reach5.AutoSize = true;
-            this.lblAutoD1Reach5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Reach5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Reach5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach5.Location = new System.Drawing.Point(137, 100);
-            this.lblAutoD1Reach5.Name = "lblAutoD1Reach5";
-            this.lblAutoD1Reach5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Reach5.TabIndex = 234;
-            this.lblAutoD1Reach5.Text = "00";
-            // 
-            // lblAutoD1Cross6
-            // 
-            this.lblAutoD1Cross6.AutoSize = true;
-            this.lblAutoD1Cross6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Cross6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Cross6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Cross6.Location = new System.Drawing.Point(62, 100);
-            this.lblAutoD1Cross6.Name = "lblAutoD1Cross6";
-            this.lblAutoD1Cross6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Cross6.TabIndex = 244;
-            this.lblAutoD1Cross6.Text = "00";
-            // 
-            // lblAutoD1Reach6
-            // 
-            this.lblAutoD1Reach6.AutoSize = true;
-            this.lblAutoD1Reach6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoD1Reach6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoD1Reach6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach6.Location = new System.Drawing.Point(136, 101);
-            this.lblAutoD1Reach6.Name = "lblAutoD1Reach6";
-            this.lblAutoD1Reach6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoD1Reach6.TabIndex = 245;
-            this.lblAutoD1Reach6.Text = "00";
             // 
             // Form1
             // 
