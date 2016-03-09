@@ -14,14 +14,14 @@ namespace MultipleJoysticks
 
         //Arrays that hold the values for the made and attempt numbers of the frisbee scoring
         // 1 point frisbees
-        int[] displayLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] lowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] lowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense4Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense4Reach = { 0, 0, 0, 0, 0, 0 };
 
         // 2 point frisbees
         int[] displayDefense3Cross = { 0, 0, 0, 0, 0, 0 };
@@ -100,10 +100,10 @@ namespace MultipleJoysticks
             public const int Defense3CrossPlus = 13;
             public const int Defense3AttMinus = 14;
             public const int Defense3AttPlus = 15;
-            public const int LowFrisbeesMadeMinus = 16;
-            public const int LowFrisbeesMadePlus = 17;
-            public const int LowFrisbeesAttMinus = 18;
-            public const int LowFrisbeesAttPlus = 19;
+            public const int Defense4CrossMinus = 16;
+            public const int Defense4CrossPlus = 17;
+            public const int Defense4AttMinus = 18;
+            public const int Defense4AttPlus = 19;
             public const int ChallengeScalePlus = 20;
             public const int FinishedScoring = 21;
         }
@@ -183,17 +183,17 @@ namespace MultipleJoysticks
                 case "DEFENSE3ATTPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.Defense3AttPlus] = buttons;
                     break;
-                case "LOWFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadeMinus] = buttons;
+                case "DEFENSE4CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4CrossMinus] = buttons;
                     break;
-                case "LOWFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadePlus] = buttons;
+                case "DEFENSE4CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4CrossPlus] = buttons;
                     break;
-                case "LOWFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttMinus] = buttons;
+                case "DEFENSE4ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4AttMinus] = buttons;
                     break;
-                case "LOWFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttPlus] = buttons;
+                case "DEFENSE4ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4AttPlus] = buttons;
                     break;
                 case "CHALLENGESCALEPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.ChallengeScalePlus] = buttons;
@@ -233,11 +233,11 @@ namespace MultipleJoysticks
         {
             autoTotalPoints[id] = (autoDefense2Cross[id] * 6) +
                     (autoDefense3Cross[id] * 4) +
-                    (autoLowFrisbeesMade[id] * 2);
+                    (autoDefense4Cross[id] * 2);
             teleOpTotalPoints[id] = (defense1Cross[id] * 5) +
                     (defense2Cross[id] * 3) +
                     (defense3Cross[id] * 2) +
-                    lowFrisbeesMade[id];
+                    defense4Cross[id];
 
         }
 
@@ -289,10 +289,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att.Visible = true;
                 lblAutoD3Cross.Visible = false;
                 lblTeleOpD3Cross.Visible = true;
-                lblAutoLowAtt.Visible = false;
-                lblTeleOpLowAtt.Visible = true;
-                lblAutoLowMade.Visible = false;
-                lblTeleOpLowMade.Visible = true;
+                lblAutoD4Reach.Visible = false;
+                lblTeleOpD4Att.Visible = true;
+                lblAutoD4Cross.Visible = false;
+                lblTeleOpD4Cross.Visible = true;
                 lblChallengeScale.Visible = true;
             }
             if (AutonomousMode[0])
@@ -311,10 +311,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att.Visible = false;
                 lblAutoD3Cross.Visible = true;
                 lblTeleOpD3Cross.Visible = false;
-                lblAutoLowAtt.Visible = true;
-                lblTeleOpLowAtt.Visible = false;
-                lblAutoLowMade.Visible = true;
-                lblTeleOpLowMade.Visible = false;
+                lblAutoD4Reach.Visible = true;
+                lblTeleOpD4Att.Visible = false;
+                lblAutoD4Cross.Visible = true;
+                lblTeleOpD4Cross.Visible = false;
                 lblChallengeScale.Visible = false;
             }
             //Defense Rating
@@ -339,10 +339,10 @@ namespace MultipleJoysticks
             lblAutoD3Reach.Text = autoDisplayDefense3Reach[0].ToString();
 
             // Low Goals
-            lblTeleOpLowMade.Text = displayLowFrisbeesMade[0].ToString();
-            lblTeleOpLowAtt.Text = displayLowFrisbeesAtt[0].ToString();
-            lblAutoLowMade.Text = autoDisplayLowFrisbeesMade[0].ToString();
-            lblAutoLowAtt.Text = autoDisplayLowFrisbeesAtt[0].ToString();
+            lblTeleOpD4Cross.Text = displayDefense4Cross[0].ToString();
+            lblTeleOpD4Att.Text = displayDefense4Att[0].ToString();
+            lblAutoD4Cross.Text = autoDisplayDefense4Cross[0].ToString();
+            lblAutoD4Reach.Text = autoDisplayDefense4Reach[0].ToString();
 
             // Robot Climb
             lblChallengeScale.Text = challengeScale[0].ToString();
@@ -376,10 +376,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att2.Visible = true;
                 lblAutoD3Cross2.Visible = false;
                 lblTeleOpD3Cross2.Visible = true;
-                lblAutoLowAtt2.Visible = false;
-                lblTeleOpLowAtt2.Visible = true;
-                lblAutoLowMade2.Visible = false;
-                lblTeleOpLowMade2.Visible = true;
+                lblAutoD4Reach2.Visible = false;
+                lblTeleOpD4Att2.Visible = true;
+                lblAutoD4Cross2.Visible = false;
+                lblTeleOpD4Cross2.Visible = true;
                 lblChallengeScale2.Visible = true;
             }
             if (AutonomousMode[1])
@@ -398,10 +398,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att2.Visible = false;
                 lblAutoD3Cross2.Visible = true;
                 lblTeleOpD3Cross2.Visible = false;
-                lblAutoLowAtt2.Visible = true;
-                lblTeleOpLowAtt2.Visible = false;
-                lblAutoLowMade2.Visible = true;
-                lblTeleOpLowMade2.Visible = false;
+                lblAutoD4Reach2.Visible = true;
+                lblTeleOpD4Att2.Visible = false;
+                lblAutoD4Cross2.Visible = true;
+                lblTeleOpD4Cross2.Visible = false;
                 lblChallengeScale2.Visible = false;
             }
             //Defense Rating
@@ -426,10 +426,10 @@ namespace MultipleJoysticks
             lblAutoD3Reach2.Text = autoDisplayDefense3Reach[1].ToString();
 
             // Low Goals
-            lblTeleOpLowMade2.Text = displayLowFrisbeesMade[1].ToString();
-            lblTeleOpLowAtt2.Text = displayLowFrisbeesAtt[1].ToString();
-            lblAutoLowMade2.Text = autoDisplayLowFrisbeesMade[1].ToString();
-            lblAutoLowAtt2.Text = autoDisplayLowFrisbeesAtt[1].ToString();
+            lblTeleOpD4Cross2.Text = displayDefense4Cross[1].ToString();
+            lblTeleOpD4Att2.Text = displayDefense4Att[1].ToString();
+            lblAutoD4Cross2.Text = autoDisplayDefense4Cross[1].ToString();
+            lblAutoD4Reach2.Text = autoDisplayDefense4Reach[1].ToString();
 
             // Robot Climb
             lblChallengeScale2.Text = challengeScale[1].ToString();
@@ -462,10 +462,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att3.Visible = true;
                 lblAutoD3Cross3.Visible = false;
                 lblTeleOpD3Cross3.Visible = true;
-                lblAutoLowAtt3.Visible = false;
-                lblTeleOpLowAtt3.Visible = true;
-                lblAutoLowMade3.Visible = false;
-                lblTeleOpLowMade3.Visible = true;
+                lblAutoD4Reach3.Visible = false;
+                lblTeleOpD4Att3.Visible = true;
+                lblAutoD4Cross3.Visible = false;
+                lblTeleOpD4Cross3.Visible = true;
                 lblChallengeScale3.Visible = true;
             }
             if (AutonomousMode[2])
@@ -484,10 +484,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att3.Visible = false;
                 lblAutoD3Cross3.Visible = true;
                 lblTeleOpD3Cross3.Visible = false;
-                lblAutoLowAtt3.Visible = true;
-                lblTeleOpLowAtt3.Visible = false;
-                lblAutoLowMade3.Visible = true;
-                lblTeleOpLowMade3.Visible = false;
+                lblAutoD4Reach3.Visible = true;
+                lblTeleOpD4Att3.Visible = false;
+                lblAutoD4Cross3.Visible = true;
+                lblTeleOpD4Cross3.Visible = false;
                 lblChallengeScale3.Visible = false;
             }
             //Defense Rating
@@ -512,10 +512,10 @@ namespace MultipleJoysticks
             lblAutoD3Reach3.Text = autoDisplayDefense3Reach[2].ToString();
 
             // Low Goals
-            lblTeleOpLowMade3.Text = displayLowFrisbeesMade[2].ToString();
-            lblTeleOpLowAtt3.Text = displayLowFrisbeesAtt[2].ToString();
-            lblAutoLowMade3.Text = autoDisplayLowFrisbeesMade[2].ToString();
-            lblAutoLowAtt3.Text = autoDisplayLowFrisbeesAtt[2].ToString();
+            lblTeleOpD4Cross3.Text = displayDefense4Cross[2].ToString();
+            lblTeleOpD4Att3.Text = displayDefense4Att[2].ToString();
+            lblAutoD4Cross3.Text = autoDisplayDefense4Cross[2].ToString();
+            lblAutoD4Reach3.Text = autoDisplayDefense4Reach[2].ToString();
 
             // Robot Climb
             lblChallengeScale3.Text = challengeScale[2].ToString();
@@ -549,10 +549,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att4.Visible = true;
                 lblAutoD3Cross4.Visible = false;
                 lblTeleOpD3Cross4.Visible = true;
-                lblAutoLowAtt4.Visible = false;
-                lblTeleOpLowAtt4.Visible = true;
-                lblAutoLowMade4.Visible = false;
-                lblTeleOpLowMade4.Visible = true;
+                lblAutoD4Reach4.Visible = false;
+                lblTeleOpD4Att4.Visible = true;
+                lblAutoD4Cross4.Visible = false;
+                lblTeleOpD4Cross4.Visible = true;
                 lblChallengeScale4.Visible = true;
             }
             if (AutonomousMode[3])
@@ -571,10 +571,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att4.Visible = false;
                 lblAutoD3Cross4.Visible = true;
                 lblTeleOpD3Cross4.Visible = false;
-                lblAutoLowAtt4.Visible = true;
-                lblTeleOpLowAtt4.Visible = false;
-                lblAutoLowMade4.Visible = true;
-                lblTeleOpLowMade4.Visible = false;
+                lblAutoD4Reach4.Visible = true;
+                lblTeleOpD4Att4.Visible = false;
+                lblAutoD4Cross4.Visible = true;
+                lblTeleOpD4Cross4.Visible = false;
                 lblChallengeScale4.Visible = false;
             }
             //Defense Rating
@@ -599,10 +599,10 @@ namespace MultipleJoysticks
             lblAutoD3Reach4.Text = autoDisplayDefense3Reach[3].ToString();
 
             // Low Goals
-            lblTeleOpLowMade4.Text = displayLowFrisbeesMade[3].ToString();
-            lblTeleOpLowAtt4.Text = displayLowFrisbeesAtt[3].ToString();
-            lblAutoLowMade4.Text = autoDisplayLowFrisbeesMade[3].ToString();
-            lblAutoLowAtt4.Text = autoDisplayLowFrisbeesAtt[3].ToString();
+            lblTeleOpD4Cross4.Text = displayDefense4Cross[3].ToString();
+            lblTeleOpD4Att4.Text = displayDefense4Att[3].ToString();
+            lblAutoD4Cross4.Text = autoDisplayDefense4Cross[3].ToString();
+            lblAutoD4Reach4.Text = autoDisplayDefense4Reach[3].ToString();
 
             // Robot Climb
             lblChallengeScale4.Text = challengeScale[3].ToString();
@@ -636,10 +636,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att5.Visible = true;
                 lblAutoD3Cross5.Visible = false;
                 lblTeleOpD3Cross5.Visible = true;
-                lblAutoLowAtt5.Visible = false;
-                lblTeleOpLowAtt5.Visible = true;
-                lblAutoLowMade5.Visible = false;
-                lblTeleOpLowMade5.Visible = true;
+                lblAutoD4Reach5.Visible = false;
+                lblTeleOpD4Att5.Visible = true;
+                lblAutoD4Cross5.Visible = false;
+                lblTeleOpD4Cross5.Visible = true;
                 lblChallengeScale5.Visible = true;
             }
             if (AutonomousMode[4])
@@ -658,10 +658,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att5.Visible = false;
                 lblAutoD3Cross5.Visible = true;
                 lblTeleOpD3Cross5.Visible = false;
-                lblAutoLowAtt5.Visible = true;
-                lblTeleOpLowAtt5.Visible = false;
-                lblAutoLowMade5.Visible = true;
-                lblTeleOpLowMade5.Visible = false;
+                lblAutoD4Reach5.Visible = true;
+                lblTeleOpD4Att5.Visible = false;
+                lblAutoD4Cross5.Visible = true;
+                lblTeleOpD4Cross5.Visible = false;
                 lblChallengeScale5.Visible = false;
             }
             //Defense Rating
@@ -686,10 +686,10 @@ namespace MultipleJoysticks
             lblAutoD3Reach5.Text = autoDisplayDefense3Reach[4].ToString();
 
             // Low Goals
-            lblTeleOpLowMade5.Text = displayLowFrisbeesMade[4].ToString();
-            lblTeleOpLowAtt5.Text = displayLowFrisbeesAtt[4].ToString();
-            lblAutoLowMade5.Text = autoDisplayLowFrisbeesMade[4].ToString();
-            lblAutoLowAtt5.Text = autoDisplayLowFrisbeesAtt[4].ToString();
+            lblTeleOpD4Cross5.Text = displayDefense4Cross[4].ToString();
+            lblTeleOpD4Att5.Text = displayDefense4Att[4].ToString();
+            lblAutoD4Cross5.Text = autoDisplayDefense4Cross[4].ToString();
+            lblAutoD4Reach5.Text = autoDisplayDefense4Reach[4].ToString();
 
             // Robot Climb
             lblChallengeScale5.Text = challengeScale[4].ToString();
@@ -723,10 +723,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att6.Visible = true;
                 lblAutoD3Cross6.Visible = false;
                 lblTeleOpD3Cross6.Visible = true;
-                lblAutoLowAtt6.Visible = false;
-                lblTeleOpLowAtt6.Visible = true;
-                lblAutoLowMade6.Visible = false;
-                lblTeleOpLowMade6.Visible = true;
+                lblAutoD4Reach6.Visible = false;
+                lblTeleOpD4Att6.Visible = true;
+                lblAutoD4Cross6.Visible = false;
+                lblTeleOpD4Cross6.Visible = true;
                 lblChallengeScale6.Visible = true;
             }
             if (AutonomousMode[5])
@@ -745,10 +745,10 @@ namespace MultipleJoysticks
                 lblTeleOpD3Att6.Visible = false;
                 lblAutoD3Cross6.Visible = true;
                 lblTeleOpD3Cross6.Visible = false;
-                lblAutoLowAtt6.Visible = true;
-                lblTeleOpLowAtt6.Visible = false;
-                lblAutoLowMade6.Visible = true;
-                lblTeleOpLowMade6.Visible = false;
+                lblAutoD4Reach6.Visible = true;
+                lblTeleOpD4Att6.Visible = false;
+                lblAutoD4Cross6.Visible = true;
+                lblTeleOpD4Cross6.Visible = false;
                 lblChallengeScale6.Visible = false;
             }
             //Defense Rating
@@ -773,10 +773,10 @@ namespace MultipleJoysticks
             lblAutoD3Reach6.Text = autoDisplayDefense3Reach[5].ToString();
 
             // Low Goals
-            lblTeleOpLowMade6.Text = displayLowFrisbeesMade[5].ToString();
-            lblTeleOpLowAtt6.Text = displayLowFrisbeesAtt[5].ToString();
-            lblAutoLowMade6.Text = autoDisplayLowFrisbeesMade[5].ToString();
-            lblAutoLowAtt6.Text = autoDisplayLowFrisbeesAtt[5].ToString();
+            lblTeleOpD4Cross6.Text = displayDefense4Cross[5].ToString();
+            lblTeleOpD4Att6.Text = displayDefense4Att[5].ToString();
+            lblAutoD4Cross6.Text = autoDisplayDefense4Cross[5].ToString();
+            lblAutoD4Reach6.Text = autoDisplayDefense4Reach[5].ToString();
 
             // Robot Climb
             lblChallengeScale6.Text = challengeScale[5].ToString();
@@ -909,75 +909,75 @@ namespace MultipleJoysticks
                     }
                     break;
 
-                case (GameCommands.LowFrisbeesAttMinus):
+                case (GameCommands.Defense4AttMinus):
                     if (TeleOp[id])
                     {
-                        if (lowFrisbeesAtt[id] > 0 && lowFrisbeesMade[id] < lowFrisbeesAtt[id])
+                        if (defense4Att[id] > 0 && defense4Cross[id] < defense4Att[id])
                         {
-                            lowFrisbeesAtt[id]--;
-                            displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
+                            defense4Att[id]--;
+                            displayDefense4Att[id] = defense4Att[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoLowFrisbeesAtt[id] > 0 && autoLowFrisbeesMade[id] < autoLowFrisbeesAtt[id])
+                        if (autoDefense4Reach[id] > 0 && autoDefense4Cross[id] < autoDefense4Reach[id])
                         {
-                            autoLowFrisbeesAtt[id]--;
-                            autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                        }
-                    }
-
-                    break;
-
-                case (GameCommands.LowFrisbeesAttPlus):
-                    if (TeleOp[id])
-                    {
-                        lowFrisbeesAtt[id]++;
-                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoLowFrisbeesAtt[id]++;
-                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                    }
-
-
-                    break;
-
-                case (GameCommands.LowFrisbeesMadeMinus):
-                    if (TeleOp[id])
-                    {
-                        if (lowFrisbeesMade[id] > 0)
-                        {
-                            lowFrisbeesMade[id]--;
-                            displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoLowFrisbeesMade[id] > 0)
-                        {
-                            autoLowFrisbeesMade[id]--;
-                            autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
+                            autoDefense4Reach[id]--;
+                            autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
                         }
                     }
 
                     break;
 
-                case (GameCommands.LowFrisbeesMadePlus):
+                case (GameCommands.Defense4AttPlus):
                     if (TeleOp[id])
                     {
-                        lowFrisbeesMade[id]++;
-                        displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                        lowFrisbeesAtt[id]++;
-                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
+                        defense4Att[id]++;
+                        displayDefense4Att[id] = defense4Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoLowFrisbeesMade[id]++;
-                        autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                        autoLowFrisbeesAtt[id]++;
-                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
+                        autoDefense4Reach[id]++;
+                        autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense4CrossMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense4Cross[id] > 0)
+                        {
+                            defense4Cross[id]--;
+                            displayDefense4Cross[id] = defense4Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense4Cross[id] > 0)
+                        {
+                            autoDefense4Cross[id]--;
+                            autoDisplayDefense4Cross[id] = autoDefense4Cross[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense4CrossPlus):
+                    if (TeleOp[id])
+                    {
+                        defense4Cross[id]++;
+                        displayDefense4Cross[id] = defense4Cross[id];
+                        defense4Att[id]++;
+                        displayDefense4Att[id] = defense4Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense4Cross[id]++;
+                        autoDisplayDefense4Cross[id] = autoDefense4Cross[id];
+                        autoDefense4Reach[id]++;
+                        autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
                     }
 
                     break;
@@ -1199,14 +1199,14 @@ namespace MultipleJoysticks
 
                 for (int f = 0; f < 6; f++)
                 {
-                    displayLowFrisbeesMade[f] = 0;
-                    displayLowFrisbeesAtt[f] = 0;
-                    lowFrisbeesMade[f] = 0;
-                    lowFrisbeesAtt[f] = 0;
-                    autoDisplayLowFrisbeesMade[f] = 0;
-                    autoLowFrisbeesMade[f] = 0;
-                    autoDisplayLowFrisbeesAtt[f] = 0;
-                    autoLowFrisbeesAtt[f] = 0;
+                    displayDefense4Cross[f] = 0;
+                    displayDefense4Att[f] = 0;
+                    defense4Cross[f] = 0;
+                    defense4Att[f] = 0;
+                    autoDisplayDefense4Cross[f] = 0;
+                    autoDefense4Cross[f] = 0;
+                    autoDisplayDefense4Reach[f] = 0;
+                    autoDefense4Reach[f] = 0;
                     displayDefense3Cross[f] = 0;
                     defense3Cross[f] = 0;
                     displayDefense3Att[f] = 0;
@@ -1290,14 +1290,14 @@ namespace MultipleJoysticks
 
             for (int f = 0; f < 6; f++)
             {
-                displayLowFrisbeesMade[f] = 0;
-                displayLowFrisbeesAtt[f] = 0;
-                lowFrisbeesMade[f] = 0;
-                lowFrisbeesAtt[f] = 0;
-                autoDisplayLowFrisbeesMade[f] = 0;
-                autoLowFrisbeesMade[f] = 0;
-                autoDisplayLowFrisbeesAtt[f] = 0;
-                autoLowFrisbeesAtt[f] = 0;
+                displayDefense4Cross[f] = 0;
+                displayDefense4Att[f] = 0;
+                defense4Cross[f] = 0;
+                defense4Att[f] = 0;
+                autoDisplayDefense4Cross[f] = 0;
+                autoDefense4Cross[f] = 0;
+                autoDisplayDefense4Reach[f] = 0;
+                autoDefense4Reach[f] = 0;
                 displayDefense3Cross[f] = 0;
                 defense3Cross[f] = 0;
                 displayDefense3Att[f] = 0;
@@ -1351,12 +1351,12 @@ namespace MultipleJoysticks
         {
             // A single writeline section to handle both save buttons.
             // Added Match to the end of each record
-            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoLowMade.Text + x + lblAutoLowAtt.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpLowMade.Text + x + lblTeleOpLowAtt.Text + x + lblChallengeScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoD2Cross2.Text + x + lblAutoD2Reach2.Text + x + lblAutoD3Cross2.Text + x + lblAutoD3Reach2.Text + x + lblAutoLowMade2.Text + x + lblAutoLowAtt2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpD1Cross2.Text + x + lblTeleOpD1Att2.Text + x + lblTeleOpD2Cross2.Text + x + lblTeleOpD2Att2.Text + x + lblTeleOpD3Cross2.Text + x + lblTeleOpD3Att2.Text + x + lblTeleOpLowMade2.Text + x + lblTeleOpLowAtt2.Text + x + lblChallengeScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoD2Cross3.Text + x + lblAutoD2Reach3.Text + x + lblAutoD3Cross3.Text + x + lblAutoD3Reach3.Text + x + lblAutoLowMade3.Text + x + lblAutoLowAtt3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpD1Cross3.Text + x + lblTeleOpD1Att3.Text + x + lblTeleOpD2Cross3.Text + x + lblTeleOpD2Att3.Text + x + lblTeleOpD3Cross3.Text + x + lblTeleOpD3Att3.Text + x + lblTeleOpLowMade3.Text + x + lblTeleOpLowAtt3.Text + x + lblChallengeScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoD2Cross4.Text + x + lblAutoD2Reach4.Text + x + lblAutoD3Cross4.Text + x + lblAutoD3Reach4.Text + x + lblAutoLowMade4.Text + x + lblAutoLowAtt4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpD1Cross4.Text + x + lblTeleOpD1Att4.Text + x + lblTeleOpD2Cross4.Text + x + lblTeleOpD2Att4.Text + x + lblTeleOpD3Cross4.Text + x + lblTeleOpD3Att4.Text + x + lblTeleOpLowMade4.Text + x + lblTeleOpLowAtt4.Text + x + lblChallengeScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoD2Cross5.Text + x + lblAutoD2Reach5.Text + x + lblAutoD3Cross5.Text + x + lblAutoD3Reach5.Text + x + lblAutoLowMade5.Text + x + lblAutoLowAtt5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpD1Cross5.Text + x + lblTeleOpD1Att5.Text + x + lblTeleOpD2Cross5.Text + x + lblTeleOpD2Att5.Text + x + lblTeleOpD3Cross5.Text + x + lblTeleOpD3Att5.Text + x + lblTeleOpLowMade5.Text + x + lblTeleOpLowAtt5.Text + x + lblChallengeScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoD2Cross6.Text + x + lblAutoD2Reach6.Text + x + lblAutoD3Cross6.Text + x + lblAutoD3Reach6.Text + x + lblAutoLowMade6.Text + x + lblAutoLowAtt6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpD1Cross6.Text + x + lblTeleOpD1Att6.Text + x + lblTeleOpD2Cross6.Text + x + lblTeleOpD2Att6.Text + x + lblTeleOpD3Cross6.Text + x + lblTeleOpD3Att6.Text + x + lblTeleOpLowMade6.Text + x + lblTeleOpLowAtt6.Text + x + lblChallengeScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x + lblTeleOpD4Att.Text + x + lblChallengeScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoD1Cross2.Text + x + lblAutoD1Reach2.Text + x + lblAutoD2Cross2.Text + x + lblAutoD2Reach2.Text + x + lblAutoD3Cross2.Text + x + lblAutoD3Reach2.Text + x + lblAutoD4Cross2.Text + x + lblAutoD4Reach2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpD1Cross2.Text + x + lblTeleOpD1Att2.Text + x + lblTeleOpD2Cross2.Text + x + lblTeleOpD2Att2.Text + x + lblTeleOpD3Cross2.Text + x + lblTeleOpD3Att2.Text + x + lblTeleOpD4Cross2.Text + x + lblTeleOpD4Att2.Text + x + lblChallengeScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoD1Cross3.Text + x + lblAutoD1Reach3.Text + x + lblAutoD2Cross3.Text + x + lblAutoD2Reach3.Text + x + lblAutoD3Cross3.Text + x + lblAutoD3Reach3.Text + x + lblAutoD4Cross3.Text + x + lblAutoD4Reach3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpD1Cross3.Text + x + lblTeleOpD1Att3.Text + x + lblTeleOpD2Cross3.Text + x + lblTeleOpD2Att3.Text + x + lblTeleOpD3Cross3.Text + x + lblTeleOpD3Att3.Text + x + lblTeleOpD4Cross3.Text + x + lblTeleOpD4Att3.Text + x + lblChallengeScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoD1Cross4.Text + x + lblAutoD1Reach4.Text + x + lblAutoD2Cross4.Text + x + lblAutoD2Reach4.Text + x + lblAutoD3Cross4.Text + x + lblAutoD3Reach4.Text + x + lblAutoD4Cross4.Text + x + lblAutoD4Reach4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpD1Cross4.Text + x + lblTeleOpD1Att4.Text + x + lblTeleOpD2Cross4.Text + x + lblTeleOpD2Att4.Text + x + lblTeleOpD3Cross4.Text + x + lblTeleOpD3Att4.Text + x + lblTeleOpD4Cross4.Text + x + lblTeleOpD4Att4.Text + x + lblChallengeScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoD1Cross5.Text + x + lblAutoD1Reach5.Text + x + lblAutoD2Cross5.Text + x + lblAutoD2Reach5.Text + x + lblAutoD3Cross5.Text + x + lblAutoD3Reach5.Text + x + lblAutoD4Cross5.Text + x + lblAutoD4Reach5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpD1Cross5.Text + x + lblTeleOpD1Att5.Text + x + lblTeleOpD2Cross5.Text + x + lblTeleOpD2Att5.Text + x + lblTeleOpD3Cross5.Text + x + lblTeleOpD3Att5.Text + x + lblTeleOpD4Cross5.Text + x + lblTeleOpD4Att5.Text + x + lblChallengeScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoD1Cross6.Text + x + lblAutoD1Reach6.Text + x + lblAutoD2Cross6.Text + x + lblAutoD2Reach6.Text + x + lblAutoD3Cross6.Text + x + lblAutoD3Reach6.Text + x + lblAutoD4Cross6.Text + x + lblAutoD4Reach6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpD1Cross6.Text + x + lblTeleOpD1Att6.Text + x + lblTeleOpD2Cross6.Text + x + lblTeleOpD2Att6.Text + x + lblTeleOpD3Cross6.Text + x + lblTeleOpD3Att6.Text + x + lblTeleOpD4Cross6.Text + x + lblTeleOpD4Att6.Text + x + lblChallengeScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
 
 
 
