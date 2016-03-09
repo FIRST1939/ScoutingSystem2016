@@ -150,7 +150,7 @@ namespace MultipleJoysticks
             public const int FinishedScoring = 21;
         }
 
-        String[,] ControllerCommands = new String[6, 22];
+        String[,] ControllerCommands = new String[6, 34];
         String[] LastButtonPattern = new String[6];
         Label[] displayButtons;
 
@@ -1127,7 +1127,7 @@ namespace MultipleJoysticks
             int FoundAt;
 
             // Find where the button maps are equal to get the command
-            for (FoundAt = 0; FoundAt < 22 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++)
+            for (FoundAt = 0; FoundAt < 34 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++)
             {
             }
 
