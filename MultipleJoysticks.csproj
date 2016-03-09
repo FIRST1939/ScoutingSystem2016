@@ -103,6 +103,7 @@
     <Compile Include="GamePadControl.Designer.cs">
       <DependentUpon>GamePadControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="IMatchDisplay.cs" />
     <Compile Include="MatchDisplay.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MatchDisplay));
             this.btnSkip = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -44,6 +45,7 @@
             this.gamePad1 = new MultipleJoysticks.GamePadControl();
             this.gamePad5 = new MultipleJoysticks.GamePadControl();
             this.gamePad6 = new MultipleJoysticks.GamePadControl();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // btnSkip
@@ -151,6 +153,7 @@
             // gamePad4
             // 
             this.gamePad4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
+            this.gamePad4.GamePad = null;
             this.gamePad4.Location = new System.Drawing.Point(12, 390);
             this.gamePad4.Name = "gamePad4";
             this.gamePad4.Size = new System.Drawing.Size(444, 346);
@@ -159,6 +162,7 @@
             // gamePad3
             // 
             this.gamePad3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.gamePad3.GamePad = null;
             this.gamePad3.Location = new System.Drawing.Point(899, 47);
             this.gamePad3.Name = "gamePad3";
             this.gamePad3.Size = new System.Drawing.Size(444, 346);
@@ -167,6 +171,7 @@
             // gamePad2
             // 
             this.gamePad2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.gamePad2.GamePad = null;
             this.gamePad2.Location = new System.Drawing.Point(455, 47);
             this.gamePad2.Name = "gamePad2";
             this.gamePad2.Size = new System.Drawing.Size(444, 346);
@@ -175,6 +180,7 @@
             // gamePad1
             // 
             this.gamePad1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.gamePad1.GamePad = null;
             this.gamePad1.Location = new System.Drawing.Point(12, 47);
             this.gamePad1.Name = "gamePad1";
             this.gamePad1.Size = new System.Drawing.Size(444, 346);
@@ -183,6 +189,7 @@
             // gamePad5
             // 
             this.gamePad5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
+            this.gamePad5.GamePad = null;
             this.gamePad5.Location = new System.Drawing.Point(455, 390);
             this.gamePad5.Name = "gamePad5";
             this.gamePad5.Size = new System.Drawing.Size(444, 346);
@@ -191,6 +198,7 @@
             // gamePad6
             // 
             this.gamePad6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
+            this.gamePad6.GamePad = null;
             this.gamePad6.Location = new System.Drawing.Point(899, 390);
             this.gamePad6.Name = "gamePad6";
             this.gamePad6.Size = new System.Drawing.Size(444, 346);
@@ -242,5 +250,6 @@
         private GamePadControl gamePad4;
         private GamePadControl gamePad5;
         private GamePadControl gamePad6;
+        private System.Windows.Forms.Timer timer1;
     }
 }

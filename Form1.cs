@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace MultipleJoysticks
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form, IMatchDisplay
     {
         bool[] AutonomousMode = { true, true, true, true, true, true };
         bool[] TeleOp = { false, false, false, false, false, false };

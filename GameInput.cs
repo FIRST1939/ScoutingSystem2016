@@ -13,13 +13,13 @@ namespace MultipleJoysticks
     {
         Joystick[] Sticks;
         private const int maxbuttons = 15;
-        private Form1 form;
+        private IMatchDisplay _form;
 
         // --- INITIALIZTION ---
 
-        public int GetSticks(Form1 form)
+        public int GetSticks(IMatchDisplay form)
         {
-            this.form = form;
+            _form = form;
             DirectInput Input = new DirectInput();
 
             List<Joystick> sticks = new List<Joystick>(); // Creates the list of joysticks connected to the computer via USB.
@@ -91,7 +91,7 @@ namespace MultipleJoysticks
 
                 // Store it in the right position in the array
 
-                form.SetControllerCommands(controllernumber, Command, buttons);
+                _form.SetControllerCommands(controllernumber, Command, buttons);
             }
         }
 
@@ -114,7 +114,7 @@ namespace MultipleJoysticks
 
             String strButtonMap = tm1939GetButtonMap(buttons, id);
 
-            form.UseButtonMap(id, strButtonMap);
+            _form.UseButtonMap(id, strButtonMap);
         }
 
         private string tm1939GetButtonMap(bool[] inButtons, int iController)
