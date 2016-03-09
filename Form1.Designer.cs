@@ -46,17 +46,17 @@
             this.label39 = new System.Windows.Forms.Label();
             this.lblAutoLowMade6 = new System.Windows.Forms.Label();
             this.lblAutoLowAtt6 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade6 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt6 = new System.Windows.Forms.Label();
+            this.lblAutoD3Cross6 = new System.Windows.Forms.Label();
+            this.lblAutoD3Reach6 = new System.Windows.Forms.Label();
             this.lblAutoD2Reach6 = new System.Windows.Forms.Label();
             this.lblAutoD2Cross6 = new System.Windows.Forms.Label();
             this.lblChallengeScale6 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt6 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Att6 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt6 = new System.Windows.Forms.Label();
             this.lblTeleOpD1Att6 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att6 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade6 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade6 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Cross6 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Cross6 = new System.Windows.Forms.Label();
             this.label57 = new System.Windows.Forms.Label();
             this.label58 = new System.Windows.Forms.Label();
@@ -86,17 +86,17 @@
             this.label49 = new System.Windows.Forms.Label();
             this.lblAutoLowMade5 = new System.Windows.Forms.Label();
             this.lblAutoLowAtt5 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt5 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade5 = new System.Windows.Forms.Label();
+            this.lblAutoD3Reach5 = new System.Windows.Forms.Label();
+            this.lblAutoD3Cross5 = new System.Windows.Forms.Label();
             this.lblAutoD2Reach5 = new System.Windows.Forms.Label();
             this.lblAutoD2Cross5 = new System.Windows.Forms.Label();
             this.lblChallengeScale5 = new System.Windows.Forms.Label();
             this.lblTeleOpD1Att5 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade5 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Cross5 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade5 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt5 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att5 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt5 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Att5 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Cross5 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
@@ -120,8 +120,8 @@
             this.lblDefense2 = new System.Windows.Forms.Label();
             this.lblDefenseRating2 = new System.Windows.Forms.Label();
             this.lblAutoD2Reach2 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade2 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt2 = new System.Windows.Forms.Label();
+            this.lblAutoD3Cross2 = new System.Windows.Forms.Label();
+            this.lblAutoD3Reach2 = new System.Windows.Forms.Label();
             this.lblAutoLowMade2 = new System.Windows.Forms.Label();
             this.lblAutoLowAtt2 = new System.Windows.Forms.Label();
             this.lblAutoD2Cross2 = new System.Windows.Forms.Label();
@@ -135,9 +135,9 @@
             this.lblTeleOpD1Att2 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade2 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt2 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade2 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Cross2 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att2 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt2 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Att2 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Cross2 = new System.Windows.Forms.Label();
             this.lblTeleOpD1Cross2 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
@@ -179,19 +179,19 @@
             this.label48 = new System.Windows.Forms.Label();
             this.lblAutoTotalPoints3 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt3 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade3 = new System.Windows.Forms.Label();
+            this.lblAutoD3Reach3 = new System.Windows.Forms.Label();
+            this.lblAutoD3Cross3 = new System.Windows.Forms.Label();
             this.lblAutoD2Reach3 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt3 = new System.Windows.Forms.Label();
             this.lblAutoLowMade3 = new System.Windows.Forms.Label();
             this.lblAutoD2Cross3 = new System.Windows.Forms.Label();
             this.lblAutoLowAtt3 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt3 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Att3 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att3 = new System.Windows.Forms.Label();
             this.lblTeleOpD1Att3 = new System.Windows.Forms.Label();
             this.lblChallengeScale3 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade3 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade3 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Cross3 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Cross3 = new System.Windows.Forms.Label();
             this.lblTeleOpD1Cross3 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
@@ -239,10 +239,10 @@
             this.lblAutoLowAtt = new System.Windows.Forms.Label();
             this.lblAutoLowMade = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt = new System.Windows.Forms.Label();
-            this.lblAutoMidMade = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade = new System.Windows.Forms.Label();
+            this.lblAutoD3Reach = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Att = new System.Windows.Forms.Label();
+            this.lblAutoD3Cross = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Cross = new System.Windows.Forms.Label();
             this.lblScouter1 = new System.Windows.Forms.Label();
             this.lbldisplayButtons4 = new System.Windows.Forms.Label();
             this.label71 = new System.Windows.Forms.Label();
@@ -266,17 +266,17 @@
             this.label50 = new System.Windows.Forms.Label();
             this.lblAutoLowAtt4 = new System.Windows.Forms.Label();
             this.lblAutoLowMade4 = new System.Windows.Forms.Label();
-            this.lblAutoMidAtt4 = new System.Windows.Forms.Label();
-            this.lblAutoMidMade4 = new System.Windows.Forms.Label();
+            this.lblAutoD3Reach4 = new System.Windows.Forms.Label();
+            this.lblAutoD3Cross4 = new System.Windows.Forms.Label();
             this.lblAutoD2Reach4 = new System.Windows.Forms.Label();
             this.lblAutoD2Cross4 = new System.Windows.Forms.Label();
             this.lblTeleOpLowAtt4 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidAtt4 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Att4 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att4 = new System.Windows.Forms.Label();
             this.lblTeleOpD1Att4 = new System.Windows.Forms.Label();
             this.lblChallengeScale4 = new System.Windows.Forms.Label();
             this.lblTeleOpLowMade4 = new System.Windows.Forms.Label();
-            this.lblTeleOpMidMade4 = new System.Windows.Forms.Label();
+            this.lblTeleOpD3Cross4 = new System.Windows.Forms.Label();
             this.lblTeleOpD2Cross4 = new System.Windows.Forms.Label();
             this.label38 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
@@ -319,17 +319,17 @@
             this.panel6.Controls.Add(this.label39);
             this.panel6.Controls.Add(this.lblAutoLowMade6);
             this.panel6.Controls.Add(this.lblAutoLowAtt6);
-            this.panel6.Controls.Add(this.lblAutoMidMade6);
-            this.panel6.Controls.Add(this.lblAutoMidAtt6);
+            this.panel6.Controls.Add(this.lblAutoD3Cross6);
+            this.panel6.Controls.Add(this.lblAutoD3Reach6);
             this.panel6.Controls.Add(this.lblAutoD2Reach6);
             this.panel6.Controls.Add(this.lblAutoD2Cross6);
             this.panel6.Controls.Add(this.lblChallengeScale6);
-            this.panel6.Controls.Add(this.lblTeleOpMidAtt6);
+            this.panel6.Controls.Add(this.lblTeleOpD3Att6);
             this.panel6.Controls.Add(this.lblTeleOpLowAtt6);
             this.panel6.Controls.Add(this.lblTeleOpD1Att6);
             this.panel6.Controls.Add(this.lblTeleOpD2Att6);
             this.panel6.Controls.Add(this.lblTeleOpLowMade6);
-            this.panel6.Controls.Add(this.lblTeleOpMidMade6);
+            this.panel6.Controls.Add(this.lblTeleOpD3Cross6);
             this.panel6.Controls.Add(this.lblTeleOpD2Cross6);
             this.panel6.Controls.Add(this.label57);
             this.panel6.Controls.Add(this.label58);
@@ -502,29 +502,29 @@
             this.lblAutoLowAtt6.TabIndex = 238;
             this.lblAutoLowAtt6.Text = "00";
             // 
-            // lblAutoMidMade6
+            // lblAutoD3Cross6
             // 
-            this.lblAutoMidMade6.AutoSize = true;
-            this.lblAutoMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade6.Location = new System.Drawing.Point(184, 208);
-            this.lblAutoMidMade6.Name = "lblAutoMidMade6";
-            this.lblAutoMidMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade6.TabIndex = 237;
-            this.lblAutoMidMade6.Text = "00";
+            this.lblAutoD3Cross6.AutoSize = true;
+            this.lblAutoD3Cross6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Cross6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Cross6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Cross6.Location = new System.Drawing.Point(62, 209);
+            this.lblAutoD3Cross6.Name = "lblAutoD3Cross6";
+            this.lblAutoD3Cross6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Cross6.TabIndex = 237;
+            this.lblAutoD3Cross6.Text = "00";
             // 
-            // lblAutoMidAtt6
+            // lblAutoD3Reach6
             // 
-            this.lblAutoMidAtt6.AutoSize = true;
-            this.lblAutoMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt6.Location = new System.Drawing.Point(260, 208);
-            this.lblAutoMidAtt6.Name = "lblAutoMidAtt6";
-            this.lblAutoMidAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt6.TabIndex = 236;
-            this.lblAutoMidAtt6.Text = "00";
+            this.lblAutoD3Reach6.AutoSize = true;
+            this.lblAutoD3Reach6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Reach6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Reach6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Reach6.Location = new System.Drawing.Point(126, 206);
+            this.lblAutoD3Reach6.Name = "lblAutoD3Reach6";
+            this.lblAutoD3Reach6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Reach6.TabIndex = 236;
+            this.lblAutoD3Reach6.Text = "00";
             // 
             // lblAutoD2Reach6
             // 
@@ -562,18 +562,18 @@
             this.lblChallengeScale6.Text = "0";
             this.lblChallengeScale6.Visible = false;
             // 
-            // lblTeleOpMidAtt6
+            // lblTeleOpD3Att6
             // 
-            this.lblTeleOpMidAtt6.AutoSize = true;
-            this.lblTeleOpMidAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt6.Location = new System.Drawing.Point(260, 206);
-            this.lblTeleOpMidAtt6.Name = "lblTeleOpMidAtt6";
-            this.lblTeleOpMidAtt6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt6.TabIndex = 232;
-            this.lblTeleOpMidAtt6.Text = "00";
-            this.lblTeleOpMidAtt6.Visible = false;
+            this.lblTeleOpD3Att6.AutoSize = true;
+            this.lblTeleOpD3Att6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Att6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Att6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Att6.Location = new System.Drawing.Point(136, 203);
+            this.lblTeleOpD3Att6.Name = "lblTeleOpD3Att6";
+            this.lblTeleOpD3Att6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Att6.TabIndex = 232;
+            this.lblTeleOpD3Att6.Text = "00";
+            this.lblTeleOpD3Att6.Visible = false;
             // 
             // lblTeleOpLowAtt6
             // 
@@ -627,18 +627,19 @@
             this.lblTeleOpLowMade6.Text = "00";
             this.lblTeleOpLowMade6.Visible = false;
             // 
-            // lblTeleOpMidMade6
+            // lblTeleOpD3Cross6
             // 
-            this.lblTeleOpMidMade6.AutoSize = true;
-            this.lblTeleOpMidMade6.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade6.Location = new System.Drawing.Point(184, 208);
-            this.lblTeleOpMidMade6.Name = "lblTeleOpMidMade6";
-            this.lblTeleOpMidMade6.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade6.TabIndex = 226;
-            this.lblTeleOpMidMade6.Text = "00";
-            this.lblTeleOpMidMade6.Visible = false;
+            this.lblTeleOpD3Cross6.AutoSize = true;
+            this.lblTeleOpD3Cross6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Cross6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Cross6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Cross6.Location = new System.Drawing.Point(63, 203);
+            this.lblTeleOpD3Cross6.Name = "lblTeleOpD3Cross6";
+            this.lblTeleOpD3Cross6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Cross6.TabIndex = 226;
+            this.lblTeleOpD3Cross6.Text = "00";
+            this.lblTeleOpD3Cross6.Visible = false;
+            this.lblTeleOpD3Cross6.Click += new System.EventHandler(this.lblTeleOpMidMade6_Click);
             // 
             // lblTeleOpD2Cross6
             // 
@@ -677,11 +678,11 @@
             // 
             this.label59.AutoSize = true;
             this.label59.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label59.Location = new System.Drawing.Point(8, 220);
+            this.label59.Location = new System.Drawing.Point(8, 212);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(111, 26);
+            this.label59.Size = new System.Drawing.Size(52, 26);
             this.label59.TabIndex = 222;
-            this.label59.Text = "Mid Frisbee";
+            this.label59.Text = "Def3";
             // 
             // label60
             // 
@@ -813,17 +814,17 @@
             this.panel3.Controls.Add(this.label49);
             this.panel3.Controls.Add(this.lblAutoLowMade5);
             this.panel3.Controls.Add(this.lblAutoLowAtt5);
-            this.panel3.Controls.Add(this.lblAutoMidAtt5);
-            this.panel3.Controls.Add(this.lblAutoMidMade5);
+            this.panel3.Controls.Add(this.lblAutoD3Reach5);
+            this.panel3.Controls.Add(this.lblAutoD3Cross5);
             this.panel3.Controls.Add(this.lblAutoD2Reach5);
             this.panel3.Controls.Add(this.lblAutoD2Cross5);
             this.panel3.Controls.Add(this.lblChallengeScale5);
             this.panel3.Controls.Add(this.lblTeleOpD1Att5);
-            this.panel3.Controls.Add(this.lblTeleOpMidMade5);
+            this.panel3.Controls.Add(this.lblTeleOpD3Cross5);
             this.panel3.Controls.Add(this.lblTeleOpLowMade5);
             this.panel3.Controls.Add(this.lblTeleOpLowAtt5);
             this.panel3.Controls.Add(this.lblTeleOpD2Att5);
-            this.panel3.Controls.Add(this.lblTeleOpMidAtt5);
+            this.panel3.Controls.Add(this.lblTeleOpD3Att5);
             this.panel3.Controls.Add(this.lblTeleOpD2Cross5);
             this.panel3.Controls.Add(this.label44);
             this.panel3.Controls.Add(this.label43);
@@ -996,29 +997,29 @@
             this.lblAutoLowAtt5.TabIndex = 224;
             this.lblAutoLowAtt5.Text = "00";
             // 
-            // lblAutoMidAtt5
+            // lblAutoD3Reach5
             // 
-            this.lblAutoMidAtt5.AutoSize = true;
-            this.lblAutoMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt5.Location = new System.Drawing.Point(259, 206);
-            this.lblAutoMidAtt5.Name = "lblAutoMidAtt5";
-            this.lblAutoMidAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt5.TabIndex = 223;
-            this.lblAutoMidAtt5.Text = "00";
+            this.lblAutoD3Reach5.AutoSize = true;
+            this.lblAutoD3Reach5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Reach5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Reach5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Reach5.Location = new System.Drawing.Point(137, 203);
+            this.lblAutoD3Reach5.Name = "lblAutoD3Reach5";
+            this.lblAutoD3Reach5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Reach5.TabIndex = 223;
+            this.lblAutoD3Reach5.Text = "00";
             // 
-            // lblAutoMidMade5
+            // lblAutoD3Cross5
             // 
-            this.lblAutoMidMade5.AutoSize = true;
-            this.lblAutoMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade5.Location = new System.Drawing.Point(182, 208);
-            this.lblAutoMidMade5.Name = "lblAutoMidMade5";
-            this.lblAutoMidMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade5.TabIndex = 222;
-            this.lblAutoMidMade5.Text = "00";
+            this.lblAutoD3Cross5.AutoSize = true;
+            this.lblAutoD3Cross5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Cross5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Cross5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Cross5.Location = new System.Drawing.Point(65, 203);
+            this.lblAutoD3Cross5.Name = "lblAutoD3Cross5";
+            this.lblAutoD3Cross5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Cross5.TabIndex = 222;
+            this.lblAutoD3Cross5.Text = "00";
             // 
             // lblAutoD2Reach5
             // 
@@ -1069,18 +1070,18 @@
             this.lblTeleOpD1Att5.Text = "00";
             this.lblTeleOpD1Att5.Visible = false;
             // 
-            // lblTeleOpMidMade5
+            // lblTeleOpD3Cross5
             // 
-            this.lblTeleOpMidMade5.AutoSize = true;
-            this.lblTeleOpMidMade5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade5.Location = new System.Drawing.Point(182, 208);
-            this.lblTeleOpMidMade5.Name = "lblTeleOpMidMade5";
-            this.lblTeleOpMidMade5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade5.TabIndex = 218;
-            this.lblTeleOpMidMade5.Text = "00";
-            this.lblTeleOpMidMade5.Visible = false;
+            this.lblTeleOpD3Cross5.AutoSize = true;
+            this.lblTeleOpD3Cross5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Cross5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Cross5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Cross5.Location = new System.Drawing.Point(64, 203);
+            this.lblTeleOpD3Cross5.Name = "lblTeleOpD3Cross5";
+            this.lblTeleOpD3Cross5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Cross5.TabIndex = 218;
+            this.lblTeleOpD3Cross5.Text = "00";
+            this.lblTeleOpD3Cross5.Visible = false;
             // 
             // lblTeleOpLowMade5
             // 
@@ -1121,18 +1122,18 @@
             this.lblTeleOpD2Att5.Text = "00";
             this.lblTeleOpD2Att5.Visible = false;
             // 
-            // lblTeleOpMidAtt5
+            // lblTeleOpD3Att5
             // 
-            this.lblTeleOpMidAtt5.AutoSize = true;
-            this.lblTeleOpMidAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt5.Location = new System.Drawing.Point(259, 206);
-            this.lblTeleOpMidAtt5.Name = "lblTeleOpMidAtt5";
-            this.lblTeleOpMidAtt5.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt5.TabIndex = 213;
-            this.lblTeleOpMidAtt5.Text = "00";
-            this.lblTeleOpMidAtt5.Visible = false;
+            this.lblTeleOpD3Att5.AutoSize = true;
+            this.lblTeleOpD3Att5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Att5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Att5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Att5.Location = new System.Drawing.Point(137, 203);
+            this.lblTeleOpD3Att5.Name = "lblTeleOpD3Att5";
+            this.lblTeleOpD3Att5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Att5.TabIndex = 213;
+            this.lblTeleOpD3Att5.Text = "00";
+            this.lblTeleOpD3Att5.Visible = false;
             // 
             // lblTeleOpD2Cross5
             // 
@@ -1181,11 +1182,11 @@
             // 
             this.label42.AutoSize = true;
             this.label42.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label42.Location = new System.Drawing.Point(10, 220);
+            this.label42.Location = new System.Drawing.Point(10, 209);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(111, 26);
+            this.label42.Size = new System.Drawing.Size(52, 26);
             this.label42.TabIndex = 211;
-            this.label42.Text = "Mid Frisbee";
+            this.label42.Text = "Def3";
             // 
             // label40
             // 
@@ -1313,8 +1314,8 @@
             this.lblValanceAttempted2.Controls.Add(this.lblDefense2);
             this.lblValanceAttempted2.Controls.Add(this.lblDefenseRating2);
             this.lblValanceAttempted2.Controls.Add(this.lblAutoD2Reach2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoMidMade2);
-            this.lblValanceAttempted2.Controls.Add(this.lblAutoMidAtt2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoD3Cross2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoD3Reach2);
             this.lblValanceAttempted2.Controls.Add(this.lblAutoLowMade2);
             this.lblValanceAttempted2.Controls.Add(this.lblAutoLowAtt2);
             this.lblValanceAttempted2.Controls.Add(this.lblAutoD2Cross2);
@@ -1328,9 +1329,9 @@
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD1Att2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowMade2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowAtt2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpMidMade2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD3Cross2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD2Att2);
-            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpMidAtt2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD3Att2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD2Cross2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD1Cross2);
             this.lblValanceAttempted2.Controls.Add(this.label23);
@@ -1430,29 +1431,29 @@
             this.lblAutoD2Reach2.TabIndex = 210;
             this.lblAutoD2Reach2.Text = "00";
             // 
-            // lblAutoMidMade2
+            // lblAutoD3Cross2
             // 
-            this.lblAutoMidMade2.AutoSize = true;
-            this.lblAutoMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade2.Location = new System.Drawing.Point(174, 209);
-            this.lblAutoMidMade2.Name = "lblAutoMidMade2";
-            this.lblAutoMidMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade2.TabIndex = 209;
-            this.lblAutoMidMade2.Text = "00";
+            this.lblAutoD3Cross2.AutoSize = true;
+            this.lblAutoD3Cross2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Cross2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Cross2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Cross2.Location = new System.Drawing.Point(73, 210);
+            this.lblAutoD3Cross2.Name = "lblAutoD3Cross2";
+            this.lblAutoD3Cross2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Cross2.TabIndex = 209;
+            this.lblAutoD3Cross2.Text = "00";
             // 
-            // lblAutoMidAtt2
+            // lblAutoD3Reach2
             // 
-            this.lblAutoMidAtt2.AutoSize = true;
-            this.lblAutoMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt2.Location = new System.Drawing.Point(248, 210);
-            this.lblAutoMidAtt2.Name = "lblAutoMidAtt2";
-            this.lblAutoMidAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt2.TabIndex = 208;
-            this.lblAutoMidAtt2.Text = "00";
+            this.lblAutoD3Reach2.AutoSize = true;
+            this.lblAutoD3Reach2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Reach2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Reach2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Reach2.Location = new System.Drawing.Point(137, 210);
+            this.lblAutoD3Reach2.Name = "lblAutoD3Reach2";
+            this.lblAutoD3Reach2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Reach2.TabIndex = 208;
+            this.lblAutoD3Reach2.Text = "00";
             // 
             // lblAutoLowMade2
             // 
@@ -1601,18 +1602,18 @@
             this.lblTeleOpLowAtt2.Text = "00";
             this.lblTeleOpLowAtt2.Visible = false;
             // 
-            // lblTeleOpMidMade2
+            // lblTeleOpD3Cross2
             // 
-            this.lblTeleOpMidMade2.AutoSize = true;
-            this.lblTeleOpMidMade2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade2.Location = new System.Drawing.Point(174, 210);
-            this.lblTeleOpMidMade2.Name = "lblTeleOpMidMade2";
-            this.lblTeleOpMidMade2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade2.TabIndex = 199;
-            this.lblTeleOpMidMade2.Text = "00";
-            this.lblTeleOpMidMade2.Visible = false;
+            this.lblTeleOpD3Cross2.AutoSize = true;
+            this.lblTeleOpD3Cross2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Cross2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Cross2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Cross2.Location = new System.Drawing.Point(74, 210);
+            this.lblTeleOpD3Cross2.Name = "lblTeleOpD3Cross2";
+            this.lblTeleOpD3Cross2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Cross2.TabIndex = 199;
+            this.lblTeleOpD3Cross2.Text = "00";
+            this.lblTeleOpD3Cross2.Visible = false;
             // 
             // lblTeleOpD2Att2
             // 
@@ -1627,18 +1628,18 @@
             this.lblTeleOpD2Att2.Text = "00";
             this.lblTeleOpD2Att2.Visible = false;
             // 
-            // lblTeleOpMidAtt2
+            // lblTeleOpD3Att2
             // 
-            this.lblTeleOpMidAtt2.AutoSize = true;
-            this.lblTeleOpMidAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt2.Location = new System.Drawing.Point(248, 210);
-            this.lblTeleOpMidAtt2.Name = "lblTeleOpMidAtt2";
-            this.lblTeleOpMidAtt2.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt2.TabIndex = 197;
-            this.lblTeleOpMidAtt2.Text = "00";
-            this.lblTeleOpMidAtt2.Visible = false;
+            this.lblTeleOpD3Att2.AutoSize = true;
+            this.lblTeleOpD3Att2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Att2.Location = new System.Drawing.Point(137, 210);
+            this.lblTeleOpD3Att2.Name = "lblTeleOpD3Att2";
+            this.lblTeleOpD3Att2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Att2.TabIndex = 197;
+            this.lblTeleOpD3Att2.Text = "00";
+            this.lblTeleOpD3Att2.Visible = false;
             // 
             // lblTeleOpD2Cross2
             // 
@@ -1692,9 +1693,9 @@
             this.label21.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(16, 218);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(111, 26);
+            this.label21.Size = new System.Drawing.Size(52, 26);
             this.label21.TabIndex = 195;
-            this.label21.Text = "Mid Frisbee";
+            this.label21.Text = "Def3";
             // 
             // label20
             // 
@@ -1968,19 +1969,19 @@
             this.panel56.Controls.Add(this.label48);
             this.panel56.Controls.Add(this.lblAutoTotalPoints3);
             this.panel56.Controls.Add(this.label29);
-            this.panel56.Controls.Add(this.lblAutoMidAtt3);
-            this.panel56.Controls.Add(this.lblAutoMidMade3);
+            this.panel56.Controls.Add(this.lblAutoD3Reach3);
+            this.panel56.Controls.Add(this.lblAutoD3Cross3);
             this.panel56.Controls.Add(this.lblAutoD2Reach3);
             this.panel56.Controls.Add(this.lblTeleOpLowAtt3);
             this.panel56.Controls.Add(this.lblAutoLowMade3);
             this.panel56.Controls.Add(this.lblAutoD2Cross3);
             this.panel56.Controls.Add(this.lblAutoLowAtt3);
-            this.panel56.Controls.Add(this.lblTeleOpMidAtt3);
+            this.panel56.Controls.Add(this.lblTeleOpD3Att3);
             this.panel56.Controls.Add(this.lblTeleOpD2Att3);
             this.panel56.Controls.Add(this.lblTeleOpD1Att3);
             this.panel56.Controls.Add(this.lblChallengeScale3);
             this.panel56.Controls.Add(this.lblTeleOpLowMade3);
-            this.panel56.Controls.Add(this.lblTeleOpMidMade3);
+            this.panel56.Controls.Add(this.lblTeleOpD3Cross3);
             this.panel56.Controls.Add(this.lblTeleOpD2Cross3);
             this.panel56.Controls.Add(this.lblTeleOpD1Cross3);
             this.panel56.Controls.Add(this.label34);
@@ -2132,29 +2133,29 @@
             this.label29.TabIndex = 211;
             this.label29.Text = "Auto";
             // 
-            // lblAutoMidAtt3
+            // lblAutoD3Reach3
             // 
-            this.lblAutoMidAtt3.AutoSize = true;
-            this.lblAutoMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt3.Location = new System.Drawing.Point(251, 204);
-            this.lblAutoMidAtt3.Name = "lblAutoMidAtt3";
-            this.lblAutoMidAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt3.TabIndex = 215;
-            this.lblAutoMidAtt3.Text = "00";
+            this.lblAutoD3Reach3.AutoSize = true;
+            this.lblAutoD3Reach3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Reach3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Reach3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Reach3.Location = new System.Drawing.Point(124, 210);
+            this.lblAutoD3Reach3.Name = "lblAutoD3Reach3";
+            this.lblAutoD3Reach3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Reach3.TabIndex = 215;
+            this.lblAutoD3Reach3.Text = "00";
             // 
-            // lblAutoMidMade3
+            // lblAutoD3Cross3
             // 
-            this.lblAutoMidMade3.AutoSize = true;
-            this.lblAutoMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade3.Location = new System.Drawing.Point(177, 207);
-            this.lblAutoMidMade3.Name = "lblAutoMidMade3";
-            this.lblAutoMidMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade3.TabIndex = 214;
-            this.lblAutoMidMade3.Text = "00";
+            this.lblAutoD3Cross3.AutoSize = true;
+            this.lblAutoD3Cross3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Cross3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Cross3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Cross3.Location = new System.Drawing.Point(61, 210);
+            this.lblAutoD3Cross3.Name = "lblAutoD3Cross3";
+            this.lblAutoD3Cross3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Cross3.TabIndex = 214;
+            this.lblAutoD3Cross3.Text = "00";
             // 
             // lblAutoD2Reach3
             // 
@@ -2217,18 +2218,18 @@
             this.lblAutoLowAtt3.TabIndex = 209;
             this.lblAutoLowAtt3.Text = "00";
             // 
-            // lblTeleOpMidAtt3
+            // lblTeleOpD3Att3
             // 
-            this.lblTeleOpMidAtt3.AutoSize = true;
-            this.lblTeleOpMidAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt3.Location = new System.Drawing.Point(251, 207);
-            this.lblTeleOpMidAtt3.Name = "lblTeleOpMidAtt3";
-            this.lblTeleOpMidAtt3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt3.TabIndex = 208;
-            this.lblTeleOpMidAtt3.Text = "00";
-            this.lblTeleOpMidAtt3.Visible = false;
+            this.lblTeleOpD3Att3.AutoSize = true;
+            this.lblTeleOpD3Att3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Att3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Att3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Att3.Location = new System.Drawing.Point(124, 210);
+            this.lblTeleOpD3Att3.Name = "lblTeleOpD3Att3";
+            this.lblTeleOpD3Att3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Att3.TabIndex = 208;
+            this.lblTeleOpD3Att3.Text = "00";
+            this.lblTeleOpD3Att3.Visible = false;
             // 
             // lblTeleOpD2Att3
             // 
@@ -2281,18 +2282,18 @@
             this.lblTeleOpLowMade3.Text = "00";
             this.lblTeleOpLowMade3.Visible = false;
             // 
-            // lblTeleOpMidMade3
+            // lblTeleOpD3Cross3
             // 
-            this.lblTeleOpMidMade3.AutoSize = true;
-            this.lblTeleOpMidMade3.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade3.Location = new System.Drawing.Point(177, 207);
-            this.lblTeleOpMidMade3.Name = "lblTeleOpMidMade3";
-            this.lblTeleOpMidMade3.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade3.TabIndex = 204;
-            this.lblTeleOpMidMade3.Text = "00";
-            this.lblTeleOpMidMade3.Visible = false;
+            this.lblTeleOpD3Cross3.AutoSize = true;
+            this.lblTeleOpD3Cross3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Cross3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Cross3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Cross3.Location = new System.Drawing.Point(61, 210);
+            this.lblTeleOpD3Cross3.Name = "lblTeleOpD3Cross3";
+            this.lblTeleOpD3Cross3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Cross3.TabIndex = 204;
+            this.lblTeleOpD3Cross3.Text = "00";
+            this.lblTeleOpD3Cross3.Visible = false;
             // 
             // lblTeleOpD2Cross3
             // 
@@ -2346,9 +2347,9 @@
             this.label32.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(3, 222);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(111, 26);
+            this.label32.Size = new System.Drawing.Size(52, 26);
             this.label32.TabIndex = 203;
-            this.label32.Text = "Mid Frisbee";
+            this.label32.Text = "Def3";
             // 
             // label31
             // 
@@ -2609,10 +2610,10 @@
             this.panel1.Controls.Add(this.lblAutoLowAtt);
             this.panel1.Controls.Add(this.lblAutoLowMade);
             this.panel1.Controls.Add(this.lblTeleOpLowMade);
-            this.panel1.Controls.Add(this.lblAutoMidAtt);
-            this.panel1.Controls.Add(this.lblTeleOpMidAtt);
-            this.panel1.Controls.Add(this.lblAutoMidMade);
-            this.panel1.Controls.Add(this.lblTeleOpMidMade);
+            this.panel1.Controls.Add(this.lblAutoD3Reach);
+            this.panel1.Controls.Add(this.lblTeleOpD3Att);
+            this.panel1.Controls.Add(this.lblAutoD3Cross);
+            this.panel1.Controls.Add(this.lblTeleOpD3Cross);
             this.panel1.Controls.Add(this.label17);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label10);
@@ -2857,53 +2858,53 @@
             this.lblTeleOpLowMade.TabIndex = 183;
             this.lblTeleOpLowMade.Text = "00";
             // 
-            // lblAutoMidAtt
+            // lblAutoD3Reach
             // 
-            this.lblAutoMidAtt.AutoSize = true;
-            this.lblAutoMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt.Location = new System.Drawing.Point(126, 210);
-            this.lblAutoMidAtt.Name = "lblAutoMidAtt";
-            this.lblAutoMidAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt.TabIndex = 182;
-            this.lblAutoMidAtt.Text = "00";
+            this.lblAutoD3Reach.AutoSize = true;
+            this.lblAutoD3Reach.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Reach.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Reach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Reach.Location = new System.Drawing.Point(126, 210);
+            this.lblAutoD3Reach.Name = "lblAutoD3Reach";
+            this.lblAutoD3Reach.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Reach.TabIndex = 182;
+            this.lblAutoD3Reach.Text = "00";
             // 
-            // lblTeleOpMidAtt
+            // lblTeleOpD3Att
             // 
-            this.lblTeleOpMidAtt.AutoSize = true;
-            this.lblTeleOpMidAtt.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt.Location = new System.Drawing.Point(136, 204);
-            this.lblTeleOpMidAtt.Name = "lblTeleOpMidAtt";
-            this.lblTeleOpMidAtt.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt.TabIndex = 181;
-            this.lblTeleOpMidAtt.Text = "00";
+            this.lblTeleOpD3Att.AutoSize = true;
+            this.lblTeleOpD3Att.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Att.Location = new System.Drawing.Point(126, 210);
+            this.lblTeleOpD3Att.Name = "lblTeleOpD3Att";
+            this.lblTeleOpD3Att.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Att.TabIndex = 181;
+            this.lblTeleOpD3Att.Text = "00";
             // 
-            // lblAutoMidMade
+            // lblAutoD3Cross
             // 
-            this.lblAutoMidMade.AutoSize = true;
-            this.lblAutoMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade.Location = new System.Drawing.Point(55, 209);
-            this.lblAutoMidMade.Name = "lblAutoMidMade";
-            this.lblAutoMidMade.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade.TabIndex = 180;
-            this.lblAutoMidMade.Text = "00";
+            this.lblAutoD3Cross.AutoSize = true;
+            this.lblAutoD3Cross.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Cross.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Cross.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Cross.Location = new System.Drawing.Point(55, 209);
+            this.lblAutoD3Cross.Name = "lblAutoD3Cross";
+            this.lblAutoD3Cross.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Cross.TabIndex = 180;
+            this.lblAutoD3Cross.Text = "00";
             // 
-            // lblTeleOpMidMade
+            // lblTeleOpD3Cross
             // 
-            this.lblTeleOpMidMade.AutoSize = true;
-            this.lblTeleOpMidMade.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade.Location = new System.Drawing.Point(63, 204);
-            this.lblTeleOpMidMade.Name = "lblTeleOpMidMade";
-            this.lblTeleOpMidMade.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade.TabIndex = 179;
-            this.lblTeleOpMidMade.Text = "00";
+            this.lblTeleOpD3Cross.AutoSize = true;
+            this.lblTeleOpD3Cross.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Cross.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Cross.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Cross.Location = new System.Drawing.Point(55, 208);
+            this.lblTeleOpD3Cross.Name = "lblTeleOpD3Cross";
+            this.lblTeleOpD3Cross.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Cross.TabIndex = 179;
+            this.lblTeleOpD3Cross.Text = "00";
             // 
             // lblScouter1
             // 
@@ -3015,17 +3016,17 @@
             this.panel4.Controls.Add(this.label50);
             this.panel4.Controls.Add(this.lblAutoLowAtt4);
             this.panel4.Controls.Add(this.lblAutoLowMade4);
-            this.panel4.Controls.Add(this.lblAutoMidAtt4);
-            this.panel4.Controls.Add(this.lblAutoMidMade4);
+            this.panel4.Controls.Add(this.lblAutoD3Reach4);
+            this.panel4.Controls.Add(this.lblAutoD3Cross4);
             this.panel4.Controls.Add(this.lblAutoD2Reach4);
             this.panel4.Controls.Add(this.lblAutoD2Cross4);
             this.panel4.Controls.Add(this.lblTeleOpLowAtt4);
-            this.panel4.Controls.Add(this.lblTeleOpMidAtt4);
+            this.panel4.Controls.Add(this.lblTeleOpD3Att4);
             this.panel4.Controls.Add(this.lblTeleOpD2Att4);
             this.panel4.Controls.Add(this.lblTeleOpD1Att4);
             this.panel4.Controls.Add(this.lblChallengeScale4);
             this.panel4.Controls.Add(this.lblTeleOpLowMade4);
-            this.panel4.Controls.Add(this.lblTeleOpMidMade4);
+            this.panel4.Controls.Add(this.lblTeleOpD3Cross4);
             this.panel4.Controls.Add(this.lblTeleOpD2Cross4);
             this.panel4.Controls.Add(this.label38);
             this.panel4.Controls.Add(this.label37);
@@ -3196,29 +3197,29 @@
             this.lblAutoLowMade4.TabIndex = 214;
             this.lblAutoLowMade4.Text = "00";
             // 
-            // lblAutoMidAtt4
+            // lblAutoD3Reach4
             // 
-            this.lblAutoMidAtt4.AutoSize = true;
-            this.lblAutoMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidAtt4.Location = new System.Drawing.Point(126, 208);
-            this.lblAutoMidAtt4.Name = "lblAutoMidAtt4";
-            this.lblAutoMidAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidAtt4.TabIndex = 213;
-            this.lblAutoMidAtt4.Text = "00";
+            this.lblAutoD3Reach4.AutoSize = true;
+            this.lblAutoD3Reach4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Reach4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Reach4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Reach4.Location = new System.Drawing.Point(126, 208);
+            this.lblAutoD3Reach4.Name = "lblAutoD3Reach4";
+            this.lblAutoD3Reach4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Reach4.TabIndex = 213;
+            this.lblAutoD3Reach4.Text = "00";
             // 
-            // lblAutoMidMade4
+            // lblAutoD3Cross4
             // 
-            this.lblAutoMidMade4.AutoSize = true;
-            this.lblAutoMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblAutoMidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoMidMade4.Location = new System.Drawing.Point(55, 208);
-            this.lblAutoMidMade4.Name = "lblAutoMidMade4";
-            this.lblAutoMidMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblAutoMidMade4.TabIndex = 212;
-            this.lblAutoMidMade4.Text = "00";
+            this.lblAutoD3Cross4.AutoSize = true;
+            this.lblAutoD3Cross4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoD3Cross4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoD3Cross4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoD3Cross4.Location = new System.Drawing.Point(55, 208);
+            this.lblAutoD3Cross4.Name = "lblAutoD3Cross4";
+            this.lblAutoD3Cross4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoD3Cross4.TabIndex = 212;
+            this.lblAutoD3Cross4.Text = "00";
             // 
             // lblAutoD2Reach4
             // 
@@ -3257,18 +3258,18 @@
             this.lblTeleOpLowAtt4.Text = "00";
             this.lblTeleOpLowAtt4.Visible = false;
             // 
-            // lblTeleOpMidAtt4
+            // lblTeleOpD3Att4
             // 
-            this.lblTeleOpMidAtt4.AutoSize = true;
-            this.lblTeleOpMidAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidAtt4.Location = new System.Drawing.Point(136, 203);
-            this.lblTeleOpMidAtt4.Name = "lblTeleOpMidAtt4";
-            this.lblTeleOpMidAtt4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidAtt4.TabIndex = 208;
-            this.lblTeleOpMidAtt4.Text = "00";
-            this.lblTeleOpMidAtt4.Visible = false;
+            this.lblTeleOpD3Att4.AutoSize = true;
+            this.lblTeleOpD3Att4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Att4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Att4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Att4.Location = new System.Drawing.Point(136, 203);
+            this.lblTeleOpD3Att4.Name = "lblTeleOpD3Att4";
+            this.lblTeleOpD3Att4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Att4.TabIndex = 208;
+            this.lblTeleOpD3Att4.Text = "00";
+            this.lblTeleOpD3Att4.Visible = false;
             // 
             // lblTeleOpD2Att4
             // 
@@ -3321,18 +3322,18 @@
             this.lblTeleOpLowMade4.Text = "00";
             this.lblTeleOpLowMade4.Visible = false;
             // 
-            // lblTeleOpMidMade4
+            // lblTeleOpD3Cross4
             // 
-            this.lblTeleOpMidMade4.AutoSize = true;
-            this.lblTeleOpMidMade4.BackColor = System.Drawing.SystemColors.HighlightText;
-            this.lblTeleOpMidMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpMidMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpMidMade4.Location = new System.Drawing.Point(63, 203);
-            this.lblTeleOpMidMade4.Name = "lblTeleOpMidMade4";
-            this.lblTeleOpMidMade4.Size = new System.Drawing.Size(57, 43);
-            this.lblTeleOpMidMade4.TabIndex = 203;
-            this.lblTeleOpMidMade4.Text = "00";
-            this.lblTeleOpMidMade4.Visible = false;
+            this.lblTeleOpD3Cross4.AutoSize = true;
+            this.lblTeleOpD3Cross4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpD3Cross4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpD3Cross4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpD3Cross4.Location = new System.Drawing.Point(55, 208);
+            this.lblTeleOpD3Cross4.Name = "lblTeleOpD3Cross4";
+            this.lblTeleOpD3Cross4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpD3Cross4.TabIndex = 203;
+            this.lblTeleOpD3Cross4.Text = "00";
+            this.lblTeleOpD3Cross4.Visible = false;
             // 
             // lblTeleOpD2Cross4
             // 
@@ -3590,12 +3591,12 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label lblTeleOpMidMade;
-        private System.Windows.Forms.Label lblAutoMidMade;
+        private System.Windows.Forms.Label lblTeleOpD3Cross;
+        private System.Windows.Forms.Label lblAutoD3Cross;
         private System.Windows.Forms.Label lblAutoLowMade;
         private System.Windows.Forms.Label lblTeleOpLowMade;
-        private System.Windows.Forms.Label lblAutoMidAtt;
-        private System.Windows.Forms.Label lblTeleOpMidAtt;
+        private System.Windows.Forms.Label lblAutoD3Reach;
+        private System.Windows.Forms.Label lblTeleOpD3Att;
         private System.Windows.Forms.Label lblTeleOpLowAtt;
         private System.Windows.Forms.Label lblAutoLowAtt;
         private System.Windows.Forms.Label lblChallengeScale;
@@ -3610,9 +3611,9 @@
         private System.Windows.Forms.Label lblTeleOpD1Att2;
         private System.Windows.Forms.Label lblTeleOpLowMade2;
         private System.Windows.Forms.Label lblTeleOpLowAtt2;
-        private System.Windows.Forms.Label lblTeleOpMidMade2;
+        private System.Windows.Forms.Label lblTeleOpD3Cross2;
         private System.Windows.Forms.Label lblTeleOpD2Att2;
-        private System.Windows.Forms.Label lblTeleOpMidAtt2;
+        private System.Windows.Forms.Label lblTeleOpD3Att2;
         private System.Windows.Forms.Label lblTeleOpD2Cross2;
         private System.Windows.Forms.Label lblTeleOpD1Cross2;
         private System.Windows.Forms.Label label23;
@@ -3632,12 +3633,12 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lblAutoLowAtt3;
-        private System.Windows.Forms.Label lblTeleOpMidAtt3;
+        private System.Windows.Forms.Label lblTeleOpD3Att3;
         private System.Windows.Forms.Label lblTeleOpD2Att3;
         private System.Windows.Forms.Label lblTeleOpD1Att3;
         private System.Windows.Forms.Label lblChallengeScale3;
         private System.Windows.Forms.Label lblTeleOpLowMade3;
-        private System.Windows.Forms.Label lblTeleOpMidMade3;
+        private System.Windows.Forms.Label lblTeleOpD3Cross3;
         private System.Windows.Forms.Label lblTeleOpD2Cross3;
         private System.Windows.Forms.Label lblTeleOpD1Cross3;
         private System.Windows.Forms.Label lbldisplayButtons4;
@@ -3649,12 +3650,12 @@
         private System.Windows.Forms.Label lblAuto4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label lblTeleOpLowAtt4;
-        private System.Windows.Forms.Label lblTeleOpMidAtt4;
+        private System.Windows.Forms.Label lblTeleOpD3Att4;
         private System.Windows.Forms.Label lblTeleOpD2Att4;
         private System.Windows.Forms.Label lblTeleOpD1Att4;
         private System.Windows.Forms.Label lblChallengeScale4;
         private System.Windows.Forms.Label lblTeleOpLowMade4;
-        private System.Windows.Forms.Label lblTeleOpMidMade4;
+        private System.Windows.Forms.Label lblTeleOpD3Cross4;
         private System.Windows.Forms.Label lblTeleOpD2Cross4;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label37;
@@ -3663,12 +3664,12 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label lblTeleOpD1Cross4;
         private System.Windows.Forms.Label lblChallengeScale6;
-        private System.Windows.Forms.Label lblTeleOpMidAtt6;
+        private System.Windows.Forms.Label lblTeleOpD3Att6;
         private System.Windows.Forms.Label lblTeleOpLowAtt6;
         private System.Windows.Forms.Label lblTeleOpD1Att6;
         private System.Windows.Forms.Label lblTeleOpD2Att6;
         private System.Windows.Forms.Label lblTeleOpLowMade6;
-        private System.Windows.Forms.Label lblTeleOpMidMade6;
+        private System.Windows.Forms.Label lblTeleOpD3Cross6;
         private System.Windows.Forms.Label lblTeleOpD2Cross6;
         private System.Windows.Forms.Label label57;
         private System.Windows.Forms.Label label58;
@@ -3678,11 +3679,11 @@
         private System.Windows.Forms.Label lblTeleOpD1Cross6;
         private System.Windows.Forms.Label lblChallengeScale5;
         private System.Windows.Forms.Label lblTeleOpD1Att5;
-        private System.Windows.Forms.Label lblTeleOpMidMade5;
+        private System.Windows.Forms.Label lblTeleOpD3Cross5;
         private System.Windows.Forms.Label lblTeleOpLowMade5;
         private System.Windows.Forms.Label lblTeleOpLowAtt5;
         private System.Windows.Forms.Label lblTeleOpD2Att5;
-        private System.Windows.Forms.Label lblTeleOpMidAtt5;
+        private System.Windows.Forms.Label lblTeleOpD3Att5;
         private System.Windows.Forms.Label lblTeleOpD2Cross5;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label43;
@@ -3692,32 +3693,32 @@
         private System.Windows.Forms.Label lblTeleOpD1Cross5;
         private System.Windows.Forms.Label lblAutoLowMade6;
         private System.Windows.Forms.Label lblAutoLowAtt6;
-        private System.Windows.Forms.Label lblAutoMidMade6;
-        private System.Windows.Forms.Label lblAutoMidAtt6;
+        private System.Windows.Forms.Label lblAutoD3Cross6;
+        private System.Windows.Forms.Label lblAutoD3Reach6;
         private System.Windows.Forms.Label lblAutoD2Reach6;
         private System.Windows.Forms.Label lblAutoD2Cross6;
         private System.Windows.Forms.Label lblAutoLowMade5;
         private System.Windows.Forms.Label lblAutoLowAtt5;
-        private System.Windows.Forms.Label lblAutoMidAtt5;
-        private System.Windows.Forms.Label lblAutoMidMade5;
+        private System.Windows.Forms.Label lblAutoD3Reach5;
+        private System.Windows.Forms.Label lblAutoD3Cross5;
         private System.Windows.Forms.Label lblAutoD2Reach5;
         private System.Windows.Forms.Label lblAutoD2Cross5;
         private System.Windows.Forms.Label lblAutoD2Reach2;
-        private System.Windows.Forms.Label lblAutoMidMade2;
-        private System.Windows.Forms.Label lblAutoMidAtt2;
+        private System.Windows.Forms.Label lblAutoD3Cross2;
+        private System.Windows.Forms.Label lblAutoD3Reach2;
         private System.Windows.Forms.Label lblAutoLowMade2;
         private System.Windows.Forms.Label lblAutoLowAtt2;
         private System.Windows.Forms.Label lblAutoD2Cross2;
-        private System.Windows.Forms.Label lblAutoMidAtt3;
-        private System.Windows.Forms.Label lblAutoMidMade3;
+        private System.Windows.Forms.Label lblAutoD3Reach3;
+        private System.Windows.Forms.Label lblAutoD3Cross3;
         private System.Windows.Forms.Label lblAutoD2Reach3;
         private System.Windows.Forms.Label lblTeleOpLowAtt3;
         private System.Windows.Forms.Label lblAutoLowMade3;
         private System.Windows.Forms.Label lblAutoD2Cross3;
         private System.Windows.Forms.Label lblAutoLowAtt4;
         private System.Windows.Forms.Label lblAutoLowMade4;
-        private System.Windows.Forms.Label lblAutoMidAtt4;
-        private System.Windows.Forms.Label lblAutoMidMade4;
+        private System.Windows.Forms.Label lblAutoD3Reach4;
+        private System.Windows.Forms.Label lblAutoD3Cross4;
         private System.Windows.Forms.Label lblAutoD2Reach4;
         private System.Windows.Forms.Label lblAutoD2Cross4;
         private System.Windows.Forms.Label label51;
