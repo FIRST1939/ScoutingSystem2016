@@ -320,6 +320,66 @@
             this.lblAutoD5Reach6 = new System.Windows.Forms.Label();
             this.lblAutoD5Cross6 = new System.Windows.Forms.Label();
             this.label79 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotMade = new System.Windows.Forms.Label();
+            this.lblAutoHighShotMade = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotAtt = new System.Windows.Forms.Label();
+            this.lblAutoHighShotAtt = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotAtt = new System.Windows.Forms.Label();
+            this.lblAutoLowShotAtt = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotMade = new System.Windows.Forms.Label();
+            this.lblAutoLowShotMade = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotAtt2 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotMade2 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotAtt2 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotMade2 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotMade2 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotAtt2 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotAtt2 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotMade2 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotAtt3 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotMade3 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotAtt3 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotMade3 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotAtt3 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotAtt3 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotMade3 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotMade3 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotAtt4 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotMade4 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotAtt4 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotMade4 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotAtt4 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotAtt4 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotMade4 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotMade4 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotAtt5 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotMade5 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotAtt5 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotMade5 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotMade5 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotAtt5 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotAtt5 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotMade5 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotMade6 = new System.Windows.Forms.Label();
+            this.lblTeleOpLowShotAtt6 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotAtt6 = new System.Windows.Forms.Label();
+            this.lblTeleOpHighShotMade6 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotAtt6 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotAtt6 = new System.Windows.Forms.Label();
+            this.lblAutoLowShotMade6 = new System.Windows.Forms.Label();
+            this.lblAutoHighShotMade6 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
             this.panel6.SuspendLayout();
             this.panel3.SuspendLayout();
             this.lblValanceAttempted2.SuspendLayout();
@@ -335,6 +395,16 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
+            this.panel6.Controls.Add(this.lblTeleOpLowShotMade6);
+            this.panel6.Controls.Add(this.lblTeleOpLowShotAtt6);
+            this.panel6.Controls.Add(this.lblTeleOpHighShotAtt6);
+            this.panel6.Controls.Add(this.lblTeleOpHighShotMade6);
+            this.panel6.Controls.Add(this.lblAutoLowShotAtt6);
+            this.panel6.Controls.Add(this.lblAutoHighShotAtt6);
+            this.panel6.Controls.Add(this.lblAutoLowShotMade6);
+            this.panel6.Controls.Add(this.lblAutoHighShotMade6);
+            this.panel6.Controls.Add(this.label94);
+            this.panel6.Controls.Add(this.label95);
             this.panel6.Controls.Add(this.lblTeleOpD5Cross6);
             this.panel6.Controls.Add(this.lblTeleOpD5Att6);
             this.panel6.Controls.Add(this.lblAutoD5Reach6);
@@ -457,7 +527,7 @@
             // 
             this.lblAutoTotalPoints6.AutoSize = true;
             this.lblAutoTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints6.Location = new System.Drawing.Point(395, 199);
+            this.lblAutoTotalPoints6.Location = new System.Drawing.Point(288, 246);
             this.lblAutoTotalPoints6.Name = "lblAutoTotalPoints6";
             this.lblAutoTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints6.TabIndex = 241;
@@ -477,7 +547,7 @@
             // 
             this.lblTeleOpTotalPoints6.AutoSize = true;
             this.lblTeleOpTotalPoints6.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints6.Location = new System.Drawing.Point(395, 236);
+            this.lblTeleOpTotalPoints6.Location = new System.Drawing.Point(395, 243);
             this.lblTeleOpTotalPoints6.Name = "lblTeleOpTotalPoints6";
             this.lblTeleOpTotalPoints6.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints6.TabIndex = 230;
@@ -497,7 +567,7 @@
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(325, 246);
+            this.label53.Location = new System.Drawing.Point(325, 253);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(64, 23);
             this.label53.TabIndex = 230;
@@ -507,7 +577,7 @@
             // 
             this.label39.AutoSize = true;
             this.label39.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label39.Location = new System.Drawing.Point(339, 209);
+            this.label39.Location = new System.Drawing.Point(232, 256);
             this.label39.Name = "label39";
             this.label39.Size = new System.Drawing.Size(50, 26);
             this.label39.TabIndex = 195;
@@ -835,6 +905,16 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
+            this.panel3.Controls.Add(this.lblTeleOpLowShotAtt5);
+            this.panel3.Controls.Add(this.lblTeleOpLowShotMade5);
+            this.panel3.Controls.Add(this.lblTeleOpHighShotAtt5);
+            this.panel3.Controls.Add(this.lblTeleOpHighShotMade5);
+            this.panel3.Controls.Add(this.lblAutoLowShotMade5);
+            this.panel3.Controls.Add(this.lblAutoHighShotAtt5);
+            this.panel3.Controls.Add(this.lblAutoLowShotAtt5);
+            this.panel3.Controls.Add(this.lblAutoHighShotMade5);
+            this.panel3.Controls.Add(this.label92);
+            this.panel3.Controls.Add(this.label93);
             this.panel3.Controls.Add(this.lblTeleOpD5Cross5);
             this.panel3.Controls.Add(this.lblTeleOpD5Att5);
             this.panel3.Controls.Add(this.lblAutoD5Cross5);
@@ -957,7 +1037,7 @@
             // 
             this.lblTotalPoints5.AutoSize = true;
             this.lblTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints5.Location = new System.Drawing.Point(404, 267);
+            this.lblTotalPoints5.Location = new System.Drawing.Point(404, 274);
             this.lblTotalPoints5.Name = "lblTotalPoints5";
             this.lblTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints5.TabIndex = 229;
@@ -967,7 +1047,7 @@
             // 
             this.lblTeleOpTotalPoints5.AutoSize = true;
             this.lblTeleOpTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints5.Location = new System.Drawing.Point(404, 233);
+            this.lblTeleOpTotalPoints5.Location = new System.Drawing.Point(404, 243);
             this.lblTeleOpTotalPoints5.Name = "lblTeleOpTotalPoints5";
             this.lblTeleOpTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints5.TabIndex = 228;
@@ -977,7 +1057,7 @@
             // 
             this.label56.AutoSize = true;
             this.label56.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(349, 272);
+            this.label56.Location = new System.Drawing.Point(349, 279);
             this.label56.Name = "label56";
             this.label56.Size = new System.Drawing.Size(55, 26);
             this.label56.TabIndex = 227;
@@ -987,7 +1067,7 @@
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(340, 244);
+            this.label54.Location = new System.Drawing.Point(340, 254);
             this.label54.Name = "label54";
             this.label54.Size = new System.Drawing.Size(64, 23);
             this.label54.TabIndex = 226;
@@ -997,7 +1077,7 @@
             // 
             this.lblAutoTotalPoints5.AutoSize = true;
             this.lblAutoTotalPoints5.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints5.Location = new System.Drawing.Point(404, 199);
+            this.lblAutoTotalPoints5.Location = new System.Drawing.Point(298, 248);
             this.lblAutoTotalPoints5.Name = "lblAutoTotalPoints5";
             this.lblAutoTotalPoints5.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints5.TabIndex = 221;
@@ -1007,7 +1087,7 @@
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(354, 203);
+            this.label49.Location = new System.Drawing.Point(248, 252);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(50, 26);
             this.label49.TabIndex = 196;
@@ -1347,6 +1427,16 @@
             // lblValanceAttempted2
             // 
             this.lblValanceAttempted2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpHighShotAtt2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowShotMade2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoLowShotAtt2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpHighShotMade2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoLowShotMade2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoHighShotAtt2);
+            this.lblValanceAttempted2.Controls.Add(this.lblTeleOpLowShotAtt2);
+            this.lblValanceAttempted2.Controls.Add(this.lblAutoHighShotMade2);
+            this.lblValanceAttempted2.Controls.Add(this.label86);
+            this.lblValanceAttempted2.Controls.Add(this.label87);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD5Cross2);
             this.lblValanceAttempted2.Controls.Add(this.lblTeleOpD5Att2);
             this.lblValanceAttempted2.Controls.Add(this.lblAutoD5Cross2);
@@ -1540,7 +1630,7 @@
             // 
             this.lblAutoTotalPoints2.AutoSize = true;
             this.lblAutoTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints2.Location = new System.Drawing.Point(399, 197);
+            this.lblAutoTotalPoints2.Location = new System.Drawing.Point(292, 248);
             this.lblAutoTotalPoints2.Name = "lblAutoTotalPoints2";
             this.lblAutoTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints2.TabIndex = 204;
@@ -1550,7 +1640,7 @@
             // 
             this.lblTeleOpTotalPoints2.AutoSize = true;
             this.lblTeleOpTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(399, 233);
+            this.lblTeleOpTotalPoints2.Location = new System.Drawing.Point(404, 244);
             this.lblTeleOpTotalPoints2.Name = "lblTeleOpTotalPoints2";
             this.lblTeleOpTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints2.TabIndex = 203;
@@ -1560,7 +1650,7 @@
             // 
             this.lblTotalPoints2.AutoSize = true;
             this.lblTotalPoints2.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints2.Location = new System.Drawing.Point(399, 269);
+            this.lblTotalPoints2.Location = new System.Drawing.Point(399, 276);
             this.lblTotalPoints2.Name = "lblTotalPoints2";
             this.lblTotalPoints2.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints2.TabIndex = 195;
@@ -1570,7 +1660,7 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(338, 274);
+            this.label28.Location = new System.Drawing.Point(338, 281);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(55, 26);
             this.label28.TabIndex = 195;
@@ -1580,7 +1670,7 @@
             // 
             this.label27.AutoSize = true;
             this.label27.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(322, 241);
+            this.label27.Location = new System.Drawing.Point(327, 252);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(71, 26);
             this.label27.TabIndex = 195;
@@ -1590,7 +1680,7 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(343, 204);
+            this.label15.Location = new System.Drawing.Point(236, 255);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(50, 26);
             this.label15.TabIndex = 195;
@@ -2002,6 +2092,16 @@
             // panel56
             // 
             this.panel56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.panel56.Controls.Add(this.lblTeleOpLowShotAtt3);
+            this.panel56.Controls.Add(this.lblTeleOpLowShotMade3);
+            this.panel56.Controls.Add(this.lblTeleOpHighShotAtt3);
+            this.panel56.Controls.Add(this.lblTeleOpHighShotMade3);
+            this.panel56.Controls.Add(this.lblAutoLowShotAtt3);
+            this.panel56.Controls.Add(this.lblAutoHighShotAtt3);
+            this.panel56.Controls.Add(this.lblAutoLowShotMade3);
+            this.panel56.Controls.Add(this.lblAutoHighShotMade3);
+            this.panel56.Controls.Add(this.label88);
+            this.panel56.Controls.Add(this.label89);
             this.panel56.Controls.Add(this.lblTeleOpD5Att3);
             this.panel56.Controls.Add(this.lblTeleOpD5Cross3);
             this.panel56.Controls.Add(this.lblAutoD5Reach3);
@@ -2127,7 +2227,7 @@
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(332, 275);
+            this.label51.Location = new System.Drawing.Point(332, 280);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(55, 26);
             this.label51.TabIndex = 211;
@@ -2137,7 +2237,7 @@
             // 
             this.lblTotalPoints3.AutoSize = true;
             this.lblTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints3.Location = new System.Drawing.Point(393, 267);
+            this.lblTotalPoints3.Location = new System.Drawing.Point(393, 272);
             this.lblTotalPoints3.Name = "lblTotalPoints3";
             this.lblTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints3.TabIndex = 217;
@@ -2147,7 +2247,7 @@
             // 
             this.lblTeleOpTotalPoints3.AutoSize = true;
             this.lblTeleOpTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints3.Location = new System.Drawing.Point(393, 231);
+            this.lblTeleOpTotalPoints3.Location = new System.Drawing.Point(393, 241);
             this.lblTeleOpTotalPoints3.Name = "lblTeleOpTotalPoints3";
             this.lblTeleOpTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints3.TabIndex = 216;
@@ -2157,7 +2257,7 @@
             // 
             this.label48.AutoSize = true;
             this.label48.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(333, 241);
+            this.label48.Location = new System.Drawing.Point(333, 251);
             this.label48.Name = "label48";
             this.label48.Size = new System.Drawing.Size(64, 23);
             this.label48.TabIndex = 211;
@@ -2167,7 +2267,7 @@
             // 
             this.lblAutoTotalPoints3.AutoSize = true;
             this.lblAutoTotalPoints3.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints3.Location = new System.Drawing.Point(393, 194);
+            this.lblAutoTotalPoints3.Location = new System.Drawing.Point(274, 249);
             this.lblAutoTotalPoints3.Name = "lblAutoTotalPoints3";
             this.lblAutoTotalPoints3.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints3.TabIndex = 211;
@@ -2177,7 +2277,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(337, 197);
+            this.label29.Location = new System.Drawing.Point(218, 252);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(50, 26);
             this.label29.TabIndex = 211;
@@ -2640,6 +2740,16 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(15)))), ((int)(((byte)(30)))));
+            this.panel1.Controls.Add(this.lblTeleOpLowShotAtt);
+            this.panel1.Controls.Add(this.lblAutoLowShotAtt);
+            this.panel1.Controls.Add(this.lblTeleOpLowShotMade);
+            this.panel1.Controls.Add(this.lblAutoLowShotMade);
+            this.panel1.Controls.Add(this.label81);
+            this.panel1.Controls.Add(this.lblAutoHighShotAtt);
+            this.panel1.Controls.Add(this.lblTeleOpHighShotAtt);
+            this.panel1.Controls.Add(this.lblAutoHighShotMade);
+            this.panel1.Controls.Add(this.lblTeleOpHighShotMade);
+            this.panel1.Controls.Add(this.label45);
             this.panel1.Controls.Add(this.lblTeleOpD5Att);
             this.panel1.Controls.Add(this.lblAutoD5Reach);
             this.panel1.Controls.Add(this.lblTeleOpD5Cross);
@@ -2784,7 +2894,7 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(309, 263);
+            this.label19.Location = new System.Drawing.Point(306, 274);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(55, 26);
             this.label19.TabIndex = 194;
@@ -2794,7 +2904,7 @@
             // 
             this.label18.AutoSize = true;
             this.label18.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(310, 227);
+            this.label18.Location = new System.Drawing.Point(297, 247);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(64, 23);
             this.label18.TabIndex = 193;
@@ -2804,7 +2914,7 @@
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(314, 192);
+            this.label14.Location = new System.Drawing.Point(191, 243);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(50, 26);
             this.label14.TabIndex = 192;
@@ -2814,7 +2924,7 @@
             // 
             this.lblTotalPoints.AutoSize = true;
             this.lblTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints.Location = new System.Drawing.Point(372, 260);
+            this.lblTotalPoints.Location = new System.Drawing.Point(359, 270);
             this.lblTotalPoints.Name = "lblTotalPoints";
             this.lblTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblTotalPoints.TabIndex = 191;
@@ -2824,7 +2934,7 @@
             // 
             this.lblAutoTotalPoints.AutoSize = true;
             this.lblAutoTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints.Location = new System.Drawing.Point(372, 186);
+            this.lblAutoTotalPoints.Location = new System.Drawing.Point(246, 241);
             this.lblAutoTotalPoints.Name = "lblAutoTotalPoints";
             this.lblAutoTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblAutoTotalPoints.TabIndex = 190;
@@ -2835,7 +2945,7 @@
             // 
             this.lblTeleOpTotalPoints.AutoSize = true;
             this.lblTeleOpTotalPoints.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints.Location = new System.Drawing.Point(372, 222);
+            this.lblTeleOpTotalPoints.Location = new System.Drawing.Point(366, 241);
             this.lblTeleOpTotalPoints.Name = "lblTeleOpTotalPoints";
             this.lblTeleOpTotalPoints.Size = new System.Drawing.Size(47, 36);
             this.lblTeleOpTotalPoints.TabIndex = 189;
@@ -2846,7 +2956,7 @@
             this.lblChallengeScale.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblChallengeScale.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblChallengeScale.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblChallengeScale.Location = new System.Drawing.Point(373, 109);
+            this.lblChallengeScale.Location = new System.Drawing.Point(373, 105);
             this.lblChallengeScale.Name = "lblChallengeScale";
             this.lblChallengeScale.Size = new System.Drawing.Size(55, 39);
             this.lblChallengeScale.TabIndex = 188;
@@ -2857,7 +2967,7 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(209, 115);
+            this.label11.Location = new System.Drawing.Point(209, 111);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(156, 26);
             this.label11.TabIndex = 187;
@@ -3057,6 +3167,16 @@
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(143)))));
+            this.panel4.Controls.Add(this.lblTeleOpLowShotAtt4);
+            this.panel4.Controls.Add(this.lblTeleOpLowShotMade4);
+            this.panel4.Controls.Add(this.lblTeleOpHighShotAtt4);
+            this.panel4.Controls.Add(this.lblTeleOpHighShotMade4);
+            this.panel4.Controls.Add(this.lblAutoLowShotAtt4);
+            this.panel4.Controls.Add(this.lblAutoHighShotAtt4);
+            this.panel4.Controls.Add(this.lblAutoLowShotMade4);
+            this.panel4.Controls.Add(this.lblAutoHighShotMade4);
+            this.panel4.Controls.Add(this.label90);
+            this.panel4.Controls.Add(this.label91);
             this.panel4.Controls.Add(this.lblTeleOpD5Att4);
             this.panel4.Controls.Add(this.lblTeleOpD5Cross4);
             this.panel4.Controls.Add(this.lblAutoD5Reach4);
@@ -3177,7 +3297,7 @@
             // 
             this.lblTotalPoints4.AutoSize = true;
             this.lblTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalPoints4.Location = new System.Drawing.Point(397, 271);
+            this.lblTotalPoints4.Location = new System.Drawing.Point(397, 278);
             this.lblTotalPoints4.Name = "lblTotalPoints4";
             this.lblTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblTotalPoints4.TabIndex = 220;
@@ -3187,7 +3307,7 @@
             // 
             this.label55.AutoSize = true;
             this.label55.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(340, 276);
+            this.label55.Location = new System.Drawing.Point(340, 283);
             this.label55.Name = "label55";
             this.label55.Size = new System.Drawing.Size(55, 26);
             this.label55.TabIndex = 219;
@@ -3197,7 +3317,7 @@
             // 
             this.lblAutoTotalPoints4.AutoSize = true;
             this.lblAutoTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTotalPoints4.Location = new System.Drawing.Point(397, 199);
+            this.lblAutoTotalPoints4.Location = new System.Drawing.Point(295, 251);
             this.lblAutoTotalPoints4.Name = "lblAutoTotalPoints4";
             this.lblAutoTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblAutoTotalPoints4.TabIndex = 218;
@@ -3207,7 +3327,7 @@
             // 
             this.lblTeleOpTotalPoints4.AutoSize = true;
             this.lblTeleOpTotalPoints4.Font = new System.Drawing.Font("Impact", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTeleOpTotalPoints4.Location = new System.Drawing.Point(397, 235);
+            this.lblTeleOpTotalPoints4.Location = new System.Drawing.Point(397, 246);
             this.lblTeleOpTotalPoints4.Name = "lblTeleOpTotalPoints4";
             this.lblTeleOpTotalPoints4.Size = new System.Drawing.Size(31, 36);
             this.lblTeleOpTotalPoints4.TabIndex = 217;
@@ -3217,7 +3337,7 @@
             // 
             this.label52.AutoSize = true;
             this.label52.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(331, 246);
+            this.label52.Location = new System.Drawing.Point(331, 257);
             this.label52.Name = "label52";
             this.label52.Size = new System.Drawing.Size(64, 23);
             this.label52.TabIndex = 216;
@@ -3227,7 +3347,7 @@
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(345, 206);
+            this.label50.Location = new System.Drawing.Point(243, 258);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(50, 26);
             this.label50.TabIndex = 197;
@@ -3551,7 +3671,7 @@
             this.lblTeleOpD5Att.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpD5Att.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpD5Att.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpD5Att.Location = new System.Drawing.Point(134, 297);
+            this.lblTeleOpD5Att.Location = new System.Drawing.Point(127, 297);
             this.lblTeleOpD5Att.Name = "lblTeleOpD5Att";
             this.lblTeleOpD5Att.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpD5Att.TabIndex = 230;
@@ -3622,7 +3742,7 @@
             this.lblTeleOpD5Att2.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblTeleOpD5Att2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOpD5Att2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblTeleOpD5Att2.Location = new System.Drawing.Point(151, 294);
+            this.lblTeleOpD5Att2.Location = new System.Drawing.Point(141, 294);
             this.lblTeleOpD5Att2.Name = "lblTeleOpD5Att2";
             this.lblTeleOpD5Att2.Size = new System.Drawing.Size(57, 43);
             this.lblTeleOpD5Att2.TabIndex = 228;
@@ -3903,6 +4023,723 @@
             this.label79.Size = new System.Drawing.Size(52, 26);
             this.label79.TabIndex = 246;
             this.label79.Text = "Def5";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(187, 150);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(90, 26);
+            this.label45.TabIndex = 231;
+            this.label45.Text = "HighShot";
+            // 
+            // lblTeleOpHighShotMade
+            // 
+            this.lblTeleOpHighShotMade.AutoSize = true;
+            this.lblTeleOpHighShotMade.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotMade.Location = new System.Drawing.Point(272, 147);
+            this.lblTeleOpHighShotMade.Name = "lblTeleOpHighShotMade";
+            this.lblTeleOpHighShotMade.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotMade.TabIndex = 232;
+            this.lblTeleOpHighShotMade.Text = "00";
+            // 
+            // lblAutoHighShotMade
+            // 
+            this.lblAutoHighShotMade.AutoSize = true;
+            this.lblAutoHighShotMade.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotMade.Location = new System.Drawing.Point(272, 137);
+            this.lblAutoHighShotMade.Name = "lblAutoHighShotMade";
+            this.lblAutoHighShotMade.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotMade.TabIndex = 233;
+            this.lblAutoHighShotMade.Text = "00";
+            // 
+            // lblTeleOpHighShotAtt
+            // 
+            this.lblTeleOpHighShotAtt.AutoSize = true;
+            this.lblTeleOpHighShotAtt.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotAtt.Location = new System.Drawing.Point(335, 148);
+            this.lblTeleOpHighShotAtt.Name = "lblTeleOpHighShotAtt";
+            this.lblTeleOpHighShotAtt.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotAtt.TabIndex = 234;
+            this.lblTeleOpHighShotAtt.Text = "00";
+            // 
+            // lblAutoHighShotAtt
+            // 
+            this.lblAutoHighShotAtt.AutoSize = true;
+            this.lblAutoHighShotAtt.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotAtt.Location = new System.Drawing.Point(341, 149);
+            this.lblAutoHighShotAtt.Name = "lblAutoHighShotAtt";
+            this.lblAutoHighShotAtt.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotAtt.TabIndex = 235;
+            this.lblAutoHighShotAtt.Text = "00";
+            // 
+            // lblTeleOpLowShotAtt
+            // 
+            this.lblTeleOpLowShotAtt.AutoSize = true;
+            this.lblTeleOpLowShotAtt.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotAtt.Location = new System.Drawing.Point(338, 201);
+            this.lblTeleOpLowShotAtt.Name = "lblTeleOpLowShotAtt";
+            this.lblTeleOpLowShotAtt.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotAtt.TabIndex = 240;
+            this.lblTeleOpLowShotAtt.Text = "00";
+            // 
+            // lblAutoLowShotAtt
+            // 
+            this.lblAutoLowShotAtt.AutoSize = true;
+            this.lblAutoLowShotAtt.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotAtt.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotAtt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotAtt.Location = new System.Drawing.Point(334, 198);
+            this.lblAutoLowShotAtt.Name = "lblAutoLowShotAtt";
+            this.lblAutoLowShotAtt.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotAtt.TabIndex = 239;
+            this.lblAutoLowShotAtt.Text = "00";
+            // 
+            // lblTeleOpLowShotMade
+            // 
+            this.lblTeleOpLowShotMade.AutoSize = true;
+            this.lblTeleOpLowShotMade.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotMade.Location = new System.Drawing.Point(269, 200);
+            this.lblTeleOpLowShotMade.Name = "lblTeleOpLowShotMade";
+            this.lblTeleOpLowShotMade.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotMade.TabIndex = 238;
+            this.lblTeleOpLowShotMade.Text = "00";
+            // 
+            // lblAutoLowShotMade
+            // 
+            this.lblAutoLowShotMade.AutoSize = true;
+            this.lblAutoLowShotMade.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotMade.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotMade.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotMade.Location = new System.Drawing.Point(271, 197);
+            this.lblAutoLowShotMade.Name = "lblAutoLowShotMade";
+            this.lblAutoLowShotMade.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotMade.TabIndex = 237;
+            this.lblAutoLowShotMade.Text = "00";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.Location = new System.Drawing.Point(186, 200);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(83, 26);
+            this.label81.TabIndex = 236;
+            this.label81.Text = "LowShot";
+            this.label81.Click += new System.EventHandler(this.label81_Click);
+            // 
+            // lblTeleOpHighShotAtt2
+            // 
+            this.lblTeleOpHighShotAtt2.AutoSize = true;
+            this.lblTeleOpHighShotAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotAtt2.Location = new System.Drawing.Point(374, 143);
+            this.lblTeleOpHighShotAtt2.Name = "lblTeleOpHighShotAtt2";
+            this.lblTeleOpHighShotAtt2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotAtt2.TabIndex = 239;
+            this.lblTeleOpHighShotAtt2.Text = "00";
+            // 
+            // lblTeleOpLowShotMade2
+            // 
+            this.lblTeleOpLowShotMade2.AutoSize = true;
+            this.lblTeleOpLowShotMade2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotMade2.Location = new System.Drawing.Point(310, 202);
+            this.lblTeleOpLowShotMade2.Name = "lblTeleOpLowShotMade2";
+            this.lblTeleOpLowShotMade2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotMade2.TabIndex = 238;
+            this.lblTeleOpLowShotMade2.Text = "00";
+            // 
+            // lblAutoLowShotAtt2
+            // 
+            this.lblAutoLowShotAtt2.AutoSize = true;
+            this.lblAutoLowShotAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotAtt2.Location = new System.Drawing.Point(376, 198);
+            this.lblAutoLowShotAtt2.Name = "lblAutoLowShotAtt2";
+            this.lblAutoLowShotAtt2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotAtt2.TabIndex = 237;
+            this.lblAutoLowShotAtt2.Text = "00";
+            // 
+            // lblTeleOpHighShotMade2
+            // 
+            this.lblTeleOpHighShotMade2.AutoSize = true;
+            this.lblTeleOpHighShotMade2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotMade2.Location = new System.Drawing.Point(312, 145);
+            this.lblTeleOpHighShotMade2.Name = "lblTeleOpHighShotMade2";
+            this.lblTeleOpHighShotMade2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotMade2.TabIndex = 236;
+            this.lblTeleOpHighShotMade2.Text = "00";
+            // 
+            // lblAutoLowShotMade2
+            // 
+            this.lblAutoLowShotMade2.AutoSize = true;
+            this.lblAutoLowShotMade2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotMade2.Location = new System.Drawing.Point(315, 196);
+            this.lblAutoLowShotMade2.Name = "lblAutoLowShotMade2";
+            this.lblAutoLowShotMade2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotMade2.TabIndex = 235;
+            this.lblAutoLowShotMade2.Text = "00";
+            this.lblAutoLowShotMade2.Visible = false;
+            // 
+            // lblAutoHighShotAtt2
+            // 
+            this.lblAutoHighShotAtt2.AutoSize = true;
+            this.lblAutoHighShotAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotAtt2.Location = new System.Drawing.Point(378, 148);
+            this.lblAutoHighShotAtt2.Name = "lblAutoHighShotAtt2";
+            this.lblAutoHighShotAtt2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotAtt2.TabIndex = 234;
+            this.lblAutoHighShotAtt2.Text = "00";
+            this.lblAutoHighShotAtt2.Visible = false;
+            // 
+            // lblTeleOpLowShotAtt2
+            // 
+            this.lblTeleOpLowShotAtt2.AutoSize = true;
+            this.lblTeleOpLowShotAtt2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotAtt2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotAtt2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotAtt2.Location = new System.Drawing.Point(381, 201);
+            this.lblTeleOpLowShotAtt2.Name = "lblTeleOpLowShotAtt2";
+            this.lblTeleOpLowShotAtt2.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotAtt2.TabIndex = 233;
+            this.lblTeleOpLowShotAtt2.Text = "00";
+            this.lblTeleOpLowShotAtt2.Visible = false;
+            // 
+            // lblAutoHighShotMade2
+            // 
+            this.lblAutoHighShotMade2.AutoSize = true;
+            this.lblAutoHighShotMade2.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotMade2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotMade2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotMade2.Location = new System.Drawing.Point(314, 149);
+            this.lblAutoHighShotMade2.Name = "lblAutoHighShotMade2";
+            this.lblAutoHighShotMade2.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotMade2.TabIndex = 232;
+            this.lblAutoHighShotMade2.Text = "00";
+            this.lblAutoHighShotMade2.Visible = false;
+            // 
+            // label86
+            // 
+            this.label86.AutoSize = true;
+            this.label86.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.Location = new System.Drawing.Point(219, 204);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(83, 26);
+            this.label86.TabIndex = 230;
+            this.label86.Text = "LowShot";
+            // 
+            // label87
+            // 
+            this.label87.AutoSize = true;
+            this.label87.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.Location = new System.Drawing.Point(218, 160);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(90, 26);
+            this.label87.TabIndex = 231;
+            this.label87.Text = "HighShot";
+            // 
+            // lblTeleOpLowShotAtt3
+            // 
+            this.lblTeleOpLowShotAtt3.AutoSize = true;
+            this.lblTeleOpLowShotAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotAtt3.Location = new System.Drawing.Point(346, 202);
+            this.lblTeleOpLowShotAtt3.Name = "lblTeleOpLowShotAtt3";
+            this.lblTeleOpLowShotAtt3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotAtt3.TabIndex = 240;
+            this.lblTeleOpLowShotAtt3.Text = "00";
+            // 
+            // lblTeleOpLowShotMade3
+            // 
+            this.lblTeleOpLowShotMade3.AutoSize = true;
+            this.lblTeleOpLowShotMade3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotMade3.Location = new System.Drawing.Point(282, 202);
+            this.lblTeleOpLowShotMade3.Name = "lblTeleOpLowShotMade3";
+            this.lblTeleOpLowShotMade3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotMade3.TabIndex = 239;
+            this.lblTeleOpLowShotMade3.Text = "00";
+            // 
+            // lblTeleOpHighShotAtt3
+            // 
+            this.lblTeleOpHighShotAtt3.AutoSize = true;
+            this.lblTeleOpHighShotAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotAtt3.Location = new System.Drawing.Point(347, 147);
+            this.lblTeleOpHighShotAtt3.Name = "lblTeleOpHighShotAtt3";
+            this.lblTeleOpHighShotAtt3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotAtt3.TabIndex = 238;
+            this.lblTeleOpHighShotAtt3.Text = "00";
+            // 
+            // lblTeleOpHighShotMade3
+            // 
+            this.lblTeleOpHighShotMade3.AutoSize = true;
+            this.lblTeleOpHighShotMade3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotMade3.Location = new System.Drawing.Point(283, 148);
+            this.lblTeleOpHighShotMade3.Name = "lblTeleOpHighShotMade3";
+            this.lblTeleOpHighShotMade3.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotMade3.TabIndex = 237;
+            this.lblTeleOpHighShotMade3.Text = "00";
+            // 
+            // lblAutoLowShotAtt3
+            // 
+            this.lblAutoLowShotAtt3.AutoSize = true;
+            this.lblAutoLowShotAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotAtt3.Location = new System.Drawing.Point(350, 198);
+            this.lblAutoLowShotAtt3.Name = "lblAutoLowShotAtt3";
+            this.lblAutoLowShotAtt3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotAtt3.TabIndex = 236;
+            this.lblAutoLowShotAtt3.Text = "00";
+            this.lblAutoLowShotAtt3.Visible = false;
+            // 
+            // lblAutoHighShotAtt3
+            // 
+            this.lblAutoHighShotAtt3.AutoSize = true;
+            this.lblAutoHighShotAtt3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotAtt3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotAtt3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotAtt3.Location = new System.Drawing.Point(350, 150);
+            this.lblAutoHighShotAtt3.Name = "lblAutoHighShotAtt3";
+            this.lblAutoHighShotAtt3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotAtt3.TabIndex = 235;
+            this.lblAutoHighShotAtt3.Text = "00";
+            this.lblAutoHighShotAtt3.Visible = false;
+            // 
+            // lblAutoLowShotMade3
+            // 
+            this.lblAutoLowShotMade3.AutoSize = true;
+            this.lblAutoLowShotMade3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotMade3.Location = new System.Drawing.Point(287, 198);
+            this.lblAutoLowShotMade3.Name = "lblAutoLowShotMade3";
+            this.lblAutoLowShotMade3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotMade3.TabIndex = 234;
+            this.lblAutoLowShotMade3.Text = "00";
+            this.lblAutoLowShotMade3.Visible = false;
+            // 
+            // lblAutoHighShotMade3
+            // 
+            this.lblAutoHighShotMade3.AutoSize = true;
+            this.lblAutoHighShotMade3.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotMade3.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotMade3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotMade3.Location = new System.Drawing.Point(287, 152);
+            this.lblAutoHighShotMade3.Name = "lblAutoHighShotMade3";
+            this.lblAutoHighShotMade3.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotMade3.TabIndex = 231;
+            this.lblAutoHighShotMade3.Text = "00";
+            this.lblAutoHighShotMade3.Visible = false;
+            // 
+            // label88
+            // 
+            this.label88.AutoSize = true;
+            this.label88.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.Location = new System.Drawing.Point(194, 210);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(83, 26);
+            this.label88.TabIndex = 232;
+            this.label88.Text = "LowShot";
+            // 
+            // label89
+            // 
+            this.label89.AutoSize = true;
+            this.label89.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.Location = new System.Drawing.Point(194, 164);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(90, 26);
+            this.label89.TabIndex = 233;
+            this.label89.Text = "HighShot";
+            // 
+            // lblTeleOpLowShotAtt4
+            // 
+            this.lblTeleOpLowShotAtt4.AutoSize = true;
+            this.lblTeleOpLowShotAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotAtt4.Location = new System.Drawing.Point(368, 204);
+            this.lblTeleOpLowShotAtt4.Name = "lblTeleOpLowShotAtt4";
+            this.lblTeleOpLowShotAtt4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotAtt4.TabIndex = 241;
+            this.lblTeleOpLowShotAtt4.Text = "00";
+            // 
+            // lblTeleOpLowShotMade4
+            // 
+            this.lblTeleOpLowShotMade4.AutoSize = true;
+            this.lblTeleOpLowShotMade4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotMade4.Location = new System.Drawing.Point(296, 205);
+            this.lblTeleOpLowShotMade4.Name = "lblTeleOpLowShotMade4";
+            this.lblTeleOpLowShotMade4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotMade4.TabIndex = 240;
+            this.lblTeleOpLowShotMade4.Text = "00";
+            // 
+            // lblTeleOpHighShotAtt4
+            // 
+            this.lblTeleOpHighShotAtt4.AutoSize = true;
+            this.lblTeleOpHighShotAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotAtt4.Location = new System.Drawing.Point(367, 147);
+            this.lblTeleOpHighShotAtt4.Name = "lblTeleOpHighShotAtt4";
+            this.lblTeleOpHighShotAtt4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotAtt4.TabIndex = 239;
+            this.lblTeleOpHighShotAtt4.Text = "00";
+            // 
+            // lblTeleOpHighShotMade4
+            // 
+            this.lblTeleOpHighShotMade4.AutoSize = true;
+            this.lblTeleOpHighShotMade4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotMade4.Location = new System.Drawing.Point(296, 147);
+            this.lblTeleOpHighShotMade4.Name = "lblTeleOpHighShotMade4";
+            this.lblTeleOpHighShotMade4.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotMade4.TabIndex = 238;
+            this.lblTeleOpHighShotMade4.Text = "00";
+            // 
+            // lblAutoLowShotAtt4
+            // 
+            this.lblAutoLowShotAtt4.AutoSize = true;
+            this.lblAutoLowShotAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotAtt4.Location = new System.Drawing.Point(373, 198);
+            this.lblAutoLowShotAtt4.Name = "lblAutoLowShotAtt4";
+            this.lblAutoLowShotAtt4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotAtt4.TabIndex = 237;
+            this.lblAutoLowShotAtt4.Text = "00";
+            this.lblAutoLowShotAtt4.Visible = false;
+            // 
+            // lblAutoHighShotAtt4
+            // 
+            this.lblAutoHighShotAtt4.AutoSize = true;
+            this.lblAutoHighShotAtt4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotAtt4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotAtt4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotAtt4.Location = new System.Drawing.Point(371, 152);
+            this.lblAutoHighShotAtt4.Name = "lblAutoHighShotAtt4";
+            this.lblAutoHighShotAtt4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotAtt4.TabIndex = 236;
+            this.lblAutoHighShotAtt4.Text = "00";
+            this.lblAutoHighShotAtt4.Visible = false;
+            // 
+            // lblAutoLowShotMade4
+            // 
+            this.lblAutoLowShotMade4.AutoSize = true;
+            this.lblAutoLowShotMade4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotMade4.Location = new System.Drawing.Point(300, 199);
+            this.lblAutoLowShotMade4.Name = "lblAutoLowShotMade4";
+            this.lblAutoLowShotMade4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotMade4.TabIndex = 235;
+            this.lblAutoLowShotMade4.Text = "00";
+            this.lblAutoLowShotMade4.Visible = false;
+            // 
+            // lblAutoHighShotMade4
+            // 
+            this.lblAutoHighShotMade4.AutoSize = true;
+            this.lblAutoHighShotMade4.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotMade4.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotMade4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotMade4.Location = new System.Drawing.Point(300, 152);
+            this.lblAutoHighShotMade4.Name = "lblAutoHighShotMade4";
+            this.lblAutoHighShotMade4.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotMade4.TabIndex = 234;
+            this.lblAutoHighShotMade4.Text = "00";
+            this.lblAutoHighShotMade4.Visible = false;
+            // 
+            // label90
+            // 
+            this.label90.AutoSize = true;
+            this.label90.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label90.Location = new System.Drawing.Point(205, 164);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(90, 26);
+            this.label90.TabIndex = 233;
+            this.label90.Text = "HighShot";
+            // 
+            // label91
+            // 
+            this.label91.AutoSize = true;
+            this.label91.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.Location = new System.Drawing.Point(204, 211);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(83, 26);
+            this.label91.TabIndex = 232;
+            this.label91.Text = "LowShot";
+            // 
+            // lblTeleOpLowShotAtt5
+            // 
+            this.lblTeleOpLowShotAtt5.AutoSize = true;
+            this.lblTeleOpLowShotAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotAtt5.Location = new System.Drawing.Point(377, 201);
+            this.lblTeleOpLowShotAtt5.Name = "lblTeleOpLowShotAtt5";
+            this.lblTeleOpLowShotAtt5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotAtt5.TabIndex = 249;
+            this.lblTeleOpLowShotAtt5.Text = "00";
+            // 
+            // lblTeleOpLowShotMade5
+            // 
+            this.lblTeleOpLowShotMade5.AutoSize = true;
+            this.lblTeleOpLowShotMade5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotMade5.Location = new System.Drawing.Point(304, 201);
+            this.lblTeleOpLowShotMade5.Name = "lblTeleOpLowShotMade5";
+            this.lblTeleOpLowShotMade5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotMade5.TabIndex = 248;
+            this.lblTeleOpLowShotMade5.Text = "00";
+            // 
+            // lblTeleOpHighShotAtt5
+            // 
+            this.lblTeleOpHighShotAtt5.AutoSize = true;
+            this.lblTeleOpHighShotAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotAtt5.Location = new System.Drawing.Point(368, 146);
+            this.lblTeleOpHighShotAtt5.Name = "lblTeleOpHighShotAtt5";
+            this.lblTeleOpHighShotAtt5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotAtt5.TabIndex = 247;
+            this.lblTeleOpHighShotAtt5.Text = "00";
+            // 
+            // lblTeleOpHighShotMade5
+            // 
+            this.lblTeleOpHighShotMade5.AutoSize = true;
+            this.lblTeleOpHighShotMade5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotMade5.Location = new System.Drawing.Point(296, 145);
+            this.lblTeleOpHighShotMade5.Name = "lblTeleOpHighShotMade5";
+            this.lblTeleOpHighShotMade5.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotMade5.TabIndex = 246;
+            this.lblTeleOpHighShotMade5.Text = "00";
+            // 
+            // lblAutoLowShotMade5
+            // 
+            this.lblAutoLowShotMade5.AutoSize = true;
+            this.lblAutoLowShotMade5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotMade5.Location = new System.Drawing.Point(299, 195);
+            this.lblAutoLowShotMade5.Name = "lblAutoLowShotMade5";
+            this.lblAutoLowShotMade5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotMade5.TabIndex = 245;
+            this.lblAutoLowShotMade5.Text = "00";
+            this.lblAutoLowShotMade5.Visible = false;
+            // 
+            // lblAutoHighShotAtt5
+            // 
+            this.lblAutoHighShotAtt5.AutoSize = true;
+            this.lblAutoHighShotAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotAtt5.Location = new System.Drawing.Point(372, 151);
+            this.lblAutoHighShotAtt5.Name = "lblAutoHighShotAtt5";
+            this.lblAutoHighShotAtt5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotAtt5.TabIndex = 244;
+            this.lblAutoHighShotAtt5.Text = "00";
+            this.lblAutoHighShotAtt5.Visible = false;
+            // 
+            // lblAutoLowShotAtt5
+            // 
+            this.lblAutoLowShotAtt5.AutoSize = true;
+            this.lblAutoLowShotAtt5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotAtt5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotAtt5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotAtt5.Location = new System.Drawing.Point(372, 195);
+            this.lblAutoLowShotAtt5.Name = "lblAutoLowShotAtt5";
+            this.lblAutoLowShotAtt5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotAtt5.TabIndex = 243;
+            this.lblAutoLowShotAtt5.Text = "00";
+            this.lblAutoLowShotAtt5.Visible = false;
+            // 
+            // lblAutoHighShotMade5
+            // 
+            this.lblAutoHighShotMade5.AutoSize = true;
+            this.lblAutoHighShotMade5.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotMade5.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotMade5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotMade5.Location = new System.Drawing.Point(303, 149);
+            this.lblAutoHighShotMade5.Name = "lblAutoHighShotMade5";
+            this.lblAutoHighShotMade5.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotMade5.TabIndex = 242;
+            this.lblAutoHighShotMade5.Text = "00";
+            this.lblAutoHighShotMade5.Visible = false;
+            // 
+            // label92
+            // 
+            this.label92.AutoSize = true;
+            this.label92.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.Location = new System.Drawing.Point(209, 163);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(90, 26);
+            this.label92.TabIndex = 240;
+            this.label92.Text = "HighShot";
+            // 
+            // label93
+            // 
+            this.label93.AutoSize = true;
+            this.label93.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.Location = new System.Drawing.Point(209, 201);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(83, 26);
+            this.label93.TabIndex = 241;
+            this.label93.Text = "LowShot";
+            // 
+            // lblTeleOpLowShotMade6
+            // 
+            this.lblTeleOpLowShotMade6.AutoSize = true;
+            this.lblTeleOpLowShotMade6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotMade6.Location = new System.Drawing.Point(294, 204);
+            this.lblTeleOpLowShotMade6.Name = "lblTeleOpLowShotMade6";
+            this.lblTeleOpLowShotMade6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotMade6.TabIndex = 260;
+            this.lblTeleOpLowShotMade6.Text = "00";
+            // 
+            // lblTeleOpLowShotAtt6
+            // 
+            this.lblTeleOpLowShotAtt6.AutoSize = true;
+            this.lblTeleOpLowShotAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpLowShotAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpLowShotAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpLowShotAtt6.Location = new System.Drawing.Point(368, 204);
+            this.lblTeleOpLowShotAtt6.Name = "lblTeleOpLowShotAtt6";
+            this.lblTeleOpLowShotAtt6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpLowShotAtt6.TabIndex = 259;
+            this.lblTeleOpLowShotAtt6.Text = "00";
+            // 
+            // lblTeleOpHighShotAtt6
+            // 
+            this.lblTeleOpHighShotAtt6.AutoSize = true;
+            this.lblTeleOpHighShotAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotAtt6.Location = new System.Drawing.Point(368, 145);
+            this.lblTeleOpHighShotAtt6.Name = "lblTeleOpHighShotAtt6";
+            this.lblTeleOpHighShotAtt6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotAtt6.TabIndex = 258;
+            this.lblTeleOpHighShotAtt6.Text = "00";
+            // 
+            // lblTeleOpHighShotMade6
+            // 
+            this.lblTeleOpHighShotMade6.AutoSize = true;
+            this.lblTeleOpHighShotMade6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblTeleOpHighShotMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTeleOpHighShotMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblTeleOpHighShotMade6.Location = new System.Drawing.Point(295, 145);
+            this.lblTeleOpHighShotMade6.Name = "lblTeleOpHighShotMade6";
+            this.lblTeleOpHighShotMade6.Size = new System.Drawing.Size(57, 43);
+            this.lblTeleOpHighShotMade6.TabIndex = 257;
+            this.lblTeleOpHighShotMade6.Text = "00";
+            // 
+            // lblAutoLowShotAtt6
+            // 
+            this.lblAutoLowShotAtt6.AutoSize = true;
+            this.lblAutoLowShotAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotAtt6.Location = new System.Drawing.Point(372, 197);
+            this.lblAutoLowShotAtt6.Name = "lblAutoLowShotAtt6";
+            this.lblAutoLowShotAtt6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotAtt6.TabIndex = 256;
+            this.lblAutoLowShotAtt6.Text = "00";
+            this.lblAutoLowShotAtt6.Visible = false;
+            // 
+            // lblAutoHighShotAtt6
+            // 
+            this.lblAutoHighShotAtt6.AutoSize = true;
+            this.lblAutoHighShotAtt6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotAtt6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotAtt6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotAtt6.Location = new System.Drawing.Point(372, 150);
+            this.lblAutoHighShotAtt6.Name = "lblAutoHighShotAtt6";
+            this.lblAutoHighShotAtt6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotAtt6.TabIndex = 255;
+            this.lblAutoHighShotAtt6.Text = "00";
+            this.lblAutoHighShotAtt6.Visible = false;
+            // 
+            // lblAutoLowShotMade6
+            // 
+            this.lblAutoLowShotMade6.AutoSize = true;
+            this.lblAutoLowShotMade6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoLowShotMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoLowShotMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoLowShotMade6.Location = new System.Drawing.Point(299, 197);
+            this.lblAutoLowShotMade6.Name = "lblAutoLowShotMade6";
+            this.lblAutoLowShotMade6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoLowShotMade6.TabIndex = 254;
+            this.lblAutoLowShotMade6.Text = "00";
+            this.lblAutoLowShotMade6.Visible = false;
+            // 
+            // lblAutoHighShotMade6
+            // 
+            this.lblAutoHighShotMade6.AutoSize = true;
+            this.lblAutoHighShotMade6.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.lblAutoHighShotMade6.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoHighShotMade6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lblAutoHighShotMade6.Location = new System.Drawing.Point(299, 150);
+            this.lblAutoHighShotMade6.Name = "lblAutoHighShotMade6";
+            this.lblAutoHighShotMade6.Size = new System.Drawing.Size(57, 43);
+            this.lblAutoHighShotMade6.TabIndex = 253;
+            this.lblAutoHighShotMade6.Text = "00";
+            this.lblAutoHighShotMade6.Visible = false;
+            // 
+            // label94
+            // 
+            this.label94.AutoSize = true;
+            this.label94.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.Location = new System.Drawing.Point(208, 162);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(90, 26);
+            this.label94.TabIndex = 251;
+            this.label94.Text = "HighShot";
+            // 
+            // label95
+            // 
+            this.label95.AutoSize = true;
+            this.label95.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.Location = new System.Drawing.Point(206, 206);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(83, 26);
+            this.label95.TabIndex = 252;
+            this.label95.Text = "LowShot";
             // 
             // Form1
             // 
@@ -4239,6 +5076,66 @@
         private System.Windows.Forms.Label lblAutoD5Reach4;
         private System.Windows.Forms.Label lblAutoD5Cross4;
         private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.Label lblTeleOpLowShotAtt;
+        private System.Windows.Forms.Label lblAutoLowShotAtt;
+        private System.Windows.Forms.Label lblTeleOpLowShotMade;
+        private System.Windows.Forms.Label lblAutoLowShotMade;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.Label lblAutoHighShotAtt;
+        private System.Windows.Forms.Label lblTeleOpHighShotAtt;
+        private System.Windows.Forms.Label lblAutoHighShotMade;
+        private System.Windows.Forms.Label lblTeleOpHighShotMade;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label lblTeleOpHighShotAtt2;
+        private System.Windows.Forms.Label lblTeleOpLowShotMade2;
+        private System.Windows.Forms.Label lblAutoLowShotAtt2;
+        private System.Windows.Forms.Label lblTeleOpHighShotMade2;
+        private System.Windows.Forms.Label lblAutoLowShotMade2;
+        private System.Windows.Forms.Label lblAutoHighShotAtt2;
+        private System.Windows.Forms.Label lblTeleOpLowShotAtt2;
+        private System.Windows.Forms.Label lblAutoHighShotMade2;
+        private System.Windows.Forms.Label label86;
+        private System.Windows.Forms.Label label87;
+        private System.Windows.Forms.Label lblTeleOpLowShotAtt3;
+        private System.Windows.Forms.Label lblTeleOpLowShotMade3;
+        private System.Windows.Forms.Label lblTeleOpHighShotAtt3;
+        private System.Windows.Forms.Label lblTeleOpHighShotMade3;
+        private System.Windows.Forms.Label lblAutoLowShotAtt3;
+        private System.Windows.Forms.Label lblAutoHighShotAtt3;
+        private System.Windows.Forms.Label lblAutoLowShotMade3;
+        private System.Windows.Forms.Label lblAutoHighShotMade3;
+        private System.Windows.Forms.Label label88;
+        private System.Windows.Forms.Label label89;
+        private System.Windows.Forms.Label lblTeleOpLowShotAtt4;
+        private System.Windows.Forms.Label lblTeleOpLowShotMade4;
+        private System.Windows.Forms.Label lblTeleOpHighShotAtt4;
+        private System.Windows.Forms.Label lblTeleOpHighShotMade4;
+        private System.Windows.Forms.Label lblAutoLowShotAtt4;
+        private System.Windows.Forms.Label lblAutoHighShotAtt4;
+        private System.Windows.Forms.Label lblAutoLowShotMade4;
+        private System.Windows.Forms.Label lblAutoHighShotMade4;
+        private System.Windows.Forms.Label label90;
+        private System.Windows.Forms.Label label91;
+        private System.Windows.Forms.Label lblTeleOpLowShotMade6;
+        private System.Windows.Forms.Label lblTeleOpLowShotAtt6;
+        private System.Windows.Forms.Label lblTeleOpHighShotAtt6;
+        private System.Windows.Forms.Label lblTeleOpHighShotMade6;
+        private System.Windows.Forms.Label lblAutoLowShotAtt6;
+        private System.Windows.Forms.Label lblAutoHighShotAtt6;
+        private System.Windows.Forms.Label lblAutoLowShotMade6;
+        private System.Windows.Forms.Label lblAutoHighShotMade6;
+        private System.Windows.Forms.Label label94;
+        private System.Windows.Forms.Label label95;
+        private System.Windows.Forms.Label lblTeleOpLowShotAtt5;
+        private System.Windows.Forms.Label lblTeleOpLowShotMade5;
+        private System.Windows.Forms.Label lblTeleOpHighShotAtt5;
+        private System.Windows.Forms.Label lblTeleOpHighShotMade5;
+        private System.Windows.Forms.Label lblAutoLowShotMade5;
+        private System.Windows.Forms.Label lblAutoHighShotAtt5;
+        private System.Windows.Forms.Label lblAutoLowShotAtt5;
+        private System.Windows.Forms.Label lblAutoHighShotMade5;
+        private System.Windows.Forms.Label label92;
+        private System.Windows.Forms.Label label93;
     }
 }
 
