@@ -13,6 +13,16 @@ namespace MultipleJoysticks
         bool[] FinshedScoring = { false, false, false, false, false, false };
 
         //Arrays that hold the values for the made and attempt numbers of the frisbee scoring
+        // Defense 5 
+        int[] displayDefense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense5Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense5Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense5Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense5Reach = { 0, 0, 0, 0, 0, 0 };
+
         // 1 point frisbees
         int[] displayDefense4Cross = { 0, 0, 0, 0, 0, 0 };
         int[] defense4Cross = { 0, 0, 0, 0, 0, 0 };
@@ -104,6 +114,10 @@ namespace MultipleJoysticks
             public const int Defense4CrossPlus = 17;
             public const int Defense4AttMinus = 18;
             public const int Defense4AttPlus = 19;
+            public const int Defense5CrossMinus = 22;
+            public const int Defense5CrossPlus = 23;
+            public const int Defense5AttMinus = 24;
+            public const int Defense5AttPlus = 25;
             public const int ChallengeScalePlus = 20;
             public const int FinishedScoring = 21;
         }
@@ -195,6 +209,18 @@ namespace MultipleJoysticks
                 case "DEFENSE4ATTPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.Defense4AttPlus] = buttons;
                     break;
+                case "DEFENSE5CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5CrossMinus] = buttons;
+                    break;
+                case "DEFENSE5CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5CrossPlus] = buttons;
+                    break;
+                case "DEFENSE5ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5AttMinus] = buttons;
+                    break;
+                case "DEFENSE5ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5AttPlus] = buttons;
+                    break;
                 case "CHALLENGESCALEPLUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.ChallengeScalePlus] = buttons;
                     break;
@@ -229,7 +255,7 @@ namespace MultipleJoysticks
             }
         }
 
-        void UpdateScores(int id)
+        void UpdateScores(int id)   //COOK George, this one is yours to fix.
         {
             autoTotalPoints[id] = (autoDefense2Cross[id] * 6) +
                     (autoDefense3Cross[id] * 4) +
@@ -293,6 +319,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att.Visible = true;
                 lblAutoD4Cross.Visible = false;
                 lblTeleOpD4Cross.Visible = true;
+                lblAutoD5Reach.Visible = false;
+                lblTeleOpD5Att.Visible = true;
+                lblAutoD5Cross.Visible = false;
+                lblTeleOpD5Cross.Visible = true;
                 lblChallengeScale.Visible = true;
             }
             if (AutonomousMode[0])
@@ -315,6 +345,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att.Visible = false;
                 lblAutoD4Cross.Visible = true;
                 lblTeleOpD4Cross.Visible = false;
+                lblAutoD5Reach.Visible = true;
+                lblTeleOpD5Att.Visible = false;
+                lblAutoD5Cross.Visible = true;
+                lblTeleOpD5Cross.Visible = false;
                 lblChallengeScale.Visible = false;
             }
             //Defense Rating
@@ -343,6 +377,12 @@ namespace MultipleJoysticks
             lblTeleOpD4Att.Text = displayDefense4Att[0].ToString();
             lblAutoD4Cross.Text = autoDisplayDefense4Cross[0].ToString();
             lblAutoD4Reach.Text = autoDisplayDefense4Reach[0].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross.Text = displayDefense5Cross[0].ToString();
+            lblTeleOpD5Att.Text = displayDefense5Att[0].ToString();
+            lblAutoD5Cross.Text = autoDisplayDefense5Cross[0].ToString();
+            lblAutoD5Reach.Text = autoDisplayDefense5Reach[0].ToString();
 
             // Robot Climb
             lblChallengeScale.Text = challengeScale[0].ToString();
@@ -380,6 +420,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att2.Visible = true;
                 lblAutoD4Cross2.Visible = false;
                 lblTeleOpD4Cross2.Visible = true;
+                lblAutoD5Reach2.Visible = false;
+                lblTeleOpD5Att2.Visible = true;
+                lblAutoD5Cross2.Visible = false;
+                lblTeleOpD5Cross2.Visible = true;
                 lblChallengeScale2.Visible = true;
             }
             if (AutonomousMode[1])
@@ -402,6 +446,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att2.Visible = false;
                 lblAutoD4Cross2.Visible = true;
                 lblTeleOpD4Cross2.Visible = false;
+                lblAutoD5Reach2.Visible = true;
+                lblTeleOpD5Att2.Visible = false;
+                lblAutoD5Cross2.Visible = true;
+                lblTeleOpD5Cross2.Visible = false;
                 lblChallengeScale2.Visible = false;
             }
             //Defense Rating
@@ -430,6 +478,12 @@ namespace MultipleJoysticks
             lblTeleOpD4Att2.Text = displayDefense4Att[1].ToString();
             lblAutoD4Cross2.Text = autoDisplayDefense4Cross[1].ToString();
             lblAutoD4Reach2.Text = autoDisplayDefense4Reach[1].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross2.Text = displayDefense5Cross[1].ToString();
+            lblTeleOpD5Att2.Text = displayDefense5Att[1].ToString();
+            lblAutoD5Cross2.Text = autoDisplayDefense5Cross[1].ToString();
+            lblAutoD5Reach2.Text = autoDisplayDefense5Reach[1].ToString();
 
             // Robot Climb
             lblChallengeScale2.Text = challengeScale[1].ToString();
@@ -466,6 +520,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att3.Visible = true;
                 lblAutoD4Cross3.Visible = false;
                 lblTeleOpD4Cross3.Visible = true;
+                lblAutoD5Reach3.Visible = false;
+                lblTeleOpD5Att3.Visible = true;
+                lblAutoD5Cross3.Visible = false;
+                lblTeleOpD5Cross3.Visible = true;
                 lblChallengeScale3.Visible = true;
             }
             if (AutonomousMode[2])
@@ -488,6 +546,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att3.Visible = false;
                 lblAutoD4Cross3.Visible = true;
                 lblTeleOpD4Cross3.Visible = false;
+                lblAutoD5Reach3.Visible = true;
+                lblTeleOpD5Att3.Visible = false;
+                lblAutoD5Cross3.Visible = true;
+                lblTeleOpD5Cross3.Visible = false;
                 lblChallengeScale3.Visible = false;
             }
             //Defense Rating
@@ -516,6 +578,12 @@ namespace MultipleJoysticks
             lblTeleOpD4Att3.Text = displayDefense4Att[2].ToString();
             lblAutoD4Cross3.Text = autoDisplayDefense4Cross[2].ToString();
             lblAutoD4Reach3.Text = autoDisplayDefense4Reach[2].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross3.Text = displayDefense5Cross[2].ToString();
+            lblTeleOpD5Att3.Text = displayDefense5Att[2].ToString();
+            lblAutoD5Cross3.Text = autoDisplayDefense5Cross[2].ToString();
+            lblAutoD5Reach3.Text = autoDisplayDefense5Reach[2].ToString();
 
             // Robot Climb
             lblChallengeScale3.Text = challengeScale[2].ToString();
@@ -553,6 +621,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att4.Visible = true;
                 lblAutoD4Cross4.Visible = false;
                 lblTeleOpD4Cross4.Visible = true;
+                lblAutoD5Reach4.Visible = false;
+                lblTeleOpD5Att4.Visible = true;
+                lblAutoD5Cross4.Visible = false;
+                lblTeleOpD5Cross4.Visible = true;
                 lblChallengeScale4.Visible = true;
             }
             if (AutonomousMode[3])
@@ -575,6 +647,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att4.Visible = false;
                 lblAutoD4Cross4.Visible = true;
                 lblTeleOpD4Cross4.Visible = false;
+                lblAutoD5Reach4.Visible = true;
+                lblTeleOpD5Att4.Visible = false;
+                lblAutoD5Cross4.Visible = true;
+                lblTeleOpD5Cross4.Visible = false;
                 lblChallengeScale4.Visible = false;
             }
             //Defense Rating
@@ -603,6 +679,12 @@ namespace MultipleJoysticks
             lblTeleOpD4Att4.Text = displayDefense4Att[3].ToString();
             lblAutoD4Cross4.Text = autoDisplayDefense4Cross[3].ToString();
             lblAutoD4Reach4.Text = autoDisplayDefense4Reach[3].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross4.Text = displayDefense5Cross[3].ToString();
+            lblTeleOpD5Att4.Text = displayDefense5Att[3].ToString();
+            lblAutoD5Cross4.Text = autoDisplayDefense5Cross[3].ToString();
+            lblAutoD5Reach4.Text = autoDisplayDefense5Reach[3].ToString();
 
             // Robot Climb
             lblChallengeScale4.Text = challengeScale[3].ToString();
@@ -640,6 +722,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att5.Visible = true;
                 lblAutoD4Cross5.Visible = false;
                 lblTeleOpD4Cross5.Visible = true;
+                lblAutoD5Reach5.Visible = false;
+                lblTeleOpD5Att5.Visible = true;
+                lblAutoD5Cross5.Visible = false;
+                lblTeleOpD5Cross5.Visible = true;
                 lblChallengeScale5.Visible = true;
             }
             if (AutonomousMode[4])
@@ -662,6 +748,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att5.Visible = false;
                 lblAutoD4Cross5.Visible = true;
                 lblTeleOpD4Cross5.Visible = false;
+                lblAutoD5Reach5.Visible = true;
+                lblTeleOpD5Att5.Visible = false;
+                lblAutoD5Cross5.Visible = true;
+                lblTeleOpD5Cross5.Visible = false;
                 lblChallengeScale5.Visible = false;
             }
             //Defense Rating
@@ -690,6 +780,12 @@ namespace MultipleJoysticks
             lblTeleOpD4Att5.Text = displayDefense4Att[4].ToString();
             lblAutoD4Cross5.Text = autoDisplayDefense4Cross[4].ToString();
             lblAutoD4Reach5.Text = autoDisplayDefense4Reach[4].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross5.Text = displayDefense5Cross[4].ToString();
+            lblTeleOpD5Att5.Text = displayDefense5Att[4].ToString();
+            lblAutoD5Cross5.Text = autoDisplayDefense5Cross[4].ToString();
+            lblAutoD5Reach5.Text = autoDisplayDefense5Reach[4].ToString();
 
             // Robot Climb
             lblChallengeScale5.Text = challengeScale[4].ToString();
@@ -727,6 +823,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att6.Visible = true;
                 lblAutoD4Cross6.Visible = false;
                 lblTeleOpD4Cross6.Visible = true;
+                lblAutoD5Reach6.Visible = false;
+                lblTeleOpD5Att6.Visible = true;
+                lblAutoD5Cross6.Visible = false;
+                lblTeleOpD5Cross6.Visible = true;
                 lblChallengeScale6.Visible = true;
             }
             if (AutonomousMode[5])
@@ -749,6 +849,10 @@ namespace MultipleJoysticks
                 lblTeleOpD4Att6.Visible = false;
                 lblAutoD4Cross6.Visible = true;
                 lblTeleOpD4Cross6.Visible = false;
+                lblAutoD5Reach6.Visible = true;
+                lblTeleOpD5Att6.Visible = false;
+                lblAutoD5Cross6.Visible = true;
+                lblTeleOpD5Cross6.Visible = false;
                 lblChallengeScale6.Visible = false;
             }
             //Defense Rating
@@ -777,6 +881,12 @@ namespace MultipleJoysticks
             lblTeleOpD4Att6.Text = displayDefense4Att[5].ToString();
             lblAutoD4Cross6.Text = autoDisplayDefense4Cross[5].ToString();
             lblAutoD4Reach6.Text = autoDisplayDefense4Reach[5].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross6.Text = displayDefense5Cross[5].ToString();
+            lblTeleOpD5Att6.Text = displayDefense5Att[5].ToString();
+            lblAutoD5Cross6.Text = autoDisplayDefense5Cross[5].ToString();
+            lblAutoD5Reach6.Text = autoDisplayDefense5Reach[5].ToString();
 
             // Robot Climb
             lblChallengeScale6.Text = challengeScale[5].ToString();
@@ -978,6 +1088,59 @@ namespace MultipleJoysticks
                         autoDisplayDefense4Cross[id] = autoDefense4Cross[id];
                         autoDefense4Reach[id]++;
                         autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
+                    }
+
+                    break;
+
+                case (GameCommands.Defense5AttPlus):
+                    if (TeleOp[id])
+                    {
+                        defense5Att[id]++;
+                        displayDefense5Att[id] = defense5Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense5Reach[id]++;
+                        autoDisplayDefense5Reach[id] = autoDefense5Reach[id];
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense5CrossMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense5Cross[id] > 0)
+                        {
+                            defense5Cross[id]--;
+                            displayDefense5Cross[id] = defense5Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense5Cross[id] > 0)
+                        {
+                            autoDefense5Cross[id]--;
+                            autoDisplayDefense5Cross[id] = autoDefense5Cross[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense5CrossPlus):
+                    if (TeleOp[id])
+                    {
+                        defense5Cross[id]++;
+                        displayDefense5Cross[id] = defense5Cross[id];
+                        defense5Att[id]++;
+                        displayDefense5Att[id] = defense5Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense5Cross[id]++;
+                        autoDisplayDefense5Cross[id] = autoDefense5Cross[id];
+                        autoDefense5Reach[id]++;
+                        autoDisplayDefense5Reach[id] = autoDefense5Reach[id];
                     }
 
                     break;
@@ -1199,6 +1362,14 @@ namespace MultipleJoysticks
 
                 for (int f = 0; f < 6; f++)
                 {
+                    displayDefense5Cross[f] = 0;
+                    displayDefense5Att[f] = 0;
+                    defense5Cross[f] = 0;
+                    defense5Att[f] = 0;
+                    autoDisplayDefense5Cross[f] = 0;
+                    autoDefense5Cross[f] = 0;
+                    autoDisplayDefense5Reach[f] = 0;
+                    autoDefense5Reach[f] = 0;
                     displayDefense4Cross[f] = 0;
                     displayDefense4Att[f] = 0;
                     defense4Cross[f] = 0;
@@ -1290,6 +1461,14 @@ namespace MultipleJoysticks
 
             for (int f = 0; f < 6; f++)
             {
+                displayDefense5Cross[f] = 0;
+                displayDefense5Att[f] = 0;
+                defense5Cross[f] = 0;
+                defense5Att[f] = 0;
+                autoDisplayDefense5Cross[f] = 0;
+                autoDefense5Cross[f] = 0;
+                autoDisplayDefense5Reach[f] = 0;
+                autoDefense5Reach[f] = 0;
                 displayDefense4Cross[f] = 0;
                 displayDefense4Att[f] = 0;
                 defense4Cross[f] = 0;
@@ -1351,12 +1530,12 @@ namespace MultipleJoysticks
         {
             // A single writeline section to handle both save buttons.
             // Added Match to the end of each record
-            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x + lblTeleOpD4Att.Text + x + lblChallengeScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoD1Cross2.Text + x + lblAutoD1Reach2.Text + x + lblAutoD2Cross2.Text + x + lblAutoD2Reach2.Text + x + lblAutoD3Cross2.Text + x + lblAutoD3Reach2.Text + x + lblAutoD4Cross2.Text + x + lblAutoD4Reach2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpD1Cross2.Text + x + lblTeleOpD1Att2.Text + x + lblTeleOpD2Cross2.Text + x + lblTeleOpD2Att2.Text + x + lblTeleOpD3Cross2.Text + x + lblTeleOpD3Att2.Text + x + lblTeleOpD4Cross2.Text + x + lblTeleOpD4Att2.Text + x + lblChallengeScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoD1Cross3.Text + x + lblAutoD1Reach3.Text + x + lblAutoD2Cross3.Text + x + lblAutoD2Reach3.Text + x + lblAutoD3Cross3.Text + x + lblAutoD3Reach3.Text + x + lblAutoD4Cross3.Text + x + lblAutoD4Reach3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpD1Cross3.Text + x + lblTeleOpD1Att3.Text + x + lblTeleOpD2Cross3.Text + x + lblTeleOpD2Att3.Text + x + lblTeleOpD3Cross3.Text + x + lblTeleOpD3Att3.Text + x + lblTeleOpD4Cross3.Text + x + lblTeleOpD4Att3.Text + x + lblChallengeScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoD1Cross4.Text + x + lblAutoD1Reach4.Text + x + lblAutoD2Cross4.Text + x + lblAutoD2Reach4.Text + x + lblAutoD3Cross4.Text + x + lblAutoD3Reach4.Text + x + lblAutoD4Cross4.Text + x + lblAutoD4Reach4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpD1Cross4.Text + x + lblTeleOpD1Att4.Text + x + lblTeleOpD2Cross4.Text + x + lblTeleOpD2Att4.Text + x + lblTeleOpD3Cross4.Text + x + lblTeleOpD3Att4.Text + x + lblTeleOpD4Cross4.Text + x + lblTeleOpD4Att4.Text + x + lblChallengeScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoD1Cross5.Text + x + lblAutoD1Reach5.Text + x + lblAutoD2Cross5.Text + x + lblAutoD2Reach5.Text + x + lblAutoD3Cross5.Text + x + lblAutoD3Reach5.Text + x + lblAutoD4Cross5.Text + x + lblAutoD4Reach5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpD1Cross5.Text + x + lblTeleOpD1Att5.Text + x + lblTeleOpD2Cross5.Text + x + lblTeleOpD2Att5.Text + x + lblTeleOpD3Cross5.Text + x + lblTeleOpD3Att5.Text + x + lblTeleOpD4Cross5.Text + x + lblTeleOpD4Att5.Text + x + lblChallengeScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoD1Cross6.Text + x + lblAutoD1Reach6.Text + x + lblAutoD2Cross6.Text + x + lblAutoD2Reach6.Text + x + lblAutoD3Cross6.Text + x + lblAutoD3Reach6.Text + x + lblAutoD4Cross6.Text + x + lblAutoD4Reach6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpD1Cross6.Text + x + lblTeleOpD1Att6.Text + x + lblTeleOpD2Cross6.Text + x + lblTeleOpD2Att6.Text + x + lblTeleOpD3Cross6.Text + x + lblTeleOpD3Att6.Text + x + lblTeleOpD4Cross6.Text + x + lblTeleOpD4Att6.Text + x + lblChallengeScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoD5Cross.Text + x + lblAutoD5Reach.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x  + lblTeleOpD4Att.Text + x + lblTeleOpD5Cross.Text + x + lblTeleOpD5Att.Text + x + lblChallengeScale.Text + x + lblTeleOpD4Att.Text + x + lblChallengeScale.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoD1Cross2.Text + x + lblAutoD1Reach2.Text + x + lblAutoD2Cross2.Text + x + lblAutoD2Reach2.Text + x + lblAutoD3Cross2.Text + x + lblAutoD3Reach2.Text + x + lblAutoD4Cross2.Text + x + lblAutoD4Reach2.Text + x + lblAutoD5Cross2.Text + x + lblAutoD5Reach2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpD1Cross2.Text + x + lblTeleOpD1Att2.Text + x + lblTeleOpD2Cross2.Text + x + lblTeleOpD2Att2.Text + x + lblTeleOpD3Cross2.Text + x + lblTeleOpD3Att2.Text + x + lblTeleOpD4Cross2.Text + x + lblTeleOpD4Att2.Text + x + lblTeleOpD5Cross2.Text + x + lblTeleOpD5Att2.Text + x + lblChallengeScale2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoD1Cross3.Text + x + lblAutoD1Reach3.Text + x + lblAutoD2Cross3.Text + x + lblAutoD2Reach3.Text + x + lblAutoD3Cross3.Text + x + lblAutoD3Reach3.Text + x + lblAutoD4Cross3.Text + x + lblAutoD4Reach3.Text + x + lblAutoD5Cross3.Text + x + lblAutoD5Reach3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpD1Cross3.Text + x + lblTeleOpD1Att3.Text + x + lblTeleOpD2Cross3.Text + x + lblTeleOpD2Att3.Text + x + lblTeleOpD3Cross3.Text + x + lblTeleOpD3Att3.Text + x + lblTeleOpD4Cross3.Text + x + lblTeleOpD4Att3.Text + x + lblTeleOpD5Cross3.Text + x + lblTeleOpD5Att3.Text + x + lblChallengeScale3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoD1Cross4.Text + x + lblAutoD1Reach4.Text + x + lblAutoD2Cross4.Text + x + lblAutoD2Reach4.Text + x + lblAutoD3Cross4.Text + x + lblAutoD3Reach4.Text + x + lblAutoD4Cross4.Text + x + lblAutoD4Reach4.Text + x + lblAutoD5Cross4.Text + x + lblAutoD5Reach4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpD1Cross4.Text + x + lblTeleOpD1Att4.Text + x + lblTeleOpD2Cross4.Text + x + lblTeleOpD2Att4.Text + x + lblTeleOpD3Cross4.Text + x + lblTeleOpD3Att4.Text + x + lblTeleOpD4Cross4.Text + x + lblTeleOpD4Att4.Text + x + lblTeleOpD5Cross4.Text + x + lblTeleOpD5Att4.Text + x + lblChallengeScale4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoD1Cross5.Text + x + lblAutoD1Reach5.Text + x + lblAutoD2Cross5.Text + x + lblAutoD2Reach5.Text + x + lblAutoD3Cross5.Text + x + lblAutoD3Reach5.Text + x + lblAutoD4Cross5.Text + x + lblAutoD4Reach5.Text + x + lblAutoD5Cross5.Text + x + lblAutoD5Reach5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpD1Cross5.Text + x + lblTeleOpD1Att5.Text + x + lblTeleOpD2Cross5.Text + x + lblTeleOpD2Att5.Text + x + lblTeleOpD3Cross5.Text + x + lblTeleOpD3Att5.Text + x + lblTeleOpD4Cross5.Text + x + lblTeleOpD4Att5.Text + x + lblTeleOpD5Cross5.Text + x + lblTeleOpD5Att5.Text + x + lblChallengeScale5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoD1Cross6.Text + x + lblAutoD1Reach6.Text + x + lblAutoD2Cross6.Text + x + lblAutoD2Reach6.Text + x + lblAutoD3Cross6.Text + x + lblAutoD3Reach6.Text + x + lblAutoD4Cross6.Text + x + lblAutoD4Reach6.Text + x + lblAutoD5Cross6.Text + x + lblAutoD5Reach6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpD1Cross6.Text + x + lblTeleOpD1Att6.Text + x + lblTeleOpD2Cross6.Text + x + lblTeleOpD2Att6.Text + x + lblTeleOpD3Cross6.Text + x + lblTeleOpD3Att6.Text + x + lblTeleOpD4Cross6.Text + x + lblTeleOpD4Att6.Text + x + lblTeleOpD5Cross6.Text + x + lblTeleOpD5Att6.Text + x + lblChallengeScale6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
 
 
 
