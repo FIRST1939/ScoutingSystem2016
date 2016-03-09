@@ -12,13 +12,7 @@ namespace MultipleJoysticks
     public partial class GamePadControl : UserControl
     {
         public String[] ControllerCommands = new String[22];
-        private GamePad gamePad;
-
-        public GamePad GamePad
-        {
-            get { return gamePad; } 
-            set { gamePad = value; }
-        }
+        public GamePad GamePad = new GamePad();
 
         public GamePadControl()
         {
