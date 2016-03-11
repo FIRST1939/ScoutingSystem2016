@@ -677,18 +677,11 @@ namespace MultipleJoysticks
                     FinshedScoring = !FinshedScoring;
 
                     break;
-
-                default:
-
-                    break;
                 case (GameCommands.ControllerSwitch1):
-                    
+
 
                     break;
 
-                default:
-
-                    break;
                 case (GameCommands.ControllerSwitch2):
 
 
@@ -698,156 +691,157 @@ namespace MultipleJoysticks
 
                     break;
             }
-        }
 
             lbldisplayButtons1.Text = GetButtonDisplay(strButtonMap);
-        }
 
-        private string GetButtonDisplay(string strButtonMap)
+    }
+
+    private string GetButtonDisplay(string strButtonMap)
+    {
+        var result = "";
+        for (int i = 0; i < strButtonMap.Length; i++)
         {
-            var result = "";
-            for (int i = 0; i < strButtonMap.Length; i++)
+            if (strButtonMap[i] == 'T')
             {
-                if (strButtonMap[i] == 'T')
-                {
-                    result += i.ToString("00 ", CultureInfo.CurrentCulture);
-                }
+                result += i.ToString("00 ", CultureInfo.CurrentCulture);
             }
-            return result;
         }
+        return result;
+    }
 
 
-        void tm1939UpdateController()
+    void tm1939UpdateController()
+    {
+        if (TeleOp)
         {
-            if (TeleOp)
-            {
-                lblAuto.Visible = false;
-                lblTeleOp.Visible = true;
-                lblAutoD1Reach.Visible = false;
-                lblTeleOpD1Att.Visible = true;
-                lblAutoD1Cross.Visible = false;
-                lblTeleOpD1Cross.Visible = true;
-                lblAutoD2Reach.Visible = false;
-                lblTeleOpD2Att.Visible = true;
-                lblAutoD2Cross.Visible = false;
-                lblTeleOpD2Cross.Visible = true;
-                lblAutoD3Reach.Visible = false;
-                lblTeleOpD3Att.Visible = true;
-                lblAutoD3Cross.Visible = false;
-                lblTeleOpD3Cross.Visible = true;
-                lblAutoD4Reach.Visible = false;
-                lblTeleOpD4Att.Visible = true;
-                lblAutoD4Cross.Visible = false;
-                lblTeleOpD4Cross.Visible = true;
-                lblAutoD5Reach.Visible = false;
-                lblTeleOpD5Att.Visible = true;
-                lblAutoD5Cross.Visible = false;
-                lblTeleOpD5Cross.Visible = true;
-                lblAutoHighShotAtt.Visible = false;
-                lblTeleOpHighShotAtt.Visible = true;
-                lblAutoHighShotMade.Visible = false;
-                lblTeleOpHighShotMade.Visible = true;
-                lblAutoLowShotAtt.Visible = false;
-                lblTeleOpLowShotAtt.Visible = true;
-                lblAutoLowShotMade.Visible = false;
-                lblTeleOpLowShotMade.Visible = true;
-                lblChallengeScale.Visible = true;
-            }
-            if (AutonomousMode)
-            {
-                lblAuto.Visible = true;
-                lblTeleOp.Visible = false;
-                lblAutoD1Reach.Visible = true;
-                lblTeleOpD1Att.Visible = false;
-                lblAutoD1Cross.Visible = true;
-                lblTeleOpD1Cross.Visible = false;
-                lblAutoD2Reach.Visible = true;
-                lblTeleOpD2Att.Visible = false;
-                lblAutoD2Cross.Visible = true;
-                lblTeleOpD2Cross.Visible = false;
-                lblAutoD3Reach.Visible = true;
-                lblTeleOpD3Att.Visible = false;
-                lblAutoD3Cross.Visible = true;
-                lblTeleOpD3Cross.Visible = false;
-                lblAutoD4Reach.Visible = true;
-                lblTeleOpD4Att.Visible = false;
-                lblAutoD4Cross.Visible = true;
-                lblTeleOpD4Cross.Visible = false;
-                lblAutoD5Reach.Visible = true;
-                lblTeleOpD5Att.Visible = false;
-                lblAutoD5Cross.Visible = true;
-                lblTeleOpD5Cross.Visible = false;
-                lblAutoHighShotAtt.Visible = true;
-                lblTeleOpHighShotAtt.Visible = false;
-                lblAutoHighShotMade.Visible = true;
-                lblTeleOpHighShotMade.Visible = false;
-                lblAutoLowShotAtt.Visible = true;
-                lblTeleOpLowShotAtt.Visible = false;
-                lblAutoLowShotMade.Visible = true;
-                lblTeleOpLowShotMade.Visible = false;
-                lblChallengeScale.Visible = false;
-            }
-            //Defense Rating
-            lblDefense.Text = displayDefenseRating.ToString();
 
-            // Pyramid Goals
-            lblTeleOpD1Cross.Text = displayDefense1Cross.ToString();
-            lblTeleOpD1Att.Text = displayDefense1Att.ToString();
-            lblAutoD1Cross.Text = autoDisplayDefense1Cross.ToString();
-            lblAutoD1Reach.Text = autoDisplayDefense1Reach.ToString();
-
-            // High Goals
-            lblTeleOpD2Cross.Text = displayDefense2Cross.ToString();
-            lblTeleOpD2Att.Text = displayDefense2Att.ToString();
-            lblAutoD2Cross.Text = autoDisplayDefense2Cross.ToString();
-            lblAutoD2Reach.Text = autoDisplayDefense2Reach.ToString();
-
-            // Mid Goals
-            lblTeleOpD3Cross.Text = displayDefense3Cross.ToString();
-            lblTeleOpD3Att.Text = displayDefense3Att.ToString();
-            lblAutoD3Cross.Text = autoDisplayDefense3Cross.ToString();
-            lblAutoD3Reach.Text = autoDisplayDefense3Reach.ToString();
-
-            // Low Goals
-            lblTeleOpD4Cross.Text = displayDefense4Cross.ToString();
-            lblTeleOpD4Att.Text = displayDefense4Att.ToString();
-            lblAutoD4Cross.Text = autoDisplayDefense4Cross.ToString();
-            lblAutoD4Reach.Text = autoDisplayDefense4Reach.ToString();
-
-            // Defense 5
-            lblTeleOpD5Cross.Text = displayDefense5Cross.ToString();
-            lblTeleOpD5Att.Text = displayDefense5Att.ToString();
-            lblAutoD5Cross.Text = autoDisplayDefense5Cross.ToString();
-            lblAutoD5Reach.Text = autoDisplayDefense5Reach.ToString();
-
-            // High Boulder Shot 
-            lblTeleOpHighShotMade.Text = displayHighShotMade.ToString();
-            lblTeleOpHighShotAtt.Text = displayHighShotAtt.ToString();
-            lblAutoHighShotMade.Text = autoDisplayHighShotMade.ToString();
-            lblAutoHighShotAtt.Text = autoDisplayHighShotAtt.ToString();
-
-            // Low Boulder Shot
-            lblTeleOpLowShotMade.Text = displayLowShotMade.ToString();
-            lblTeleOpLowShotAtt.Text = displayLowShotAtt.ToString();
-            lblAutoLowShotMade.Text = autoDisplayLowShotMade.ToString();
-            lblAutoLowShotAtt.Text = autoDisplayLowShotAtt.ToString();
-
-            // Robot Climb
-            lblChallengeScale.Text = challengeScale.ToString();
-
-            lblTeleOpTotalPoints.Text = teleOpTotalPoints.ToString();
-            lblAutoTotalPoints.Text = autoTotalPoints.ToString();
-            lblTotalPoints.Text = (autoTotalPoints + teleOpTotalPoints + challengeScale).ToString();
-            if (FinshedScoring)
-                lblTeleOp.ForeColor = Color.DarkGreen;
-            else
-                lblTeleOp.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
-
+            lblAuto.Visible = false;
+            lblTeleOp.Visible = true;
+            lblAutoD1Reach.Visible = false;
+            lblTeleOpD1Att.Visible = true;
+            lblAutoD1Cross.Visible = false;
+            lblTeleOpD1Cross.Visible = true;
+            lblAutoD2Reach.Visible = false;
+            lblTeleOpD2Att.Visible = true;
+            lblAutoD2Cross.Visible = false;
+            lblTeleOpD2Cross.Visible = true;
+            lblAutoD3Reach.Visible = false;
+            lblTeleOpD3Att.Visible = true;
+            lblAutoD3Cross.Visible = false;
+            lblTeleOpD3Cross.Visible = true;
+            lblAutoD4Reach.Visible = false;
+            lblTeleOpD4Att.Visible = true;
+            lblAutoD4Cross.Visible = false;
+            lblTeleOpD4Cross.Visible = true;
+            lblAutoD5Reach.Visible = false;
+            lblTeleOpD5Att.Visible = true;
+            lblAutoD5Cross.Visible = false;
+            lblTeleOpD5Cross.Visible = true;
+            lblAutoHighShotAtt.Visible = false;
+            lblTeleOpHighShotAtt.Visible = true;
+            lblAutoHighShotMade.Visible = false;
+            lblTeleOpHighShotMade.Visible = true;
+            lblAutoLowShotAtt.Visible = false;
+            lblTeleOpLowShotAtt.Visible = true;
+            lblAutoLowShotMade.Visible = false;
+            lblTeleOpLowShotMade.Visible = true;
+            lblChallengeScale.Visible = true;
         }
+        if (AutonomousMode)
+        {
+            lblAuto.Visible = true;
+            lblTeleOp.Visible = false;
+            lblAutoD1Reach.Visible = true;
+            lblTeleOpD1Att.Visible = false;
+            lblAutoD1Cross.Visible = true;
+            lblTeleOpD1Cross.Visible = false;
+            lblAutoD2Reach.Visible = true;
+            lblTeleOpD2Att.Visible = false;
+            lblAutoD2Cross.Visible = true;
+            lblTeleOpD2Cross.Visible = false;
+            lblAutoD3Reach.Visible = true;
+            lblTeleOpD3Att.Visible = false;
+            lblAutoD3Cross.Visible = true;
+            lblTeleOpD3Cross.Visible = false;
+            lblAutoD4Reach.Visible = true;
+            lblTeleOpD4Att.Visible = false;
+            lblAutoD4Cross.Visible = true;
+            lblTeleOpD4Cross.Visible = false;
+            lblAutoD5Reach.Visible = true;
+            lblTeleOpD5Att.Visible = false;
+            lblAutoD5Cross.Visible = true;
+            lblTeleOpD5Cross.Visible = false;
+            lblAutoHighShotAtt.Visible = true;
+            lblTeleOpHighShotAtt.Visible = false;
+            lblAutoHighShotMade.Visible = true;
+            lblTeleOpHighShotMade.Visible = false;
+            lblAutoLowShotAtt.Visible = true;
+            lblTeleOpLowShotAtt.Visible = false;
+            lblAutoLowShotMade.Visible = true;
+            lblTeleOpLowShotMade.Visible = false;
+            lblChallengeScale.Visible = false;
+        }
+        //Defense Rating
+        lblDefense.Text = displayDefenseRating.ToString();
 
-        // -------------BUTTONS
+        // Pyramid Goals
+        lblTeleOpD1Cross.Text = displayDefense1Cross.ToString();
+        lblTeleOpD1Att.Text = displayDefense1Att.ToString();
+        lblAutoD1Cross.Text = autoDisplayDefense1Cross.ToString();
+        lblAutoD1Reach.Text = autoDisplayDefense1Reach.ToString();
 
-        private void btnScouter1_Click(object sender, EventArgs e)
+        // High Goals
+        lblTeleOpD2Cross.Text = displayDefense2Cross.ToString();
+        lblTeleOpD2Att.Text = displayDefense2Att.ToString();
+        lblAutoD2Cross.Text = autoDisplayDefense2Cross.ToString();
+        lblAutoD2Reach.Text = autoDisplayDefense2Reach.ToString();
+
+        // Mid Goals
+        lblTeleOpD3Cross.Text = displayDefense3Cross.ToString();
+        lblTeleOpD3Att.Text = displayDefense3Att.ToString();
+        lblAutoD3Cross.Text = autoDisplayDefense3Cross.ToString();
+        lblAutoD3Reach.Text = autoDisplayDefense3Reach.ToString();
+
+        // Low Goals
+        lblTeleOpD4Cross.Text = displayDefense4Cross.ToString();
+        lblTeleOpD4Att.Text = displayDefense4Att.ToString();
+        lblAutoD4Cross.Text = autoDisplayDefense4Cross.ToString();
+        lblAutoD4Reach.Text = autoDisplayDefense4Reach.ToString();
+
+        // Defense 5
+        lblTeleOpD5Cross.Text = displayDefense5Cross.ToString();
+        lblTeleOpD5Att.Text = displayDefense5Att.ToString();
+        lblAutoD5Cross.Text = autoDisplayDefense5Cross.ToString();
+        lblAutoD5Reach.Text = autoDisplayDefense5Reach.ToString();
+
+        // High Boulder Shot 
+        lblTeleOpHighShotMade.Text = displayHighShotMade.ToString();
+        lblTeleOpHighShotAtt.Text = displayHighShotAtt.ToString();
+        lblAutoHighShotMade.Text = autoDisplayHighShotMade.ToString();
+        lblAutoHighShotAtt.Text = autoDisplayHighShotAtt.ToString();
+
+        // Low Boulder Shot
+        lblTeleOpLowShotMade.Text = displayLowShotMade.ToString();
+        lblTeleOpLowShotAtt.Text = displayLowShotAtt.ToString();
+        lblAutoLowShotMade.Text = autoDisplayLowShotMade.ToString();
+        lblAutoLowShotAtt.Text = autoDisplayLowShotAtt.ToString();
+
+        // Robot Climb
+        lblChallengeScale.Text = challengeScale.ToString();
+
+        lblTeleOpTotalPoints.Text = teleOpTotalPoints.ToString();
+        lblAutoTotalPoints.Text = autoTotalPoints.ToString();
+        lblTotalPoints.Text = (autoTotalPoints + teleOpTotalPoints + challengeScale).ToString();
+        if (FinshedScoring)
+            lblTeleOp.ForeColor = Color.DarkGreen;
+        else
+            lblTeleOp.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+
+    }
+
+    // -------------BUTTONS
+
+    private void btnScouter1_Click(object sender, EventArgs e)
         {
             lblScouter1.Text = textBoxScout1.Text;
             textBoxScout1.Visible = false;

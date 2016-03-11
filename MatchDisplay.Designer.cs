@@ -79,7 +79,7 @@
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
             this.button3.Location = new System.Drawing.Point(796, 6);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(144, 33);
+            this.button3.Size = new System.Drawing.Size(144, 29);
             this.button3.TabIndex = 226;
             this.button3.Text = "Set Up Teams and ";
             this.button3.UseVisualStyleBackColor = false;
@@ -221,7 +221,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(1343, 737);
+            this.ClientSize = new System.Drawing.Size(1343, 733);
             this.Controls.Add(this.btnSkip);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.gamePad6);

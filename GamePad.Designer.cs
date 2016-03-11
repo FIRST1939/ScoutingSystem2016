@@ -85,6 +85,7 @@
             this.lblTeleOpD2Cross = new System.Windows.Forms.Label();
             this.lblTeleOpD1Cross = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att = new System.Windows.Forms.Label();
+
             this.SuspendLayout();
             // 
             // lblTeleOpLowShotAtt
@@ -316,7 +317,6 @@
             this.btnScouter1.TabIndex = 278;
             this.btnScouter1.Text = "Set Name";
             this.btnScouter1.UseVisualStyleBackColor = false;
-            this.btnScouter1.Click += new System.EventHandler(this.btnScouter1_Click);
             // 
             // textBoxScout1
             // 
@@ -596,7 +596,7 @@
             this.lblTeleOp.AutoSize = true;
             this.lblTeleOp.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTeleOp.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
-            this.lblTeleOp.Location = new System.Drawing.Point(10, 53);
+            this.lblTeleOp.Location = new System.Drawing.Point(12, 57);
             this.lblTeleOp.Name = "lblTeleOp";
             this.lblTeleOp.Size = new System.Drawing.Size(233, 45);
             this.lblTeleOp.TabIndex = 252;
@@ -732,7 +732,7 @@
             this.lblTeleOpD2Att.Text = "00";
             this.lblTeleOpD2Att.Visible = false;
             // 
-            // GamePadControl
+            // GamePad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -794,7 +794,7 @@
             this.Controls.Add(this.lblTeleOpD2Cross);
             this.Controls.Add(this.lblTeleOpD1Cross);
             this.Controls.Add(this.lblTeleOpD2Att);
-            this.Name = "GamePadControl";
+            this.Name = "GamePad";
             this.Size = new System.Drawing.Size(444, 346);
             this.ResumeLayout(false);
             this.PerformLayout();
