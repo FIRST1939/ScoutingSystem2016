@@ -45,8 +45,8 @@ namespace MultipleJoysticks
             }
             else
             {
-                MessageBox.Show("No Joysticks found!", "Warning", MessageBoxButtons.OK);
-            }
+                MessageBox.Show("No controllers were+ found... for some reason.", "         *Sigh*", MessageBoxButtons.OK);
+            i9}
         }
 
         public void SetControllerCommands(int controllernumber, string[] Command, string buttons)
