@@ -13,45 +13,79 @@ namespace MultipleJoysticks
         bool[] FinshedScoring = { false, false, false, false, false, false };
 
         //Arrays that hold the values for the made and attempt numbers of the frisbee scoring
+        // Defense 5 
+        int[] displayDefense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense5Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense5Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense5Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense5Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense5Reach = { 0, 0, 0, 0, 0, 0 };
+
         // 1 point frisbees
-        int[] displayLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] lowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] lowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoLowFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoLowFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense4Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense4Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense4Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense4Reach = { 0, 0, 0, 0, 0, 0 };
 
         // 2 point frisbees
-        int[] displayMidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] midFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] midFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayMidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoMidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoMidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense3Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense3Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense3Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense3Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense3Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense3Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense3Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense3Reach = { 0, 0, 0, 0, 0, 0 };
 
         // 3 point frisbees
-        int[] displayHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] highFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] highFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoHighFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] autoDisplayHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] autoHighFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense2Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense2Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense2Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense2Reach = { 0, 0, 0, 0, 0, 0 };
 
         // Pyramid Frisbees
-        int[] displayPyramidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] pyramidFrisbeesMade = { 0, 0, 0, 0, 0, 0 };
-        int[] displayPyramidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
-        int[] pyramidFrisbeesAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense1Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] defense1Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] displayDefense1Att = { 0, 0, 0, 0, 0, 0 };
+        int[] defense1Att = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense1Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense1Cross = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayDefense1Reach = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDefense1Reach = { 0, 0, 0, 0, 0, 0 };
+
+        // High Boulder Shot
+        int[] displayHighShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] highShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] displayHighShotAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] highShotAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayHighShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] autoHighShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayHighShotAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] autoHighShotAtt = { 0, 0, 0, 0, 0, 0 };
+
+        // Low Boulder Shot
+        int[] displayLowShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] lowShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] displayLowShotAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] lowShotAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayLowShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] autoLowShotMade = { 0, 0, 0, 0, 0, 0 };
+        int[] autoDisplayLowShotAtt = { 0, 0, 0, 0, 0, 0 };
+        int[] autoLowShotAtt = { 0, 0, 0, 0, 0, 0 };
 
         // Robot Climbing
         int[] climb = { 0, 0, 0, 0, 0, 0 };
-        int[] robotClimb = { 0, 0, 0, 0, 0, 0 };
+        int[] challengeScale = { 0, 0, 0, 0, 0, 0 };
 
         // Total Points
         int[] teleOpTotalPoints = { 0, 0, 0, 0, 0, 0 };
@@ -84,27 +118,39 @@ namespace MultipleJoysticks
             public const int Autonomous = 1;
             public const int scoreHigh = 2;
             public const int scoreLow = 3;
-            public const int ShotsMissedPlus = 4;
-            public const int ShotsMissedMinus = 5;
-            public const int PyramidFrisbeesAttMinus = 6;
-            public const int PyramidFrisbeesAttPlus = 7;
-            public const int HighFrisbeesMadeMinus = 8;
-            public const int HighFrisbeesMadePlus = 9;
-            public const int HighFrisbeesAttMinus = 10;
-            public const int HighFrisbeesAttPlus = 11;
-            public const int MidFrisbeesMadeMinus = 12;
-            public const int MidFrisbeesMadePlus = 13;
-            public const int MidFrisbeesAttMinus = 14;
-            public const int MidFrisbeesAttPlus = 15;
-            public const int LowFrisbeesMadeMinus = 16;
-            public const int LowFrisbeesMadePlus = 17;
-            public const int LowFrisbeesAttMinus = 18;
-            public const int LowFrisbeesAttPlus = 19;
-            public const int RobotScalePlus = 20;
+            public const int Defense1CrossMinus = 4;
+            public const int Defense1CrossPlus = 5;
+            public const int Defense1AttMinus = 6;
+            public const int Defense1AttPlus = 7;
+            public const int Defense2CrossMinus = 8;
+            public const int Defense2CrossPlus = 9;
+            public const int Defense2AttMinus = 10;
+            public const int Defense2AttPlus = 11;
+            public const int Defense3CrossMinus = 12;
+            public const int Defense3CrossPlus = 13;
+            public const int Defense3AttMinus = 14;
+            public const int Defense3AttPlus = 15;
+            public const int Defense4CrossMinus = 16;
+            public const int Defense4CrossPlus = 17;
+            public const int Defense4AttMinus = 18;
+            public const int Defense4AttPlus = 19;
+            public const int Defense5CrossMinus = 22;
+            public const int Defense5CrossPlus = 23;
+            public const int Defense5AttMinus = 24;
+            public const int Defense5AttPlus = 25;
+            public const int HighShotMadeMinus = 26;
+            public const int HighShotMadePlus = 27;
+            public const int HighShotAttMinus = 28;
+            public const int HighShotAttPlus = 29;
+            public const int LowShotMadeMinus = 30;
+            public const int LowShotMadePlus = 31;
+            public const int LowShotAttMinus = 32;
+            public const int LowShotAttPlus = 33;
+            public const int ChallengeScalePlus = 20;
             public const int FinishedScoring = 21;
         }
 
-        String[,] ControllerCommands = new String[6, 22];
+        String[,] ControllerCommands = new String[6, 34];
         String[] LastButtonPattern = new String[6];
         Label[] displayButtons;
 
@@ -129,7 +175,7 @@ namespace MultipleJoysticks
 
         public void SetControllerCommands(int controllernumber, string[] Command, string buttons)
         {
-            switch (Command[0].ToUpper())
+            switch (Command[0].ToUpper())  //In this section, case names should be all uppercase
             {
                 case "TELEOP":
                     ControllerCommands[controllernumber, Form1.GameCommands.TeleOp] = buttons;
@@ -143,56 +189,92 @@ namespace MultipleJoysticks
                 case "DEFENSIVERATINGMINUS":
                     ControllerCommands[controllernumber, Form1.GameCommands.scoreLow] = buttons;
                     break;
-                case "ShotsMissedPlus":
-                    ControllerCommands[controllernumber, Form1.GameCommands.ShotsMissedPlus] = buttons;
+                case "DEFENSE1CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense1CrossMinus] = buttons;
                     break;
-                case "ShotsMissedMinus":
-                    ControllerCommands[controllernumber, Form1.GameCommands.ShotsMissedMinus] = buttons;
+                case "DEFENSE1CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense1CrossPlus] = buttons;
                     break;
-                case "PYRAMIDFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttMinus] = buttons;
+                case "DEFENSE1ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense1AttMinus] = buttons;
                     break;
-                case "PYRAMIDFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.PyramidFrisbeesAttPlus] = buttons;
+                case "DEFENSE1ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense1AttPlus] = buttons;
                     break;
-                case "HIGHFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadeMinus] = buttons;
+                case "DEFENSE2CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2CrossMinus] = buttons;
                     break;
-                case "HIGHFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesMadePlus] = buttons;
+                case "DEFENSE2CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2CrossPlus] = buttons;
                     break;
-                case "HIGHFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttMinus] = buttons;
+                case "DEFENSE2ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2AttMinus] = buttons;
                     break;
-                case "HIGHFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.HighFrisbeesAttPlus] = buttons;
+                case "DEFENSE2ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense2AttPlus] = buttons;
                     break;
-                case "MIDFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadeMinus] = buttons;
+                case "DEFENSE3CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense3CrossMinus] = buttons;
                     break;
-                case "MIDFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesMadePlus] = buttons;
+                case "DEFENSE3CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense3CrossPlus] = buttons;
                     break;
-                case "MIDFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesAttMinus] = buttons;
+                case "DEFENSE3ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense3AttMinus] = buttons;
                     break;
-                case "MIDFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.MidFrisbeesAttPlus] = buttons;
+                case "DEFENSE3ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense3AttPlus] = buttons;
                     break;
-                case "LOWFRISBEESMADEMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadeMinus] = buttons;
+                case "DEFENSE4CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4CrossMinus] = buttons;
                     break;
-                case "LOWFRISBEESMADEPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesMadePlus] = buttons;
+                case "DEFENSE4CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4CrossPlus] = buttons;
                     break;
-                case "LOWFRISBEESATTMINUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttMinus] = buttons;
+                case "DEFENSE4ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4AttMinus] = buttons;
                     break;
-                case "LOWFRISBEESATTPLUS":
-                    ControllerCommands[controllernumber, Form1.GameCommands.LowFrisbeesAttPlus] = buttons;
+                case "DEFENSE4ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense4AttPlus] = buttons;
                     break;
-                case "RobotScalePlus":
-                    ControllerCommands[controllernumber, Form1.GameCommands.RobotScalePlus] = buttons;
+                case "DEFENSE5CROSSMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5CrossMinus] = buttons;
+                    break;
+                case "DEFENSE5CROSSPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5CrossPlus] = buttons;
+                    break;
+                case "DEFENSE5ATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5AttMinus] = buttons;
+                    break;
+                case "DEFENSE5ATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.Defense5AttPlus] = buttons;
+                    break;
+                case "HIGHSHOTMADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighShotMadeMinus] = buttons;
+                    break;
+                case "HIGHSHOTMADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighShotMadePlus] = buttons;
+                    break;
+                case "HIGHSHOTATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighShotAttMinus] = buttons;
+                    break;
+                case "HIGHSHOTATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.HighShotAttPlus] = buttons;
+                    break;
+                case "LOWSHOTMADEMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowShotMadeMinus] = buttons;
+                    break;
+                case "LOWSHOTMADEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowShotMadePlus] = buttons;
+                    break;
+                case "LOWSHOTATTMINUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowShotAttMinus] = buttons;
+                    break;
+                case "LOWSHOTATTPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.LowShotAttPlus] = buttons;
+                    break;
+                case "CHALLENGESCALEPLUS":
+                    ControllerCommands[controllernumber, Form1.GameCommands.ChallengeScalePlus] = buttons;
                     break;
                 case "FINISHEDSCORING":
                     ControllerCommands[controllernumber, Form1.GameCommands.FinishedScoring] = buttons;
@@ -225,15 +307,15 @@ namespace MultipleJoysticks
             }
         }
 
-        void UpdateScores(int id)
+        void UpdateScores(int id)   //COOK George, this one is yours to fix.
         {
-            autoTotalPoints[id] = (autoHighFrisbeesMade[id] * 6) +
-                    (autoMidFrisbeesMade[id] * 4) +
-                    (autoLowFrisbeesMade[id] * 2);
-            teleOpTotalPoints[id] = (pyramidFrisbeesMade[id] * 5) +
-                    (highFrisbeesMade[id] * 3) +
-                    (midFrisbeesMade[id] * 2) +
-                    lowFrisbeesMade[id];
+            autoTotalPoints[id] = (autoDefense2Cross[id] * 6) +
+                    (autoDefense3Cross[id] * 4) +
+                    (autoDefense4Cross[id] * 2);
+            teleOpTotalPoints[id] = (defense1Cross[id] * 5) +
+                    (defense2Cross[id] * 3) +
+                    (defense3Cross[id] * 2) +
+                    defense4Cross[id];
 
         }
 
@@ -273,73 +355,121 @@ namespace MultipleJoysticks
             {
                 lblAuto.Visible = false;
                 lblTeleOp.Visible = true;
-                lblAutoHighAtt.Visible = false;
-                lblTeleOpHighAtt.Visible = true;
-                lblAutoHighMade.Visible = false;
-                lblTeleOpHighMade.Visible = true;
-                lblAutoMidAtt.Visible = false;
-                lblTeleOpMidAtt.Visible = true;
-                lblAutoMidMade.Visible = false;
-                lblTeleOpMidMade.Visible = true;
-                lblAutoLowAtt.Visible = false;
-                lblTeleOpLowAtt.Visible = true;
-                lblAutoLowMade.Visible = false;
-                lblTeleOpLowMade.Visible = true;
-                lblTeleOpPyramidAtt.Visible = true;
-                lblTeleOpPyramidMade.Visible = true;
-                lblRobotClimb.Visible = true;
+                lblAutoD1Reach.Visible = false;
+                lblTeleOpD1Att.Visible = true;
+                lblAutoD1Cross.Visible = false;
+                lblTeleOpD1Cross.Visible = true;
+                lblAutoD2Reach.Visible = false;
+                lblTeleOpD2Att.Visible = true;
+                lblAutoD2Cross.Visible = false;
+                lblTeleOpD2Cross.Visible = true;
+                lblAutoD3Reach.Visible = false;
+                lblTeleOpD3Att.Visible = true;
+                lblAutoD3Cross.Visible = false;
+                lblTeleOpD3Cross.Visible = true;
+                lblAutoD4Reach.Visible = false;
+                lblTeleOpD4Att.Visible = true;
+                lblAutoD4Cross.Visible = false;
+                lblTeleOpD4Cross.Visible = true;
+                lblAutoD5Reach.Visible = false;
+                lblTeleOpD5Att.Visible = true;
+                lblAutoD5Cross.Visible = false;
+                lblTeleOpD5Cross.Visible = true;
+                lblAutoHighShotAtt.Visible = false;
+                lblTeleOpHighShotAtt.Visible = true;
+                lblAutoHighShotMade.Visible = false;
+                lblTeleOpHighShotMade.Visible = true;
+                lblAutoLowShotAtt.Visible = false;
+                lblTeleOpLowShotAtt.Visible = true;
+                lblAutoLowShotMade.Visible = false;
+                lblTeleOpLowShotMade.Visible = true;
+                lblChallengeScale.Visible = true;
             }
             if (AutonomousMode[0])
             {
                 lblAuto.Visible = true;
                 lblTeleOp.Visible = false;
-                lblAutoHighAtt.Visible = true;
-                lblTeleOpHighAtt.Visible = false;
-                lblAutoHighMade.Visible = true;
-                lblTeleOpHighMade.Visible = false;
-                lblAutoMidAtt.Visible = true;
-                lblTeleOpMidAtt.Visible = false;
-                lblAutoMidMade.Visible = true;
-                lblTeleOpMidMade.Visible = false;
-                lblAutoLowAtt.Visible = true;
-                lblTeleOpLowAtt.Visible = false;
-                lblAutoLowMade.Visible = true;
-                lblTeleOpLowMade.Visible = false;
-                lblTeleOpPyramidAtt.Visible = false;
-                lblTeleOpPyramidMade.Visible = false;
-                lblRobotClimb.Visible = false;
+                lblAutoD1Reach.Visible = true;
+                lblTeleOpD1Att.Visible = false;
+                lblAutoD1Cross.Visible = true;
+                lblTeleOpD1Cross.Visible = false;
+                lblAutoD2Reach.Visible = true;
+                lblTeleOpD2Att.Visible = false;
+                lblAutoD2Cross.Visible = true;
+                lblTeleOpD2Cross.Visible = false;
+                lblAutoD3Reach.Visible = true;
+                lblTeleOpD3Att.Visible = false;
+                lblAutoD3Cross.Visible = true;
+                lblTeleOpD3Cross.Visible = false;
+                lblAutoD4Reach.Visible = true;
+                lblTeleOpD4Att.Visible = false;
+                lblAutoD4Cross.Visible = true;
+                lblTeleOpD4Cross.Visible = false;
+                lblAutoD5Reach.Visible = true;
+                lblTeleOpD5Att.Visible = false;
+                lblAutoD5Cross.Visible = true;
+                lblTeleOpD5Cross.Visible = false;
+                lblAutoHighShotAtt.Visible = true;
+                lblTeleOpHighShotAtt.Visible = false;
+                lblAutoHighShotMade.Visible = true;
+                lblTeleOpHighShotMade.Visible = false;
+                lblAutoLowShotAtt.Visible = true;
+                lblTeleOpLowShotAtt.Visible = false;
+                lblAutoLowShotMade.Visible = true;
+                lblTeleOpLowShotMade.Visible = false;
+                lblChallengeScale.Visible = false;
             }
             //Defense Rating
             lblDefense.Text = displayDefenseRating[0].ToString();
 
             // Pyramid Goals
-            lblTeleOpPyramidMade.Text = displayPyramidFrisbeesMade[0].ToString();
-            lblTeleOpPyramidAtt.Text = displayPyramidFrisbeesAtt[0].ToString();
+            lblTeleOpD1Cross.Text = displayDefense1Cross[0].ToString();
+            lblTeleOpD1Att.Text = displayDefense1Att[0].ToString();
+            lblAutoD1Cross.Text = autoDisplayDefense1Cross[0].ToString();
+            lblAutoD1Reach.Text = autoDisplayDefense1Reach[0].ToString();
 
             // High Goals
-            lblTeleOpHighMade.Text = displayHighFrisbeesMade[0].ToString();
-            lblTeleOpHighAtt.Text = displayHighFrisbeesAtt[0].ToString();
-            lblAutoHighMade.Text = autoDisplayHighFrisbeesMade[0].ToString();
-            lblAutoHighAtt.Text = autoDisplayHighFrisbeesAtt[0].ToString();
+            lblTeleOpD2Cross.Text = displayDefense2Cross[0].ToString();
+            lblTeleOpD2Att.Text = displayDefense2Att[0].ToString();
+            lblAutoD2Cross.Text = autoDisplayDefense2Cross[0].ToString();
+            lblAutoD2Reach.Text = autoDisplayDefense2Reach[0].ToString();
 
             // Mid Goals
-            lblTeleOpMidMade.Text = displayMidFrisbeesMade[0].ToString();
-            lblTeleOpMidAtt.Text = displayMidFrisbeesAtt[0].ToString();
-            lblAutoMidMade.Text = autoDisplayMidFrisbeesMade[0].ToString();
-            lblAutoMidAtt.Text = autoDisplayMidFrisbeesAtt[0].ToString();
+            lblTeleOpD3Cross.Text = displayDefense3Cross[0].ToString();
+            lblTeleOpD3Att.Text = displayDefense3Att[0].ToString();
+            lblAutoD3Cross.Text = autoDisplayDefense3Cross[0].ToString();
+            lblAutoD3Reach.Text = autoDisplayDefense3Reach[0].ToString();
 
             // Low Goals
-            lblTeleOpLowMade.Text = displayLowFrisbeesMade[0].ToString();
-            lblTeleOpLowAtt.Text = displayLowFrisbeesAtt[0].ToString();
-            lblAutoLowMade.Text = autoDisplayLowFrisbeesMade[0].ToString();
-            lblAutoLowAtt.Text = autoDisplayLowFrisbeesAtt[0].ToString();
+            lblTeleOpD4Cross.Text = displayDefense4Cross[0].ToString();
+            lblTeleOpD4Att.Text = displayDefense4Att[0].ToString();
+            lblAutoD4Cross.Text = autoDisplayDefense4Cross[0].ToString();
+            lblAutoD4Reach.Text = autoDisplayDefense4Reach[0].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross.Text = displayDefense5Cross[0].ToString();
+            lblTeleOpD5Att.Text = displayDefense5Att[0].ToString();
+            lblAutoD5Cross.Text = autoDisplayDefense5Cross[0].ToString();
+            lblAutoD5Reach.Text = autoDisplayDefense5Reach[0].ToString();
+
+            // High Boulder Shot 
+            lblTeleOpHighShotMade.Text = displayHighShotMade[0].ToString();
+            lblTeleOpHighShotAtt.Text = displayHighShotAtt[0].ToString();
+            lblAutoHighShotMade.Text = autoDisplayHighShotMade[0].ToString();
+            lblAutoHighShotAtt.Text = autoDisplayHighShotAtt[0].ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade.Text = displayLowShotMade[0].ToString();
+            lblTeleOpLowShotAtt.Text = displayLowShotAtt[0].ToString();
+            lblAutoLowShotMade.Text = autoDisplayLowShotMade[0].ToString();
+            lblAutoLowShotAtt.Text = autoDisplayLowShotAtt[0].ToString();
 
             // Robot Climb
-            lblRobotClimb.Text = robotClimb[0].ToString();
+            lblChallengeScale.Text = challengeScale[0].ToString();
 
             lblTeleOpTotalPoints.Text = teleOpTotalPoints[0].ToString();
             lblAutoTotalPoints.Text = autoTotalPoints[0].ToString();
-            lblTotalPoints.Text = (autoTotalPoints[0] + teleOpTotalPoints[0] + robotClimb[0]).ToString();
+            lblTotalPoints.Text = (autoTotalPoints[0] + teleOpTotalPoints[0] + challengeScale[0]).ToString();
             if (FinshedScoring[0])
                 lblTeleOp.ForeColor = Color.DarkGreen;
             else
@@ -354,73 +484,121 @@ namespace MultipleJoysticks
             {
                 lblAuto2.Visible = false;
                 lblTeleOp2.Visible = true;
-                lblAutoHighAtt2.Visible = false;
-                lblTeleOpHighAtt2.Visible = true;
-                lblAutoHighMade2.Visible = false;
-                lblTeleOpHighMade2.Visible = true;
-                lblAutoMidAtt2.Visible = false;
-                lblTeleOpMidAtt2.Visible = true;
-                lblAutoMidMade2.Visible = false;
-                lblTeleOpMidMade2.Visible = true;
-                lblAutoLowAtt2.Visible = false;
-                lblTeleOpLowAtt2.Visible = true;
-                lblAutoLowMade2.Visible = false;
-                lblTeleOpLowMade2.Visible = true;
-                lblTeleOpPyramidAtt2.Visible = true;
-                lblTeleOpPyramidMade2.Visible = true;
-                lblRobotClimb2.Visible = true;
+                lblAutoD1Reach2.Visible = false;
+                lblTeleOpD1Att2.Visible = true;
+                lblAutoD1Cross2.Visible = false;
+                lblTeleOpD1Cross2.Visible = true;
+                lblAutoD2Reach2.Visible = false;
+                lblTeleOpD2Att2.Visible = true;
+                lblAutoD2Cross2.Visible = false;
+                lblTeleOpD2Cross2.Visible = true;
+                lblAutoD3Reach2.Visible = false;
+                lblTeleOpD3Att2.Visible = true;
+                lblAutoD3Cross2.Visible = false;
+                lblTeleOpD3Cross2.Visible = true;
+                lblAutoD4Reach2.Visible = false;
+                lblTeleOpD4Att2.Visible = true;
+                lblAutoD4Cross2.Visible = false;
+                lblTeleOpD4Cross2.Visible = true;
+                lblAutoD5Reach2.Visible = false;
+                lblTeleOpD5Att2.Visible = true;
+                lblAutoD5Cross2.Visible = false;
+                lblTeleOpD5Cross2.Visible = true;
+                lblAutoHighShotAtt2.Visible = false;
+                lblTeleOpHighShotAtt2.Visible = true;
+                lblAutoHighShotMade2.Visible = false;
+                lblTeleOpHighShotMade2.Visible = true;
+                lblAutoLowShotAtt2.Visible = false;
+                lblTeleOpLowShotAtt2.Visible = true;
+                lblAutoLowShotMade2.Visible = false;
+                lblTeleOpLowShotMade2.Visible = true;
+                lblChallengeScale2.Visible = true;
             }
             if (AutonomousMode[1])
             {
                 lblAuto2.Visible = true;
                 lblTeleOp2.Visible = false;
-                lblAutoHighAtt2.Visible = true;
-                lblTeleOpHighAtt2.Visible = false;
-                lblAutoHighMade2.Visible = true;
-                lblTeleOpHighMade2.Visible = false;
-                lblAutoMidAtt2.Visible = true;
-                lblTeleOpMidAtt2.Visible = false;
-                lblAutoMidMade2.Visible = true;
-                lblTeleOpMidMade2.Visible = false;
-                lblAutoLowAtt2.Visible = true;
-                lblTeleOpLowAtt2.Visible = false;
-                lblAutoLowMade2.Visible = true;
-                lblTeleOpLowMade2.Visible = false;
-                lblTeleOpPyramidAtt2.Visible = false;
-                lblTeleOpPyramidMade2.Visible = false;
-                lblRobotClimb2.Visible = false;
+                lblAutoD1Reach2.Visible = true;
+                lblTeleOpD1Att2.Visible = false;
+                lblAutoD1Cross2.Visible = true;
+                lblTeleOpD1Cross2.Visible = false;
+                lblAutoD2Reach2.Visible = true;
+                lblTeleOpD2Att2.Visible = false;
+                lblAutoD2Cross2.Visible = true;
+                lblTeleOpD2Cross2.Visible = false;
+                lblAutoD3Reach2.Visible = true;
+                lblTeleOpD3Att2.Visible = false;
+                lblAutoD3Cross2.Visible = true;
+                lblTeleOpD3Cross2.Visible = false;
+                lblAutoD4Reach2.Visible = true;
+                lblTeleOpD4Att2.Visible = false;
+                lblAutoD4Cross2.Visible = true;
+                lblTeleOpD4Cross2.Visible = false;
+                lblAutoD5Reach2.Visible = true;
+                lblTeleOpD5Att2.Visible = false;
+                lblAutoD5Cross2.Visible = true;
+                lblTeleOpD5Cross2.Visible = false;
+                lblAutoHighShotAtt2.Visible = true;
+                lblTeleOpHighShotAtt2.Visible = false;
+                lblAutoHighShotMade2.Visible = true;
+                lblTeleOpHighShotMade2.Visible = false;
+                lblAutoLowShotAtt2.Visible = true;
+                lblTeleOpLowShotAtt2.Visible = false;
+                lblAutoLowShotMade2.Visible = true;
+                lblTeleOpLowShotMade2.Visible = false;
+                lblChallengeScale2.Visible = false;
             }
             //Defense Rating
             lblDefense2.Text = displayDefenseRating[1].ToString();
 
             // Pyramid Goals
-            lblTeleOpPyramidMade2.Text = displayPyramidFrisbeesMade[1].ToString();
-            lblTeleOpPyramidAtt2.Text = displayPyramidFrisbeesAtt[1].ToString();
+            lblTeleOpD1Cross2.Text = displayDefense1Cross[1].ToString();
+            lblTeleOpD1Att2.Text = displayDefense1Att[1].ToString();
+            lblAutoD1Cross2.Text = autoDisplayDefense1Cross[1].ToString();
+            lblAutoD1Reach2.Text = autoDisplayDefense1Reach[1].ToString();
 
             // High Goals
-            lblTeleOpHighMade2.Text = displayHighFrisbeesMade[1].ToString();
-            lblTeleOpHighAtt2.Text = displayHighFrisbeesAtt[1].ToString();
-            lblAutoHighMade2.Text = autoDisplayHighFrisbeesMade[1].ToString();
-            lblAutoHighAtt2.Text = autoDisplayHighFrisbeesAtt[1].ToString();
+            lblTeleOpD2Cross2.Text = displayDefense2Cross[1].ToString();
+            lblTeleOpD2Att2.Text = displayDefense2Att[1].ToString();
+            lblAutoD2Cross2.Text = autoDisplayDefense2Cross[1].ToString();
+            lblAutoD2Reach2.Text = autoDisplayDefense2Reach[1].ToString();
 
             // Mid Goals
-            lblTeleOpMidMade2.Text = displayMidFrisbeesMade[1].ToString();
-            lblTeleOpMidAtt2.Text = displayMidFrisbeesAtt[1].ToString();
-            lblAutoMidMade2.Text = autoDisplayMidFrisbeesMade[1].ToString();
-            lblAutoMidAtt2.Text = autoDisplayMidFrisbeesAtt[1].ToString();
+            lblTeleOpD3Cross2.Text = displayDefense3Cross[1].ToString();
+            lblTeleOpD3Att2.Text = displayDefense3Att[1].ToString();
+            lblAutoD3Cross2.Text = autoDisplayDefense3Cross[1].ToString();
+            lblAutoD3Reach2.Text = autoDisplayDefense3Reach[1].ToString();
 
             // Low Goals
-            lblTeleOpLowMade2.Text = displayLowFrisbeesMade[1].ToString();
-            lblTeleOpLowAtt2.Text = displayLowFrisbeesAtt[1].ToString();
-            lblAutoLowMade2.Text = autoDisplayLowFrisbeesMade[1].ToString();
-            lblAutoLowAtt2.Text = autoDisplayLowFrisbeesAtt[1].ToString();
+            lblTeleOpD4Cross2.Text = displayDefense4Cross[1].ToString();
+            lblTeleOpD4Att2.Text = displayDefense4Att[1].ToString();
+            lblAutoD4Cross2.Text = autoDisplayDefense4Cross[1].ToString();
+            lblAutoD4Reach2.Text = autoDisplayDefense4Reach[1].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross2.Text = displayDefense5Cross[1].ToString();
+            lblTeleOpD5Att2.Text = displayDefense5Att[1].ToString();
+            lblAutoD5Cross2.Text = autoDisplayDefense5Cross[1].ToString();
+            lblAutoD5Reach2.Text = autoDisplayDefense5Reach[1].ToString();
+
+            // High Boulder Shot 
+            lblTeleOpHighShotMade2.Text = displayHighShotMade[1].ToString();
+            lblTeleOpHighShotAtt2.Text = displayHighShotAtt[1].ToString();
+            lblAutoHighShotMade2.Text = autoDisplayHighShotMade[1].ToString();
+            lblAutoHighShotAtt2.Text = autoDisplayHighShotAtt[1].ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade2.Text = displayLowShotMade[1].ToString();
+            lblTeleOpLowShotAtt2.Text = displayLowShotAtt[1].ToString();
+            lblAutoLowShotMade2.Text = autoDisplayLowShotMade[1].ToString();
+            lblAutoLowShotAtt2.Text = autoDisplayLowShotAtt[1].ToString();
 
             // Robot Climb
-            lblRobotClimb2.Text = robotClimb[1].ToString();
+            lblChallengeScale2.Text = challengeScale[1].ToString();
 
             lblTeleOpTotalPoints2.Text = teleOpTotalPoints[1].ToString();
             lblAutoTotalPoints2.Text = autoTotalPoints[1].ToString();
-            lblTotalPoints2.Text = (autoTotalPoints[1] + teleOpTotalPoints[1] + robotClimb[1]).ToString();
+            lblTotalPoints2.Text = (autoTotalPoints[1] + teleOpTotalPoints[1] + challengeScale[1]).ToString();
             if (FinshedScoring[1])
                 lblTeleOp2.ForeColor = Color.DarkGreen;
             else
@@ -434,73 +612,121 @@ namespace MultipleJoysticks
             {
                 lblAuto3.Visible = false;
                 lblTeleOp3.Visible = true;
-                lblAutoHighAtt3.Visible = false;
-                lblTeleOpHighAtt3.Visible = true;
-                lblAutoHighMade3.Visible = false;
-                lblTeleOpHighMade3.Visible = true;
-                lblAutoMidAtt3.Visible = false;
-                lblTeleOpMidAtt3.Visible = true;
-                lblAutoMidMade3.Visible = false;
-                lblTeleOpMidMade3.Visible = true;
-                lblAutoLowAtt3.Visible = false;
-                lblTeleOpLowAtt3.Visible = true;
-                lblAutoLowMade3.Visible = false;
-                lblTeleOpLowMade3.Visible = true;
-                lblTeleOpPyramidAtt3.Visible = true;
-                lblTeleOpPyramidMade3.Visible = true;
-                lblRobotClimb3.Visible = true;
+                lblAutoD1Reach3.Visible = false;
+                lblTeleOpD1Att3.Visible = true;
+                lblAutoD1Cross3.Visible = false;
+                lblTeleOpD1Cross3.Visible = true;
+                lblAutoD1Reach3.Visible = false;
+                lblTeleOpD2Att3.Visible = true;
+                lblAutoD2Cross3.Visible = false;
+                lblTeleOpD2Cross3.Visible = true;
+                lblAutoD3Reach3.Visible = false;
+                lblTeleOpD3Att3.Visible = true;
+                lblAutoD3Cross3.Visible = false;
+                lblTeleOpD3Cross3.Visible = true;
+                lblAutoD4Reach3.Visible = false;
+                lblTeleOpD4Att3.Visible = true;
+                lblAutoD4Cross3.Visible = false;
+                lblTeleOpD4Cross3.Visible = true;
+                lblAutoD5Reach3.Visible = false;
+                lblTeleOpD5Att3.Visible = true;
+                lblAutoD5Cross3.Visible = false;
+                lblTeleOpD5Cross3.Visible = true;
+                lblAutoHighShotAtt3.Visible = false;
+                lblTeleOpHighShotAtt3.Visible = true;
+                lblAutoHighShotMade3.Visible = false;
+                lblTeleOpHighShotMade3.Visible = true;
+                lblAutoLowShotAtt3.Visible = false;
+                lblTeleOpLowShotAtt3.Visible = true;
+                lblAutoLowShotMade3.Visible = false;
+                lblTeleOpLowShotMade3.Visible = true;
+                lblChallengeScale3.Visible = true;
             }
             if (AutonomousMode[2])
             {
                 lblAuto3.Visible = true;
                 lblTeleOp3.Visible = false;
-                lblAutoHighAtt3.Visible = true;
-                lblTeleOpHighAtt3.Visible = false;
-                lblAutoHighMade3.Visible = true;
-                lblTeleOpHighMade3.Visible = false;
-                lblAutoMidAtt3.Visible = true;
-                lblTeleOpMidAtt3.Visible = false;
-                lblAutoMidMade3.Visible = true;
-                lblTeleOpMidMade3.Visible = false;
-                lblAutoLowAtt3.Visible = true;
-                lblTeleOpLowAtt3.Visible = false;
-                lblAutoLowMade3.Visible = true;
-                lblTeleOpLowMade3.Visible = false;
-                lblTeleOpPyramidAtt3.Visible = false;
-                lblTeleOpPyramidMade3.Visible = false;
-                lblRobotClimb3.Visible = false;
+                lblAutoD1Reach3.Visible = true;
+                lblTeleOpD1Att3.Visible = false;
+                lblAutoD1Cross3.Visible = true;
+                lblTeleOpD1Cross3.Visible = false;
+                lblAutoD2Reach3.Visible = true;
+                lblTeleOpD2Att3.Visible = false;
+                lblAutoD2Cross3.Visible = true;
+                lblTeleOpD2Cross3.Visible = false;
+                lblAutoD3Reach3.Visible = true;
+                lblTeleOpD3Att3.Visible = false;
+                lblAutoD3Cross3.Visible = true;
+                lblTeleOpD3Cross3.Visible = false;
+                lblAutoD4Reach3.Visible = true;
+                lblTeleOpD4Att3.Visible = false;
+                lblAutoD4Cross3.Visible = true;
+                lblTeleOpD4Cross3.Visible = false;
+                lblAutoD5Reach3.Visible = true;
+                lblTeleOpD5Att3.Visible = false;
+                lblAutoD5Cross3.Visible = true;
+                lblTeleOpD5Cross3.Visible = false;
+                lblAutoHighShotAtt3.Visible = true;
+                lblTeleOpHighShotAtt3.Visible = false;
+                lblAutoHighShotMade3.Visible = true;
+                lblTeleOpHighShotMade3.Visible = false;
+                lblAutoLowShotAtt3.Visible = true;
+                lblTeleOpLowShotAtt3.Visible = false;
+                lblAutoLowShotMade3.Visible = true;
+                lblTeleOpLowShotMade3.Visible = false;
+                lblChallengeScale3.Visible = false;
             }
             //Defense Rating
             lblDefense3.Text = displayDefenseRating[2].ToString();
 
             // Pyramid Goals
-            lblTeleOpPyramidMade3.Text = displayPyramidFrisbeesMade[2].ToString();
-            lblTeleOpPyramidAtt3.Text = displayPyramidFrisbeesAtt[2].ToString();
+            lblTeleOpD1Cross3.Text = displayDefense1Cross[2].ToString();
+            lblTeleOpD1Att3.Text = displayDefense1Att[2].ToString();
+            lblAutoD1Cross3.Text = autoDisplayDefense1Cross[2].ToString();
+            lblAutoD1Reach3.Text = autoDisplayDefense1Reach[2].ToString();
 
             // High Goals
-            lblTeleOpHighMade3.Text = displayHighFrisbeesMade[2].ToString();
-            lblTeleOpHighAtt3.Text = displayHighFrisbeesAtt[2].ToString();
-            lblAutoHighMade3.Text = autoDisplayHighFrisbeesMade[2].ToString();
-            lblAutoHighAtt3.Text = autoDisplayHighFrisbeesAtt[2].ToString();
+            lblTeleOpD2Cross3.Text = displayDefense2Cross[2].ToString();
+            lblTeleOpD2Att3.Text = displayDefense2Att[2].ToString();
+            lblAutoD2Cross3.Text = autoDisplayDefense2Cross[2].ToString();
+            lblAutoD2Reach3.Text = autoDisplayDefense2Reach[2].ToString();
 
             // Mid Goals
-            lblTeleOpMidMade3.Text = displayMidFrisbeesMade[2].ToString();
-            lblTeleOpMidAtt3.Text = displayMidFrisbeesAtt[2].ToString();
-            lblAutoMidMade3.Text = autoDisplayMidFrisbeesMade[2].ToString();
-            lblAutoMidAtt3.Text = autoDisplayMidFrisbeesAtt[2].ToString();
+            lblTeleOpD3Cross3.Text = displayDefense3Cross[2].ToString();
+            lblTeleOpD3Att3.Text = displayDefense3Att[2].ToString();
+            lblAutoD3Cross3.Text = autoDisplayDefense3Cross[2].ToString();
+            lblAutoD3Reach3.Text = autoDisplayDefense3Reach[2].ToString();
 
             // Low Goals
-            lblTeleOpLowMade3.Text = displayLowFrisbeesMade[2].ToString();
-            lblTeleOpLowAtt3.Text = displayLowFrisbeesAtt[2].ToString();
-            lblAutoLowMade3.Text = autoDisplayLowFrisbeesMade[2].ToString();
-            lblAutoLowAtt3.Text = autoDisplayLowFrisbeesAtt[2].ToString();
+            lblTeleOpD4Cross3.Text = displayDefense4Cross[2].ToString();
+            lblTeleOpD4Att3.Text = displayDefense4Att[2].ToString();
+            lblAutoD4Cross3.Text = autoDisplayDefense4Cross[2].ToString();
+            lblAutoD4Reach3.Text = autoDisplayDefense4Reach[2].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross3.Text = displayDefense5Cross[2].ToString();
+            lblTeleOpD5Att3.Text = displayDefense5Att[2].ToString();
+            lblAutoD5Cross3.Text = autoDisplayDefense5Cross[2].ToString();
+            lblAutoD5Reach3.Text = autoDisplayDefense5Reach[2].ToString();
+
+            // High Boulder Shot 
+            lblTeleOpHighShotMade3.Text = displayHighShotMade[2].ToString();
+            lblTeleOpHighShotAtt3.Text = displayHighShotAtt[2].ToString();
+            lblAutoHighShotMade3.Text = autoDisplayHighShotMade[2].ToString();
+            lblAutoHighShotAtt3.Text = autoDisplayHighShotAtt[2].ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade3.Text = displayLowShotMade[2].ToString();
+            lblTeleOpLowShotAtt3.Text = displayLowShotAtt[2].ToString();
+            lblAutoLowShotMade3.Text = autoDisplayLowShotMade[2].ToString();
+            lblAutoLowShotAtt3.Text = autoDisplayLowShotAtt[2].ToString();
 
             // Robot Climb
-            lblRobotClimb3.Text = robotClimb[2].ToString();
+            lblChallengeScale3.Text = challengeScale[2].ToString();
 
             lblTeleOpTotalPoints3.Text = teleOpTotalPoints[2].ToString();
             lblAutoTotalPoints3.Text = autoTotalPoints[2].ToString();
-            lblTotalPoints3.Text = (autoTotalPoints[2] + teleOpTotalPoints[2] + robotClimb[2]).ToString();
+            lblTotalPoints3.Text = (autoTotalPoints[2] + teleOpTotalPoints[2] + challengeScale[2]).ToString();
             if (FinshedScoring[2])
                 lblTeleOp3.ForeColor = Color.DarkGreen;
             else
@@ -515,73 +741,121 @@ namespace MultipleJoysticks
             {
                 lblAuto4.Visible = false;
                 lblTeleOp4.Visible = true;
-                lblAutoHighAtt4.Visible = false;
-                lblTeleOpHighAtt4.Visible = true;
-                lblAutoHighMade4.Visible = false;
-                lblTeleOpHighMade4.Visible = true;
-                lblAutoMidAtt4.Visible = false;
-                lblTeleOpMidAtt4.Visible = true;
-                lblAutoMidMade4.Visible = false;
-                lblTeleOpMidMade4.Visible = true;
-                lblAutoLowAtt4.Visible = false;
-                lblTeleOpLowAtt4.Visible = true;
-                lblAutoLowMade4.Visible = false;
-                lblTeleOpLowMade4.Visible = true;
-                lblTeleOpPyramidAtt4.Visible = true;
-                lblTeleOpPyramidMade4.Visible = true;
-                lblRobotClimb4.Visible = true;
+                lblAutoD1Reach4.Visible = false;
+                lblTeleOpD1Att4.Visible = true;
+                lblAutoD1Cross4.Visible = false;
+                lblTeleOpD1Cross4.Visible = true;
+                lblAutoD2Reach4.Visible = false;
+                lblTeleOpD2Att4.Visible = true;
+                lblAutoD2Cross4.Visible = false;
+                lblTeleOpD2Cross4.Visible = true;
+                lblAutoD3Reach4.Visible = false;
+                lblTeleOpD3Att4.Visible = true;
+                lblAutoD3Cross4.Visible = false;
+                lblTeleOpD3Cross4.Visible = true;
+                lblAutoD4Reach4.Visible = false;
+                lblTeleOpD4Att4.Visible = true;
+                lblAutoD4Cross4.Visible = false;
+                lblTeleOpD4Cross4.Visible = true;
+                lblAutoD5Reach4.Visible = false;
+                lblTeleOpD5Att4.Visible = true;
+                lblAutoD5Cross4.Visible = false;
+                lblTeleOpD5Cross4.Visible = true;
+                lblAutoHighShotAtt4.Visible = false;
+                lblTeleOpHighShotAtt4.Visible = true;
+                lblAutoHighShotMade4.Visible = false;
+                lblTeleOpHighShotMade4.Visible = true;
+                lblAutoLowShotAtt4.Visible = false;
+                lblTeleOpLowShotAtt4.Visible = true;
+                lblAutoLowShotMade4.Visible = false;
+                lblTeleOpLowShotMade4.Visible = true;
+                lblChallengeScale4.Visible = true;
             }
             if (AutonomousMode[3])
             {
                 lblAuto4.Visible = true;
                 lblTeleOp4.Visible = false;
-                lblAutoHighAtt4.Visible = true;
-                lblTeleOpHighAtt4.Visible = false;
-                lblAutoHighMade4.Visible = true;
-                lblTeleOpHighMade4.Visible = false;
-                lblAutoMidAtt4.Visible = true;
-                lblTeleOpMidAtt4.Visible = false;
-                lblAutoMidMade4.Visible = true;
-                lblTeleOpMidMade4.Visible = false;
-                lblAutoLowAtt4.Visible = true;
-                lblTeleOpLowAtt4.Visible = false;
-                lblAutoLowMade4.Visible = true;
-                lblTeleOpLowMade4.Visible = false;
-                lblTeleOpPyramidAtt4.Visible = false;
-                lblTeleOpPyramidMade4.Visible = false;
-                lblRobotClimb4.Visible = false;
+                lblAutoD1Reach4.Visible = true;
+                lblTeleOpD1Att4.Visible = false;
+                lblAutoD1Cross4.Visible = true;
+                lblTeleOpD1Cross4.Visible = false;
+                lblAutoD2Reach4.Visible = true;
+                lblTeleOpD2Att4.Visible = false;
+                lblAutoD2Cross4.Visible = true;
+                lblTeleOpD2Cross4.Visible = false;
+                lblAutoD3Reach4.Visible = true;
+                lblTeleOpD3Att4.Visible = false;
+                lblAutoD3Cross4.Visible = true;
+                lblTeleOpD3Cross4.Visible = false;
+                lblAutoD4Reach4.Visible = true;
+                lblTeleOpD4Att4.Visible = false;
+                lblAutoD4Cross4.Visible = true;
+                lblTeleOpD4Cross4.Visible = false;
+                lblAutoD5Reach4.Visible = true;
+                lblTeleOpD5Att4.Visible = false;
+                lblAutoD5Cross4.Visible = true;
+                lblTeleOpD5Cross4.Visible = false;
+                lblAutoHighShotAtt4.Visible = true;
+                lblTeleOpHighShotAtt4.Visible = false;
+                lblAutoHighShotMade4.Visible = true;
+                lblTeleOpHighShotMade4.Visible = false;
+                lblAutoLowShotAtt4.Visible = true;
+                lblTeleOpLowShotAtt4.Visible = false;
+                lblAutoLowShotMade4.Visible = true;
+                lblTeleOpLowShotMade4.Visible = false;
+                lblChallengeScale4.Visible = false;
             }
             //Defense Rating
             lblDefense4.Text = displayDefenseRating[3].ToString();
 
             // Pyramid Goals
-            lblTeleOpPyramidMade4.Text = displayPyramidFrisbeesMade[3].ToString();
-            lblTeleOpPyramidAtt4.Text = displayPyramidFrisbeesAtt[3].ToString();
+            lblTeleOpD1Cross4.Text = displayDefense1Cross[3].ToString();
+            lblTeleOpD1Att4.Text = displayDefense1Att[3].ToString();
+            lblAutoD1Cross4.Text = autoDisplayDefense1Cross[3].ToString();
+            lblAutoD1Reach4.Text = autoDisplayDefense1Reach[3].ToString();
 
             // High Goals
-            lblTeleOpHighMade4.Text = displayHighFrisbeesMade[3].ToString();
-            lblTeleOpHighAtt4.Text = displayHighFrisbeesAtt[3].ToString();
-            lblAutoHighMade4.Text = autoDisplayHighFrisbeesMade[3].ToString();
-            lblAutoHighAtt4.Text = autoDisplayHighFrisbeesAtt[3].ToString();
+            lblTeleOpD2Cross4.Text = displayDefense2Cross[3].ToString();
+            lblTeleOpD2Att4.Text = displayDefense2Att[3].ToString();
+            lblAutoD2Cross4.Text = autoDisplayDefense2Cross[3].ToString();
+            lblAutoD2Reach4.Text = autoDisplayDefense2Reach[3].ToString();
 
             // Mid Goals
-            lblTeleOpMidMade4.Text = displayMidFrisbeesMade[3].ToString();
-            lblTeleOpMidAtt4.Text = displayMidFrisbeesAtt[3].ToString();
-            lblAutoMidMade4.Text = autoDisplayMidFrisbeesMade[3].ToString();
-            lblAutoMidAtt4.Text = autoDisplayMidFrisbeesAtt[3].ToString();
+            lblTeleOpD3Cross4.Text = displayDefense3Cross[3].ToString();
+            lblTeleOpD3Att4.Text = displayDefense3Att[3].ToString();
+            lblAutoD3Cross4.Text = autoDisplayDefense3Cross[3].ToString();
+            lblAutoD3Reach4.Text = autoDisplayDefense3Reach[3].ToString();
 
             // Low Goals
-            lblTeleOpLowMade4.Text = displayLowFrisbeesMade[3].ToString();
-            lblTeleOpLowAtt4.Text = displayLowFrisbeesAtt[3].ToString();
-            lblAutoLowMade4.Text = autoDisplayLowFrisbeesMade[3].ToString();
-            lblAutoLowAtt4.Text = autoDisplayLowFrisbeesAtt[3].ToString();
+            lblTeleOpD4Cross4.Text = displayDefense4Cross[3].ToString();
+            lblTeleOpD4Att4.Text = displayDefense4Att[3].ToString();
+            lblAutoD4Cross4.Text = autoDisplayDefense4Cross[3].ToString();
+            lblAutoD4Reach4.Text = autoDisplayDefense4Reach[3].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross4.Text = displayDefense5Cross[3].ToString();
+            lblTeleOpD5Att4.Text = displayDefense5Att[3].ToString();
+            lblAutoD5Cross4.Text = autoDisplayDefense5Cross[3].ToString();
+            lblAutoD5Reach4.Text = autoDisplayDefense5Reach[3].ToString();
+
+            // High Boulder Shot 
+            lblTeleOpHighShotMade4.Text = displayHighShotMade[3].ToString();
+            lblTeleOpHighShotAtt4.Text = displayHighShotAtt[3].ToString();
+            lblAutoHighShotMade4.Text = autoDisplayHighShotMade[3].ToString();
+            lblAutoHighShotAtt4.Text = autoDisplayHighShotAtt[3].ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade4.Text = displayLowShotMade[3].ToString();
+            lblTeleOpLowShotAtt4.Text = displayLowShotAtt[3].ToString();
+            lblAutoLowShotMade4.Text = autoDisplayLowShotMade[3].ToString();
+            lblAutoLowShotAtt4.Text = autoDisplayLowShotAtt[3].ToString();
 
             // Robot Climb
-            lblRobotClimb4.Text = robotClimb[3].ToString();
+            lblChallengeScale4.Text = challengeScale[3].ToString();
 
             lblTeleOpTotalPoints4.Text = teleOpTotalPoints[3].ToString();
             lblAutoTotalPoints4.Text = autoTotalPoints[3].ToString();
-            lblTotalPoints4.Text = (autoTotalPoints[3] + teleOpTotalPoints[3] + robotClimb[3]).ToString();
+            lblTotalPoints4.Text = (autoTotalPoints[3] + teleOpTotalPoints[3] + challengeScale[3]).ToString();
             if (FinshedScoring[3])
                 lblTeleOp4.ForeColor = Color.DarkGreen;
             else
@@ -596,73 +870,121 @@ namespace MultipleJoysticks
             {
                 lblAuto5.Visible = false;
                 lblTeleOp5.Visible = true;
-                lblAutoHighAtt5.Visible = false;
-                lblTeleOpHighAtt5.Visible = true;
-                lblAutoHighMade5.Visible = false;
-                lblTeleOpHighMade5.Visible = true;
-                lblAutoMidAtt5.Visible = false;
-                lblTeleOpMidAtt5.Visible = true;
-                lblAutoMidMade5.Visible = false;
-                lblTeleOpMidMade5.Visible = true;
-                lblAutoLowAtt5.Visible = false;
-                lblTeleOpLowAtt5.Visible = true;
-                lblAutoLowMade5.Visible = false;
-                lblTeleOpLowMade5.Visible = true;
-                lblTeleOpPyramidAtt5.Visible = true;
-                lblTeleOpPyramidMade5.Visible = true;
-                lblRobotClimb5.Visible = true;
+                lblAutoD1Reach5.Visible = false;
+                lblTeleOpD1Att5.Visible = true;
+                lblAutoD1Cross5.Visible = false;
+                lblTeleOpD1Cross5.Visible = true;
+                lblAutoD2Reach5.Visible = false;
+                lblTeleOpD2Att5.Visible = true;
+                lblAutoD2Cross5.Visible = false;
+                lblTeleOpD2Cross5.Visible = true;
+                lblAutoD3Reach5.Visible = false;
+                lblTeleOpD3Att5.Visible = true;
+                lblAutoD3Cross5.Visible = false;
+                lblTeleOpD3Cross5.Visible = true;
+                lblAutoD4Reach5.Visible = false;
+                lblTeleOpD4Att5.Visible = true;
+                lblAutoD4Cross5.Visible = false;
+                lblTeleOpD4Cross5.Visible = true;
+                lblAutoD5Reach5.Visible = false;
+                lblTeleOpD5Att5.Visible = true;
+                lblAutoD5Cross5.Visible = false;
+                lblTeleOpD5Cross5.Visible = true;
+                lblAutoHighShotAtt5.Visible = false;
+                lblTeleOpHighShotAtt5.Visible = true;
+                lblAutoHighShotMade5.Visible = false;
+                lblTeleOpHighShotMade5.Visible = true;
+                lblAutoLowShotAtt5.Visible = false;
+                lblTeleOpLowShotAtt5.Visible = true;
+                lblAutoLowShotMade5.Visible = false;
+                lblTeleOpLowShotMade5.Visible = true;
+                lblChallengeScale5.Visible = true;
             }
             if (AutonomousMode[4])
             {
                 lblAuto5.Visible = true;
                 lblTeleOp5.Visible = false;
-                lblAutoHighAtt5.Visible = true;
-                lblTeleOpHighAtt5.Visible = false;
-                lblAutoHighMade5.Visible = true;
-                lblTeleOpHighMade5.Visible = false;
-                lblAutoMidAtt5.Visible = true;
-                lblTeleOpMidAtt5.Visible = false;
-                lblAutoMidMade5.Visible = true;
-                lblTeleOpMidMade5.Visible = false;
-                lblAutoLowAtt5.Visible = true;
-                lblTeleOpLowAtt5.Visible = false;
-                lblAutoLowMade5.Visible = true;
-                lblTeleOpLowMade5.Visible = false;
-                lblTeleOpPyramidAtt5.Visible = false;
-                lblTeleOpPyramidMade5.Visible = false;
-                lblRobotClimb5.Visible = false;
+                lblAutoD1Reach5.Visible = true;
+                lblTeleOpD1Att5.Visible = false;
+                lblAutoD1Cross5.Visible = true;
+                lblTeleOpD1Cross5.Visible = false;
+                lblAutoD2Reach5.Visible = true;
+                lblTeleOpD2Att5.Visible = false;
+                lblAutoD2Cross5.Visible = true;
+                lblTeleOpD2Cross5.Visible = false;
+                lblAutoD3Reach5.Visible = true;
+                lblTeleOpD3Att5.Visible = false;
+                lblAutoD3Cross5.Visible = true;
+                lblTeleOpD3Cross5.Visible = false;
+                lblAutoD4Reach5.Visible = true;
+                lblTeleOpD4Att5.Visible = false;
+                lblAutoD4Cross5.Visible = true;
+                lblTeleOpD4Cross5.Visible = false;
+                lblAutoD5Reach5.Visible = true;
+                lblTeleOpD5Att5.Visible = false;
+                lblAutoD5Cross5.Visible = true;
+                lblTeleOpD5Cross5.Visible = false;
+                lblAutoHighShotAtt5.Visible = true;
+                lblTeleOpHighShotAtt5.Visible = false;
+                lblAutoHighShotMade5.Visible = true;
+                lblTeleOpHighShotMade5.Visible = false;
+                lblAutoLowShotAtt5.Visible = true;
+                lblTeleOpLowShotAtt5.Visible = false;
+                lblAutoLowShotMade5.Visible = true;
+                lblTeleOpLowShotMade5.Visible = false;
+                lblChallengeScale5.Visible = false;
             }
             //Defense Rating
             lblDefense5.Text = displayDefenseRating[4].ToString();
 
             // Pyramid Goals
-            lblTeleOpPyramidMade5.Text = displayPyramidFrisbeesMade[4].ToString();
-            lblTeleOpPyramidAtt5.Text = displayPyramidFrisbeesAtt[4].ToString();
+            lblTeleOpD1Cross5.Text = displayDefense1Cross[4].ToString();
+            lblTeleOpD1Att5.Text = displayDefense1Att[4].ToString();
+            lblAutoD1Cross5.Text = autoDisplayDefense1Cross[4].ToString();
+            lblAutoD1Reach5.Text = autoDisplayDefense1Reach[4].ToString();
 
             // High Goals
-            lblTeleOpHighMade5.Text = displayHighFrisbeesMade[4].ToString();
-            lblTeleOpHighAtt5.Text = displayHighFrisbeesAtt[4].ToString();
-            lblAutoHighMade5.Text = autoDisplayHighFrisbeesMade[4].ToString();
-            lblAutoHighAtt5.Text = autoDisplayHighFrisbeesAtt[4].ToString();
+            lblTeleOpD2Cross5.Text = displayDefense2Cross[4].ToString();
+            lblTeleOpD2Att5.Text = displayDefense2Att[4].ToString();
+            lblAutoD2Cross5.Text = autoDisplayDefense2Cross[4].ToString();
+            lblAutoD2Reach5.Text = autoDisplayDefense2Reach[4].ToString();
 
             // Mid Goals
-            lblTeleOpMidMade5.Text = displayMidFrisbeesMade[4].ToString();
-            lblTeleOpMidAtt5.Text = displayMidFrisbeesAtt[4].ToString();
-            lblAutoMidMade5.Text = autoDisplayMidFrisbeesMade[4].ToString();
-            lblAutoMidAtt5.Text = autoDisplayMidFrisbeesAtt[4].ToString();
+            lblTeleOpD3Cross5.Text = displayDefense3Cross[4].ToString();
+            lblTeleOpD3Att5.Text = displayDefense3Att[4].ToString();
+            lblAutoD3Cross5.Text = autoDisplayDefense3Cross[4].ToString();
+            lblAutoD3Reach5.Text = autoDisplayDefense3Reach[4].ToString();
 
             // Low Goals
-            lblTeleOpLowMade5.Text = displayLowFrisbeesMade[4].ToString();
-            lblTeleOpLowAtt5.Text = displayLowFrisbeesAtt[4].ToString();
-            lblAutoLowMade5.Text = autoDisplayLowFrisbeesMade[4].ToString();
-            lblAutoLowAtt5.Text = autoDisplayLowFrisbeesAtt[4].ToString();
+            lblTeleOpD4Cross5.Text = displayDefense4Cross[4].ToString();
+            lblTeleOpD4Att5.Text = displayDefense4Att[4].ToString();
+            lblAutoD4Cross5.Text = autoDisplayDefense4Cross[4].ToString();
+            lblAutoD4Reach5.Text = autoDisplayDefense4Reach[4].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross5.Text = displayDefense5Cross[4].ToString();
+            lblTeleOpD5Att5.Text = displayDefense5Att[4].ToString();
+            lblAutoD5Cross5.Text = autoDisplayDefense5Cross[4].ToString();
+            lblAutoD5Reach5.Text = autoDisplayDefense5Reach[4].ToString();
+
+            // High Boulder Shot 
+            lblTeleOpHighShotMade5.Text = displayHighShotMade[4].ToString();
+            lblTeleOpHighShotAtt5.Text = displayHighShotAtt[4].ToString();
+            lblAutoHighShotMade5.Text = autoDisplayHighShotMade[4].ToString();
+            lblAutoHighShotAtt5.Text = autoDisplayHighShotAtt[4].ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade5.Text = displayLowShotMade[4].ToString();
+            lblTeleOpLowShotAtt5.Text = displayLowShotAtt[4].ToString();
+            lblAutoLowShotMade5.Text = autoDisplayLowShotMade[4].ToString();
+            lblAutoLowShotAtt5.Text = autoDisplayLowShotAtt[4].ToString();
 
             // Robot Climb
-            lblRobotClimb5.Text = robotClimb[4].ToString();
+            lblChallengeScale5.Text = challengeScale[4].ToString();
 
             lblTeleOpTotalPoints5.Text = teleOpTotalPoints[4].ToString();
             lblAutoTotalPoints5.Text = autoTotalPoints[4].ToString();
-            lblTotalPoints5.Text = (autoTotalPoints[4] + teleOpTotalPoints[4] + robotClimb[4]).ToString();
+            lblTotalPoints5.Text = (autoTotalPoints[4] + teleOpTotalPoints[4] + challengeScale[4]).ToString();
 
             if (FinshedScoring[4])
                 lblTeleOp5.ForeColor = Color.DarkGreen;
@@ -677,73 +999,121 @@ namespace MultipleJoysticks
             {
                 lblAuto6.Visible = false;
                 lblTeleOp6.Visible = true;
-                lblAutoHighAtt6.Visible = false;
-                lblTeleOpHighAtt6.Visible = true;
-                lblAutoHighMade6.Visible = false;
-                lblTeleOpHighMade6.Visible = true;
-                lblAutoMidAtt6.Visible = false;
-                lblTeleOpMidAtt6.Visible = true;
-                lblAutoMidMade6.Visible = false;
-                lblTeleOpMidMade6.Visible = true;
-                lblAutoLowAtt6.Visible = false;
-                lblTeleOpLowAtt6.Visible = true;
-                lblAutoLowMade6.Visible = false;
-                lblTeleOpLowMade6.Visible = true;
-                lblTeleOpPyramidAtt6.Visible = true;
-                lblTeleOpPyramidMade6.Visible = true;
-                lblRobotClimb6.Visible = true;
+                lblAutoD1Reach6.Visible = false;
+                lblTeleOpD1Att6.Visible = true;
+                lblAutoD1Cross6.Visible = false;
+                lblTeleOpD1Cross6.Visible = true;
+                lblAutoD2Reach6.Visible = false;
+                lblTeleOpD2Att6.Visible = true;
+                lblAutoD2Cross6.Visible = false;
+                lblTeleOpD2Cross6.Visible = true;
+                lblAutoD3Reach6.Visible = false;
+                lblTeleOpD3Att6.Visible = true;
+                lblAutoD3Cross6.Visible = false;
+                lblTeleOpD3Cross6.Visible = true;
+                lblAutoD4Reach6.Visible = false;
+                lblTeleOpD4Att6.Visible = true;
+                lblAutoD4Cross6.Visible = false;
+                lblTeleOpD4Cross6.Visible = true;
+                lblAutoD5Reach6.Visible = false;
+                lblTeleOpD5Att6.Visible = true;
+                lblAutoD5Cross6.Visible = false;
+                lblTeleOpD5Cross6.Visible = true;
+                lblAutoHighShotAtt6.Visible = false;
+                lblTeleOpHighShotAtt6.Visible = true;
+                lblAutoHighShotMade6.Visible = false;
+                lblTeleOpHighShotMade6.Visible = true;
+                lblAutoLowShotAtt6.Visible = false;
+                lblTeleOpLowShotAtt6.Visible = true;
+                lblAutoLowShotMade6.Visible = false;
+                lblTeleOpLowShotMade6.Visible = true;
+                lblChallengeScale6.Visible = true;
             }
             if (AutonomousMode[5])
             {
                 lblAuto6.Visible = true;
                 lblTeleOp6.Visible = false;
-                lblAutoHighAtt6.Visible = true;
-                lblTeleOpHighAtt6.Visible = false;
-                lblAutoHighMade6.Visible = true;
-                lblTeleOpHighMade6.Visible = false;
-                lblAutoMidAtt6.Visible = true;
-                lblTeleOpMidAtt6.Visible = false;
-                lblAutoMidMade6.Visible = true;
-                lblTeleOpMidMade6.Visible = false;
-                lblAutoLowAtt6.Visible = true;
-                lblTeleOpLowAtt6.Visible = false;
-                lblAutoLowMade6.Visible = true;
-                lblTeleOpLowMade6.Visible = false;
-                lblTeleOpPyramidAtt6.Visible = false;
-                lblTeleOpPyramidMade6.Visible = false;
-                lblRobotClimb6.Visible = false;
+                lblAutoD1Reach6.Visible = true;
+                lblTeleOpD1Att6.Visible = false;
+                lblAutoD1Cross6.Visible = true;
+                lblTeleOpD1Cross6.Visible = false;
+                lblAutoD2Reach6.Visible = true;
+                lblTeleOpD2Att6.Visible = false;
+                lblAutoD2Cross6.Visible = true;
+                lblTeleOpD2Cross6.Visible = false;
+                lblAutoD3Reach6.Visible = true;
+                lblTeleOpD3Att6.Visible = false;
+                lblAutoD3Cross6.Visible = true;
+                lblTeleOpD3Cross6.Visible = false;
+                lblAutoD4Reach6.Visible = true;
+                lblTeleOpD4Att6.Visible = false;
+                lblAutoD4Cross6.Visible = true;
+                lblTeleOpD4Cross6.Visible = false;
+                lblAutoD5Reach6.Visible = true;
+                lblTeleOpD5Att6.Visible = false;
+                lblAutoD5Cross6.Visible = true;
+                lblTeleOpD5Cross6.Visible = false;
+                lblAutoHighShotAtt6.Visible = true;
+                lblTeleOpHighShotAtt6.Visible = false;
+                lblAutoHighShotMade6.Visible = true;
+                lblTeleOpHighShotMade6.Visible = false;
+                lblAutoLowShotAtt6.Visible = true;
+                lblTeleOpLowShotAtt6.Visible = false;
+                lblAutoLowShotMade6.Visible = true;
+                lblTeleOpLowShotMade6.Visible = false;
+                lblChallengeScale6.Visible = false;
             }
             //Defense Rating
             lblDefense6.Text = displayDefenseRating[5].ToString();
 
             // Pyramid Goals
-            lblTeleOpPyramidMade6.Text = displayPyramidFrisbeesMade[5].ToString();
-            lblTeleOpPyramidAtt6.Text = displayPyramidFrisbeesAtt[5].ToString();
+            lblTeleOpD1Cross6.Text = displayDefense1Cross[5].ToString();
+            lblTeleOpD1Att6.Text = displayDefense1Att[5].ToString();
+            lblAutoD1Cross6.Text = autoDisplayDefense1Cross[5].ToString();
+            lblAutoD1Reach6.Text = autoDisplayDefense1Reach[5].ToString();
 
             // High Goals
-            lblTeleOpHighMade6.Text = displayHighFrisbeesMade[5].ToString();
-            lblTeleOpHighAtt6.Text = displayHighFrisbeesAtt[5].ToString();
-            lblAutoHighMade6.Text = autoDisplayHighFrisbeesMade[5].ToString();
-            lblAutoHighAtt6.Text = autoDisplayHighFrisbeesAtt[5].ToString();
+            lblTeleOpD2Cross6.Text = displayDefense2Cross[5].ToString();
+            lblTeleOpD2Att6.Text = displayDefense2Att[5].ToString();
+            lblAutoD2Cross6.Text = autoDisplayDefense2Cross[5].ToString();
+            lblAutoD2Reach6.Text = autoDisplayDefense2Reach[5].ToString();
 
             // Mid Goals
-            lblTeleOpMidMade6.Text = displayMidFrisbeesMade[5].ToString();
-            lblTeleOpMidAtt6.Text = displayMidFrisbeesAtt[5].ToString();
-            lblAutoMidMade6.Text = autoDisplayMidFrisbeesMade[5].ToString();
-            lblAutoMidAtt6.Text = autoDisplayMidFrisbeesAtt[5].ToString();
+            lblTeleOpD3Cross6.Text = displayDefense3Cross[5].ToString();
+            lblTeleOpD3Att6.Text = displayDefense3Att[5].ToString();
+            lblAutoD3Cross6.Text = autoDisplayDefense3Cross[5].ToString();
+            lblAutoD3Reach6.Text = autoDisplayDefense3Reach[5].ToString();
 
             // Low Goals
-            lblTeleOpLowMade6.Text = displayLowFrisbeesMade[5].ToString();
-            lblTeleOpLowAtt6.Text = displayLowFrisbeesAtt[5].ToString();
-            lblAutoLowMade6.Text = autoDisplayLowFrisbeesMade[5].ToString();
-            lblAutoLowAtt6.Text = autoDisplayLowFrisbeesAtt[5].ToString();
+            lblTeleOpD4Cross6.Text = displayDefense4Cross[5].ToString();
+            lblTeleOpD4Att6.Text = displayDefense4Att[5].ToString();
+            lblAutoD4Cross6.Text = autoDisplayDefense4Cross[5].ToString();
+            lblAutoD4Reach6.Text = autoDisplayDefense4Reach[5].ToString();
+
+            // Defense 5
+            lblTeleOpD5Cross6.Text = displayDefense5Cross[5].ToString();
+            lblTeleOpD5Att6.Text = displayDefense5Att[5].ToString();
+            lblAutoD5Cross6.Text = autoDisplayDefense5Cross[5].ToString();
+            lblAutoD5Reach6.Text = autoDisplayDefense5Reach[5].ToString();
+
+            // High Boulder Shot 
+            lblTeleOpHighShotMade6.Text = displayHighShotMade[5].ToString();
+            lblTeleOpHighShotAtt6.Text = displayHighShotAtt[5].ToString();
+            lblAutoHighShotMade6.Text = autoDisplayHighShotMade[5].ToString();
+            lblAutoHighShotAtt6.Text = autoDisplayHighShotAtt[5].ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade6.Text = displayLowShotMade[5].ToString();
+            lblTeleOpLowShotAtt6.Text = displayLowShotAtt[5].ToString();
+            lblAutoLowShotMade6.Text = autoDisplayLowShotMade[5].ToString();
+            lblAutoLowShotAtt6.Text = autoDisplayLowShotAtt[5].ToString();
 
             // Robot Climb
-            lblRobotClimb6.Text = robotClimb[5].ToString();
+            lblChallengeScale6.Text = challengeScale[5].ToString();
 
             lblTeleOpTotalPoints6.Text = teleOpTotalPoints[5].ToString();
             lblAutoTotalPoints6.Text = autoTotalPoints[5].ToString();
-            lblTotalPoints6.Text = (autoTotalPoints[5] + teleOpTotalPoints[5] + robotClimb[5]).ToString();
+            lblTotalPoints6.Text = (autoTotalPoints[5] + teleOpTotalPoints[5] + challengeScale[5]).ToString();
 
             if (FinshedScoring[5])
                 lblTeleOp6.ForeColor = Color.DarkGreen;
@@ -757,7 +1127,7 @@ namespace MultipleJoysticks
             int FoundAt;
 
             // Find where the button maps are equal to get the command
-            for (FoundAt = 0; FoundAt < 22 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++)
+            for (FoundAt = 0; FoundAt < 34 && !strButtonMap.Equals(ControllerCommands[id, FoundAt]); FoundAt++)
             {
             }
 
@@ -799,261 +1169,498 @@ namespace MultipleJoysticks
 
                     break;
 
-                case (GameCommands.HighFrisbeesAttMinus):
+                case (GameCommands.Defense2AttMinus):
                     if (TeleOp[id])
                     {
-                        if (highFrisbeesAtt[id] > 0 && highFrisbeesMade[id] < highFrisbeesAtt[id])
+                        if (defense2Att[id] > 0 && defense2Cross[id] < defense2Att[id])
                         {
-                            highFrisbeesAtt[id]--;
-                            displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
+                            defense2Att[id]--;
+                            displayDefense2Att[id] = defense2Att[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoHighFrisbeesAtt[id] > 0 && autoHighFrisbeesMade[id] < autoHighFrisbeesAtt[id])
+                        if (autoDefense2Reach[id] > 0 && autoDefense2Cross[id] < autoDefense2Reach[id])
                         {
-                            autoHighFrisbeesAtt[id]--;
-                            autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                        }
-                    }
-
-                    break;
-
-                case (GameCommands.HighFrisbeesAttPlus):
-                    if (TeleOp[id])
-                    {
-                        highFrisbeesAtt[id]++;
-                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoHighFrisbeesAtt[id]++;
-                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                    }
-
-                    break;
-
-                case (GameCommands.HighFrisbeesMadeMinus):
-                    if (TeleOp[id])
-                    {
-                        if (highFrisbeesMade[id] > 0)
-                        {
-                            highFrisbeesMade[id]--;
-                            displayHighFrisbeesMade[id] = highFrisbeesMade[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoHighFrisbeesMade[id] > 0)
-                        {
-                            autoHighFrisbeesMade[id]--;
-                            autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                        }
-                    }
-                    break;
-
-                case (GameCommands.HighFrisbeesMadePlus):
-                    if (TeleOp[id])
-                    {
-                        highFrisbeesMade[id]++;
-                        displayHighFrisbeesMade[id] = highFrisbeesMade[id];
-                        highFrisbeesAtt[id]++;
-                        displayHighFrisbeesAtt[id] = highFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoHighFrisbeesMade[id]++;
-                        autoDisplayHighFrisbeesMade[id] = autoHighFrisbeesMade[id];
-                        autoHighFrisbeesAtt[id]++;
-                        autoDisplayHighFrisbeesAtt[id] = autoHighFrisbeesAtt[id];
-                    }
-                    break;
-
-                case (GameCommands.LowFrisbeesAttMinus):
-                    if (TeleOp[id])
-                    {
-                        if (lowFrisbeesAtt[id] > 0 && lowFrisbeesMade[id] < lowFrisbeesAtt[id])
-                        {
-                            lowFrisbeesAtt[id]--;
-                            displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoLowFrisbeesAtt[id] > 0 && autoLowFrisbeesMade[id] < autoLowFrisbeesAtt[id])
-                        {
-                            autoLowFrisbeesAtt[id]--;
-                            autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
+                            autoDefense2Reach[id]--;
+                            autoDisplayDefense2Reach[id] = autoDefense2Reach[id];
                         }
                     }
 
                     break;
 
-                case (GameCommands.LowFrisbeesAttPlus):
+                case (GameCommands.Defense2AttPlus):
                     if (TeleOp[id])
                     {
-                        lowFrisbeesAtt[id]++;
-                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
+                        defense2Att[id]++;
+                        displayDefense2Att[id] = defense2Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoLowFrisbeesAtt[id]++;
-                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                    }
-
-
-                    break;
-
-                case (GameCommands.LowFrisbeesMadeMinus):
-                    if (TeleOp[id])
-                    {
-                        if (lowFrisbeesMade[id] > 0)
-                        {
-                            lowFrisbeesMade[id]--;
-                            displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                        }
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        if (autoLowFrisbeesMade[id] > 0)
-                        {
-                            autoLowFrisbeesMade[id]--;
-                            autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                        }
+                        autoDefense2Reach[id]++;
+                        autoDisplayDefense2Reach[id] = autoDefense2Reach[id];
                     }
 
                     break;
 
-                case (GameCommands.LowFrisbeesMadePlus):
+                case (GameCommands.Defense2CrossMinus):
                     if (TeleOp[id])
                     {
-                        lowFrisbeesMade[id]++;
-                        displayLowFrisbeesMade[id] = lowFrisbeesMade[id];
-                        lowFrisbeesAtt[id]++;
-                        displayLowFrisbeesAtt[id] = lowFrisbeesAtt[id];
-                    }
-                    if (AutonomousMode[id])
-                    {
-                        autoLowFrisbeesMade[id]++;
-                        autoDisplayLowFrisbeesMade[id] = autoLowFrisbeesMade[id];
-                        autoLowFrisbeesAtt[id]++;
-                        autoDisplayLowFrisbeesAtt[id] = autoLowFrisbeesAtt[id];
-                    }
-
-                    break;
-
-                case (GameCommands.MidFrisbeesAttMinus):
-                    if (TeleOp[id])
-                    {
-                        if (midFrisbeesAtt[id] > 0 && midFrisbeesMade[id] < midFrisbeesAtt[id])
+                        if (defense2Cross[id] > 0)
                         {
-                            midFrisbeesAtt[id]--;
-                            displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                            defense2Cross[id]--;
+                            displayDefense2Cross[id] = defense2Cross[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoMidFrisbeesAtt[id] > 0 && autoMidFrisbeesMade[id] < autoMidFrisbeesAtt[id])
+                        if (autoDefense2Cross[id] > 0)
                         {
-                            autoMidFrisbeesAtt[id]--;
-                            autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                            autoDefense2Cross[id]--;
+                            autoDisplayDefense2Cross[id] = autoDefense2Cross[id];
                         }
                     }
                     break;
 
-                case (GameCommands.MidFrisbeesAttPlus):
+                case (GameCommands.Defense2CrossPlus):
                     if (TeleOp[id])
                     {
-                        midFrisbeesAtt[id]++;
-                        displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                        defense2Cross[id]++;
+                        displayDefense2Cross[id] = defense2Cross[id];
+                        defense2Att[id]++;
+                        displayDefense2Att[id] = defense2Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoMidFrisbeesAtt[id]++;
-                        autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                        autoDefense2Cross[id]++;
+                        autoDisplayDefense2Cross[id] = autoDefense2Cross[id];
+                        autoDefense2Reach[id]++;
+                        autoDisplayDefense2Reach[id] = autoDefense2Reach[id];
                     }
-
-
                     break;
 
-                case (GameCommands.MidFrisbeesMadeMinus):
+                case (GameCommands.Defense4AttMinus):
                     if (TeleOp[id])
                     {
-                        if (midFrisbeesMade[id] > 0)
+                        if (defense4Att[id] > 0 && defense4Cross[id] < defense4Att[id])
                         {
-                            midFrisbeesMade[id]--;
-                            displayMidFrisbeesMade[id] = midFrisbeesMade[id];
+                            defense4Att[id]--;
+                            displayDefense4Att[id] = defense4Att[id];
                         }
                     }
                     if (AutonomousMode[id])
                     {
-                        if (autoMidFrisbeesMade[id] > 0)
+                        if (autoDefense4Reach[id] > 0 && autoDefense4Cross[id] < autoDefense4Reach[id])
                         {
-                            autoMidFrisbeesMade[id]--;
-                            autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
+                            autoDefense4Reach[id]--;
+                            autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
                         }
                     }
 
                     break;
 
-                case (GameCommands.MidFrisbeesMadePlus):
+                case (GameCommands.Defense4AttPlus):
                     if (TeleOp[id])
                     {
-                        midFrisbeesMade[id]++;
-                        displayMidFrisbeesMade[id] = midFrisbeesMade[id];
-                        midFrisbeesAtt[id]++;
-                        displayMidFrisbeesAtt[id] = midFrisbeesAtt[id];
+                        defense4Att[id]++;
+                        displayDefense4Att[id] = defense4Att[id];
                     }
                     if (AutonomousMode[id])
                     {
-                        autoMidFrisbeesMade[id]++;
-                        autoDisplayMidFrisbeesMade[id] = autoMidFrisbeesMade[id];
-                        autoMidFrisbeesAtt[id]++;
-                        autoDisplayMidFrisbeesAtt[id] = autoMidFrisbeesAtt[id];
+                        autoDefense4Reach[id]++;
+                        autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense4CrossMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense4Cross[id] > 0)
+                        {
+                            defense4Cross[id]--;
+                            displayDefense4Cross[id] = defense4Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense4Cross[id] > 0)
+                        {
+                            autoDefense4Cross[id]--;
+                            autoDisplayDefense4Cross[id] = autoDefense4Cross[id];
+                        }
                     }
 
                     break;
 
-                case (GameCommands.PyramidFrisbeesAttMinus):
-                    if (pyramidFrisbeesAtt[id] > 0 && pyramidFrisbeesMade[id] < pyramidFrisbeesAtt[id])
-                        pyramidFrisbeesAtt[id]--;
-                    displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
+                case (GameCommands.Defense4CrossPlus):
+                    if (TeleOp[id])
+                    {
+                        defense4Cross[id]++;
+                        displayDefense4Cross[id] = defense4Cross[id];
+                        defense4Att[id]++;
+                        displayDefense4Att[id] = defense4Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense4Cross[id]++;
+                        autoDisplayDefense4Cross[id] = autoDefense4Cross[id];
+                        autoDefense4Reach[id]++;
+                        autoDisplayDefense4Reach[id] = autoDefense4Reach[id];
+                    }
 
                     break;
 
-                case (GameCommands.PyramidFrisbeesAttPlus):
-                    pyramidFrisbeesAtt[id]++;
-                    displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
-                    break;
+                case (GameCommands.Defense5AttPlus):
+                    if (TeleOp[id])
+                    {
+                        defense5Att[id]++;
+                        displayDefense5Att[id] = defense5Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense5Reach[id]++;
+                        autoDisplayDefense5Reach[id] = autoDefense5Reach[id];
+                    }
 
-                case (GameCommands.ShotsMissedPlus):
-                    if (pyramidFrisbeesMade[id] > 0)
-                        pyramidFrisbeesMade[id]--;
-                    displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
-                    break;
-
-                case (GameCommands.ShotsMissedMinus):
-                    pyramidFrisbeesMade[id]++;
-                    displayPyramidFrisbeesMade[id] = pyramidFrisbeesMade[id];
-                    // If they made it increase the attempts
-                    pyramidFrisbeesAtt[id]++;
-                    displayPyramidFrisbeesAtt[id] = pyramidFrisbeesAtt[id];
 
                     break;
 
-                case (GameCommands.RobotScalePlus):
+                case (GameCommands.Defense5CrossMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense5Cross[id] > 0)
+                        {
+                            defense5Cross[id]--;
+                            displayDefense5Cross[id] = defense5Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense5Cross[id] > 0)
+                        {
+                            autoDefense5Cross[id]--;
+                            autoDisplayDefense5Cross[id] = autoDefense5Cross[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense5CrossPlus):
+                    if (TeleOp[id])
+                    {
+                        defense5Cross[id]++;
+                        displayDefense5Cross[id] = defense5Cross[id];
+                        defense5Att[id]++;
+                        displayDefense5Att[id] = defense5Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense5Cross[id]++;
+                        autoDisplayDefense5Cross[id] = autoDefense5Cross[id];
+                        autoDefense5Reach[id]++;
+                        autoDisplayDefense5Reach[id] = autoDefense5Reach[id];
+                    }
+
+                    break;
+
+                case (GameCommands.Defense3AttMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense3Att[id] > 0 && defense3Cross[id] < defense3Att[id])
+                        {
+                            defense3Att[id]--;
+                            displayDefense3Att[id] = defense3Att[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense3Reach[id] > 0 && autoDefense3Cross[id] < autoDefense3Reach[id])
+                        {
+                            autoDefense3Reach[id]--;
+                            autoDisplayDefense3Reach[id] = autoDefense3Reach[id];
+                        }
+                    }
+                    break;
+
+                case (GameCommands.Defense3AttPlus):
+                    if (TeleOp[id])
+                    {
+                        defense3Att[id]++;
+                        displayDefense3Att[id] = defense3Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense3Reach[id]++;
+                        autoDisplayDefense3Reach[id] = autoDefense3Reach[id];
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense3CrossMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense3Cross[id] > 0)
+                        {
+                            defense3Cross[id]--;
+                            displayDefense3Cross[id] = defense3Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense3Cross[id] > 0)
+                        {
+                            autoDefense3Cross[id]--;
+                            autoDisplayDefense3Cross[id] = autoDefense3Cross[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense3CrossPlus):
+                    if (TeleOp[id])
+                    {
+                        defense3Cross[id]++;
+                        displayDefense3Cross[id] = defense3Cross[id];
+                        defense3Att[id]++;
+                        displayDefense3Att[id] = defense3Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense3Cross[id]++;
+                        autoDisplayDefense3Cross[id] = autoDefense3Cross[id];
+                        autoDefense3Reach[id]++;
+                        autoDisplayDefense3Reach[id] = autoDefense3Reach[id];
+                    }
+
+                    break;
+
+                case (GameCommands.Defense1AttMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense1Att[id] > 0 && defense1Cross[id] < defense1Att[id])
+                        {
+                            defense1Att[id]--;
+                            displayDefense1Att[id] = defense1Att[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense1Reach[id] > 0 && autoDefense1Cross[id] < autoDefense1Reach[id])
+                        {
+                            autoDefense1Reach[id]--;
+                            autoDisplayDefense1Reach[id] = autoDefense1Reach[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense1AttPlus):
+                    if (TeleOp[id])
+                    {
+                        defense1Att[id]++;
+                        displayDefense1Att[id] = defense1Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense1Reach[id]++;
+                        autoDisplayDefense1Reach[id] = autoDefense1Reach[id];
+                    }
+                    break;
+
+                case (GameCommands.Defense1CrossMinus):
+                    if (TeleOp[id])
+                    {
+                        if (defense1Cross[id] > 0)
+                        {
+                            defense1Cross[id]--;
+                            displayDefense1Cross[id] = defense1Cross[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoDefense1Cross[id] > 0)
+                        {
+                            autoDefense1Cross[id]--;
+                            autoDisplayDefense1Cross[id] = autoDefense1Cross[id];
+                        }
+                    }
+                    break;
+
+                case (GameCommands.Defense1CrossPlus):
+                    if (TeleOp[id])
+                    {
+                        defense1Cross[id]++;
+                        displayDefense1Cross[id] = defense1Cross[id];
+                        defense1Att[id]++;
+                        displayDefense1Att[id] = defense1Att[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoDefense1Cross[id]++;
+                        autoDisplayDefense1Cross[id] = autoDefense1Cross[id];
+                        autoDefense1Reach[id]++;
+                        autoDisplayDefense1Reach[id] = autoDefense1Reach[id];
+                    }
+
+                    break;
+
+                case (GameCommands.HighShotAttMinus):
+                    if (TeleOp[id])
+                    {
+                        if (highShotAtt[id] > 0 && highShotMade[id] < highShotAtt[id])
+                        {
+                            highShotAtt[id]--;
+                            displayHighShotAtt[id] = highShotAtt[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoHighShotAtt[id] > 0 && autoHighShotMade[id] < autoHighShotAtt[id])
+                        {
+                            autoHighShotAtt[id]--;
+                            autoDisplayHighShotAtt[id] = autoHighShotAtt[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.HighShotAttPlus):
+                    if (TeleOp[id])
+                    {
+                        highShotAtt[id]++;
+                        displayHighShotAtt[id] = highShotAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoHighShotAtt[id]++;
+                        autoDisplayHighShotAtt[id] = autoHighShotAtt[id];
+                    }
+                    break;
+
+                case (GameCommands.HighShotMadeMinus):
+                    if (TeleOp[id])
+                    {
+                        if (highShotMade[id] > 0)
+                        {
+                            highShotMade[id]--;
+                            displayHighShotMade[id] = highShotMade[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoHighShotMade[id] > 0)
+                        {
+                            autoHighShotMade[id]--;
+                            autoDisplayHighShotMade[id] = autoHighShotMade[id];
+                        }
+                    }
+                    break;
+
+                case (GameCommands.HighShotMadePlus):
+                    if (TeleOp[id])
+                    {
+                        highShotMade[id]++;
+                        displayHighShotMade[id] = highShotMade[id];
+                        highShotAtt[id]++;
+                        displayHighShotAtt[id] = highShotAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoHighShotMade[id]++;
+                        autoDisplayHighShotMade[id] = autoHighShotMade[id];
+                        autoHighShotAtt[id]++;
+                        autoDisplayHighShotAtt[id] = autoHighShotAtt[id];
+                    }
+
+                    break;
+
+                case (GameCommands.LowShotAttMinus):
+                    if (TeleOp[id])
+                    {
+                        if (lowShotAtt[id] > 0 && lowShotMade[id] < lowShotAtt[id])
+                        {
+                            lowShotAtt[id]--;
+                            displayLowShotAtt[id] = lowShotAtt[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoLowShotAtt[id] > 0 && autoLowShotMade[id] < autoLowShotAtt[id])
+                        {
+                            autoLowShotAtt[id]--;
+                            autoDisplayLowShotAtt[id] = autoLowShotAtt[id];
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.LowShotAttPlus):
+                    if (TeleOp[id])
+                    {
+                        lowShotAtt[id]++;
+                        displayLowShotAtt[id] = lowShotAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoLowShotAtt[id]++;
+                        autoDisplayLowShotAtt[id] = autoLowShotAtt[id];
+                    }
+                    break;
+
+                case (GameCommands.LowShotMadeMinus):
+                    if (TeleOp[id])
+                    {
+                        if (lowShotMade[id] > 0)
+                        {
+                            lowShotMade[id]--;
+                            displayLowShotMade[id] = lowShotMade[id];
+                        }
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        if (autoLowShotMade[id] > 0)
+                        {
+                            autoLowShotMade[id]--;
+                            autoDisplayLowShotMade[id] = autoLowShotMade[id];
+                        }
+                    }
+                    break;
+
+                case (GameCommands.LowShotMadePlus):
+                    if (TeleOp[id])
+                    {
+                        lowShotMade[id]++;
+                        displayLowShotMade[id] = lowShotMade[id];
+                        lowShotAtt[id]++;
+                        displayLowShotAtt[id] = lowShotAtt[id];
+                    }
+                    if (AutonomousMode[id])
+                    {
+                        autoLowShotMade[id]++;
+                        autoDisplayLowShotMade[id] = autoLowShotMade[id];
+                        autoLowShotAtt[id]++;
+                        autoDisplayLowShotAtt[id] = autoLowShotAtt[id];
+                    }
+
+                    break;
+
+                case (GameCommands.ChallengeScalePlus):
                     if (TeleOp[id])
                     {
                         climb[id]++;
-                        robotClimb[id] = climb[id];
+                        challengeScale[id] = climb[id];
 
-                        if (robotClimb[id] > 3)
+                        if (challengeScale[id] > 2) // 0 = not done, 1 = challenge, 2 = scale
                         {
-                            robotClimb[id] = 0;
+                            challengeScale[id] = 0;
                             climb[id] = 0;
                         }
 
-                        robotClimb[id] = robotClimb[id] * 10;
+                        //This line multiplied by 10 for points, and is not relevant
+                        //robotClimb[id] = robotClimb[id] * 10;
                     }
                     break;
                 case (GameCommands.FinishedScoring):
@@ -1115,36 +1722,64 @@ namespace MultipleJoysticks
 
                 for (int f = 0; f < 6; f++)
                 {
-                    displayLowFrisbeesMade[f] = 0;
-                    displayLowFrisbeesAtt[f] = 0;
-                    lowFrisbeesMade[f] = 0;
-                    lowFrisbeesAtt[f] = 0;
-                    autoDisplayLowFrisbeesMade[f] = 0;
-                    autoLowFrisbeesMade[f] = 0;
-                    autoDisplayLowFrisbeesAtt[f] = 0;
-                    autoLowFrisbeesAtt[f] = 0;
-                    displayMidFrisbeesMade[f] = 0;
-                    midFrisbeesMade[f] = 0;
-                    displayMidFrisbeesAtt[f] = 0;
-                    midFrisbeesAtt[f] = 0;
-                    autoDisplayMidFrisbeesMade[f] = 0;
-                    autoMidFrisbeesMade[f] = 0;
-                    autoDisplayMidFrisbeesAtt[f] = 0;
-                    autoMidFrisbeesAtt[f] = 0;
-                    displayHighFrisbeesMade[f] = 0;
-                    highFrisbeesMade[f] = 0;
-                    displayHighFrisbeesAtt[f] = 0;
-                    highFrisbeesAtt[f] = 0;
-                    autoDisplayHighFrisbeesMade[f] = 0;
-                    autoHighFrisbeesMade[f] = 0;
-                    autoDisplayHighFrisbeesAtt[f] = 0;
-                    autoHighFrisbeesAtt[f] = 0;
-                    displayPyramidFrisbeesMade[f] = 0;
-                    pyramidFrisbeesMade[f] = 0;
-                    displayPyramidFrisbeesAtt[f] = 0;
-                    pyramidFrisbeesAtt[f] = 0;
+                    displayDefense5Cross[f] = 0;
+                    displayDefense5Att[f] = 0;
+                    defense5Cross[f] = 0;
+                    defense5Att[f] = 0;
+                    autoDisplayDefense5Cross[f] = 0;
+                    autoDefense5Cross[f] = 0;
+                    autoDisplayDefense5Reach[f] = 0;
+                    autoDefense5Reach[f] = 0;
+                    displayDefense4Cross[f] = 0;
+                    displayDefense4Att[f] = 0;
+                    defense4Cross[f] = 0;
+                    defense4Att[f] = 0;
+                    autoDisplayDefense4Cross[f] = 0;
+                    autoDefense4Cross[f] = 0;
+                    autoDisplayDefense4Reach[f] = 0;
+                    autoDefense4Reach[f] = 0;
+                    displayDefense3Cross[f] = 0;
+                    defense3Cross[f] = 0;
+                    displayDefense3Att[f] = 0;
+                    defense3Att[f] = 0;
+                    autoDisplayDefense3Cross[f] = 0;
+                    autoDefense3Cross[f] = 0;
+                    autoDisplayDefense3Reach[f] = 0;
+                    autoDefense3Reach[f] = 0;
+                    displayDefense2Cross[f] = 0;
+                    defense2Cross[f] = 0;
+                    displayDefense2Att[f] = 0;
+                    defense2Att[f] = 0;
+                    autoDisplayDefense2Cross[f] = 0;
+                    autoDefense2Cross[f] = 0;
+                    autoDisplayDefense2Reach[f] = 0;
+                    autoDefense2Reach[f] = 0;
+                    autoDisplayDefense1Cross[f] = 0;
+                    autoDefense1Cross[f] = 0;
+                    autoDisplayDefense1Reach[f] = 0;
+                    autoDefense1Reach[f] = 0;
+                    displayDefense1Cross[f] = 0;
+                    defense1Cross[f] = 0;
+                    displayDefense1Att[f] = 0;
+                    defense1Att[f] = 0;
+                    autoDisplayHighShotMade[f] = 0;
+                    autoHighShotMade[f] = 0;
+                    autoDisplayHighShotAtt[f] = 0;
+                    autoHighShotAtt[f] = 0;
+                    displayHighShotMade[f] = 0;
+                    highShotMade[f] = 0;
+                    displayHighShotAtt[f] = 0;
+                    highShotAtt[f] = 0;
+                    autoDisplayLowShotMade[f] = 0;
+                    autoLowShotMade[f] = 0;
+                    autoDisplayLowShotAtt[f] = 0;
+                    autoLowShotAtt[f] = 0;
+                    displayLowShotMade[f] = 0;
+                    lowShotMade[f] = 0;
+                    displayLowShotAtt[f] = 0;
+                    lowShotAtt[f] = 0;
                     climb[f] = 0;
-                    robotClimb[f] = 0;
+                    challengeScale[f] = 0;
                     teleOpTotalPoints[f] = 0;
                     autoTotalPoints[f] = 0;
                     defenseRating[f] = 0;
@@ -1161,12 +1796,12 @@ namespace MultipleJoysticks
                     lblTeleOp4.Visible = false;
                     lblTeleOp5.Visible = false;
                     lblTeleOp6.Visible = false;
-                    lblRobotClimb.Visible = false;
-                    lblRobotClimb2.Visible = false;
-                    lblRobotClimb3.Visible = false;
-                    lblRobotClimb4.Visible = false;
-                    lblRobotClimb5.Visible = false;
-                    lblRobotClimb6.Visible = false;
+                    lblChallengeScale.Visible = false;
+                    lblChallengeScale2.Visible = false;
+                    lblChallengeScale3.Visible = false;
+                    lblChallengeScale4.Visible = false;
+                    lblChallengeScale5.Visible = false;
+                    lblChallengeScale6.Visible = false;
                     FinshedScoring[f] = false;
                     tm1939RefreshScreen(f);
                 }
@@ -1202,36 +1837,60 @@ namespace MultipleJoysticks
 
             for (int f = 0; f < 6; f++)
             {
-                displayLowFrisbeesMade[f] = 0;
-                displayLowFrisbeesAtt[f] = 0;
-                lowFrisbeesMade[f] = 0;
-                lowFrisbeesAtt[f] = 0;
-                autoDisplayLowFrisbeesMade[f] = 0;
-                autoLowFrisbeesMade[f] = 0;
-                autoDisplayLowFrisbeesAtt[f] = 0;
-                autoLowFrisbeesAtt[f] = 0;
-                displayMidFrisbeesMade[f] = 0;
-                midFrisbeesMade[f] = 0;
-                displayMidFrisbeesAtt[f] = 0;
-                midFrisbeesAtt[f] = 0;
-                autoDisplayMidFrisbeesMade[f] = 0;
-                autoMidFrisbeesMade[f] = 0;
-                autoDisplayMidFrisbeesAtt[f] = 0;
-                autoMidFrisbeesAtt[f] = 0;
-                displayHighFrisbeesMade[f] = 0;
-                highFrisbeesMade[f] = 0;
-                displayHighFrisbeesAtt[f] = 0;
-                highFrisbeesAtt[f] = 0;
-                autoDisplayHighFrisbeesMade[f] = 0;
-                autoHighFrisbeesMade[f] = 0;
-                autoDisplayHighFrisbeesAtt[f] = 0;
-                autoHighFrisbeesAtt[f] = 0;
-                displayPyramidFrisbeesMade[f] = 0;
-                pyramidFrisbeesMade[f] = 0;
-                displayPyramidFrisbeesAtt[f] = 0;
-                pyramidFrisbeesAtt[f] = 0;
+                displayDefense5Cross[f] = 0;
+                displayDefense5Att[f] = 0;
+                defense5Cross[f] = 0;
+                defense5Att[f] = 0;
+                autoDisplayDefense5Cross[f] = 0;
+                autoDefense5Cross[f] = 0;
+                autoDisplayDefense5Reach[f] = 0;
+                autoDefense5Reach[f] = 0;
+                displayDefense4Cross[f] = 0;
+                displayDefense4Att[f] = 0;
+                defense4Cross[f] = 0;
+                defense4Att[f] = 0;
+                autoDisplayDefense4Cross[f] = 0;
+                autoDefense4Cross[f] = 0;
+                autoDisplayDefense4Reach[f] = 0;
+                autoDefense4Reach[f] = 0;
+                displayDefense3Cross[f] = 0;
+                defense3Cross[f] = 0;
+                displayDefense3Att[f] = 0;
+                defense3Att[f] = 0;
+                autoDisplayDefense3Cross[f] = 0;
+                autoDefense3Cross[f] = 0;
+                autoDisplayDefense3Reach[f] = 0;
+                autoDefense3Reach[f] = 0;
+                displayDefense2Cross[f] = 0;
+                defense2Cross[f] = 0;
+                displayDefense2Att[f] = 0;
+                defense2Att[f] = 0;
+                autoDisplayDefense2Cross[f] = 0;
+                autoDefense2Cross[f] = 0;
+                autoDisplayDefense2Reach[f] = 0;
+                autoDefense2Reach[f] = 0;
+                displayDefense1Cross[f] = 0;
+                defense1Cross[f] = 0;
+                displayDefense1Att[f] = 0;
+                defense1Att[f] = 0;
+                autoDisplayHighShotMade[f] = 0;
+                autoHighShotMade[f] = 0;
+                autoDisplayHighShotAtt[f] = 0;
+                autoHighShotAtt[f] = 0;
+                displayHighShotMade[f] = 0;
+                highShotMade[f] = 0;
+                displayHighShotAtt[f] = 0;
+                highShotAtt[f] = 0;
+                autoDisplayLowShotMade[f] = 0;
+                autoLowShotMade[f] = 0;
+                autoDisplayLowShotAtt[f] = 0;
+                autoLowShotAtt[f] = 0;
+                displayLowShotMade[f] = 0;
+                lowShotMade[f] = 0;
+                displayLowShotAtt[f] = 0;
+                lowShotAtt[f] = 0;
                 climb[f] = 0;
-                robotClimb[f] = 0;
+                challengeScale[f] = 0;
                 teleOpTotalPoints[f] = 0;
                 autoTotalPoints[f] = 0;
                 defenseRating[f] = 0;
@@ -1251,24 +1910,24 @@ namespace MultipleJoysticks
             lblTeleOp4.Visible = false;
             lblTeleOp5.Visible = false;
             lblTeleOp6.Visible = false;
-            lblRobotClimb.Visible = false;
-            lblRobotClimb2.Visible = false;
-            lblRobotClimb3.Visible = false;
-            lblRobotClimb4.Visible = false;
-            lblRobotClimb5.Visible = false;
-            lblRobotClimb6.Visible = false;
+            lblChallengeScale.Visible = false;
+            lblChallengeScale2.Visible = false;
+            lblChallengeScale3.Visible = false;
+            lblChallengeScale4.Visible = false;
+            lblChallengeScale5.Visible = false;
+            lblChallengeScale6.Visible = false;
         }
 
         private void tm1939SaveFile(StreamWriter outputstream)
         {
             // A single writeline section to handle both save buttons.
             // Added Match to the end of each record
-            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoHighMade.Text + x + lblAutoHighAtt.Text + x + lblAutoMidMade.Text + x + lblAutoMidAtt.Text + x + lblAutoLowMade.Text + x + lblAutoLowAtt.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpPyramidMade.Text + x + lblTeleOpPyramidAtt.Text + x + lblTeleOpHighMade.Text + x + lblTeleOpHighAtt.Text + x + lblTeleOpMidMade.Text + x + lblTeleOpMidAtt.Text + x + lblTeleOpLowMade.Text + x + lblTeleOpLowAtt.Text + x + lblRobotClimb.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoHighMade2.Text + x + lblAutoHighAtt2.Text + x + lblAutoMidMade2.Text + x + lblAutoMidAtt2.Text + x + lblAutoLowMade2.Text + x + lblAutoLowAtt2.Text + x + lblAutoTotalPoints2.Text + x + lblTeleOpPyramidMade2.Text + x + lblTeleOpPyramidAtt2.Text + x + lblTeleOpHighMade2.Text + x + lblTeleOpHighAtt2.Text + x + lblTeleOpMidMade2.Text + x + lblTeleOpMidAtt2.Text + x + lblTeleOpLowMade2.Text + x + lblTeleOpLowAtt2.Text + x + lblRobotClimb2.Text + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoHighMade3.Text + x + lblAutoHighAtt3.Text + x + lblAutoMidMade3.Text + x + lblAutoMidAtt3.Text + x + lblAutoLowMade3.Text + x + lblAutoLowAtt3.Text + x + lblAutoTotalPoints3.Text + x + lblTeleOpPyramidMade3.Text + x + lblTeleOpPyramidAtt3.Text + x + lblTeleOpHighMade3.Text + x + lblTeleOpHighAtt3.Text + x + lblTeleOpMidMade3.Text + x + lblTeleOpMidAtt3.Text + x + lblTeleOpLowMade3.Text + x + lblTeleOpLowAtt3.Text + x + lblRobotClimb3.Text + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoHighMade4.Text + x + lblAutoHighAtt4.Text + x + lblAutoMidMade4.Text + x + lblAutoMidAtt4.Text + x + lblAutoLowMade4.Text + x + lblAutoLowAtt4.Text + x + lblAutoTotalPoints4.Text + x + lblTeleOpPyramidMade4.Text + x + lblTeleOpPyramidAtt4.Text + x + lblTeleOpHighMade4.Text + x + lblTeleOpHighAtt4.Text + x + lblTeleOpMidMade4.Text + x + lblTeleOpMidAtt4.Text + x + lblTeleOpLowMade4.Text + x + lblTeleOpLowAtt4.Text + x + lblRobotClimb4.Text + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoHighMade5.Text + x + lblAutoHighAtt5.Text + x + lblAutoMidMade5.Text + x + lblAutoMidAtt5.Text + x + lblAutoLowMade5.Text + x + lblAutoLowAtt5.Text + x + lblAutoTotalPoints5.Text + x + lblTeleOpPyramidMade5.Text + x + lblTeleOpPyramidAtt5.Text + x + lblTeleOpHighMade5.Text + x + lblTeleOpHighAtt5.Text + x + lblTeleOpMidMade5.Text + x + lblTeleOpMidAtt5.Text + x + lblTeleOpLowMade5.Text + x + lblTeleOpLowAtt5.Text + x + lblRobotClimb5.Text + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
-            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoHighMade6.Text + x + lblAutoHighAtt6.Text + x + lblAutoMidMade6.Text + x + lblAutoMidAtt6.Text + x + lblAutoLowMade6.Text + x + lblAutoLowAtt6.Text + x + lblAutoTotalPoints6.Text + x + lblTeleOpPyramidMade6.Text + x + lblTeleOpPyramidAtt6.Text + x + lblTeleOpHighMade6.Text + x + lblTeleOpHighAtt6.Text + x + lblTeleOpMidMade6.Text + x + lblTeleOpMidAtt6.Text + x + lblTeleOpLowMade6.Text + x + lblTeleOpLowAtt6.Text + x + lblRobotClimb6.Text + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo1.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoD5Cross.Text + x + lblAutoD5Reach.Text + x + lblAutoHighShotMade + x + lblAutoHighShotAtt + x + lblAutoLowShotMade + x + lblAutoLowShotAtt + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x  + lblTeleOpD4Att.Text + x + lblTeleOpD5Cross.Text + x + lblTeleOpD5Att.Text + x + lblChallengeScale.Text + x + lblTeleOpHighShotMade + x + lblTeleOpHighShotAtt + x + lblTeleOpLowShotMade + x + lblTeleOpLowShotAtt + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo2.Text + x + lblAutoD1Cross2.Text + x + lblAutoD1Reach2.Text + x + lblAutoD2Cross2.Text + x + lblAutoD2Reach2.Text + x + lblAutoD3Cross2.Text + x + lblAutoD3Reach2.Text + x + lblAutoD4Cross2.Text + x + lblAutoD4Reach2.Text + x + lblAutoD5Cross2.Text + x + lblAutoD5Reach2.Text + x + lblAutoHighShotMade2 + x + lblAutoHighShotAtt2 + x + lblAutoLowShotMade2 + x + lblAutoLowShotAtt2 + x + lblAutoTotalPoints2.Text + x + lblTeleOpD1Cross2.Text + x + lblTeleOpD1Att2.Text + x + lblTeleOpD2Cross2.Text + x + lblTeleOpD2Att2.Text + x + lblTeleOpD3Cross2.Text + x + lblTeleOpD3Att2.Text + x + lblTeleOpD4Cross2.Text + x + lblTeleOpD4Att2.Text + x + lblTeleOpD5Cross2.Text + x + lblTeleOpD5Att2.Text + x + lblChallengeScale2.Text + x + lblTeleOpHighShotMade2 + x + lblTeleOpHighShotAtt2 + x + lblTeleOpLowShotMade2 + x + lblTeleOpLowShotAtt2 + x + lblTeleOpTotalPoints2.Text + x + lblTotalPoints2.Text + x + lblDefense2.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo3.Text + x + lblAutoD1Cross3.Text + x + lblAutoD1Reach3.Text + x + lblAutoD2Cross3.Text + x + lblAutoD2Reach3.Text + x + lblAutoD3Cross3.Text + x + lblAutoD3Reach3.Text + x + lblAutoD4Cross3.Text + x + lblAutoD4Reach3.Text + x + lblAutoD5Cross3.Text + x + lblAutoD5Reach3.Text + x + lblAutoHighShotMade3 + x + lblAutoHighShotAtt3 + x + lblAutoLowShotMade3 + x + lblAutoLowShotAtt3 + x + lblAutoTotalPoints3.Text + x + lblTeleOpD1Cross3.Text + x + lblTeleOpD1Att3.Text + x + lblTeleOpD2Cross3.Text + x + lblTeleOpD2Att3.Text + x + lblTeleOpD3Cross3.Text + x + lblTeleOpD3Att3.Text + x + lblTeleOpD4Cross3.Text + x + lblTeleOpD4Att3.Text + x + lblTeleOpD5Cross3.Text + x + lblTeleOpD5Att3.Text + x + lblChallengeScale3.Text + x + lblTeleOpHighShotMade3 + x + lblTeleOpHighShotAtt3 + x + lblTeleOpLowShotMade3 + x + lblTeleOpLowShotAtt3 + x + lblTeleOpTotalPoints3.Text + x + lblTotalPoints3.Text + x + lblDefense3.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo4.Text + x + lblAutoD1Cross4.Text + x + lblAutoD1Reach4.Text + x + lblAutoD2Cross4.Text + x + lblAutoD2Reach4.Text + x + lblAutoD3Cross4.Text + x + lblAutoD3Reach4.Text + x + lblAutoD4Cross4.Text + x + lblAutoD4Reach4.Text + x + lblAutoD5Cross4.Text + x + lblAutoD5Reach4.Text + x + lblAutoHighShotMade4 + x + lblAutoHighShotAtt4 + x + lblAutoLowShotMade4 + x + lblAutoLowShotAtt4 + x + lblAutoTotalPoints4.Text + x + lblTeleOpD1Cross4.Text + x + lblTeleOpD1Att4.Text + x + lblTeleOpD2Cross4.Text + x + lblTeleOpD2Att4.Text + x + lblTeleOpD3Cross4.Text + x + lblTeleOpD3Att4.Text + x + lblTeleOpD4Cross4.Text + x + lblTeleOpD4Att4.Text + x + lblTeleOpD5Cross4.Text + x + lblTeleOpD5Att4.Text + x + lblChallengeScale4.Text + x + lblTeleOpHighShotMade4 + x + lblTeleOpHighShotAtt4 + x + lblTeleOpLowShotMade4 + x + lblTeleOpLowShotAtt4 + x + lblTeleOpTotalPoints4.Text + x + lblTotalPoints4.Text + x + lblDefense4.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo5.Text + x + lblAutoD1Cross5.Text + x + lblAutoD1Reach5.Text + x + lblAutoD2Cross5.Text + x + lblAutoD2Reach5.Text + x + lblAutoD3Cross5.Text + x + lblAutoD3Reach5.Text + x + lblAutoD4Cross5.Text + x + lblAutoD4Reach5.Text + x + lblAutoD5Cross5.Text + x + lblAutoD5Reach5.Text + x + lblAutoHighShotMade5 + x + lblAutoHighShotAtt5 + x + lblAutoLowShotMade5 + x + lblAutoLowShotAtt5 + x + lblAutoTotalPoints5.Text + x + lblTeleOpD1Cross5.Text + x + lblTeleOpD1Att5.Text + x + lblTeleOpD2Cross5.Text + x + lblTeleOpD2Att5.Text + x + lblTeleOpD3Cross5.Text + x + lblTeleOpD3Att5.Text + x + lblTeleOpD4Cross5.Text + x + lblTeleOpD4Att5.Text + x + lblTeleOpD5Cross5.Text + x + lblTeleOpD5Att5.Text + x + lblChallengeScale5.Text + x + lblTeleOpHighShotMade5 + x + lblTeleOpHighShotAtt5 + x + lblTeleOpLowShotMade5 + x + lblTeleOpLowShotAtt5 + x + lblTeleOpTotalPoints5.Text + x + lblTotalPoints5.Text + x + lblDefense5.Text + x + lblmatch.Text);
+            outputstream.WriteLine(lblAutoTeamNo6.Text + x + lblAutoD1Cross6.Text + x + lblAutoD1Reach6.Text + x + lblAutoD2Cross6.Text + x + lblAutoD2Reach6.Text + x + lblAutoD3Cross6.Text + x + lblAutoD3Reach6.Text + x + lblAutoD4Cross6.Text + x + lblAutoD4Reach6.Text + x + lblAutoD5Cross6.Text + x + lblAutoD5Reach6.Text + x + lblAutoHighShotMade6 + x + lblAutoHighShotAtt6 + x + lblAutoLowShotMade6 + x + lblAutoLowShotAtt6 + x + lblAutoTotalPoints6.Text + x + lblTeleOpD1Cross6.Text + x + lblTeleOpD1Att6.Text + x + lblTeleOpD2Cross6.Text + x + lblTeleOpD2Att6.Text + x + lblTeleOpD3Cross6.Text + x + lblTeleOpD3Att6.Text + x + lblTeleOpD4Cross6.Text + x + lblTeleOpD4Att6.Text + x + lblTeleOpD5Cross6.Text + x + lblTeleOpD5Att6.Text + x + lblChallengeScale6.Text + x + lblTeleOpHighShotMade6 + x + lblTeleOpHighShotAtt6 + x + lblTeleOpLowShotMade6 + x + lblTeleOpLowShotAtt6 + x + lblTeleOpTotalPoints6.Text + x + lblTotalPoints6.Text + x + lblDefense6.Text + x + lblmatch.Text);
 
 
 
@@ -1450,6 +2109,36 @@ namespace MultipleJoysticks
         }
 
         private void lblAutoTeamNo5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTeleOpMidMade6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label81_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label45_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTeleOpHighShotAtt2_Click(object sender, EventArgs e)
         {
 
         }
