@@ -341,13 +341,13 @@ namespace MultipleJoysticks
             }
             match = skip;
             lblmatch.Text = match.ToString();
-            //TODO
-            //Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[match - 1].ToString();
-            //Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[match - 1].ToString();
-            //Pads[2].lblAutoTeamNo.Text = AutoTeamNo3[match - 1].ToString();
-            //Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[match - 1].ToString();
-            //Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[match - 1].ToString();
-            //Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[match - 1].ToString();
+
+            Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[match - 1].ToString();
+            Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[match - 1].ToString();
+            Pads[2].lblAutoTeamNo.Text = AutoTeamNo3[match - 1].ToString();
+            Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[match - 1].ToString();
+            Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[match - 1].ToString();
+            Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[match - 1].ToString();
         }
     }
 }
