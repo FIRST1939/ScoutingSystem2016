@@ -46,6 +46,7 @@
             this.gamePad5 = new MultipleJoysticks.GamePadControl();
             this.gamePad6 = new MultipleJoysticks.GamePadControl();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSkip
@@ -198,19 +199,32 @@
             this.gamePad6.Size = new System.Drawing.Size(444, 346);
             this.gamePad6.TabIndex = 235;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.button4.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
+            this.button4.Location = new System.Drawing.Point(740, 4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(50, 44);
+            this.button4.TabIndex = 236;
+            this.button4.Text = "Event";
+            this.button4.UseVisualStyleBackColor = false;
+            // 
             // MatchDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(1343, 737);
+            this.Controls.Add(this.btnSkip);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.gamePad6);
             this.Controls.Add(this.gamePad5);
             this.Controls.Add(this.gamePad4);
             this.Controls.Add(this.gamePad3);
             this.Controls.Add(this.gamePad2);
             this.Controls.Add(this.gamePad1);
-            this.Controls.Add(this.btnSkip);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.SaveDataBtn);
@@ -245,5 +259,6 @@
         private GamePadControl gamePad5;
         private GamePadControl gamePad6;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button4;
     }
 }

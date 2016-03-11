@@ -12,6 +12,13 @@ namespace MultipleJoysticks
     public partial class MatchDisplay : Form, IMatchDisplay
     {
         public GamePadControl[] Pads;
+
+        //Keeps track of the match.
+        static int match = 1;
+
+        String fileName = "test1";
+        String[] teamsNotePad;
+        String x = ",";
         bool SavePromptActive = false;
 
         public MatchDisplay()
@@ -124,6 +131,34 @@ namespace MultipleJoysticks
                         SavePromptActive = false;
                 }
             }
+        }
+        //--------------------- SAVE -------
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            lblEvent.Text = textBox1.Text;
+            button4.Visible = false;
+            btnSkip.Visible = true;
+            textBox1.Clear();
+        }
+
+        private void btnSkip_Click(object sender, EventArgs e)
+        {
+            int skip = Convert.ToInt32(textBox1.Text);
+            OpenFileDialog open = new OpenFileDialog();
+            if (open.ShowDialog() == DialogResult.OK)
+            {
+                fileName = open.FileName;
+            }
+            match = skip;
+            lblmatch.Text = match.ToString();
+            //TODO
+            //lblAutoTeamNo1.Text = AutoTeamNo1[match - 1].ToString();
+            //lblAutoTeamNo2.Text = AutoTeamNo2[match - 1].ToString();
+            //lblAutoTeamNo3.Text = AutoTeamNo3[match - 1].ToString();
+            //lblAutoTeamNo4.Text = AutoTeamNo4[match - 1].ToString();
+            //lblAutoTeamNo5.Text = AutoTeamNo5[match - 1].ToString();
+            //lblAutoTeamNo6.Text = AutoTeamNo6[match - 1].ToString();
         }
     }
 }

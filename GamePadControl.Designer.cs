@@ -126,6 +126,7 @@
             this.btnScouter1.TabIndex = 263;
             this.btnScouter1.Text = "Set Name";
             this.btnScouter1.UseVisualStyleBackColor = false;
+            this.btnScouter1.Click += new System.EventHandler(this.btnScouter1_Click);
             // 
             // textBoxScout1
             // 
@@ -540,7 +541,7 @@
             this.lblTeleOpD2Att.Text = "00";
             this.lblTeleOpD2Att.Visible = false;
             // 
-            // GamePad
+            // GamePadControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -587,7 +588,7 @@
             this.Controls.Add(this.lblTeleOpD2Cross);
             this.Controls.Add(this.lblTeleOpD1Cross);
             this.Controls.Add(this.lblTeleOpD2Att);
-            this.Name = "GamePad";
+            this.Name = "GamePadControl";
             this.Size = new System.Drawing.Size(444, 346);
             this.ResumeLayout(false);
             this.PerformLayout();

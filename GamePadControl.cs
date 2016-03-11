@@ -138,5 +138,13 @@ namespace MultipleJoysticks
             else
                 lblTeleOp.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
         }
+
+        private void btnScouter1_Click(object sender, EventArgs e)
+        {
+            lblScouter1.Text = textBoxScout1.Text;
+            textBoxScout1.Visible = false;
+            btnScouter1.Visible = false;
+            lblScouter1.Visible = true;
+        }
     }
 }
