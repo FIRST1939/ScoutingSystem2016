@@ -76,7 +76,7 @@
             this.lblTeleOp = new System.Windows.Forms.Label();
             this.lblAuto = new System.Windows.Forms.Label();
             this.lbltest1 = new System.Windows.Forms.Label();
-            this.lblAutoTeamNo1 = new System.Windows.Forms.Label();
+            this.lblAutoTeamNo = new System.Windows.Forms.Label();
             this.lblScouter1 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
@@ -316,6 +316,7 @@
             this.btnScouter1.TabIndex = 278;
             this.btnScouter1.Text = "Set Name";
             this.btnScouter1.UseVisualStyleBackColor = false;
+            this.btnScouter1.Click += new System.EventHandler(this.btnScouter1_Click);
             // 
             // textBoxScout1
             // 
@@ -622,17 +623,17 @@
             this.lbltest1.TabIndex = 250;
             this.lbltest1.Visible = false;
             // 
-            // lblAutoTeamNo1
+            // lblAutoTeamNo
             // 
-            this.lblAutoTeamNo1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
-            this.lblAutoTeamNo1.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutoTeamNo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
-            this.lblAutoTeamNo1.Location = new System.Drawing.Point(276, 9);
-            this.lblAutoTeamNo1.Name = "lblAutoTeamNo1";
-            this.lblAutoTeamNo1.Size = new System.Drawing.Size(165, 51);
-            this.lblAutoTeamNo1.TabIndex = 249;
-            this.lblAutoTeamNo1.Text = "Team1";
-            this.lblAutoTeamNo1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblAutoTeamNo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.lblAutoTeamNo.Font = new System.Drawing.Font("Impact", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoTeamNo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
+            this.lblAutoTeamNo.Location = new System.Drawing.Point(276, 9);
+            this.lblAutoTeamNo.Name = "lblAutoTeamNo";
+            this.lblAutoTeamNo.Size = new System.Drawing.Size(165, 51);
+            this.lblAutoTeamNo.TabIndex = 249;
+            this.lblAutoTeamNo.Text = "Team1";
+            this.lblAutoTeamNo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblScouter1
             // 
@@ -784,7 +785,7 @@
             this.Controls.Add(this.lblTeleOp);
             this.Controls.Add(this.lblAuto);
             this.Controls.Add(this.lbltest1);
-            this.Controls.Add(this.lblAutoTeamNo1);
+            this.Controls.Add(this.lblAutoTeamNo);
             this.Controls.Add(this.lblScouter1);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.label25);
@@ -850,7 +851,6 @@
         private System.Windows.Forms.Label lblTeleOp;
         private System.Windows.Forms.Label lblAuto;
         private System.Windows.Forms.Label lbltest1;
-        private System.Windows.Forms.Label lblAutoTeamNo1;
         private System.Windows.Forms.Label lblScouter1;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label25;
@@ -859,5 +859,6 @@
         private System.Windows.Forms.Label lblTeleOpD2Cross;
         private System.Windows.Forms.Label lblTeleOpD1Cross;
         private System.Windows.Forms.Label lblTeleOpD2Att;
+        public System.Windows.Forms.Label lblAutoTeamNo;
     }
 }

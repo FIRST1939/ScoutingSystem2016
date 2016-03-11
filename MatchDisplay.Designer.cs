@@ -61,6 +61,7 @@
             this.btnSkip.Text = "Skip";
             this.btnSkip.UseVisualStyleBackColor = false;
             this.btnSkip.Visible = false;
+            this.btnSkip.Click += new System.EventHandler(this.btnSkip_Click);
             // 
             // textBox1
             // 
@@ -82,6 +83,7 @@
             this.button3.TabIndex = 226;
             this.button3.Text = "Set Up Teams and ";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // SaveDataBtn
             // 
@@ -94,6 +96,7 @@
             this.SaveDataBtn.TabIndex = 227;
             this.SaveDataBtn.Text = "Save Data";
             this.SaveDataBtn.UseVisualStyleBackColor = false;
+            this.SaveDataBtn.Click += new System.EventHandler(this.button2_Click);
             // 
             // label63
             // 
@@ -150,6 +153,7 @@
             this.button1.TabIndex = 221;
             this.button1.Text = "Save Data First Time";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // gamePad4
             // 
@@ -210,6 +214,7 @@
             this.button4.TabIndex = 236;
             this.button4.Text = "Event";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // MatchDisplay
             // 

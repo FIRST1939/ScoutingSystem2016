@@ -828,12 +828,91 @@ namespace MultipleJoysticks
 
         }
 
+        // -------------BUTTONS
+
         private void btnScouter1_Click(object sender, EventArgs e)
         {
             lblScouter1.Text = textBoxScout1.Text;
             textBoxScout1.Visible = false;
             btnScouter1.Visible = false;
             lblScouter1.Visible = true;
+        }
+
+        public void Clear()
+        {
+            displayDefense5Cross = 0;
+            displayDefense5Att = 0;
+            defense5Cross = 0;
+            defense5Att = 0;
+            autoDisplayDefense5Cross = 0;
+            autoDefense5Cross = 0;
+            autoDisplayDefense5Reach = 0;
+            autoDefense5Reach = 0;
+            displayDefense4Cross = 0;
+            displayDefense4Att = 0;
+            defense4Cross = 0;
+            defense4Att = 0;
+            autoDisplayDefense4Cross = 0;
+            autoDefense4Cross = 0;
+            autoDisplayDefense4Reach = 0;
+            autoDefense4Reach = 0;
+            displayDefense3Cross = 0;
+            defense3Cross = 0;
+            displayDefense3Att = 0;
+            defense3Att = 0;
+            autoDisplayDefense3Cross = 0;
+            autoDefense3Cross = 0;
+            autoDisplayDefense3Reach = 0;
+            autoDefense3Reach = 0;
+            displayDefense2Cross = 0;
+            defense2Cross = 0;
+            displayDefense2Att = 0;
+            defense2Att = 0;
+            autoDisplayDefense2Cross = 0;
+            autoDefense2Cross = 0;
+            autoDisplayDefense2Reach = 0;
+            autoDefense2Reach = 0;
+            autoDisplayDefense1Cross = 0;
+            autoDefense1Cross = 0;
+            autoDisplayDefense1Reach = 0;
+            autoDefense1Reach = 0;
+            displayDefense1Cross = 0;
+            defense1Cross = 0;
+            displayDefense1Att = 0;
+            defense1Att = 0;
+            autoDisplayHighShotMade = 0;
+            autoHighShotMade = 0;
+            autoDisplayHighShotAtt = 0;
+            autoHighShotAtt = 0;
+            displayHighShotMade = 0;
+            highShotMade = 0;
+            displayHighShotAtt = 0;
+            highShotAtt = 0;
+            autoDisplayLowShotMade = 0;
+            autoLowShotMade = 0;
+            autoDisplayLowShotAtt = 0;
+            autoLowShotAtt = 0;
+            displayLowShotMade = 0;
+            lowShotMade = 0;
+            displayLowShotAtt = 0;
+            lowShotAtt = 0;
+            climb = 0;
+            challengeScale = 0;
+            teleOpTotalPoints = 0;
+            autoTotalPoints = 0;
+            defenseRating = 0;
+            displayDefenseRating = 0;
+            lblAuto.Visible = true;
+            lblTeleOp.Visible = false;
+            lblChallengeScale.Visible = false;
+            FinshedScoring = false;
+            tm1939UpdateController(); // tm1939RefreshScreen(f);
+        }
+
+        public string GetResults(string match)
+        {
+            var x = ',';
+            return lblAutoTeamNo.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoD5Cross.Text + x + lblAutoD5Reach.Text + x + lblAutoHighShotMade + x + lblAutoHighShotAtt + x + lblAutoLowShotMade + x + lblAutoLowShotAtt + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x + lblTeleOpD4Att.Text + x + lblTeleOpD5Cross.Text + x + lblTeleOpD5Att.Text + x + lblChallengeScale.Text + x + lblTeleOpHighShotMade + x + lblTeleOpHighShotAtt + x + lblTeleOpLowShotMade + x + lblTeleOpLowShotAtt + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + match;
         }
     }
 }

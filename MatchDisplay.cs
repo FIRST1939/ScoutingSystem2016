@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -177,7 +178,150 @@ namespace MultipleJoysticks
                 }
             }
         }
-        //--------------------- SAVE -------
+        //--------------------- BUTTON CLICKS -------
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            SaveFileDialog saveFileDialog1 = new SaveFileDialog();
+
+            saveFileDialog1.Filter = "txt files (*.txt)|*.txt";
+            saveFileDialog1.FilterIndex = 2;
+            saveFileDialog1.RestoreDirectory = true;
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                using (Stream s = File.Open(saveFileDialog1.FileName, FileMode.CreateNew))
+                using (StreamWriter sw = new StreamWriter(s))
+                {
+                    MessageBox.Show(saveFileDialog1.FileName);
+                    fileName = saveFileDialog1.FileName;
+                    tm1939SaveFile(sw);
+                    sw.Close();
+                }
+                //Increases match Number
+                match++;
+                lblmatch.Text = match.ToString();
+
+                //Updates the team # automatically when a new match starts.
+                Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[match - 1].ToString();
+                Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[match - 1].ToString();
+                Pads[2].lblAutoTeamNo.Text = AutoTeamNo3[match - 1].ToString();
+                Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[match - 1].ToString();
+                Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[match - 1].ToString();
+                Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[match - 1].ToString();
+
+                for (int f = 0; f < 6; f++)
+                {
+                    var pad = Pads[f];
+                    pad.Clear();
+                }
+            }
+        }
+
+        //The following code updates the time and the date.
+        private void tmrtime_Tick(object sender, EventArgs e)
+        {
+            lblTime.Text = DateTime.Now.ToString("hh:mm:ss tt");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            String myFileName = fileName;
+            StreamWriter sww = File.AppendText(myFileName);
+            tm1939SaveFile(sww);
+
+            sww.Close();
+            //Increases match Number
+            match++;
+            lblmatch.Text = match.ToString();
+
+            //Updates the team # automatically when a new match starts.
+            Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[match - 1].ToString();
+            Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[match - 1].ToString();
+            Pads[2].lblAutoTeamNo.Text = AutoTeamNo3[match - 1].ToString();
+            Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[match - 1].ToString();
+            Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[match - 1].ToString();
+            Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[match - 1].ToString();
+
+            for (int f = 0; f < 6; f++)
+            {
+                var pad = Pads[f];
+                pad.Clear();
+            }
+        }
+
+        private void tm1939SaveFile(StreamWriter outputstream)
+        {
+            // A single writeline section to handle both save buttons.
+            // Added Match to the end of each record
+            outputstream.WriteLine(Pads[0].GetResults(lblmatch.Text));
+            outputstream.WriteLine(Pads[1].GetResults(lblmatch.Text));
+            outputstream.WriteLine(Pads[2].GetResults(lblmatch.Text));
+            outputstream.WriteLine(Pads[3].GetResults(lblmatch.Text));
+            outputstream.WriteLine(Pads[4].GetResults(lblmatch.Text));
+            outputstream.WriteLine(Pads[5].GetResults(lblmatch.Text));
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+
+            {
+                System.IO.StreamReader sr = new
+                   System.IO.StreamReader(openFileDialog1.FileName);
+                String test = sr.ReadToEnd();
+                String[] newTeams = test.Split(',');
+                int countAgain = newTeams.Length;
+                teamsNotePad = new string[countAgain];
+                newTeams.CopyTo(teamsNotePad, 0);
+                autoTeams = teamsNotePad.Length;
+                int teamsDivide = teamsNotePad.Length / 6;
+
+                DialogResult dialogResult = MessageBox.Show(teamsDivide.ToString() + "\n Is this the correct number of matches?", "Adding Teams", MessageBoxButtons.YesNo);
+                if (dialogResult == DialogResult.Yes)
+                {
+                    sr.Close();
+
+                    AutoTeamNo1 = new int[autoTeams];
+                    AutoTeamNo2 = new int[autoTeams];
+                    AutoTeamNo3 = new int[autoTeams];
+                    AutoTeamNo4 = new int[autoTeams];
+                    AutoTeamNo5 = new int[autoTeams];
+                    AutoTeamNo6 = new int[autoTeams];
+                }
+                else if (dialogResult == DialogResult.No)
+                {
+                    MessageBox.Show("Check your text file with the schedule to make sure it is right!");
+                    System.Environment.Exit(0);
+                }
+            }
+
+            int count = 0;
+            for (int j = 0; j < teamsNotePad.Length / 6; j++)
+            {
+                AutoTeamNo1[j] = Convert.ToInt32(teamsNotePad[count]);
+                count++;
+                AutoTeamNo2[j] = Convert.ToInt32(teamsNotePad[count]);
+                count++;
+                AutoTeamNo3[j] = Convert.ToInt32(teamsNotePad[count]);
+                count++;
+                AutoTeamNo4[j] = Convert.ToInt32(teamsNotePad[count]);
+                count++;
+                AutoTeamNo5[j] = Convert.ToInt32(teamsNotePad[count]);
+                count++;
+                AutoTeamNo6[j] = Convert.ToInt32(teamsNotePad[count]);
+                count++;
+            }
+
+            Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[0].ToString();
+            Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[0].ToString();
+            Pads[2].lblAutoTeamNo.Text = AutoTeamNo3[0].ToString();
+            Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[0].ToString();
+            Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[0].ToString();
+            Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[0].ToString();
+        }
 
         private void button4_Click(object sender, EventArgs e)
         {
@@ -198,12 +342,12 @@ namespace MultipleJoysticks
             match = skip;
             lblmatch.Text = match.ToString();
             //TODO
-            //lblAutoTeamNo1.Text = AutoTeamNo1[match - 1].ToString();
-            //lblAutoTeamNo2.Text = AutoTeamNo2[match - 1].ToString();
-            //lblAutoTeamNo3.Text = AutoTeamNo3[match - 1].ToString();
-            //lblAutoTeamNo4.Text = AutoTeamNo4[match - 1].ToString();
-            //lblAutoTeamNo5.Text = AutoTeamNo5[match - 1].ToString();
-            //lblAutoTeamNo6.Text = AutoTeamNo6[match - 1].ToString();
+            //Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[match - 1].ToString();
+            //Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[match - 1].ToString();
+            //Pads[2].lblAutoTeamNo.Text = AutoTeamNo3[match - 1].ToString();
+            //Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[match - 1].ToString();
+            //Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[match - 1].ToString();
+            //Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[match - 1].ToString();
         }
     }
 }
