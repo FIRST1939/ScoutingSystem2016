@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace MultipleJoysticks
 {
-    public partial class GamePadControl : UserControl
+    public partial class GamePad : UserControl
     {
         // Reduced from Arrays 
         private bool AutonomousMode = true;
@@ -105,7 +105,7 @@ namespace MultipleJoysticks
         public String[] ControllerCommands = new String[34];
         private string LastButtonPattern;
 
-        public GamePadControl()
+        public GamePad()
         {
             InitializeComponent();
         }

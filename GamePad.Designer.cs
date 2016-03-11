@@ -1,6 +1,6 @@
 ﻿namespace MultipleJoysticks
 {
-    partial class GamePadControl
+    partial class GamePad
     {
         /// <summary> 
         /// Required designer variable.

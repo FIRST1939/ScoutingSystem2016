@@ -91,11 +91,11 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="GameInput.cs" />
-    <Compile Include="GamePadControl.cs">
+    <Compile Include="GamePad.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GamePadControl.Designer.cs">
-      <DependentUpon>GamePadControl.cs</DependentUpon>
+    <Compile Include="GamePad.Designer.cs">
+      <DependentUpon>GamePad.cs</DependentUpon>
     </Compile>
     <Compile Include="IMatchDisplay.cs" />
     <Compile Include="MatchDisplay.cs">
@@ -111,8 +111,8 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="Controllers\Controller%28XBOX360ForWindows%29.ctrl" />
-    <EmbeddedResource Include="GamePadControl.resx">
-      <DependentUpon>GamePadControl.cs</DependentUpon>
+    <EmbeddedResource Include="GamePad.resx">
+      <DependentUpon>GamePad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MatchDisplay.resx">
       <DependentUpon>MatchDisplay.cs</DependentUpon>

@@ -39,12 +39,12 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.lblmatch = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.gamePad4 = new MultipleJoysticks.GamePadControl();
-            this.gamePad3 = new MultipleJoysticks.GamePadControl();
-            this.gamePad2 = new MultipleJoysticks.GamePadControl();
-            this.gamePad1 = new MultipleJoysticks.GamePadControl();
-            this.gamePad5 = new MultipleJoysticks.GamePadControl();
-            this.gamePad6 = new MultipleJoysticks.GamePadControl();
+            this.gamePad4 = new MultipleJoysticks.GamePad();
+            this.gamePad3 = new MultipleJoysticks.GamePad();
+            this.gamePad2 = new MultipleJoysticks.GamePad();
+            this.gamePad1 = new MultipleJoysticks.GamePad();
+            this.gamePad5 = new MultipleJoysticks.GamePad();
+            this.gamePad6 = new MultipleJoysticks.GamePad();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -257,12 +257,12 @@
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblmatch;
         private System.Windows.Forms.Button button1;
-        private GamePadControl gamePad1;
-        private GamePadControl gamePad2;
-        private GamePadControl gamePad3;
-        private GamePadControl gamePad4;
-        private GamePadControl gamePad5;
-        private GamePadControl gamePad6;
+        private GamePad gamePad1;
+        private GamePad gamePad2;
+        private GamePad gamePad3;
+        private GamePad gamePad4;
+        private GamePad gamePad5;
+        private GamePad gamePad6;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button button4;
     }

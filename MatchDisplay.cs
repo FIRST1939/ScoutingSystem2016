@@ -12,7 +12,7 @@ namespace MultipleJoysticks
 {
     public partial class MatchDisplay : Form, IMatchDisplay
     {
-        public GamePadControl[] Pads;
+        public GamePad[] Pads;
 
         // Declaration of auto-filled team numbers.
         static int autoTeams = 0;
@@ -34,7 +34,7 @@ namespace MultipleJoysticks
         public MatchDisplay()
         {
             InitializeComponent();
-            Pads = new GamePadControl[] { gamePad1, gamePad2, gamePad3, gamePad4, gamePad5, gamePad6 };
+            Pads = new GamePad[] { gamePad1, gamePad2, gamePad3, gamePad4, gamePad5, gamePad6 };
 
             var gameInput = new GameInput();
             var sticks = gameInput.GetSticks(this);
