@@ -39,13 +39,14 @@
             this.lblTime = new System.Windows.Forms.Label();
             this.lblmatch = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.gamePad4 = new MultipleJoysticks.GamePadControl();
-            this.gamePad3 = new MultipleJoysticks.GamePadControl();
-            this.gamePad2 = new MultipleJoysticks.GamePadControl();
-            this.gamePad1 = new MultipleJoysticks.GamePadControl();
-            this.gamePad5 = new MultipleJoysticks.GamePadControl();
-            this.gamePad6 = new MultipleJoysticks.GamePadControl();
+            this.gamePad4 = new MultipleJoysticks.GamePad();
+            this.gamePad3 = new MultipleJoysticks.GamePad();
+            this.gamePad2 = new MultipleJoysticks.GamePad();
+            this.gamePad1 = new MultipleJoysticks.GamePad();
+            this.gamePad5 = new MultipleJoysticks.GamePad();
+            this.gamePad6 = new MultipleJoysticks.GamePad();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnSkip
@@ -60,6 +61,7 @@
             this.btnSkip.Text = "Skip";
             this.btnSkip.UseVisualStyleBackColor = false;
             this.btnSkip.Visible = false;
+            this.btnSkip.Click += new System.EventHandler(this.btnSkip_Click);
             // 
             // textBox1
             // 
@@ -81,6 +83,7 @@
             this.button3.TabIndex = 226;
             this.button3.Text = "Set Up Teams and ";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // SaveDataBtn
             // 
@@ -93,6 +96,7 @@
             this.SaveDataBtn.TabIndex = 227;
             this.SaveDataBtn.Text = "Save Data";
             this.SaveDataBtn.UseVisualStyleBackColor = false;
+            this.SaveDataBtn.Click += new System.EventHandler(this.button2_Click);
             // 
             // label63
             // 
@@ -149,6 +153,7 @@
             this.button1.TabIndex = 221;
             this.button1.Text = "Save Data First Time";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // gamePad4
             // 
@@ -198,19 +203,33 @@
             this.gamePad6.Size = new System.Drawing.Size(444, 346);
             this.gamePad6.TabIndex = 235;
             // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(72)))), ((int)(((byte)(76)))));
+            this.button4.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(55)))));
+            this.button4.Location = new System.Drawing.Point(740, 4);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(50, 44);
+            this.button4.TabIndex = 236;
+            this.button4.Text = "Event";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // MatchDisplay
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
             this.ClientSize = new System.Drawing.Size(1343, 737);
+            this.Controls.Add(this.btnSkip);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.gamePad6);
             this.Controls.Add(this.gamePad5);
             this.Controls.Add(this.gamePad4);
             this.Controls.Add(this.gamePad3);
             this.Controls.Add(this.gamePad2);
             this.Controls.Add(this.gamePad1);
-            this.Controls.Add(this.btnSkip);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.SaveDataBtn);
@@ -238,12 +257,13 @@
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblmatch;
         private System.Windows.Forms.Button button1;
-        private GamePadControl gamePad1;
-        private GamePadControl gamePad2;
-        private GamePadControl gamePad3;
-        private GamePadControl gamePad4;
-        private GamePadControl gamePad5;
-        private GamePadControl gamePad6;
+        private GamePad gamePad1;
+        private GamePad gamePad2;
+        private GamePad gamePad3;
+        private GamePad gamePad4;
+        private GamePad gamePad5;
+        private GamePad gamePad6;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button button4;
     }
 }
