@@ -681,7 +681,24 @@ namespace MultipleJoysticks
                 default:
 
                     break;
+                case (GameCommands.ControllerSwitch1):
+                    
+
+                    break;
+
+                default:
+
+                    break;
+                case (GameCommands.ControllerSwitch2):
+
+
+                    break;
+
+                default:
+
+                    break;
             }
+        }
 
             lbldisplayButtons1.Text = GetButtonDisplay(strButtonMap);
         }

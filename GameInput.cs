@@ -61,12 +61,12 @@ namespace MultipleJoysticks
 
             while (Controllers.Peek() > 0 && Sticks.Length > ControllerCounter)
             {
-                tm1939LoadController(Controllers.ReadLine(), ControllerCounter);
+                tm1939LoadController(Controllers.ReadLine(), ControllerCounter++);
             }
         }
 
         void tm1939LoadController(string controllername, int controllernumber)
-        {
+{
 
             if (controllername.ToUpper().Equals("AUTO"))
             {

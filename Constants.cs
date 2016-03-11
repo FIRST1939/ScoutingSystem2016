@@ -41,5 +41,8 @@ namespace MultipleJoysticks
         public const int LowShotAttPlus = 33;
         public const int ChallengeScalePlus = 20;
         public const int FinishedScoring = 21;
+        public const int ControllerSwitch1 = 34;
+        public const int ControllerSwitch2 = 35;
+
     }
 }
