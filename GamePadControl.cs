@@ -121,6 +121,17 @@ namespace MultipleJoysticks
             return true;
         }
 
+        void UpdateScores()   //COOK George, this one is yours to fix.
+        {
+            autoTotalPoints = (autoDefense2Cross * 6) +
+                    (autoDefense3Cross * 4) +
+                    (autoDefense4Cross * 2);
+            teleOpTotalPoints = (defense1Cross * 5) +
+                    (defense2Cross * 3) +
+                    (defense3Cross * 2) +
+                    defense4Cross;
+        }
+
         private void tm1939ProcessButton(string strButtonMap)
         {
             int FoundAt;
@@ -688,17 +699,6 @@ namespace MultipleJoysticks
             return result;
         }
 
-
-        void UpdateScores()   //COOK George, this one is yours to fix.
-        {
-            autoTotalPoints = (autoDefense2Cross * 6) +
-                    (autoDefense3Cross * 4) +
-                    (autoDefense4Cross * 2);
-            teleOpTotalPoints = (defense1Cross * 5) +
-                    (defense2Cross * 3) +
-                    (defense3Cross * 2) +
-                    defense4Cross;
-        }
 
         void tm1939UpdateController()
         {
