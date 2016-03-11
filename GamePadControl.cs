@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Data;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -101,10 +102,8 @@ namespace MultipleJoysticks
 
         //----
 
-        public String[] ControllerCommands = new String[22];
-        //public GamePad GamePad = new GamePad();
+        public String[] ControllerCommands = new String[34];
         private string LastButtonPattern;
-        private Label displayButtons;
 
         public GamePadControl()
         {
@@ -124,9 +123,571 @@ namespace MultipleJoysticks
 
         private void tm1939ProcessButton(string strButtonMap)
         {
-            //TODO
-            //throw new NotImplementedException();
+            int FoundAt;
+
+            // Find where the button maps are equal to get the command
+            for (FoundAt = 0; FoundAt < 34 && !strButtonMap.Equals(ControllerCommands[FoundAt]); FoundAt++)
+            {
+            }
+
+            // Perform the appropriate function
+
+            switch (FoundAt)
+            {
+                case (GameCommands.TeleOp):
+                    AutonomousMode = false;
+                    TeleOp = true;
+
+                    break;
+
+                case (GameCommands.Autonomous):
+                    AutonomousMode = true;
+                    TeleOp = false;
+                    FinshedScoring = false;
+                    break;
+
+                case (GameCommands.scoreHigh):
+                    if (TeleOp && defenseRating > 0)
+                    {
+                        defenseRating--;
+                        displayDefenseRating = defenseRating;
+                    }
+                    break;
+
+                case (GameCommands.scoreLow):
+                    if (TeleOp)
+                    {
+                        defenseRating++;
+                        displayDefenseRating = defenseRating;
+                        if (displayDefenseRating > 10)
+                        {
+                            defenseRating = 0;
+                            displayDefenseRating = 0;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense2AttMinus):
+                    if (TeleOp)
+                    {
+                        if (defense2Att > 0 && defense2Cross < defense2Att)
+                        {
+                            defense2Att--;
+                            displayDefense2Att = defense2Att;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense2Reach > 0 && autoDefense2Cross < autoDefense2Reach)
+                        {
+                            autoDefense2Reach--;
+                            autoDisplayDefense2Reach = autoDefense2Reach;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense2AttPlus):
+                    if (TeleOp)
+                    {
+                        defense2Att++;
+                        displayDefense2Att = defense2Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense2Reach++;
+                        autoDisplayDefense2Reach = autoDefense2Reach;
+                    }
+
+                    break;
+
+                case (GameCommands.Defense2CrossMinus):
+                    if (TeleOp)
+                    {
+                        if (defense2Cross > 0)
+                        {
+                            defense2Cross--;
+                            displayDefense2Cross = defense2Cross;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense2Cross > 0)
+                        {
+                            autoDefense2Cross--;
+                            autoDisplayDefense2Cross = autoDefense2Cross;
+                        }
+                    }
+                    break;
+
+                case (GameCommands.Defense2CrossPlus):
+                    if (TeleOp)
+                    {
+                        defense2Cross++;
+                        displayDefense2Cross = defense2Cross;
+                        defense2Att++;
+                        displayDefense2Att = defense2Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense2Cross++;
+                        autoDisplayDefense2Cross = autoDefense2Cross;
+                        autoDefense2Reach++;
+                        autoDisplayDefense2Reach = autoDefense2Reach;
+                    }
+                    break;
+
+                case (GameCommands.Defense4AttMinus):
+                    if (TeleOp)
+                    {
+                        if (defense4Att > 0 && defense4Cross < defense4Att)
+                        {
+                            defense4Att--;
+                            displayDefense4Att = defense4Att;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense4Reach > 0 && autoDefense4Cross < autoDefense4Reach)
+                        {
+                            autoDefense4Reach--;
+                            autoDisplayDefense4Reach = autoDefense4Reach;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense4AttPlus):
+                    if (TeleOp)
+                    {
+                        defense4Att++;
+                        displayDefense4Att = defense4Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense4Reach++;
+                        autoDisplayDefense4Reach = autoDefense4Reach;
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense4CrossMinus):
+                    if (TeleOp)
+                    {
+                        if (defense4Cross > 0)
+                        {
+                            defense4Cross--;
+                            displayDefense4Cross = defense4Cross;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense4Cross > 0)
+                        {
+                            autoDefense4Cross--;
+                            autoDisplayDefense4Cross = autoDefense4Cross;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense4CrossPlus):
+                    if (TeleOp)
+                    {
+                        defense4Cross++;
+                        displayDefense4Cross = defense4Cross;
+                        defense4Att++;
+                        displayDefense4Att = defense4Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense4Cross++;
+                        autoDisplayDefense4Cross = autoDefense4Cross;
+                        autoDefense4Reach++;
+                        autoDisplayDefense4Reach = autoDefense4Reach;
+                    }
+
+                    break;
+
+                case (GameCommands.Defense5AttPlus):
+                    if (TeleOp)
+                    {
+                        defense5Att++;
+                        displayDefense5Att = defense5Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense5Reach++;
+                        autoDisplayDefense5Reach = autoDefense5Reach;
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense5CrossMinus):
+                    if (TeleOp)
+                    {
+                        if (defense5Cross > 0)
+                        {
+                            defense5Cross--;
+                            displayDefense5Cross = defense5Cross;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense5Cross > 0)
+                        {
+                            autoDefense5Cross--;
+                            autoDisplayDefense5Cross = autoDefense5Cross;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense5CrossPlus):
+                    if (TeleOp)
+                    {
+                        defense5Cross++;
+                        displayDefense5Cross = defense5Cross;
+                        defense5Att++;
+                        displayDefense5Att = defense5Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense5Cross++;
+                        autoDisplayDefense5Cross = autoDefense5Cross;
+                        autoDefense5Reach++;
+                        autoDisplayDefense5Reach = autoDefense5Reach;
+                    }
+
+                    break;
+
+                case (GameCommands.Defense3AttMinus):
+                    if (TeleOp)
+                    {
+                        if (defense3Att > 0 && defense3Cross < defense3Att)
+                        {
+                            defense3Att--;
+                            displayDefense3Att = defense3Att;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense3Reach > 0 && autoDefense3Cross < autoDefense3Reach)
+                        {
+                            autoDefense3Reach--;
+                            autoDisplayDefense3Reach = autoDefense3Reach;
+                        }
+                    }
+                    break;
+
+                case (GameCommands.Defense3AttPlus):
+                    if (TeleOp)
+                    {
+                        defense3Att++;
+                        displayDefense3Att = defense3Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense3Reach++;
+                        autoDisplayDefense3Reach = autoDefense3Reach;
+                    }
+
+
+                    break;
+
+                case (GameCommands.Defense3CrossMinus):
+                    if (TeleOp)
+                    {
+                        if (defense3Cross > 0)
+                        {
+                            defense3Cross--;
+                            displayDefense3Cross = defense3Cross;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense3Cross > 0)
+                        {
+                            autoDefense3Cross--;
+                            autoDisplayDefense3Cross = autoDefense3Cross;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense3CrossPlus):
+                    if (TeleOp)
+                    {
+                        defense3Cross++;
+                        displayDefense3Cross = defense3Cross;
+                        defense3Att++;
+                        displayDefense3Att = defense3Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense3Cross++;
+                        autoDisplayDefense3Cross = autoDefense3Cross;
+                        autoDefense3Reach++;
+                        autoDisplayDefense3Reach = autoDefense3Reach;
+                    }
+
+                    break;
+
+                case (GameCommands.Defense1AttMinus):
+                    if (TeleOp)
+                    {
+                        if (defense1Att > 0 && defense1Cross < defense1Att)
+                        {
+                            defense1Att--;
+                            displayDefense1Att = defense1Att;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense1Reach > 0 && autoDefense1Cross < autoDefense1Reach)
+                        {
+                            autoDefense1Reach--;
+                            autoDisplayDefense1Reach = autoDefense1Reach;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.Defense1AttPlus):
+                    if (TeleOp)
+                    {
+                        defense1Att++;
+                        displayDefense1Att = defense1Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense1Reach++;
+                        autoDisplayDefense1Reach = autoDefense1Reach;
+                    }
+                    break;
+
+                case (GameCommands.Defense1CrossMinus):
+                    if (TeleOp)
+                    {
+                        if (defense1Cross > 0)
+                        {
+                            defense1Cross--;
+                            displayDefense1Cross = defense1Cross;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoDefense1Cross > 0)
+                        {
+                            autoDefense1Cross--;
+                            autoDisplayDefense1Cross = autoDefense1Cross;
+                        }
+                    }
+                    break;
+
+                case (GameCommands.Defense1CrossPlus):
+                    if (TeleOp)
+                    {
+                        defense1Cross++;
+                        displayDefense1Cross = defense1Cross;
+                        defense1Att++;
+                        displayDefense1Att = defense1Att;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoDefense1Cross++;
+                        autoDisplayDefense1Cross = autoDefense1Cross;
+                        autoDefense1Reach++;
+                        autoDisplayDefense1Reach = autoDefense1Reach;
+                    }
+
+                    break;
+
+                case (GameCommands.HighShotAttMinus):
+                    if (TeleOp)
+                    {
+                        if (highShotAtt > 0 && highShotMade < highShotAtt)
+                        {
+                            highShotAtt--;
+                            displayHighShotAtt = highShotAtt;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoHighShotAtt > 0 && autoHighShotMade < autoHighShotAtt)
+                        {
+                            autoHighShotAtt--;
+                            autoDisplayHighShotAtt = autoHighShotAtt;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.HighShotAttPlus):
+                    if (TeleOp)
+                    {
+                        highShotAtt++;
+                        displayHighShotAtt = highShotAtt;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoHighShotAtt++;
+                        autoDisplayHighShotAtt = autoHighShotAtt;
+                    }
+                    break;
+
+                case (GameCommands.HighShotMadeMinus):
+                    if (TeleOp)
+                    {
+                        if (highShotMade > 0)
+                        {
+                            highShotMade--;
+                            displayHighShotMade = highShotMade;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoHighShotMade > 0)
+                        {
+                            autoHighShotMade--;
+                            autoDisplayHighShotMade = autoHighShotMade;
+                        }
+                    }
+                    break;
+
+                case (GameCommands.HighShotMadePlus):
+                    if (TeleOp)
+                    {
+                        highShotMade++;
+                        displayHighShotMade = highShotMade;
+                        highShotAtt++;
+                        displayHighShotAtt = highShotAtt;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoHighShotMade++;
+                        autoDisplayHighShotMade = autoHighShotMade;
+                        autoHighShotAtt++;
+                        autoDisplayHighShotAtt = autoHighShotAtt;
+                    }
+
+                    break;
+
+                case (GameCommands.LowShotAttMinus):
+                    if (TeleOp)
+                    {
+                        if (lowShotAtt > 0 && lowShotMade < lowShotAtt)
+                        {
+                            lowShotAtt--;
+                            displayLowShotAtt = lowShotAtt;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoLowShotAtt > 0 && autoLowShotMade < autoLowShotAtt)
+                        {
+                            autoLowShotAtt--;
+                            autoDisplayLowShotAtt = autoLowShotAtt;
+                        }
+                    }
+
+                    break;
+
+                case (GameCommands.LowShotAttPlus):
+                    if (TeleOp)
+                    {
+                        lowShotAtt++;
+                        displayLowShotAtt = lowShotAtt;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoLowShotAtt++;
+                        autoDisplayLowShotAtt = autoLowShotAtt;
+                    }
+                    break;
+
+                case (GameCommands.LowShotMadeMinus):
+                    if (TeleOp)
+                    {
+                        if (lowShotMade > 0)
+                        {
+                            lowShotMade--;
+                            displayLowShotMade = lowShotMade;
+                        }
+                    }
+                    if (AutonomousMode)
+                    {
+                        if (autoLowShotMade > 0)
+                        {
+                            autoLowShotMade--;
+                            autoDisplayLowShotMade = autoLowShotMade;
+                        }
+                    }
+                    break;
+
+                case (GameCommands.LowShotMadePlus):
+                    if (TeleOp)
+                    {
+                        lowShotMade++;
+                        displayLowShotMade = lowShotMade;
+                        lowShotAtt++;
+                        displayLowShotAtt = lowShotAtt;
+                    }
+                    if (AutonomousMode)
+                    {
+                        autoLowShotMade++;
+                        autoDisplayLowShotMade = autoLowShotMade;
+                        autoLowShotAtt++;
+                        autoDisplayLowShotAtt = autoLowShotAtt;
+                    }
+
+                    break;
+
+                case (GameCommands.ChallengeScalePlus):
+                    if (TeleOp)
+                    {
+                        climb++;
+                        challengeScale = climb;
+
+                        if (challengeScale > 2) // 0 = not done, 1 = challenge, 2 = scale
+                        {
+                            challengeScale = 0;
+                            climb = 0;
+                        }
+
+                        //This line multiplied by 10 for points, and is not relevant
+                        //robotClimb = robotClimb * 10;
+                    }
+                    break;
+                case (GameCommands.FinishedScoring):
+                    FinshedScoring = !FinshedScoring;
+
+                    break;
+
+                default:
+
+                    break;
+            }
+
+            lbldisplayButtons1.Text = GetButtonDisplay(strButtonMap);
         }
+
+        private string GetButtonDisplay(string strButtonMap)
+        {
+            var result = "";
+            for (int i = 0; i < strButtonMap.Length; i++)
+            {
+                if (strButtonMap[i] == 'T')
+                {
+                    result += i.ToString("00 ", CultureInfo.CurrentCulture);
+                }
+            }
+            return result;
+        }
+
 
         void UpdateScores()   //COOK George, this one is yours to fix.
         {
