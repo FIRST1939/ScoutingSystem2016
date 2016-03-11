@@ -12,6 +12,8 @@ namespace MultipleJoysticks
     public partial class MatchDisplay : Form, IMatchDisplay
     {
         public GamePadControl[] Pads;
+        bool SavePromptActive = false;
+
         public MatchDisplay()
         {
             InitializeComponent();
@@ -105,9 +107,23 @@ namespace MultipleJoysticks
             }
         }
 
-        void IMatchDisplay.UseButtonMap(int id, string strButtonMap)
+        void IMatchDisplay.UseButtonMap(int controllernumber, string strButtonMap)
         {
-            //throw new NotImplementedException();
+            var pad = Pads[controllernumber];
+            if (pad.UseButtonMap(strButtonMap))
+            {
+                var finshedScoringNeedtoSave = true;
+                for (int i = 0; i < 6; i++)
+                    if (Pads[i].FinshedScoring == false)
+                        finshedScoringNeedtoSave = false;
+                if (finshedScoringNeedtoSave && SavePromptActive == false)
+                {
+                    SavePromptActive = true;
+                    if (MessageBox.Show("Are you ready to save?", "Save", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+                        SaveDataBtn.PerformClick();
+                        SavePromptActive = false;
+                }
+            }
         }
     }
 }
