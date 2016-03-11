@@ -237,3 +237,4 @@ _Pvt_Extensions
 
 # Ignore scratch files
 Test Output/*
+GamePadControl.cs
