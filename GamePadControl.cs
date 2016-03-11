@@ -11,13 +11,100 @@ namespace MultipleJoysticks
 {
     public partial class GamePadControl : UserControl
     {
+        // Reduced from Arrays 
+        private bool AutonomousMode = true;
+        private bool TeleOp = false;
+        public bool FinshedScoring = false;
+
+        //Arrays that hold the values for the made and attempt numbers of the frisbee scoring
+        // Defense 5 
+        int displayDefense5Cross = 0;
+        int defense5Cross = 0;
+        int displayDefense5Att = 0;
+        int defense5Att = 0;
+        int autoDisplayDefense5Cross = 0;
+        int autoDefense5Cross = 0;
+        int autoDisplayDefense5Reach = 0;
+        int autoDefense5Reach = 0;
+
+        // 1 point frisbees
+        int displayDefense4Cross = 0;
+        int defense4Cross = 0;
+        int displayDefense4Att = 0;
+        int defense4Att = 0;
+        int autoDisplayDefense4Cross = 0;
+        int autoDefense4Cross = 0;
+        int autoDisplayDefense4Reach = 0;
+        int autoDefense4Reach = 0;
+
+        // 2 point frisbees
+        int displayDefense3Cross = 0;
+        int defense3Cross = 0;
+        int displayDefense3Att = 0;
+        int defense3Att = 0;
+        int autoDisplayDefense3Cross = 0;
+        int autoDefense3Cross = 0;
+        int autoDisplayDefense3Reach = 0;
+        int autoDefense3Reach = 0;
+
+        // 3 point frisbees
+        int displayDefense2Cross = 0;
+        int defense2Cross = 0;
+        int displayDefense2Att = 0;
+        int defense2Att = 0;
+        int autoDisplayDefense2Cross = 0;
+        int autoDefense2Cross = 0;
+        int autoDisplayDefense2Reach = 0;
+        int autoDefense2Reach = 0;
+
+        // Pyramid Frisbees
+        int displayDefense1Cross = 0;
+        int defense1Cross = 0;
+        int displayDefense1Att = 0;
+        int defense1Att = 0;
+        int autoDisplayDefense1Cross = 0;
+        int autoDefense1Cross = 0;
+        int autoDisplayDefense1Reach = 0;
+        int autoDefense1Reach = 0;
+
+        // High Boulder Shot
+        int displayHighShotMade = 0;
+        int highShotMade = 0;
+        int displayHighShotAtt = 0;
+        int highShotAtt = 0;
+        int autoDisplayHighShotMade = 0;
+        int autoHighShotMade = 0;
+        int autoDisplayHighShotAtt = 0;
+        int autoHighShotAtt = 0;
+
+        // Low Boulder Shot
+        int displayLowShotMade = 0;
+        int lowShotMade = 0;
+        int displayLowShotAtt = 0;
+        int lowShotAtt = 0;
+        int autoDisplayLowShotMade = 0;
+        int autoLowShotMade = 0;
+        int autoDisplayLowShotAtt = 0;
+        int autoLowShotAtt = 0;
+
+        // Robot Climbing
+        int climb = 0;
+        int challengeScale = 0;
+
+        // Total Points
+        int teleOpTotalPoints = 0;
+        int autoTotalPoints = 0;
+
+        // Defense Ratings
+        int defenseRating = 0;
+        int displayDefenseRating = 0;
+
+        //----
+
         public String[] ControllerCommands = new String[22];
         //public GamePad GamePad = new GamePad();
         private string LastButtonPattern;
         private Label displayButtons;
-        private bool AutonomousMode = true;
-        private bool TeleOp = false;
-        public bool FinshedScoring = false;
 
         public GamePadControl()
         {
@@ -41,16 +128,15 @@ namespace MultipleJoysticks
             //throw new NotImplementedException();
         }
 
-        void UpdateScores()
+        void UpdateScores()   //COOK George, this one is yours to fix.
         {
-            //TODO
-            //autoTotalPoints = (autoDefense2Cross * 6) +
-            //        (autoMidFrisbeesMade * 4) +
-            //        (autoLowFrisbeesMade * 2);
-            //teleOpTotalPoints = (defense1Cross * 5) +
-            //        (defense2Cross * 3) +
-            //        (midFrisbeesMade * 2) +
-            //        lowFrisbeesMade;
+            autoTotalPoints = (autoDefense2Cross * 6) +
+                    (autoDefense3Cross * 4) +
+                    (autoDefense4Cross * 2);
+            teleOpTotalPoints = (defense1Cross * 5) +
+                    (defense2Cross * 3) +
+                    (defense3Cross * 2) +
+                    defense4Cross;
         }
 
         void tm1939UpdateController()
@@ -67,14 +153,26 @@ namespace MultipleJoysticks
                 lblTeleOpD2Att.Visible = true;
                 lblAutoD2Cross.Visible = false;
                 lblTeleOpD2Cross.Visible = true;
-                lblAutoMidAtt.Visible = false;
-                lblTeleOpMidAtt.Visible = true;
-                lblAutoMidMade.Visible = false;
-                lblTeleOpMidMade.Visible = true;
-                lblAutoLowAtt.Visible = false;
-                lblTeleOpLowAtt.Visible = true;
-                lblAutoLowMade.Visible = false;
-                lblTeleOpLowMade.Visible = true;
+                lblAutoD3Reach.Visible = false;
+                lblTeleOpD3Att.Visible = true;
+                lblAutoD3Cross.Visible = false;
+                lblTeleOpD3Cross.Visible = true;
+                lblAutoD4Reach.Visible = false;
+                lblTeleOpD4Att.Visible = true;
+                lblAutoD4Cross.Visible = false;
+                lblTeleOpD4Cross.Visible = true;
+                lblAutoD5Reach.Visible = false;
+                lblTeleOpD5Att.Visible = true;
+                lblAutoD5Cross.Visible = false;
+                lblTeleOpD5Cross.Visible = true;
+                lblAutoHighShotAtt.Visible = false;
+                lblTeleOpHighShotAtt.Visible = true;
+                lblAutoHighShotMade.Visible = false;
+                lblTeleOpHighShotMade.Visible = true;
+                lblAutoLowShotAtt.Visible = false;
+                lblTeleOpLowShotAtt.Visible = true;
+                lblAutoLowShotMade.Visible = false;
+                lblTeleOpLowShotMade.Visible = true;
                 lblChallengeScale.Visible = true;
             }
             if (AutonomousMode)
@@ -89,54 +187,84 @@ namespace MultipleJoysticks
                 lblTeleOpD2Att.Visible = false;
                 lblAutoD2Cross.Visible = true;
                 lblTeleOpD2Cross.Visible = false;
-                lblAutoMidAtt.Visible = true;
-                lblTeleOpMidAtt.Visible = false;
-                lblAutoMidMade.Visible = true;
-                lblTeleOpMidMade.Visible = false;
-                lblAutoLowAtt.Visible = true;
-                lblTeleOpLowAtt.Visible = false;
-                lblAutoLowMade.Visible = true;
-                lblTeleOpLowMade.Visible = false;
+                lblAutoD3Reach.Visible = true;
+                lblTeleOpD3Att.Visible = false;
+                lblAutoD3Cross.Visible = true;
+                lblTeleOpD3Cross.Visible = false;
+                lblAutoD4Reach.Visible = true;
+                lblTeleOpD4Att.Visible = false;
+                lblAutoD4Cross.Visible = true;
+                lblTeleOpD4Cross.Visible = false;
+                lblAutoD5Reach.Visible = true;
+                lblTeleOpD5Att.Visible = false;
+                lblAutoD5Cross.Visible = true;
+                lblTeleOpD5Cross.Visible = false;
+                lblAutoHighShotAtt.Visible = true;
+                lblTeleOpHighShotAtt.Visible = false;
+                lblAutoHighShotMade.Visible = true;
+                lblTeleOpHighShotMade.Visible = false;
+                lblAutoLowShotAtt.Visible = true;
+                lblTeleOpLowShotAtt.Visible = false;
+                lblAutoLowShotMade.Visible = true;
+                lblTeleOpLowShotMade.Visible = false;
                 lblChallengeScale.Visible = false;
             }
-            //TODO
             //Defense Rating
-            //lblDefense.Text = displayDefenseRating.ToString();
+            lblDefense.Text = displayDefenseRating.ToString();
 
-            //// Pyramid Goals
-            //lblTeleOpD1Cross.Text = displayDefense1Cross.ToString();
-            //lblTeleOpD1Att.Text = displayDefense1Att.ToString();
-            //lblAutoD1Cross.Text = autoDisplayDefense1Cross.ToString();
-            //lblAutoD1Reach.Text = autoDisplayDefense1Reach.ToString();
+            // Pyramid Goals
+            lblTeleOpD1Cross.Text = displayDefense1Cross.ToString();
+            lblTeleOpD1Att.Text = displayDefense1Att.ToString();
+            lblAutoD1Cross.Text = autoDisplayDefense1Cross.ToString();
+            lblAutoD1Reach.Text = autoDisplayDefense1Reach.ToString();
 
-            //// High Goals
-            //lblTeleOpD2Cross.Text = displayDefense2Cross.ToString();
-            //lblTeleOpD2Att.Text = displayDefense2Att.ToString();
-            //lblAutoD2Cross.Text = autoDisplayDefense2Cross.ToString();
-            //lblAutoD2Reach.Text = autoDisplayDefense2Reach.ToString();
+            // High Goals
+            lblTeleOpD2Cross.Text = displayDefense2Cross.ToString();
+            lblTeleOpD2Att.Text = displayDefense2Att.ToString();
+            lblAutoD2Cross.Text = autoDisplayDefense2Cross.ToString();
+            lblAutoD2Reach.Text = autoDisplayDefense2Reach.ToString();
 
-            //// Mid Goals
-            //lblTeleOpMidMade.Text = displayMidFrisbeesMade.ToString();
-            //lblTeleOpMidAtt.Text = displayMidFrisbeesAtt.ToString();
-            //lblAutoMidMade.Text = autoDisplayMidFrisbeesMade.ToString();
-            //lblAutoMidAtt.Text = autoDisplayMidFrisbeesAtt.ToString();
+            // Mid Goals
+            lblTeleOpD3Cross.Text = displayDefense3Cross.ToString();
+            lblTeleOpD3Att.Text = displayDefense3Att.ToString();
+            lblAutoD3Cross.Text = autoDisplayDefense3Cross.ToString();
+            lblAutoD3Reach.Text = autoDisplayDefense3Reach.ToString();
 
-            //// Low Goals
-            //lblTeleOpLowMade.Text = displayLowFrisbeesMade.ToString();
-            //lblTeleOpLowAtt.Text = displayLowFrisbeesAtt.ToString();
-            //lblAutoLowMade.Text = autoDisplayLowFrisbeesMade.ToString();
-            //lblAutoLowAtt.Text = autoDisplayLowFrisbeesAtt.ToString();
+            // Low Goals
+            lblTeleOpD4Cross.Text = displayDefense4Cross.ToString();
+            lblTeleOpD4Att.Text = displayDefense4Att.ToString();
+            lblAutoD4Cross.Text = autoDisplayDefense4Cross.ToString();
+            lblAutoD4Reach.Text = autoDisplayDefense4Reach.ToString();
 
-            //// Robot Climb
-            //lblChallengeScale.Text = challengeScale.ToString();
+            // Defense 5
+            lblTeleOpD5Cross.Text = displayDefense5Cross.ToString();
+            lblTeleOpD5Att.Text = displayDefense5Att.ToString();
+            lblAutoD5Cross.Text = autoDisplayDefense5Cross.ToString();
+            lblAutoD5Reach.Text = autoDisplayDefense5Reach.ToString();
 
-            //lblTeleOpTotalPoints.Text = teleOpTotalPoints.ToString();
-            //lblAutoTotalPoints.Text = autoTotalPoints.ToString();
-            //lblTotalPoints.Text = (autoTotalPoints + teleOpTotalPoints + challengeScale).ToString();
+            // High Boulder Shot 
+            lblTeleOpHighShotMade.Text = displayHighShotMade.ToString();
+            lblTeleOpHighShotAtt.Text = displayHighShotAtt.ToString();
+            lblAutoHighShotMade.Text = autoDisplayHighShotMade.ToString();
+            lblAutoHighShotAtt.Text = autoDisplayHighShotAtt.ToString();
+
+            // Low Boulder Shot
+            lblTeleOpLowShotMade.Text = displayLowShotMade.ToString();
+            lblTeleOpLowShotAtt.Text = displayLowShotAtt.ToString();
+            lblAutoLowShotMade.Text = autoDisplayLowShotMade.ToString();
+            lblAutoLowShotAtt.Text = autoDisplayLowShotAtt.ToString();
+
+            // Robot Climb
+            lblChallengeScale.Text = challengeScale.ToString();
+
+            lblTeleOpTotalPoints.Text = teleOpTotalPoints.ToString();
+            lblAutoTotalPoints.Text = autoTotalPoints.ToString();
+            lblTotalPoints.Text = (autoTotalPoints + teleOpTotalPoints + challengeScale).ToString();
             if (FinshedScoring)
                 lblTeleOp.ForeColor = Color.DarkGreen;
             else
                 lblTeleOp.ForeColor = Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
+
         }
 
         private void btnScouter1_Click(object sender, EventArgs e)

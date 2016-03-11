@@ -13,6 +13,15 @@ namespace MultipleJoysticks
     {
         public GamePadControl[] Pads;
 
+        // Declaration of auto-filled team numbers.
+        static int autoTeams = 0;
+        int[] AutoTeamNo1;
+        int[] AutoTeamNo2;
+        int[] AutoTeamNo3;
+        int[] AutoTeamNo4;
+        int[] AutoTeamNo5;
+        int[] AutoTeamNo6;
+
         //Keeps track of the match.
         static int match = 1;
 
@@ -42,74 +51,110 @@ namespace MultipleJoysticks
         public void SetControllerCommands(int controllernumber, string[] Command, string buttons)
         {
             var pad = Pads[controllernumber];
-            var controllerCommands = pad.ControllerCommands;
+            var ControllerCommands = pad.ControllerCommands;
             switch (Command[0].ToUpper())  //In this section, case names should be all uppercase
             {
                 case "TELEOP":
-                    controllerCommands[GameCommands.TeleOp] = buttons;
+                    ControllerCommands[GameCommands.TeleOp] = buttons;
                     break;
                 case "AUTONOMOUS":
-                    controllerCommands[GameCommands.Autonomous] = buttons;
+                    ControllerCommands[GameCommands.Autonomous] = buttons;
                     break;
                 case "DEFENSIVERATINGPLUS":
-                    controllerCommands[GameCommands.scoreHigh] = buttons;
+                    ControllerCommands[GameCommands.scoreHigh] = buttons;
                     break;
                 case "DEFENSIVERATINGMINUS":
-                    controllerCommands[GameCommands.scoreLow] = buttons;
+                    ControllerCommands[GameCommands.scoreLow] = buttons;
                     break;
                 case "DEFENSE1CROSSMINUS":
-                    controllerCommands[GameCommands.Defense1CrossMinus] = buttons;
+                    ControllerCommands[GameCommands.Defense1CrossMinus] = buttons;
                     break;
                 case "DEFENSE1CROSSPLUS":
-                    controllerCommands[GameCommands.Defense1CrossPlus] = buttons;
+                    ControllerCommands[GameCommands.Defense1CrossPlus] = buttons;
                     break;
                 case "DEFENSE1ATTMINUS":
-                    controllerCommands[GameCommands.Defense1AttMinus] = buttons;
+                    ControllerCommands[GameCommands.Defense1AttMinus] = buttons;
                     break;
                 case "DEFENSE1ATTPLUS":
-                    controllerCommands[GameCommands.Defense1AttPlus] = buttons;
+                    ControllerCommands[GameCommands.Defense1AttPlus] = buttons;
                     break;
                 case "DEFENSE2CROSSMINUS":
-                    controllerCommands[GameCommands.Defense2CrossMinus] = buttons;
+                    ControllerCommands[GameCommands.Defense2CrossMinus] = buttons;
                     break;
                 case "DEFENSE2CROSSPLUS":
-                    controllerCommands[GameCommands.Defense2CrossPlus] = buttons;
+                    ControllerCommands[GameCommands.Defense2CrossPlus] = buttons;
                     break;
                 case "DEFENSE2ATTMINUS":
-                    controllerCommands[GameCommands.Defense2AttMinus] = buttons;
+                    ControllerCommands[GameCommands.Defense2AttMinus] = buttons;
                     break;
                 case "DEFENSE2ATTPLUS":
-                    controllerCommands[GameCommands.Defense2AttPlus] = buttons;
+                    ControllerCommands[GameCommands.Defense2AttPlus] = buttons;
                     break;
-                case "MIDFRISBEESMADEMINUS":
-                    controllerCommands[GameCommands.MidFrisbeesMadeMinus] = buttons;
+                case "DEFENSE3CROSSMINUS":
+                    ControllerCommands[GameCommands.Defense3CrossMinus] = buttons;
                     break;
-                case "MIDFRISBEESMADEPLUS":
-                    controllerCommands[GameCommands.MidFrisbeesMadePlus] = buttons;
+                case "DEFENSE3CROSSPLUS":
+                    ControllerCommands[GameCommands.Defense3CrossPlus] = buttons;
                     break;
-                case "MIDFRISBEESATTMINUS":
-                    controllerCommands[GameCommands.MidFrisbeesAttMinus] = buttons;
+                case "DEFENSE3ATTMINUS":
+                    ControllerCommands[GameCommands.Defense3AttMinus] = buttons;
                     break;
-                case "MIDFRISBEESATTPLUS":
-                    controllerCommands[GameCommands.MidFrisbeesAttPlus] = buttons;
+                case "DEFENSE3ATTPLUS":
+                    ControllerCommands[GameCommands.Defense3AttPlus] = buttons;
                     break;
-                case "LOWFRISBEESMADEMINUS":
-                    controllerCommands[GameCommands.LowFrisbeesMadeMinus] = buttons;
+                case "DEFENSE4CROSSMINUS":
+                    ControllerCommands[GameCommands.Defense4CrossMinus] = buttons;
                     break;
-                case "LOWFRISBEESMADEPLUS":
-                    controllerCommands[GameCommands.LowFrisbeesMadePlus] = buttons;
+                case "DEFENSE4CROSSPLUS":
+                    ControllerCommands[GameCommands.Defense4CrossPlus] = buttons;
                     break;
-                case "LOWFRISBEESATTMINUS":
-                    controllerCommands[GameCommands.LowFrisbeesAttMinus] = buttons;
+                case "DEFENSE4ATTMINUS":
+                    ControllerCommands[GameCommands.Defense4AttMinus] = buttons;
                     break;
-                case "LOWFRISBEESATTPLUS":
-                    controllerCommands[GameCommands.LowFrisbeesAttPlus] = buttons;
+                case "DEFENSE4ATTPLUS":
+                    ControllerCommands[GameCommands.Defense4AttPlus] = buttons;
+                    break;
+                case "DEFENSE5CROSSMINUS":
+                    ControllerCommands[GameCommands.Defense5CrossMinus] = buttons;
+                    break;
+                case "DEFENSE5CROSSPLUS":
+                    ControllerCommands[GameCommands.Defense5CrossPlus] = buttons;
+                    break;
+                case "DEFENSE5ATTMINUS":
+                    ControllerCommands[GameCommands.Defense5AttMinus] = buttons;
+                    break;
+                case "DEFENSE5ATTPLUS":
+                    ControllerCommands[GameCommands.Defense5AttPlus] = buttons;
+                    break;
+                case "HIGHSHOTMADEMINUS":
+                    ControllerCommands[GameCommands.HighShotMadeMinus] = buttons;
+                    break;
+                case "HIGHSHOTMADEPLUS":
+                    ControllerCommands[GameCommands.HighShotMadePlus] = buttons;
+                    break;
+                case "HIGHSHOTATTMINUS":
+                    ControllerCommands[GameCommands.HighShotAttMinus] = buttons;
+                    break;
+                case "HIGHSHOTATTPLUS":
+                    ControllerCommands[GameCommands.HighShotAttPlus] = buttons;
+                    break;
+                case "LOWSHOTMADEMINUS":
+                    ControllerCommands[GameCommands.LowShotMadeMinus] = buttons;
+                    break;
+                case "LOWSHOTMADEPLUS":
+                    ControllerCommands[GameCommands.LowShotMadePlus] = buttons;
+                    break;
+                case "LOWSHOTATTMINUS":
+                    ControllerCommands[GameCommands.LowShotAttMinus] = buttons;
+                    break;
+                case "LOWSHOTATTPLUS":
+                    ControllerCommands[GameCommands.LowShotAttPlus] = buttons;
                     break;
                 case "CHALLENGESCALEPLUS":
-                    controllerCommands[GameCommands.ChallengeScalePlus] = buttons;
+                    ControllerCommands[GameCommands.ChallengeScalePlus] = buttons;
                     break;
                 case "FINISHEDSCORING":
-                    controllerCommands[GameCommands.FinishedScoring] = buttons;
+                    ControllerCommands[GameCommands.FinishedScoring] = buttons;
                     break;
             }
         }
