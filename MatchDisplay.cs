@@ -157,12 +157,6 @@ var gameInput = new GameInput();
                 case "FINISHEDSCORING":
                     ControllerCommands[GameCommands.FinishedScoring] = buttons;
                     break;
-                case "CONTROLLERSWITCH1":
-                    ControllerCommands[GameCommands.ControllerSwitch1] = buttons;
-                    break;
-                case "CONTROLLERSWITCH2":
-                    ControllerCommands[GameCommands.ControllerSwitch2] = buttons;
-                    break;
             }
         }
 
