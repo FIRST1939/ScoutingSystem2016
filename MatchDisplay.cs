@@ -36,7 +36,7 @@ namespace MultipleJoysticks
             InitializeComponent();
             Pads = new GamePad[] { gamePad1, gamePad2, gamePad3, gamePad4, gamePad5, gamePad6 };
 
-            var gameInput = new GameInput();
+var gameInput = new GameInput();
             var sticks = gameInput.GetSticks(this);
             if (sticks > 0)
             {
@@ -45,8 +45,8 @@ namespace MultipleJoysticks
             }
             else
             {
-                MessageBox.Show("No controllers were+ found... for some reason.", "         *Sigh*", MessageBoxButtons.OK);
-            i9}
+                MessageBox.Show("No controllers were found... for some reason.", "         *Sigh*", MessageBoxButtons.OK);
+            }
         }
 
         public void SetControllerCommands(int controllernumber, string[] Command, string buttons)
