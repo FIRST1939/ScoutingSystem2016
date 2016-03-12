@@ -102,7 +102,7 @@ namespace MultipleJoysticks
 
         //----
 
-        public String[] ControllerCommands = new String[34];
+        public String[] ControllerCommands = new String[40];
         private string LastButtonPattern;
 
         public GamePad()

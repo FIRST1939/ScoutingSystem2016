@@ -85,7 +85,6 @@
             this.lblTeleOpD2Cross = new System.Windows.Forms.Label();
             this.lblTeleOpD1Cross = new System.Windows.Forms.Label();
             this.lblTeleOpD2Att = new System.Windows.Forms.Label();
-
             this.SuspendLayout();
             // 
             // lblTeleOpLowShotAtt
@@ -559,7 +558,6 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(38)))), ((int)(((byte)(40)))));
             this.label8.Font = new System.Drawing.Font("Impact", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(4, 102);
             this.label8.Name = "label8";
