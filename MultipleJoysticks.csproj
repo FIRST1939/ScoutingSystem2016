@@ -111,7 +111,12 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
-    <None Include="Controllers\Controller%28XBOX360ForWindows%29.ctrl" />
+    <None Include="Controllers\PS%28R%29Gamepad.ctrl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Controllers\Controller%28XBOX360ForWindows%29.ctrl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <EmbeddedResource Include="GamePad.resx">
       <DependentUpon>GamePad.cs</DependentUpon>
     </EmbeddedResource>
