@@ -82,9 +82,9 @@ namespace MultipleJoysticks
                 String buttons = new String('F', maxbuttons);
 
                 // Parse the second to nth items to set the T item in buttons
-                for (int i = 15; i < Command.Length; i++)
+                for (int i = 1; i < Command.Length; i++)
                 {
-                    StringBuilder map = new StringBuilder(buttons);
+                    StringBuilder map = NewMethod(buttons);
                     map[Int32.Parse(Command[i])] = 'T';
                     buttons = map.ToString();
                 }
