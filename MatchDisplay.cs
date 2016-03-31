@@ -45,9 +45,11 @@ var gameInput = new GameInput();
             }
             else
             {
-
+<<<<<<< HEAD
                 MessageBox.Show("No controllers were found... for some reason.", "         *Sigh*", MessageBoxButtons.OK);
-
+=======
+                MessageBox.Show("No controllers were+ found... for some reason.", "         *Sigh*", MessageBoxButtons.OK);
+>>>>>>> origin/User-controls
             }
         }
 
