@@ -268,7 +268,7 @@
             this.lblAutoD1Reach.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoD1Reach.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoD1Reach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD1Reach.Location = new System.Drawing.Point(122, 98);
+            this.lblAutoD1Reach.Location = new System.Drawing.Point(122, 102);
             this.lblAutoD1Reach.Name = "lblAutoD1Reach";
             this.lblAutoD1Reach.Size = new System.Drawing.Size(57, 43);
             this.lblAutoD1Reach.TabIndex = 282;
@@ -295,6 +295,7 @@
             this.label9.Size = new System.Drawing.Size(52, 26);
             this.label9.TabIndex = 280;
             this.label9.Text = "Def3";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label5
             // 
@@ -484,7 +485,7 @@
             this.lblAutoD3Reach.BackColor = System.Drawing.SystemColors.HighlightText;
             this.lblAutoD3Reach.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutoD3Reach.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lblAutoD3Reach.Location = new System.Drawing.Point(130, 201);
+            this.lblAutoD3Reach.Location = new System.Drawing.Point(124, 199);
             this.lblAutoD3Reach.Name = "lblAutoD3Reach";
             this.lblAutoD3Reach.Size = new System.Drawing.Size(57, 43);
             this.lblAutoD3Reach.TabIndex = 262;

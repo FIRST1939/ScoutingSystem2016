@@ -179,6 +179,8 @@ namespace MultipleJoysticks
 
                     break;
 
+
+
                 case (GameCommands.Defense2AttMinus):
                     if (TeleOp)
                     {
@@ -923,7 +925,12 @@ namespace MultipleJoysticks
         public string GetResults(string match)
         {
             var x = ',';
-            return lblAutoTeamNo.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoD5Cross.Text + x + lblAutoD5Reach.Text + x + lblAutoHighShotMade + x + lblAutoHighShotAtt + x + lblAutoLowShotMade + x + lblAutoLowShotAtt + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x + lblTeleOpD4Att.Text + x + lblTeleOpD5Cross.Text + x + lblTeleOpD5Att.Text + x + lblChallengeScale.Text + x + lblTeleOpHighShotMade + x + lblTeleOpHighShotAtt + x + lblTeleOpLowShotMade + x + lblTeleOpLowShotAtt + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + match;
+            return lblAutoTeamNo.Text + x + lblAutoD1Cross.Text + x + lblAutoD1Reach.Text + x + lblAutoD2Cross.Text + x + lblAutoD2Reach.Text + x + lblAutoD3Cross.Text + x + lblAutoD3Reach.Text + x + lblAutoD4Cross.Text + x + lblAutoD4Reach.Text + x + lblAutoD5Cross.Text + x + lblAutoD5Reach.Text + x + lblAutoHighShotMade.Text + x + lblAutoHighShotAtt.Text + x + lblAutoLowShotMade.Text + x + lblAutoLowShotAtt.Text + x + lblAutoTotalPoints.Text + x + lblTeleOpD1Cross.Text + x + lblTeleOpD1Att.Text + x + lblTeleOpD2Cross.Text + x + lblTeleOpD2Att.Text + x + lblTeleOpD3Cross.Text + x + lblTeleOpD3Att.Text + x + lblTeleOpD4Cross.Text + x + lblTeleOpD4Att.Text + x + lblTeleOpD5Cross.Text + x + lblTeleOpD5Att.Text + x + lblChallengeScale.Text + x + lblTeleOpHighShotMade.Text + x + lblTeleOpHighShotAtt.Text + x + lblTeleOpLowShotMade.Text + x + lblTeleOpLowShotAtt.Text + x + lblTeleOpTotalPoints.Text + x + lblTotalPoints.Text + x + lblDefense.Text + x + match;
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

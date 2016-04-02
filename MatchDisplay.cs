@@ -327,24 +327,25 @@ var gameInput = new GameInput();
             Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[0].ToString();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            lblEvent.Text = textBox1.Text;
-            button4.Visible = false;
-            btnSkip.Visible = true;
-            textBox1.Clear();
-        }
+        //private void button4_Click(object sender, EventArgs e)
+        //{
+        //    lblEvent.Text = textBox1.Text;
+        //    button4.Visible = false;
+        //    btnSkip.Visible = true;
+        //    textBox1.Clear();
+        //}
 
         private void btnSkip_Click(object sender, EventArgs e)
         {
             int skip = Convert.ToInt32(textBox1.Text);
-            OpenFileDialog open = new OpenFileDialog();
-            if (open.ShowDialog() == DialogResult.OK)
-            {
-                fileName = open.FileName;
-            }
+            //OpenFileDialog open = new OpenFileDialog();
+            //if (open.ShowDialog() == DialogResult.OK)
+            //{
+            //    fileName = open.FileName;
+            //}
             match = skip;
             lblmatch.Text = match.ToString();
+            lblEvent.Text = match.ToString();
 
             Pads[0].lblAutoTeamNo.Text = AutoTeamNo1[match - 1].ToString();
             Pads[1].lblAutoTeamNo.Text = AutoTeamNo2[match - 1].ToString();
@@ -352,6 +353,13 @@ var gameInput = new GameInput();
             Pads[3].lblAutoTeamNo.Text = AutoTeamNo4[match - 1].ToString();
             Pads[4].lblAutoTeamNo.Text = AutoTeamNo5[match - 1].ToString();
             Pads[5].lblAutoTeamNo.Text = AutoTeamNo6[match - 1].ToString();
+
+            Pads[0].Refresh();
+            Pads[1].Refresh();
+            Pads[2].Refresh();
+            Pads[3].Refresh();
+            Pads[4].Refresh();
+            Pads[5].Refresh();
         }
     }
 }

@@ -111,6 +111,9 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="ClassDiagram1.cd" />
+    <None Include="Controllers\LogitechDualAction.ctrl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Controllers\PS%28R%29Gamepad.ctrl">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
