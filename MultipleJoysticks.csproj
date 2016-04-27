@@ -89,17 +89,42 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Constants.cs" />
+    <Compile Include="GameInput.cs" />
+    <Compile Include="GamePad.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GamePad.Designer.cs">
+      <DependentUpon>GamePad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IMatchDisplay.cs" />
+    <Compile Include="MatchDisplay.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="MatchDisplay.Designer.cs">
+      <DependentUpon>MatchDisplay.cs</DependentUpon>
     </Compile>
-    <Compile Include="GameInput.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Controllers\LogitechDualAction.ctrl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Controllers\PS%28R%29Gamepad.ctrl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Controllers\Controller%28XBOX360ForWindows%29.ctrl">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <EmbeddedResource Include="GamePad.resx">
+      <DependentUpon>GamePad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MatchDisplay.resx">
+      <DependentUpon>MatchDisplay.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Controllers\Controllers.cfg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -122,6 +147,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -149,6 +179,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QueenTeamsNotTest.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
