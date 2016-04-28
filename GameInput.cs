@@ -13,13 +13,13 @@ namespace MultipleJoysticks
     {
         Joystick[] Sticks;
         private const int maxbuttons = 15;
-        private Form1 form;
+        private IMatchDisplay _form;
 
         // --- INITIALIZTION ---
 
-        public int GetSticks(Form1 form)
+        public int GetSticks(IMatchDisplay form)
         {
-            this.form = form;
+            _form = form;
             DirectInput Input = new DirectInput();
 
             List<Joystick> sticks = new List<Joystick>(); // Creates the list of joysticks connected to the computer via USB.
@@ -61,12 +61,12 @@ namespace MultipleJoysticks
 
             while (Controllers.Peek() > 0 && Sticks.Length > ControllerCounter)
             {
-                tm1939LoadController(Controllers.ReadLine(), ControllerCounter);
+                tm1939LoadController(Controllers.ReadLine(), ControllerCounter++);
             }
         }
 
         void tm1939LoadController(string controllername, int controllernumber)
-        {
+{
 
             if (controllername.ToUpper().Equals("AUTO"))
             {
@@ -84,15 +84,20 @@ namespace MultipleJoysticks
                 // Parse the second to nth items to set the T item in buttons
                 for (int i = 1; i < Command.Length; i++)
                 {
-                    StringBuilder map = new StringBuilder(buttons);
+                    StringBuilder map = NewMethod(buttons);
                     map[Int32.Parse(Command[i])] = 'T';
                     buttons = map.ToString();
                 }
 
                 // Store it in the right position in the array
 
-                form.SetControllerCommands(controllernumber, Command, buttons);
+                _form.SetControllerCommands(controllernumber, Command, buttons);
             }
+        }
+
+        private static StringBuilder NewMethod(string buttons)
+        {
+            return new StringBuilder(buttons);
         }
 
         //--- POLLING ---
@@ -114,7 +119,7 @@ namespace MultipleJoysticks
 
             String strButtonMap = tm1939GetButtonMap(buttons, id);
 
-            form.UseButtonMap(id, strButtonMap);
+            _form.UseButtonMap(id, strButtonMap);
         }
 
         private string tm1939GetButtonMap(bool[] inButtons, int iController)

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MultipleJoysticks.GameInput" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAgAAAAAAAgiAAAICAAAAAAAAAABAA=</HashCode>
+      <FileName>GameInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultipleJoysticks.GamePad" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>vwgQEGOYgDJCABEUrhmBCgRzgNBLRhymFTLAggZSSHw=</HashCode>
+      <FileName>GamePad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultipleJoysticks.MatchDisplay" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAQQAAAAACQIJIIABAGEggUCAEAqAQgoUPBIAAgACAI=</HashCode>
+      <FileName>MatchDisplay.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="1.283" Collapsed="true" />
+  </Class>
+  <Class Name="MultipleJoysticks.Program" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultipleJoysticks.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultipleJoysticks.Properties.Settings" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="MultipleJoysticks.GameCommands" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAKgEEABAgAIIBAJQCAAFABBgAgUCAIAAAgiAUSAA=</HashCode>
+      <FileName>Constants.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="MultipleJoysticks.IMatchDisplay" Collapsed="true">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAAA=</HashCode>
+      <FileName>IMatchDisplay.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
