@@ -311,7 +311,7 @@
             this.btnScouter1.BackColor = System.Drawing.SystemColors.HighlightText;
             this.btnScouter1.Font = new System.Drawing.Font("Impact", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScouter1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(45)))), ((int)(((byte)(36)))));
-            this.btnScouter1.Location = new System.Drawing.Point(105, 9);
+            this.btnScouter1.Location = new System.Drawing.Point(102, 6);
             this.btnScouter1.Name = "btnScouter1";
             this.btnScouter1.Size = new System.Drawing.Size(62, 44);
             this.btnScouter1.TabIndex = 278;
