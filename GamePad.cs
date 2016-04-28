@@ -148,6 +148,7 @@ namespace MultipleJoysticks
                 case (GameCommands.TeleOp):
                     AutonomousMode = false;
                     TeleOp = true;
+                    this.BackColor = Color.OrangeRed;
 
                     break;
 
@@ -155,6 +156,8 @@ namespace MultipleJoysticks
                     AutonomousMode = true;
                     TeleOp = false;
                     FinshedScoring = false;
+                    this.BackColor = Color.DarkRed;
+
                     break;
 
                 case (GameCommands.scoreHigh):
